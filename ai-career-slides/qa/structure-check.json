@@ -1,0 +1,271 @@
+{
+  "slides": 22,
+  "activities": [
+    {
+      "name": "KHỞI ĐỘNG",
+      "minutes": 5
+    },
+    {
+      "name": "KHÁM PHÁ 1",
+      "minutes": 12
+    },
+    {
+      "name": "KHÁM PHÁ 2",
+      "minutes": 12
+    },
+    {
+      "name": "LUYỆN TẬP",
+      "minutes": 10
+    },
+    {
+      "name": "VẬN DỤNG",
+      "minutes": 6
+    }
+  ],
+  "sumMinutes": 45,
+  "issues": [],
+  "checks": [
+    {
+      "slide": 1,
+      "title": "AI và tương lai nghề nghiệp",
+      "section": "KHỞI ĐỘNG",
+      "images": 1,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 2,
+      "title": "AI xuất hiện trong những nghề nào?",
+      "section": "KHỞI ĐỘNG",
+      "images": 3,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 3,
+      "title": "AI làm nhanh, con người còn làm gì?",
+      "section": "KHỞI ĐỘNG",
+      "images": 0,
+      "fields": 0,
+      "actions": 1,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 4,
+      "title": "Thay đổi nhiệm vụ không có nghĩa mất nghề",
+      "section": "KHỞI ĐỘNG",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 5,
+      "title": "Trước và sau khi có AI",
+      "section": "KHÁM PHÁ 1",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 6,
+      "title": "Nghề dịch thuật",
+      "section": "KHÁM PHÁ 1",
+      "images": 1,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 7,
+      "title": "Nghề thiết kế",
+      "section": "KHÁM PHÁ 1",
+      "images": 1,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 8,
+      "title": "Nghề y tế",
+      "section": "KHÁM PHÁ 1",
+      "images": 1,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 9,
+      "title": "Phiếu học tập nhóm",
+      "section": "KHÁM PHÁ 1",
+      "images": 0,
+      "fields": 9,
+      "actions": 2,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 10,
+      "title": "Đối chiếu kết quả",
+      "section": "KHÁM PHÁ 1",
+      "images": 0,
+      "fields": 0,
+      "actions": 3,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 11,
+      "title": "Kĩ năng nào cần trang bị?",
+      "section": "KHÁM PHÁ 2",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 12,
+      "title": "Sơ đồ ba bước",
+      "section": "KHÁM PHÁ 2",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 13,
+      "title": "Những kĩ năng quan trọng",
+      "section": "KHÁM PHÁ 2",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 14,
+      "title": "Ví dụ: người dịch cần gì?",
+      "section": "KHÁM PHÁ 2",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 15,
+      "title": "Hoạt động nhóm: nghề của em",
+      "section": "KHÁM PHÁ 2",
+      "images": 0,
+      "fields": 5,
+      "actions": 2,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 16,
+      "title": "Kiến thức cần nhớ",
+      "section": "KHÁM PHÁ 2",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 17,
+      "title": "Thử thách cá nhân",
+      "section": "LUYỆN TẬP",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 18,
+      "title": "Phiếu luyện tập trực tiếp",
+      "section": "LUYỆN TẬP",
+      "images": 0,
+      "fields": 8,
+      "actions": 2,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 19,
+      "title": "Cùng kiểm tra kết quả",
+      "section": "LUYỆN TẬP",
+      "images": 0,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 20,
+      "title": "Nghề nghiệp tương lai của em",
+      "section": "VẬN DỤNG",
+      "images": 1,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 21,
+      "title": "Lộ trình ba dòng",
+      "section": "VẬN DỤNG",
+      "images": 0,
+      "fields": 3,
+      "actions": 2,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    },
+    {
+      "slide": 22,
+      "title": "Kết thúc bài học",
+      "section": "VẬN DỤNG",
+      "images": 1,
+      "fields": 0,
+      "actions": 0,
+      "notes": true,
+      "status": "STATIC PASS",
+      "issues": []
+    }
+  ]
+}

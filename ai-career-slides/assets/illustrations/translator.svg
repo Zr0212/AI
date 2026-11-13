@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+<rect x="50" y="35" width="280" height="276" rx="26" fill="#fff" stroke="#242124" stroke-width="8"/>
+<rect x="85" y="75" width="208" height="33" rx="10" fill="#B3E72E"/>
+<path d="M85 141h197M85 168h156M85 195h181M85 222h107" stroke="#343035" stroke-width="9" stroke-linecap="round" opacity=".6"/>
+<path d="M287 235c0-48 40-87 88-87s87 39 87 87-39 87-87 87c-18 0-36-6-50-15l-51 15 18-49a85 85 0 0 1-5-38Z" fill="#F17DDC" stroke="#242124" stroke-width="7"/>
+<text x="326" y="263" fill="#242124" font-family="Arial,sans-serif" font-size="63" font-weight="900">文</text>
+<circle cx="359" cy="62" r="23" fill="#B3E72E" stroke="#242124" stroke-width="6"/>
+<path d="m357 52 0 22m-11-11h22" stroke="#242124" stroke-width="5"/>
+</svg>

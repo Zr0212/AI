@@ -1,0 +1,700 @@
+# PROMPT: THIẾT KẾ SLIDE BÀI GIẢNG HTML/CSS/JS THEO PHONG CÁCH CANVA STEM
+
+## 1. VAI TRÒ VÀ NHIỆM VỤ
+
+Bạn là Senior Frontend Developer, UI/UX Designer và chuyên gia thiết kế học liệu số dành cho học sinh THCS.
+
+Hãy đọc toàn bộ tài liệu đính kèm:
+
+**GIAO_AN_AI_LOP_9_BAI_2_AI_VA_TUONG_LAI_NGHE_NGHIEP_A4_DOC(1).docx**
+
+Nhiệm vụ là xây dựng một hệ thống trình chiếu bài giảng bằng HTML, CSS và JavaScript với thiết kế lấy cảm hứng từ **ảnh Canva STEM School Presentation Template** được cung cấp.
+
+Đây phải là một sản phẩm trình chiếu thực tế, có thể mở bằng trình duyệt và sử dụng trực tiếp trong lớp học, không phải trang web giới thiệu giáo án.
+
+**Thông tin bài học:**
+
+- Môn: Trí tuệ nhân tạo – Lớp 9
+- Tiết 2 – Bài 2: AI và tương lai nghề nghiệp
+- Thời lượng: 45 phút
+- Yêu cầu cần đạt: 9.A3.4
+
+Sử dụng giáo án làm nguồn nội dung chính. Không tự ý bỏ bớt hoạt động, thay đổi mục tiêu hoặc thêm kiến thức không phù hợp với học sinh lớp 9.
+
+## 2. PHONG CÁCH THIẾT KẾ
+
+### 2.1. Visual Identity
+
+Thiết kế theo phong cách:
+
+**Playful Modern STEM Education / Bold Editorial Presentation**
+
+Đặc trưng:
+
+- Typography rất lớn, tiêu đề đậm và rõ.
+- Bố cục bất đối xứng nhưng cân bằng.
+- Background phẳng, ít chi tiết thừa.
+- Những khối màu nổi bật với hình dạng hình học.
+- Có các hình minh họa robot, nhân vật học sinh và biểu tượng công nghệ.
+- Kết hợp ảnh thực tế với hình minh họa vector.
+- Các thành phần có góc bo tròn, nhưng không phải toàn bộ đều bo tròn.
+- Những điểm nhấn màu hồng, xanh lime, đen.
+- Có thể sử dụng các nét vẽ tay, mũi tên cong, sticker đơn giản để tăng tính sinh động.
+
+Tránh tạo một giao diện dashboard doanh nghiệp hoặc landing page SaaS.
+
+### 2.2. Bảng màu
+
+Sử dụng CSS Variables thống nhất:
+
+```css
+:root {
+  --color-dark: #242124;
+  --color-dark-soft: #343035;
+  --color-light: #F1EEF0;
+  --color-white: #FFFFFF;
+  --color-lime: #B3E72E;
+  --color-pink: #F17DDC;
+  --color-purple: #9C78B7;
+  --color-text: #242124;
+}
+```
+
+Nguyên tắc sử dụng:
+
+- Background tối cho slide gây chú ý, đặt vấn đề và chuyển nội dung.
+- Background trắng xám cho slide diễn giải.
+- Background xanh lime cho hoạt động, kết luận hoặc thông điệp quan trọng.
+- Hồng pastel dùng cho minh họa, đánh dấu và các chi tiết vui nhộn.
+- Ưu tiên tương phản cao, không dùng màu chữ khó đọc.
+- Không sử dụng gradient nặng, hiệu ứng kính mờ hoặc neon phát sáng tràn lan.
+
+### 2.3. Typography
+
+Sử dụng font hỗ trợ tiếng Việt đầy đủ.
+
+Ưu tiên:
+
+- Be Vietnam Pro
+- Inter
+- Có thể dùng Space Grotesk cho các tiêu đề tiếng Anh ngắn.
+
+Phân cấp font:
+
+| Thành phần | Kích thước tham khảo trên slide 1920×1080 |
+|---|---|
+| Tiêu đề trang bìa | 80–108px |
+| Tiêu đề slide | 52–72px |
+| Tiêu đề thẻ nội dung | 30–40px |
+| Nội dung chính | 26–32px |
+| Nội dung bảng | 23–28px |
+| Chú thích | 19–23px |
+
+Dùng `clamp()` kết hợp hệ thống scale theo viewport để đảm bảo tỷ lệ ổn định.
+
+Không để chữ quá nhỏ chỉ nhằm nhồi nội dung vào một slide.
+
+Nếu nội dung dài, hãy chia thành nhiều slide.
+
+### 2.4. Ngôn ngữ thiết kế
+
+Ví dụ:
+
+**Slide mở đầu:**
+
+Background trắng xám.
+
+Bên trái:
+
+- Nhãn nhỏ: "TRÍ TUỆ NHÂN TẠO 9"
+- Tiêu đề rất lớn, đậm, nhiều dòng:
+
+  "AI VÀ TƯƠNG LAI NGHỀ NGHIỆP"
+
+- Một dòng phụ ngắn: "Con người cần chuẩn bị gì để làm việc cùng AI?"
+
+Bên phải:
+
+- Một nhân vật robot màu hồng nguyên bản.
+- Có thể thêm biểu tượng nghề nghiệp, bóng thoại, hình học trang trí.
+
+Chân slide gồm thông tin môn học, tiết học và thời lượng.
+
+Không sao chép nguyên xi thiết kế Canva hoặc đưa logo Canva vào sản phẩm.
+
+## 3. QUY TẮC TRÌNH BÀY BÀI GIẢNG
+
+Đây là slide để giáo viên giảng dạy, không phải bản chuyển đổi nguyên văn từng trang Word.
+
+Bắt buộc:
+
+1. Mỗi slide tập trung vào một ý chính hoặc một nhiệm vụ rõ ràng.
+2. Nội dung ngắn gọn, dễ đọc khi chiếu lên bảng.
+3. Giữ đầy đủ kiến thức trọng tâm, yêu cầu cần đạt và hoạt động thực hành của giáo án.
+4. Không đưa toàn bộ các mục a), b), c), d) của giáo án lên màn hình học sinh.
+5. Nội dung chi tiết dành cho giáo viên đặt trong Speaker Notes.
+6. Tất cả hoạt động được tổ chức theo đúng thời lượng và trình tự.
+7. Học sinh không cần có tài khoản AI hoặc thiết bị cá nhân.
+8. Không yêu cầu Internet khi trình chiếu.
+9. Các phiếu hoạt động phải được tích hợp trực tiếp trong slide, không yêu cầu in giấy.
+10. Chừa vùng trống để học sinh lên bảng điền hoặc trình bày.
+
+Các ví dụ liên quan tới y tế phải được ghi rõ là tình huống minh họa, tránh tạo cảm giác AI có thể tự đưa ra quyết định chuyên môn.
+
+## 4. CẤU TRÚC NỘI DUNG SLIDE
+
+Xây dựng khoảng 22 slide, chia theo 5 hoạt động của giáo án.
+
+### PHẦN I – KHỞI ĐỘNG (5 PHÚT)
+
+**Slide 01 – Trang bìa**
+
+- Chủ đề: AI và tương lai nghề nghiệp.
+- Chữ lớn và hình robot hồng 3D hoặc vector.
+- Layout tương tự tinh thần slide đầu trong ảnh mẫu.
+- Có nhãn AI lớp 9, bài 2.
+
+**Slide 02 – AI xuất hiện trong những nghề nào?**
+
+Trình bày 3 thẻ nghề nghiệp:
+
+- Dịch thuật
+- Thiết kế
+- Y tế
+
+Mỗi thẻ gồm hình minh họa, tên nghề và một nhiệm vụ AI có thể hỗ trợ.
+
+Sử dụng 3 khối màu nổi bật.
+
+**Slide 03 – Câu hỏi khởi động**
+
+Câu hỏi lớn:
+
+"AI làm nhanh một công việc, vậy con người còn làm gì?"
+
+Cho học sinh trao đổi theo cặp.
+
+Có bộ đếm thời gian và phần câu hỏi gợi mở được ẩn để giáo viên bật khi cần.
+
+**Slide 04 – Thông điệp khởi động**
+
+Nhấn mạnh:
+
+"AI có thể làm thay đổi nhiệm vụ trong nghề, nhưng điều đó không đồng nghĩa nghề ấy chắc chắn biến mất."
+
+Sử dụng thiết kế mạnh về typography, nền tối và từ khóa màu xanh lime.
+
+### PHẦN II – KHÁM PHÁ 1 (12 PHÚT)
+
+**Slide 05 – Trước và sau khi có AI**
+
+Minh họa một quy trình làm việc:
+
+TRƯỚC KHI CÓ AI → AI HỖ TRỢ → CON NGƯỜI KIỂM TRA VÀ QUYẾT ĐỊNH
+
+Có mũi tên, biểu tượng và chú thích ngắn.
+
+**Slide 06 – Nghề dịch thuật**
+
+Sử dụng đầy đủ nội dung thẻ tình huống A.
+
+- Một đơn vị cần dịch nội dung giới thiệu điểm du lịch.
+- AI hỗ trợ bản dịch nháp.
+- Người dịch kiểm tra thuật ngữ, sắc thái văn hóa và mục đích truyền thông.
+
+Câu hỏi thảo luận: "Vì sao vẫn cần người dịch?"
+
+**Slide 07 – Nghề thiết kế**
+
+Sử dụng thẻ tình huống B.
+
+- Nhóm truyền thông thiết kế áp phích cho hoạt động trường học.
+- AI gợi ý hình ảnh, màu sắc hoặc bản nháp.
+- Nhà thiết kế lựa chọn, chỉnh sửa và kiểm tra quyền sử dụng nội dung.
+
+Có hình minh họa poster và công cụ thiết kế.
+
+**Slide 08 – Nghề y tế**
+
+Sử dụng thẻ tình huống C.
+
+- AI có thể đánh dấu vùng nghi bất thường trên ảnh y tế trong tình huống giả định.
+- Bác sĩ phải đối chiếu triệu chứng, lịch sử khám và kết quả xét nghiệm trước khi kết luận.
+
+Thông điệp: "AI hỗ trợ phân tích – Bác sĩ chịu trách nhiệm chuyên môn."
+
+**Slide 09 – Phiếu học tập nhóm**
+
+Hiển thị bảng trống gồm bốn cột:
+
+| Nghề | Nhiệm vụ trước đây | AI có thể hỗ trợ | Con người vẫn làm |
+|---|---|---|---|
+| Dịch thuật | ... | ... | ... |
+| Thiết kế | ... | ... | ... |
+| Y tế | ... | ... | ... |
+
+Thiết kế nền sáng, bảng rộng, chữ lớn, các ô có thể nhập dữ liệu.
+
+Giáo viên mời học sinh lên bảng hoàn thành.
+
+Cho phép nhập bằng bàn phím hoặc bấm vào ô để điền.
+
+Có nút:
+
+- Xóa nội dung
+- Hiện gợi ý
+- Hiện đáp án mẫu
+
+Không hiển thị đáp án trước khi học sinh hoàn thành.
+
+**Slide 10 – Đối chiếu và kết luận**
+
+Hiển thị các đáp án gợi ý từ Phụ lục 2.
+
+Làm nổi bật:
+
+- Công đoạn được AI hỗ trợ.
+- Phần việc do con người thực hiện.
+- Vai trò của kiểm tra và quyết định.
+
+Có hiệu ứng xuất hiện lần lượt theo thao tác của giáo viên.
+
+### PHẦN III – KHÁM PHÁ 2 (12 PHÚT)
+
+**Slide 11 – Kĩ năng nào cần trang bị?**
+
+Đặt câu hỏi:
+
+"Nếu AI hỗ trợ công việc, chúng ta cần học thêm những gì?"
+
+Thiết kế với nền đen, tiêu đề trắng và hình minh họa vui nhộn.
+
+**Slide 12 – Sơ đồ ba bước**
+
+Sơ đồ lớn:
+
+NHIỆM VỤ THAY ĐỔI → KĨ NĂNG CẦN CÓ → LÍ DO VÀ TRÁCH NHIỆM
+
+Có 3 khối màu hồng, xanh lime, tím.
+
+Mỗi khối hiển thị một nội dung ngắn gọn.
+
+**Slide 13 – Những kĩ năng quan trọng**
+
+Trình bày dạng bento grid hoặc thẻ nội dung:
+
+- Kiến thức chuyên môn
+- Sử dụng và kiểm tra AI
+- Tư duy phản biện
+- Giao tiếp và hợp tác
+- Sáng tạo
+- Bảo vệ dữ liệu, làm việc có trách nhiệm
+
+Mỗi thẻ có icon và lời giải thích phù hợp với lớp 9.
+
+**Slide 14 – Ví dụ: Người dịch cần kĩ năng gì?**
+
+Ví dụ:
+
+AI tạo bản nháp → Người dịch cần hiểu ngữ cảnh → Tránh sai nghĩa, gây hiểu nhầm.
+
+Bổ sung nhiệm vụ kiểm chứng thuật ngữ và duyệt bản dịch cuối cùng.
+
+Có sơ đồ minh họa quan hệ giữa nhiệm vụ và kĩ năng.
+
+**Slide 15 – Hoạt động nhóm: Chọn nghề của em**
+
+Phiếu làm việc có thể điền trên màn hình:
+
+- Nghề nhóm lựa chọn
+- Nhiệm vụ AI có thể hỗ trợ
+- Kĩ năng 1 và lí do
+- Kĩ năng 2 và lí do
+- Một trách nhiệm con người phải đảm nhiệm
+
+Có vùng hiển thị câu hỏi phản biện:
+
+"Nếu thiếu kĩ năng này, hậu quả gì có thể xảy ra?"
+
+Giáo viên có thể ẩn/hiện gợi ý, xóa nội dung và đánh dấu kết quả.
+
+**Slide 16 – KIẾN THỨC CẦN NHỚ**
+
+Đây là slide bắt buộc để học sinh chép vào vở.
+
+Hiển thị kiến thức cô đọng:
+
+1. AI có thể hỗ trợ và làm thay đổi một số nhiệm vụ trong nhiều ngành nghề; không có nghĩa toàn bộ nghề chắc chắn biến mất.
+2. Con người vẫn cần kiểm tra kết quả AI, đánh giá và chịu trách nhiệm với quyết định cuối cùng.
+3. Để làm việc hiệu quả cùng AI, cần có chuyên môn, biết sử dụng và kiểm chứng AI, tư duy phản biện, giao tiếp và tinh thần trách nhiệm.
+4. Mỗi nghề có những kĩ năng cụ thể cần rèn luyện.
+
+Tách thành các khối dễ đọc, đủ khoảng trống để học sinh ghi vở.
+
+Có nút "Chế độ ghi bài" giúp ẩn hình trang trí không cần thiết, mở rộng vùng chữ.
+
+### PHẦN IV – LUYỆN TẬP (10 PHÚT)
+
+**Slide 17 – Thử thách cá nhân**
+
+Yêu cầu:
+
+1. Nêu hai nghề và một nhiệm vụ AI có thể hỗ trợ ở mỗi nghề.
+2. Chọn một nghề, chỉ ra hai kĩ năng cần có và giải thích lí do.
+3. Nêu một việc con người vẫn phải kiểm tra hoặc quyết định.
+
+Dùng kiểu chữ lớn và đánh số nổi bật.
+
+**Slide 18 – Phiếu luyện tập trực tiếp**
+
+Xây dựng khung trả lời để học sinh có thể viết vào vở hoặc lên bảng trình bày.
+
+Các trường nội dung:
+
+- Nghề thứ nhất:
+- AI có thể hỗ trợ:
+- Nghề thứ hai:
+- AI có thể hỗ trợ:
+- Nghề em chọn:
+- Kĩ năng 1 – Vì sao?
+- Kĩ năng 2 – Vì sao?
+- Trách nhiệm của con người:
+
+Thiết kế không chật chội; có thể tách phiếu thành các trạng thái để vẫn đọc rõ.
+
+**Slide 19 – Cùng kiểm tra kết quả**
+
+Thiết kế ba tiêu chí đánh giá:
+
+- Có ít nhất hai ví dụ nghề và nhiệm vụ AI có thể hỗ trợ.
+- Có ít nhất hai kĩ năng gắn với một nghề, giải thích được lí do.
+- Có ít nhất một nhiệm vụ con người vẫn phải kiểm tra hoặc quyết định.
+
+Giáo viên có thể đánh dấu từng tiêu chí.
+
+Nội dung bám sát Phụ lục 3 của giáo án.
+
+### PHẦN V – VẬN DỤNG (6 PHÚT)
+
+**Slide 20 – Nghề nghiệp tương lai của em**
+
+Câu hỏi lớn:
+
+"Em muốn làm nghề gì trong tương lai?"
+
+Có một số hình minh họa nghề nghiệp nhưng không định hướng học sinh bắt buộc lựa chọn.
+
+Thông điệp: "Hãy bắt đầu từ những kĩ năng em có thể rèn luyện hôm nay."
+
+**Slide 21 – Lộ trình 3 dòng**
+
+Phiếu vận dụng trình chiếu:
+
+1. Nghề em quan tâm:
+2. AI có thể hỗ trợ nhiệm vụ:
+3. Hai kĩ năng em cần rèn luyện và cách em bắt đầu:
+
+Có vùng nhập nội dung để giáo viên mời học sinh lên bảng chia sẻ.
+
+**Slide 22 – Kết thúc bài học**
+
+Thông điệp lớn:
+
+"TƯƠNG LAI THUỘC VỀ NHỮNG NGƯỜI BIẾT HỌC HỎI VÀ LÀM VIỆC CÙNG AI."
+
+Bổ sung lời nhắc học sinh hoàn thiện phiếu định hướng vào vở.
+
+Thiết kế nền xanh lime, robot hồng hoặc nhóm nhân vật nghề nghiệp. Không trình bày như slide quảng cáo bán khóa học.
+
+## 5. TƯƠNG TÁC TRONG BÀI GIẢNG
+
+Sử dụng JavaScript để xây dựng các tương tác thực tế:
+
+### Điều hướng
+
+- Phím mũi tên trái/phải: chuyển slide.
+- Space: chuyển slide tiếp theo.
+- Escape: thoát chế độ toàn màn hình.
+- F: bật/tắt Fullscreen.
+- Có nút Next/Previous nhỏ, không che nội dung.
+- Hiển thị số thứ tự slide tinh tế ở góc dưới.
+
+### Tương tác nội dung
+
+- Bấm để hiện đáp án.
+- Bấm để hiện câu hỏi gợi mở.
+- Click-to-reveal theo từng bước.
+- Các ô phiếu học tập có thể nhập văn bản.
+- Cho phép xóa bài làm để sử dụng với lớp khác.
+- Đánh dấu tiêu chí đánh giá.
+- Đồng hồ đếm ngược theo hoạt động.
+- Có tùy chọn tắt toàn bộ hiệu ứng chuyển động.
+
+Nội dung nhập trong phiếu phải được giữ khi chuyển qua lại giữa các slide trong cùng phiên học.
+
+### Slide ghi bài
+
+Cung cấp nút chuyển sang chế độ ghi bài: nội dung kiến thức cần nhớ được trình bày rõ ràng trên nền sáng, không có hình ảnh gây mất tập trung.
+
+## 6. PRESENTER MODE – HAI MÀN HÌNH
+
+Thiết kế cơ chế trình chiếu dành cho giáo viên.
+
+**Khi có hai màn hình:**
+
+Màn hình phụ (máy chiếu):
+
+- Chỉ hiển thị slide hiện tại.
+- Không có ghi chú giáo viên.
+- Không lộ đáp án chưa được bật.
+- Không xuất hiện thanh quản trị hoặc công cụ soạn nội dung.
+
+Màn hình chính (máy giáo viên):
+
+- Slide hiện tại thu nhỏ.
+- Slide tiếp theo.
+- Speaker Notes.
+- Thời gian còn lại của hoạt động.
+- Các nút điều khiển slide và đáp án.
+
+**Khi chỉ có một màn hình:**
+
+- Mặc định chỉ hiển thị slide trình chiếu.
+- Không tự động mở bảng ghi chú che nội dung.
+- Cho phép giáo viên chủ động mở chế độ Presenter nếu muốn.
+
+Có thể triển khai bằng hai cửa sổ đồng bộ trạng thái qua BroadcastChannel, kết hợp Window Management API khi được hỗ trợ.
+
+Nếu trình duyệt không hỗ trợ tự chọn màn hình, cung cấp cách kéo cửa sổ trình chiếu sang màn hình phụ.
+
+Không giả định mọi trình duyệt đều hỗ trợ phát hiện hai màn hình tự động.
+
+## 7. SPEAKER NOTES
+
+Mỗi slide cần có phần ghi chú riêng dành cho giáo viên.
+
+Ghi chú bao gồm:
+
+- Mục tiêu của slide.
+- Thời lượng dự kiến.
+- Cách giao nhiệm vụ.
+- Câu hỏi giáo viên cần đặt.
+- Hoạt động dự kiến của học sinh.
+- Gợi ý đáp án.
+- Lưu ý về nhận thức sai thường gặp.
+- Thao tác nên thực hiện trên slide.
+
+Bám sát tiến trình, thời lượng và bốn bước tổ chức thực hiện trong giáo án gốc.
+
+Không đưa toàn bộ Speaker Notes lên màn chiếu.
+
+## 8. HIỆU ỨNG VÀ CHUYỂN ĐỘNG
+
+Sử dụng CSS Transitions và CSS Animations nhẹ, có chủ đích.
+
+Cho phép:
+
+- Fade-in
+- Slide-up
+- Scale nhỏ
+- Reveal từng thẻ
+- Hiện các bước của sơ đồ
+- Highlight từ khóa
+
+Thời lượng animation nên khoảng 250–500ms.
+
+Không sử dụng:
+
+- Các chuyển động xoay liên tục.
+- Background animation gây mất tập trung.
+- Gradient animation quá nhiều.
+- Hiệu ứng bay nhảy làm lệch bố cục.
+- Chuyển slide nặng gây giật trên máy tính trường học.
+
+Luôn hỗ trợ `prefers-reduced-motion`.
+
+## 9. YÊU CẦU KỸ THUẬT
+
+Sử dụng HTML5, CSS3, JavaScript.
+
+Cấu trúc dự án đề xuất:
+
+```text
+ai-career-slides/
+├── index.html
+├── presenter.html
+├── css/
+│   ├── variables.css
+│   ├── typography.css
+│   ├── layouts.css
+│   ├── components.css
+│   ├── slides.css
+│   └── responsive.css
+├── js/
+│   ├── slides-data.js
+│   ├── navigation.js
+│   ├── interactions.js
+│   ├── presenter.js
+│   ├── timer.js
+│   └── main.js
+├── assets/
+│   ├── images/
+│   ├── illustrations/
+│   └── icons/
+└── README.md
+```
+
+Yêu cầu:
+
+- Chạy trực tiếp trong trình duyệt hoặc thông qua local server đơn giản.
+- Không cần backend.
+- Không phụ thuộc vào API có trả phí.
+- Không yêu cầu tài khoản.
+- Các hình ảnh, font và thư viện quan trọng phải có phương án lưu nội bộ.
+- Không sử dụng URL ảnh có nguy cơ lỗi hoặc hết hạn.
+- Không sử dụng hình ảnh AI minh họa y tế gây hiểu lầm như ảnh bệnh nhân thật.
+- Có thể chạy hoàn toàn offline sau khi chuẩn bị tài nguyên.
+- Không sử dụng Canvas HTML để hiển thị toàn bộ nội dung slide; chữ, bảng và các tương tác nên là DOM có thể chọn và chỉnh sửa.
+- Tách nội dung slide khỏi mã logic để thuận tiện cập nhật bài giảng.
+
+## 10. RESPONSIVE VÀ KHẢ NĂNG TRÌNH CHIẾU
+
+Tỉ lệ slide bắt buộc: 16:9.
+
+Thiết kế ở hệ tọa độ 1920×1080 hoặc 1280×720 rồi scale để vừa viewport.
+
+Hỗ trợ tối thiểu:
+
+- 1920×1080
+- 1600×900
+- 1366×768
+- 1280×720
+- Màn hình laptop 14 inch
+- Máy chiếu phổ thông
+
+Không được:
+
+- Tràn nội dung ra ngoài slide.
+- Xuất hiện thanh cuộn dọc/ngang trong chế độ trình chiếu.
+- Cắt mất chữ.
+- Đè nút lên nội dung.
+- Bị vỡ bảng hoặc ảnh.
+- Làm tiêu đề và nội dung mất cân đối.
+
+Kiểm tra riêng các slide nhiều nội dung, đặc biệt là slide bảng và phiếu học tập.
+
+Nếu màn hình nhỏ, ưu tiên scale toàn bộ slide theo tỷ lệ thay vì làm vỡ bố cục bằng media query thiếu kiểm soát.
+
+## 11. QUY TRÌNH THỰC HIỆN
+
+Thực hiện theo trình tự:
+
+**Bước 1 – Phân tích giáo án**
+
+Đọc toàn bộ 6 trang tài liệu, bao gồm 3 phụ lục.
+
+Lập danh sách mục tiêu, nội dung, hoạt động, nhiệm vụ, đáp án và tiêu chí đánh giá.
+
+Kiểm tra số phút của 5 hoạt động phải bằng 45.
+
+**Bước 2 – Thiết kế Design System**
+
+Xây dựng:
+
+- Bảng màu
+- Typography
+- Grid
+- Card
+- Nút
+- Hình minh họa
+- Các layout slide dùng lại được
+
+**Bước 3 – Tạo 3 slide mẫu**
+
+Ưu tiên:
+
+- Slide 01: Trang bìa
+- Slide 06: Nghề dịch thuật
+- Slide 09: Phiếu học tập nhóm
+
+Đây là ba trường hợp đại diện cho slide giới thiệu, slide nội dung và slide tương tác.
+
+**Bước 4 – Hoàn thiện toàn bộ slide**
+
+Triển khai toàn bộ khoảng 22 slide theo thứ tự và nội dung đã quy định.
+
+**Bước 5 – Hoàn thiện tính năng**
+
+Bổ sung:
+
+- Điều hướng
+- Fullscreen
+- Presenter Mode
+- Speaker Notes
+- Timer
+- Nhập bài làm
+- Reveal đáp án
+- Chế độ ghi bài
+
+**Bước 6 – Kiểm thử và sửa lỗi**
+
+Chạy dự án thực tế trong trình duyệt, không chỉ kiểm tra mã nguồn.
+
+## 12. KIỂM TRA CHẤT LƯỢNG – BẮT BUỘC
+
+Phải kiểm tra từng slide một.
+
+Không được chỉ kiểm tra trang bìa và một vài slide đại diện.
+
+Với mỗi slide, thực hiện:
+
+1. Kiểm tra nội dung có đúng với giáo án.
+2. Kiểm tra lỗi chính tả và dấu tiếng Việt.
+3. Kiểm tra font và khoảng cách dòng.
+4. Kiểm tra tiêu đề có bị xuống dòng bất thường.
+5. Kiểm tra padding, margin và căn chỉnh.
+6. Kiểm tra hình ảnh có lỗi hoặc sai tỉ lệ.
+7. Kiểm tra hiệu ứng có gây giật, che chữ hoặc mất nội dung.
+8. Kiểm tra độ tương phản khi trình chiếu.
+9. Kiểm tra thao tác tương tác nếu có.
+10. Kiểm tra ghi chú giáo viên.
+11. Kiểm tra tràn nội dung ở các độ phân giải.
+12. Chụp ảnh màn hình để đánh giá trực quan.
+
+Bắt buộc tạo báo cáo QA cho toàn bộ slide theo dạng:
+
+| Slide | Nội dung | Bố cục | Typography | Hình ảnh | Tương tác | Kết quả |
+|---|---|---|---|---|---|---|
+
+Không đánh dấu PASS nếu chưa thật sự thực hiện kiểm tra tương ứng.
+
+Đặc biệt kiểm tra độ chính xác của những nội dung sau:
+
+- AI hỗ trợ một nhiệm vụ không đồng nghĩa thay thế hoàn toàn nghề nghiệp.
+- Người lao động vẫn cần kiểm chứng và chịu trách nhiệm.
+- Học sinh nêu được ít nhất hai nghề khác nhau.
+- Học sinh xác định được ít nhất hai kĩ năng có giải thích lí do.
+- Có ít nhất một trách nhiệm của con người được trình bày rõ.
+- Không sử dụng thông tin cá nhân thật trong các ví dụ.
+
+## 13. SẢN PHẨM CUỐI CÙNG
+
+Bàn giao:
+
+1. Source code HTML/CSS/JavaScript hoàn chỉnh.
+2. Thư mục assets đầy đủ.
+3. Speaker Notes cho từng slide.
+4. Hướng dẫn chạy offline.
+5. Hướng dẫn sử dụng Presenter Mode.
+6. Hướng dẫn thao tác với phiếu học tập.
+7. Báo cáo kiểm thử từng slide.
+8. Ảnh chụp màn hình các slide.
+9. Một file ZIP chứa toàn bộ dự án.
+
+**Tiêu chí nghiệm thu cuối cùng:**
+
+Một giáo viên có thể giải nén dự án, mở trình duyệt, bật trình chiếu toàn màn hình và giảng dạy trọn vẹn tiết học 45 phút mà không phải chỉnh sửa thêm mã nguồn.
+
+**Ưu tiên số một là trải nghiệm trình chiếu thực tế trên máy chiếu và hiệu quả học tập của học sinh, không phải số lượng hiệu ứng hay mức độ phức tạp của frontend.**
+
+Hãy sử dụng phong cách thẩm mỹ của ảnh Canva làm nguồn cảm hứng trực quan, nhưng tạo nên một hệ thống bài giảng độc lập, có nhận diện riêng, thống nhất và chuyên nghiệp.
