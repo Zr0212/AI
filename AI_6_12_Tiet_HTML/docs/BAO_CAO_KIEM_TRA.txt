@@ -1,0 +1,31 @@
+BÁO CÁO KIỂM TRA BẢN RÀ SOÁT NỘI DUNG — V3
+Ngày: 17/11/2026
+
+ĐÃ HOÀN THÀNH
+- Rà nội dung hiển thị, câu hỏi, yêu cầu, gợi ý đáp án và mạch dẫn của 12 tiết; giữ đủ 256 slide và đúng đầu bài chính.
+- Viết lại 43 slide phiếu theo bước; giữ phiếu sáu thẻ có đối chiếu tự động. Tổng 111 bước trong phiếu mới.
+- Rút câu mục tiêu/chốt; thay sơ đồ chung bằng ví dụ cụ thể; sửa các điểm khoa học và câu hỏi không rõ được liệt kê ở RA_SOAT_NOI_DUNG_V3.txt.
+- Cập nhật chú thích GV và bản văn bản/JSON đi kèm.
+
+KIỂM TRA BỐ CỤC
+Đã tạo trang rà soát trong Chromium, chụp và rà các tờ tổng hợp của 12 tiết. Đo DOM đủ 324 trạng thái: 256 slide mặc định cộng các bước phiếu còn lại.
+Kết quả cuối: không có phần thân vượt khung >3 px, nội dung phiếu vượt vùng trình bày >3 px hoặc ảnh lỗi theo phép đo. Dữ liệu từng trạng thái trong KET_QUA_KIEM_TRA_BO_CUC.json.
+Đã chia lại bảng phân vai, bảng thử quy tắc và phiếu bàn giao bị dài; giữ cỡ chữ thay vì ép nhỏ.
+
+KIỂM TRA CHỨC NĂNG ĐÃ THỬ Ở BẢN NÀY
+- P1.2: nhập câu trả lời; chuyển bước rồi quay lại; tải lại trang vẫn giữ nội dung.
+- Chế độ Chiếu: chuyển bước phiếu và ô nhập đồng bộ. Mở Gợi ý cho GV ở màn chính không mở hộp thoại ở màn chiếu; màn chiếu không có khung chú thích.
+- P6.2: sửa bản sao giả định, tải bản câu hỏi; đọc lại tệp xác nhận chỉ còn câu hỏi đã sửa.
+- Xuất bài làm: tệp có nhãn câu hỏi rõ và nội dung đã nhập, không chỉ mã ô.
+- node --check toàn bộ JS; kiểm 12 bộ dữ liệu, 256 chú thích đủ trường, các ô mới có nhãn và mã riêng, các tham chiếu HTML tới tệp cục bộ.
+- ZIP được kiểm CRC, đủ 12 HTML bài học, bảy MP4 và các tài liệu đi kèm; không chứa trang QA nội bộ.
+
+PHẠM VI
+Kiểm tra trên Chromium qua HTTP cục bộ. Chưa thử file:// trên Windows/Edge, máy chiếu vật lý hoặc mọi kiểu thiết bị. Luồng video/timer/dừng chiếu đã được thử ở V2; V3 thử lại phần phiếu và xuất bài bị thay đổi, không tuyên bố phát lại toàn bộ bảy video.
+Các câu hỏi mở được GV nhận xét theo nội dung, không giả chấm tự động.
+
+TÀI LIỆU XEM KÈM
+RA_SOAT_NOI_DUNG_V3.txt — vấn đề và cách sửa.
+NOI_DUNG_DA_SUA.csv — danh sách từng slide được chỉnh.
+HUONG_DAN.txt — cách mở, làm phiếu và dùng Chiếu.
+CHU_THICH_GIAO_VIEN.txt — lời dẫn, giải thích, đáp án/gợi ý và câu nối.

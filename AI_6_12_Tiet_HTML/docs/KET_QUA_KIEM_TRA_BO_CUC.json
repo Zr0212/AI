@@ -1,0 +1,4214 @@
+[
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Bài 1. Làm quen với AIvà một số công nghệ AI quen thuộc"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Sau bài học, em làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "KHỞI ĐỘNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhanh có đồng nghĩa với AI?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 1: NHẬN BIẾT TÍNH NĂNG AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "AI có thể giúp con người làm gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Video: AI hỗ trợ những việc gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "AI là gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P1.1 — Phân loại sáu tính năng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Vì sao hai tính năng khác nhau?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 2: TRẢI NGHIỆM MỘT SỐ TÍNH NĂNG AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhóm cần hoàn thành gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Dịch hai câu tiếng Anh"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Bản dịch có phù hợp không?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Nhận dạng đồ vật trong ảnh"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Hai ảnh có cho cùng kết quả?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-17",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P1.2 — Nhật kí hai trải nghiệm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-18",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhóm em đã quan sát được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-19",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-20",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "LUYỆN TẬP"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-21",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P1.3A — Em đã nhận biết đúng chưa?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-22",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "VẬN DỤNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-23",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P1.3B — Giới thiệu một tính năng AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-24",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhiệm vụ tiếp nối"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-17-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P1.2 — Nhật kí hai trải nghiệm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-17-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P1.2 — Nhật kí hai trải nghiệm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-01-21-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P1.3A — Em đã nhận biết đúng chưa?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Bài 2. Con người tạo và điều khiển AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Sau bài học, em làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "KHỞI ĐỘNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Ai dạy máy nhận ra chiếc cốc?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 1: DỮ LIỆU VÀ CÁCH MÁY HỌC"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Con người cần chuẩn bị gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Video: Máy học từ ví dụ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Dữ liệu và thuật toán học"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Tạo mô hình khác với dùng mô hình"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "P2.1 — Ghép khái niệm với ví dụ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 2: MÔ PHỎNG VAI TRÒ CỦA CON NGƯỜI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhiệm vụ và bốn vai trong nhóm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Xác định nhiệm vụ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Chuẩn bị ví dụ có nhãn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Thực hiện quy tắc mô phỏng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Gặp vật ngoài hai nhãn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-17",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P2.2 — Hai sơ đồ và phân vai"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-18",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Ai kiểm tra và quyết định?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-19",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-20",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "LUYỆN TẬP"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-21",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P2.3A — Huấn luyện hay sử dụng?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-22",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "VẬN DỤNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-23",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P2.3B — Xử lí nhãn chưa phù hợp"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-24",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "Chuẩn bị tiết sau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-10-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P2.1 — Ghép khái niệm với ví dụ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-10-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P2.1 — Ghép khái niệm với ví dụ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-17-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P2.2 — Hai sơ đồ và phân vai"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-17-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P2.2 — Hai sơ đồ và phân vai"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-17-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P2.2 — Hai sơ đồ và phân vai"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-17-p4",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P2.2 — Hai sơ đồ và phân vai"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-17-p5",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2559
+    },
+    "sheetOverflow": 0,
+    "title": "P2.2 — Hai sơ đồ và phân vai"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-02-21-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2559
+    },
+    "sheetOverflow": 0,
+    "title": "P2.3A — Huấn luyện hay sử dụng?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Bài 3. Dạy AI nhận biết đồ vậtbằng Teachable Machine"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Sau bài học, em làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "KHỞI ĐỘNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Làm sao máy phân biệt bút và cốc?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 1: CHUẨN BỊ NHÃN VÀ DỮ LIỆU"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Máy nhận ảnh dưới dạng nào?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Video: Máy tính xử lí hình ảnh"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Chuẩn bị hai nhóm ảnh Bút/Cốc"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P3.1 — Chuẩn bị bộ ảnh"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Dữ liệu sẵn sàng chưa?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 2: HUẤN LUYỆN VÀ CHẠY THỬ MÔ HÌNH"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Sản phẩm cần hoàn thành"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Mở dự án nhận dạng ảnh"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Đặt tên nhóm ảnh và thêm ảnh"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Kiểm dữ liệu rồi huấn luyện"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Thử với đầu vào mới"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-17",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P3.2 — Nhật kí chạy thử"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-18",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Mô hình đã làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-19",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-20",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "LUYỆN TẬP"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-21",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P3.3A — Đọc và kiểm tra kết quả"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-22",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "VẬN DỤNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-23",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P3.3B — Đề xuất lần thử mới"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-24",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "Lưu minh chứng và chuẩn bị kiểm thử"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-09-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P3.1 — Chuẩn bị bộ ảnh"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-17-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P3.2 — Nhật kí chạy thử"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-17-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P3.2 — Nhật kí chạy thử"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-03-21-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P3.3A — Đọc và kiểm tra kết quả"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Bài 4. Kiểm thử và cải tiến mô hình AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Sau bài học, em làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "KHỞI ĐỘNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhận đúng ảnh quen đã đủ chưa?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 1: LẬP VÀ THỰC HIỆN BỘ KIỂM THỬ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Dữ liệu đang thiếu điều gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Video: Vì sao dữ liệu cần đa dạng?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Ảnh học và ảnh kiểm thử"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P4.1 — Sáu trường hợp T1–T6"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Đọc kết quả kiểm thử ban đầu"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 2: CẢI TIẾN VÀ SO SÁNH"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhóm sẽ thay đổi điều gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Xác định dữ liệu cần bổ sung"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Bổ sung dữ liệu đúng nhãn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Huấn luyện lại"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Thử lại sáu trường hợp"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-17",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P4.2 — So sánh trước–sau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-18",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Có thể kết luận đến đâu?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-19",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-20",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "LUYỆN TẬP"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-21",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P4.3A — Sửa kết luận thiếu căn cứ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-22",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "VẬN DỤNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-23",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P4.3B — Thiết kế phép thử tiếp theo"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-24",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "Lưu kết quả và nhiệm vụ tiếp nối"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-09-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P4.1 — Sáu trường hợp T1–T6"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-09-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P4.1 — Sáu trường hợp T1–T6"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-17-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P4.2 — So sánh trước–sau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-17-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P4.2 — So sánh trước–sau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-17-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P4.2 — So sánh trước–sau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-04-21-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P4.3A — Sửa kết luận thiếu căn cứ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Bài 5. AI hỗ trợ học tập nhưng con người quyết định"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Sau bài học, em làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "KHỞI ĐỘNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Bản dịch này có phù hợp không?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 1: CHỌN NGUỒN VÀ XÁC ĐỊNH ĐIỂM CẦN KIỂM CHỨNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Trôi chảy đã có nghĩa là đúng?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Video: Chatbot tạo câu trả lời"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Tách ý có thể kiểm tra"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P5.1 — Chọn nguồn đối chiếu"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Kiểm chứng cần nguồn phù hợp"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 2: TRẢI NGHIỆM VÀ QUYẾT ĐỊNH"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhiệm vụ và sản phẩm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Nêu yêu cầu rõ ràng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Ghi nguyên kết quả"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Đối chiếu từng chi tiết"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Giữ, sửa hoặc chưa sử dụng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-17",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P5.2 — Nhật kí kiểm chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-18",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Vì sao nhóm chọn cách xử lí đó?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-19",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-20",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "LUYỆN TẬP"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-21",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P5.3A — Kiểm tra có căn cứ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-22",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "VẬN DỤNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-23",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P5.3B — Dùng AI để hỗ trợ học"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-24",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhiệm vụ tiếp nối"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-17-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P5.2 — Nhật kí kiểm chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-17-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P5.2 — Nhật kí kiểm chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-05-21-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P5.3A — Kiểm tra có căn cứ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Bài 6. Dữ liệu cá nhân, quyền riêng tưvà an toàn khi dùng AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Sau bài học, em làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "KHỞI ĐỘNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Hỏi nghĩa từ có cần địa chỉ nhà?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 1: NHẬN DIỆN DỮ LIỆU VÀ CÂU HỎI AN TOÀN"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Thông tin nào đang được thu thập?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Video: Thông tin riêng tư khi dùng AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Dữ liệu cá nhân và quyền riêng tư"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P6.1 — Hồ sơ giả định"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Trước khi chia sẻ, em cần hỏi gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 2: TẠO BẢN CHIA SẺ AN TOÀN"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhiệm vụ và bản cuối cần có"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Tạo bản sao"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Loại thông tin không cần"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Lưu bản câu hỏi đã sửa"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Mở lại và kiểm tra"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-17",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P6.2 — Bản chia sẻ an toàn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-18",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Bản cuối đã phù hợp chưa?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-19",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-20",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "LUYỆN TẬP"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-21",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P6.3A — Xử lí tình huống cấp quyền"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-22",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "VẬN DỤNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-23",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P6.3B — Thẻ an toàn của em"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-24",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhiệm vụ tiếp nối"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-09-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P6.1 — Hồ sơ giả định"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-09-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P6.1 — Hồ sơ giả định"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-17-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P6.2 — Bản chia sẻ an toàn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-06-21-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P6.3A — Xử lí tình huống cấp quyền"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Bài 7. Mặt tốt, hạn chế và lựa chọn sử dụng AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Sau bài học, em làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "KHỞI ĐỘNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Gợi ý video giúp học hay làm xem mãi?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 1: DỮ LIỆU VÀ KẾT QUẢ LỆCH"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Có phù hợp với mọi người?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Video: Dữ liệu và kết quả thiên lệch"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "So sánh hai bộ dữ liệu ảnh cốc"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P7.2 — Bộ dữ liệu nào bao quát hơn?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Đa dạng dữ liệu và giới hạn kết luận"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 2: LỰA CHỌN CÓ NÊN SỬ DỤNG AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Ba lựa chọn và cách giải thích"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Dịch một câu học tập"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Gợi ý video liên tục"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Nhận dạng nhầm đồ vật"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Hỏi bài nhưng đòi hồ sơ riêng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-17",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P7.1 — Bảng quyết định của nhóm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-18",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Vì sao có lựa chọn khác nhau?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-19",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-20",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "LUYỆN TẬP"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-21",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P7.3A — Tự đưa ra lựa chọn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-22",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "VẬN DỤNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-23",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P7.3B — Ba quy tắc có thể thực hiện"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-24",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "Chuẩn bị ý tưởng dự án"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-09-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P7.2 — Bộ dữ liệu nào bao quát hơn?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-17-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P7.1 — Bảng quyết định của nhóm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-17-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P7.1 — Bảng quyết định của nhóm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-17-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P7.1 — Bảng quyết định của nhóm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-07-21-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P7.3A — Tự đưa ra lựa chọn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Bài 8. Con người kết hợp với AI -hình thành ý tưởng dự án"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Sau bài học, em làm được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "KHỞI ĐỘNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Ý tưởng nào dễ bắt đầu hơn?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 1: SO SÁNH VÀ CHỌN Ý TƯỞNG"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Máy làm gì, người làm gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Video: Nhận dạng hình ảnh trên cánh đồng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Một ý tưởng nhỏ cần rõ những gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P8.1 — Đặt hai ý tưởng cạnh nhau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Chọn ý tưởng có căn cứ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "KHÁM PHÁ 2: THIẾT KẾ Ý TƯỞNG DỰ ÁN"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Trợ lí AI trong cuộc sống của em"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Xác định vấn đề và người dùng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Đầu vào và chức năng AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Đầu ra và việc con người làm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Chọn hình thức sản phẩm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-17",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P8.2 — Phiếu ý tưởng dự án"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-18",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Đổi phiếu và góp ý"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-19",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-20",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "LUYỆN TẬP"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-21",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P8.3A — Mỗi thành viên hiểu dự án chưa?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-22",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "CHUYỂN GIAO DỰ ÁN TẠI NHÀ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-23",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P8.3B — Bốn giai đoạn và tiêu chí"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-24",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhóm em bắt đầu từ đâu?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-09-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P8.1 — Đặt hai ý tưởng cạnh nhau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-09-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P8.1 — Đặt hai ý tưởng cạnh nhau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-09-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P8.1 — Đặt hai ý tưởng cạnh nhau"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-17-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P8.2 — Phiếu ý tưởng dự án"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-17-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P8.2 — Phiếu ý tưởng dự án"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-17-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 2303.5
+    },
+    "sheetOverflow": 0,
+    "title": "P8.2 — Phiếu ý tưởng dự án"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-08-23-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2559
+    },
+    "sheetOverflow": 0,
+    "title": "P8.3B — Bốn giai đoạn và tiêu chí"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Dự án tại nhà - Giai đoạn 1:Lựa chọn vấn đề và lập kế hoạch"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Kết thúc giai đoạn này, cần có gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "XEM LẠI Ý TƯỞNG DỰ ÁN"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Mở phiếu tiết 8 và đọc góp ý"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Từ ý tưởng rộng đến vấn đề cụ thể"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Ôn nhanh: AI hỗ trợ nhiệm vụ nào?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Xác định người dùng và mục tiêu"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P9.1 — Vấn đề và mục tiêu"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "LẬP KẾ HOẠCH THỰC HIỆN"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "P9.2 — Ai làm gì, khi nào xong?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Thiết bị và phương án thay thế"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "TỰ KIỂM TRA KẾ HOẠCH"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "P9.3 — Kiểm tra trước khi gửi"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "NỘP KẾ HOẠCH VÀ NHẬN PHẢN HỒI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Hồ sơ cần gửi và việc tiếp theo"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-08-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P9.1 — Vấn đề và mục tiêu"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-10-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P9.2 — Ai làm gì, khi nào xong?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-10-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P9.2 — Ai làm gì, khi nào xong?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-13-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P9.3 — Kiểm tra trước khi gửi"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-09-13-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P9.3 — Kiểm tra trước khi gửi"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Dự án tại nhà - Giai đoạn 2:Tìm kiếm thông tin và thiết kế ý tưởng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Kết thúc giai đoạn này, cần có gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "XÁC ĐỊNH THÔNG TIN CẦN TÌM"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Dự án còn thiếu câu trả lời nào?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Viết từ khóa có mục đích"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Ôn nhanh: đầu vào của hệ thống AI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P10.1 — Nhật kí tìm kiếm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P10.2 — So sánh hai nguồn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "THIẾT KẾ CÁCH HOẠT ĐỘNG CỦA DỰ ÁN"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Sơ đồ gồm bốn phần"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "P10.3 — Sơ đồ và bố cục sản phẩm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "TỰ KIỂM TRA THIẾT KẾ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Thử giải thích bằng một đầu vào"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "NỘP BẢN THIẾT KẾ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Hồ sơ cần gửi và việc tiếp theo"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-07-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P10.1 — Nhật kí tìm kiếm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-08-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P10.2 — So sánh hai nguồn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-08-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P10.2 — So sánh hai nguồn"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-11-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P10.3 — Sơ đồ và bố cục sản phẩm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-10-11-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P10.3 — Sơ đồ và bố cục sản phẩm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Dự án tại nhà - Giai đoạn 3:Tạo sản phẩm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Kết thúc giai đoạn này, cần có gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "XEM LẠI THIẾT KẾ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Chốt hình thức và nội dung"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Một sản phẩm cần những phần nào?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Ôn nhanh: minh họa và hoạt động thật"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Sản phẩm đang ở mức nào?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P11.1 — Nội dung bản 1"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "TẠO SẢN PHẨM BẢN 1"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Làm lần lượt từng phần"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "P11.2 — Nguồn và đóng góp"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "TỰ KIỂM TRA BẢN 1"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "P11.3 — Câu hỏi rà soát"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "GỬI BẢN 1 VÀ XIN GÓP Ý"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Nhóm muốn được góp ý điều gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-08-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P11.1 — Nội dung bản 1"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-08-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P11.1 — Nội dung bản 1"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-08-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P11.1 — Nội dung bản 1"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-11-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P11.2 — Nguồn và đóng góp"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-11-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P11.2 — Nguồn và đóng góp"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-13-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P11.3 — Câu hỏi rà soát"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-13-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P11.3 — Câu hỏi rà soát"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-11-13-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P11.3 — Câu hỏi rà soát"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-01",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Dự án tại nhà - Giai đoạn 4:Hoàn thiện và nộp sản phẩm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-02",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "Kết thúc giai đoạn này, cần có gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-03",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 4
+    },
+    "sheetOverflow": 0,
+    "title": "ĐỌC VÀ LỰA CHỌN GÓP Ý"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-04",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Góp ý nào giúp sản phẩm rõ và đúng?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-05",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "P12.1 — Quyết định chỉnh sửa"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-06",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 259.5
+    },
+    "sheetOverflow": 0,
+    "title": "Ôn nhanh: trước khi chia sẻ sản phẩm"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-07",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "Chỉnh sửa và kiểm tra lại"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-08",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "P12.2 — Kịch bản video 2–3 phút"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-09",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 515
+    },
+    "sheetOverflow": 0,
+    "title": "HOÀN THIỆN VÀ GIỚI THIỆU SẢN PHẨM"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-10",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Quay và xem lại video"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-11",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "Bộ hồ sơ cuối gồm những gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-12",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 770.5
+    },
+    "sheetOverflow": 0,
+    "title": "TỰ ĐÁNH GIÁ VÀ KIỂM TRA AN TOÀN"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-13",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "P12.3 — Tự đánh giá bằng minh chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-14",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "Kiến thức cần nhớ"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-15",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1026
+    },
+    "sheetOverflow": 0,
+    "title": "NỘP SẢN PHẨM VÀ NHÌN LẠI"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-16",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "Hồ sơ đã đủ chưa? Em học được gì?"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-05-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P12.1 — Quyết định chỉnh sửa"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-08-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1281.5
+    },
+    "sheetOverflow": 0,
+    "title": "P12.2 — Kịch bản video 2–3 phút"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-08-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P12.2 — Kịch bản video 2–3 phút"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-08-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P12.2 — Kịch bản video 2–3 phút"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-13-p1",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1537
+    },
+    "sheetOverflow": 0,
+    "title": "P12.3 — Tự đánh giá bằng minh chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-13-p2",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P12.3 — Tự đánh giá bằng minh chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-13-p3",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P12.3 — Tự đánh giá bằng minh chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-13-p4",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 900,
+      "y": 1792.5
+    },
+    "sheetOverflow": 0,
+    "title": "P12.3 — Tự đánh giá bằng minh chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-13-p5",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 4,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P12.3 — Tự đánh giá bằng minh chứng"
+  },
+  {
+    "bodyOverflow": 0,
+    "broken": 0,
+    "id": "g-12-13-p6",
+    "rect": {
+      "h": 247.5,
+      "w": 440,
+      "x": 452,
+      "y": 2048
+    },
+    "sheetOverflow": 0,
+    "title": "P12.3 — Tự đánh giá bằng minh chứng"
+  }
+]

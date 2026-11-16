@@ -1,0 +1,1 @@
+Chế độ Chiếu được giữ theo V2. Bản V3 đã kiểm lại đồng bộ bước phiếu, ô nhập và việc ẩn đáp án riêng. Xem BAO_CAO_KIEM_TRA.txt cho phạm vi kiểm tra hiện tại.
