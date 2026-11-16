@@ -1,0 +1,823 @@
+<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tin học 6 · Bài 6 · Mạng thông tin toàn cầu</title><style>
+:root{--navy:#13384c;--blue:#057eb7;--teal:#087c75;--orange:#eb8c3b;--ink:#183949;--muted:#526d7b;--line:#d7e8ed;--pale:#edf8fb;--good:#146f48;--bad:#b03535}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Arial,"Segoe UI",sans-serif;color:var(--ink);background:#dce9ef}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:4px solid #ffac45;outline-offset:3px}#screen{width:100vw;height:100dvh;overflow:hidden;display:flex;align-items:center;justify-content:center}#stage{width:1280px;height:720px;position:absolute;transform-origin:center;background:white;overflow:hidden;box-shadow:0 20px 80px #16374633;border-left:8px solid var(--teal)}#slide{height:100%;position:relative;padding:46px 55px 90px;background:radial-gradient(circle at 104% -10%,#eaf6fa 0 23%,transparent 23.1%),white}#slide header{border-bottom:3px solid #f3e3ce;padding-bottom:17px;min-height:116px}.kicker{font-size:21px;letter-spacing:1px;font-weight:bold;color:var(--teal)}h1{font-size:49px;line-height:1.13;margin:13px 0 0;color:var(--navy);letter-spacing:-1px}#main{height:448px;overflow:hidden;padding-top:26px;font-size:29px;line-height:1.32}.footer{position:absolute;bottom:38px;left:55px;right:55px;display:flex;justify-content:space-between;gap:10px;font-size:18px;color:var(--muted)}.footer strong{color:var(--teal)}.pill{background:#e5f5f6;color:var(--teal);font-weight:bold;border-radius:999px;padding:8px 17px;font-size:23px;display:inline-block}.card{padding:22px;border:2px solid var(--line);border-radius:20px;background:#fff}.wash{background:var(--pale)}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.stack{display:grid;gap:16px}.item{display:grid;grid-template-columns:210px 1fr;align-items:start;gap:16px;padding:15px 20px;background:#eef7fa;border-radius:14px;font-size:28px}.item b{color:var(--teal)}.hero{height:100%;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.hero-left{display:grid;gap:18px}.hero-number{font-size:94px;color:var(--blue);font-weight:900;letter-spacing:-4px}.hero-sub{font-size:33px;line-height:1.3}.hero-art{display:flex;flex-direction:column;align-items:center;justify-content:center;height:355px;border-radius:50%;background:#e9f7f8;font-size:110px;gap:10px}.hero-art small{font-size:26px;font-weight:bold;color:var(--teal)}.section-card{padding:23px;border-radius:18px;background:#eaf6f9;border:2px solid #d5ebf2;font-size:29px}.section-card strong{color:var(--teal);display:block;margin-bottom:10px}.section-list{display:grid;gap:16px}.compare{display:grid;grid-template-columns:1fr 1fr;gap:22px}.compare .card{height:340px;font-size:29px;line-height:1.38}.compare h3{font-size:36px;margin:0 0 16px;color:var(--teal)}.compare p{margin:12px 0}.big-question{font-size:38px;line-height:1.35;padding:28px;background:#eaf6f8;border-radius:20px;margin-bottom:20px}.action{border:2px solid var(--teal);border-radius:12px;background:var(--teal);color:#fff;font-size:24px;padding:10px 18px;font-weight:bold;min-height:50px}.action.secondary{color:var(--teal);background:white;border-color:#a9d4d0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:17px}.answer{padding:16px 18px;border-left:7px solid var(--teal);border-radius:8px;background:#eaf7f0;margin-top:17px;font-size:27px}.choice{display:flex;align-items:center;text-align:left;gap:15px;border:2px solid #cbdfe8;border-radius:14px;background:white;padding:10px 16px;font-size:27px;min-height:68px;width:100%;color:var(--ink)}.choice em{font-style:normal;background:#e4f3f8;color:var(--blue);font-weight:bold;border-radius:9px;width:40px;height:40px;display:grid;place-items:center;flex-shrink:0}.choice.selected{background:#e9f4ff;border-color:#1686cb}.choice.good{background:#dff5e6;border-color:#15804c}.choice.bad{background:#ffebeb;border-color:#af3333}.quiz-options{display:grid;gap:12px}.quiz-question{font-size:32px;font-weight:bold;margin-bottom:17px}.textarea{width:100%;height:125px;padding:16px;border:2px solid #aacbd4;border-radius:13px;resize:none;color:var(--ink);font-size:27px}.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.match-col{display:grid;gap:9px}.match-btn{border:2px solid #c6dce5;border-radius:12px;background:white;padding:11px 17px;text-align:left;min-height:65px;font-size:23px;color:var(--ink)}.match-btn.selected{border-color:var(--blue);background:#e8f4ff}.match-btn.done{border-color:#35a27a;background:#e6f5ee}.match-result{font-size:22px;margin-top:10px;color:var(--muted)}.note-item{display:grid;grid-template-columns:235px 1fr;gap:15px;font-size:27px;line-height:1.3;padding:15px 19px;background:#eef8f9;border-radius:15px}.note-item b{color:var(--teal)}.webmap{position:relative;height:390px;display:grid;grid-template-columns:repeat(4,1fr);gap:15px;align-content:center;padding:15px}.webmap:before{content:'';position:absolute;left:13%;right:13%;top:50%;height:5px;background:#8acacb;z-index:0}.webmap button{position:relative;z-index:1;font-size:26px;border:3px solid #8dc9d4;border-radius:15px;background:white;min-height:115px;color:var(--ink)}.webmap button:first-child{grid-column:span 4;width:290px;margin:auto;border-color:var(--orange);background:#fff3e6}.webmap button.chosen{background:#dcf5e8;border-color:var(--teal)}.illustration{display:grid;grid-template-columns:210px 1fr;align-items:center;gap:34px;height:320px}.illustration-icon{font-size:160px;text-align:center}.url-card{font-family:Consolas,monospace;font-size:31px;padding:23px;background:#eef8fa;border-radius:13px;margin-bottom:20px;word-break:break-word}.browser{border:3px solid #a7cbd6;border-radius:16px;overflow:hidden;height:389px;display:flex;flex-direction:column;background:#fff}.browser-bar{display:flex;gap:9px;padding:10px;background:#e4eff4;align-items:center}.browser-bar button{border:0;border-radius:9px;background:white;font-size:24px;min-width:37px;height:40px;color:#285366}.browser-bar button:disabled{opacity:.38}.browser-bar input{flex:1;min-width:0;border:2px solid #a4cad5;border-radius:9px;height:42px;font-size:22px;padding:6px 13px}.browser-page{flex:1;padding:15px 22px;overflow:auto;font-size:23px}.browser-page h3{font-size:32px;color:var(--teal);margin:0 0 10px}.browser-page p{margin:8px 0}.browser-link{border:0;background:#e9f5f8;color:#0778b1;text-decoration:underline;padding:10px 14px;font-size:23px;border-radius:10px;margin:7px 6px 0 0}.browser-caption{font-size:18px;background:#fff1de;color:#85500e;padding:6px 12px}.bookmark-list{display:flex;gap:7px;flex-wrap:wrap}.bookmark-list button{border:1px solid #a9d8d6;background:#eff8f6;border-radius:8px;font-size:19px;padding:5px 8px}.weather-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.weather-cards button{border:2px solid #c6dee6;border-radius:18px;background:#eef8fb;min-height:175px;font-size:30px;color:var(--navy)}.weather-cards button.selected{border-color:var(--teal);background:#d7f3ea}.sim-label{display:inline-block;background:#fff0dc;color:#8b520d;padding:7px 14px;border-radius:10px;font-size:21px;font-weight:bold;margin-bottom:15px}.news-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.news-cards button{font-size:26px;text-align:left;padding:20px;min-height:220px;border-radius:17px;border:2px solid #c6dee6;background:#f2f8fb;color:var(--navy)}.news-cards button b{display:block;margin-bottom:17px}.worksheet-list{display:grid;grid-template-columns:1fr 1fr;gap:16px}.worksheet-list button{border:2px solid #c6dee6;border-radius:16px;text-align:left;padding:24px;background:#f0f9fa;color:var(--ink);min-height:148px;font-size:25px}.worksheet-list button strong{display:block;color:var(--teal);font-size:31px;margin-bottom:8px}.sgk-view{height:380px;display:flex;gap:22px;align-items:center}.sgk-view img{max-width:410px;max-height:370px;object-fit:contain;border:2px solid #d6e6e9;box-shadow:0 7px 22px #143c4826}.sgk-view aside{flex:1;font-size:30px;background:#eaf7f8;border-radius:15px;padding:24px}#tools{position:fixed;bottom:15px;left:50%;transform:translateX(-50%);z-index:10;display:flex;gap:6px;align-items:center;background:#102e3feF;color:white;padding:8px 12px;border-radius:14px;box-shadow:0 8px 20px #102b3840}#tools button,#tools select{border:0;border-radius:8px;background:#245266;color:white;padding:8px 12px;font-size:15px;min-height:38px}#tools button:hover{background:#316d83}#tools .important{background:#d78234}#tools .count{font-size:16px;padding:0 10px}#menu{position:fixed;inset:0;background:#0c2b3bd9;z-index:300;display:none;align-items:center;justify-content:center}#menu.show{display:flex}.menu-panel{width:min(1060px,94vw);max-height:87vh;overflow:auto;background:white;border-radius:20px;padding:30px}.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.menu-grid button{border:1px solid #cfe2e9;border-radius:9px;background:#f5fafb;padding:10px 14px;text-align:left;font-size:17px;color:var(--ink)}.menu-grid button:hover{background:#dff2f5}.menu-grid small{color:#087f7c}.menu-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:19px}.menu-title h2{font-size:29px;margin:0}#presenter{display:none;position:fixed;inset:0;background:#112c3b;color:#fff;z-index:100;gap:16px;padding:18px}body.presenter #screen{display:none}body.presenter #tools{display:none}body.presenter #presenter{display:grid;grid-template-columns:1.4fr 1fr}.presenter-left{display:flex;flex-direction:column;gap:12px;min-width:0}.presenter-frame{flex:1;border:3px solid #547481;border-radius:12px;background:white;overflow:hidden;position:relative}.presenter-frame iframe{width:100%;height:100%;border:0}.presenter-control{display:flex;flex-wrap:wrap;gap:9px}.presenter-control button{background:#2f657b;color:white;border:0;border-radius:10px;font-size:19px;padding:11px 16px}.presenter-right{padding:23px;background:#213f50;border-radius:16px;overflow:auto;font-size:23px}.presenter-right h2{font-size:29px;margin:6px 0 14px}.presenter-right p{line-height:1.45}.presenter-right .private{background:#f6f2df;color:#223b44;border-radius:12px;padding:14px;margin-top:14px}.presenter-right .label{font-size:17px;color:#acd8e0;letter-spacing:1px}.presenter-right #presenterNext{font-size:20px;color:#afdae2}.draw-layer{position:absolute;inset:0;z-index:8;pointer-events:none}.draw-layer.drawing{pointer-events:auto;cursor:crosshair}#clock{font-size:17px;min-width:54px;text-align:center}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}@media(max-width:800px){#tools{width:calc(100vw - 12px);overflow:auto;justify-content:flex-start}#tools button{white-space:nowrap}}
+</style></head><body><div id="screen"><div id="stage"><div id="slide"></div><canvas class="draw-layer" id="draw" width="1280" height="720"></canvas></div></div>
+<div id="tools"><button id="prev" title="Slide trước">◀</button><span class="count" id="count">1/48</span><button id="next" title="Slide sau">▶</button><button id="menuBtn">☷ Mục lục</button><button id="notesJump">✎ Ghi vở</button><button id="returnBtn" hidden>↩ Quay lại</button><button id="drawBtn">✏ Bút</button><button id="undoBtn">↶</button><button id="clearBtn">⌫</button><button id="clockBtn">▶</button><span id="clock">00:00</span><button id="resetBtn">↺ Tiết mới</button><button id="presentBtn" class="important">▣ Chiếu</button><button id="fullBtn">⛶</button></div>
+<div id="menu"><div class="menu-panel"><div class="menu-title"><h2>MỤC LỤC BÀI 6 · 2 TIẾT</h2><button class="action" id="closeMenu">Đóng ×</button></div><div class="actions" style="margin:0 0 20px"><button class="action" id="startT1">▶ Bắt đầu tiết 1</button><button class="action secondary" id="startT2">▶ Bắt đầu tiết 2</button></div><div class="menu-grid" id="menuItems"></div></div></div>
+<div id="presenter"><div class="presenter-left"><div class="presenter-frame"><iframe title="Xem trước màn hình học sinh" id="preview"></iframe></div><div class="presenter-control"><button id="pPrev">◀ Trước</button><button id="pNext">Tiếp ▶</button><button id="pMenu">☷ Mục lục</button><button id="pNote">✎ Ghi vở</button><button id="pClose">Thoát góc GV</button></div></div><div class="presenter-right"><div class="label">GÓC GIÁO VIÊN · KHÔNG CHIẾU</div><h2 id="presenterTitle"></h2><p id="presenterNotes"></p><div class="private"><b>GỢI Ý / ĐÁP ÁN RIÊNG</b><p id="presenterAnswer"></p></div><hr><p class="label">SLIDE TIẾP THEO</p><p id="presenterNext"></p><p id="presenterTime"></p><p class="label" style="margin-top:22px">Chọn Windows + P → Extend, kéo cửa sổ học sinh sang màn chiếu. Không dùng Duplicate.</p></div></div>
+<script id="slideData" type="application/json">[
+  {
+    "sec": "T1 · KHỞI ĐỘNG",
+    "title": "MẠNG THÔNG TIN TOÀN CẦU",
+    "kind": "hero",
+    "body": [
+      "BÀI 6",
+      "TIN HỌC 6 · TIẾT 11–12",
+      "Khám phá cách các trang web kết nối và khai thác thông tin an toàn."
+    ],
+    "notes": "Giới thiệu bài học hai tiết. Tiết 1: tổ chức thông tin trên Internet và trình duyệt. Tiết 2: thực hành truy cập website.",
+    "minutes": "Tổng 90 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · KHỞI ĐỘNG",
+    "title": "Hai tiết học – hai hành trình",
+    "kind": "sections",
+    "body": [
+      [
+        "TIẾT 1 · 45 PHÚT",
+        "Siêu văn bản · Trang web · Website · WWW · Trình duyệt"
+      ],
+      [
+        "TIẾT 2 · 45 PHÚT",
+        "Wikipedia · Thông tin thời tiết · Thời sự · Dấu trang"
+      ]
+    ],
+    "notes": "Cần phân biệt rõ hai tiết, có thể bắt đầu trực tiếp tiết 2 từ mục lục.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · KHỞI ĐỘNG",
+    "title": "Sách và trang web: khác nhau thế nào?",
+    "kind": "comparison",
+    "body": [
+      [
+        "📖 CUỐN SÁCH",
+        "Chủ đề → chương → bài → trang",
+        "Đọc theo mục lục và số trang."
+      ],
+      [
+        "🌐 TRANG WEB",
+        "Nội dung ↔ siêu liên kết ↔ nội dung",
+        "Có thể nhấp một liên kết để chuyển tới trang khác."
+      ]
+    ],
+    "notes": "1 phút giao nhiệm vụ, 3 phút trao đổi cặp, 1 phút chốt. Hỏi học sinh đã xem Internet chưa; kể văn bản, hình ảnh, âm thanh, video.",
+    "minutes": "5 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · KHỞI ĐỘNG",
+    "title": "Câu hỏi khởi động",
+    "kind": "open",
+    "body": "Thông tin trong một cuốn sách được tổ chức như thế nào? Em biết những dạng thông tin nào trên Internet?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Câu hỏi khởi động.",
+    "minutes": "5 phút",
+    "source": "Giáo án Lop6_Bai6.docx",
+    "hint": "Sách: chương, bài, trang. Internet: văn bản, hình ảnh, âm thanh, video và liên kết."
+  },
+  {
+    "sec": "T1 · TỔ CHỨC THÔNG TIN",
+    "title": "Kho thông tin khổng lồ",
+    "kind": "graphic",
+    "body": [
+      "Nhiều trang web chứa các dạng thông tin khác nhau.",
+      "Các trang có thể kết nối với nhau bằng siêu liên kết."
+    ],
+    "notes": "Dẫn vào Hình 3.1 SGK trang 23. Nhấn mạnh vai trò đường nối giữa các trang.",
+    "minutes": "15 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TỔ CHỨC THÔNG TIN",
+    "title": "Nhận biết cấu trúc một website",
+    "kind": "webmap",
+    "body": [
+      "TRANG CHỦ",
+      "GIỚI THIỆU",
+      "HỌC TẬP",
+      "TIN TỨC",
+      "LIÊN HỆ"
+    ],
+    "notes": "Mời học sinh lên bảng nhấp các nút trang thành phần. Hình mô phỏng, không phải Hình 3.1 nguyên bản.",
+    "minutes": "",
+    "source": "Mô phỏng dựa trên Hình 3.1 SGK trang 23"
+  },
+  {
+    "sec": "T1 · TỔ CHỨC THÔNG TIN",
+    "title": "Siêu văn bản và siêu liên kết",
+    "kind": "bullets",
+    "body": [
+      [
+        "SIÊU VĂN BẢN",
+        "Văn bản đặc biệt có thể chứa chữ, hình ảnh, âm thanh, video và các siêu liên kết."
+      ],
+      [
+        "SIÊU LIÊN KẾT",
+        "Liên kết dẫn từ nội dung đang xem sang nội dung hoặc trang khác."
+      ]
+    ],
+    "notes": "Đưa con trỏ lên chữ liên kết: thường chuyển thành hình bàn tay.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TỔ CHỨC THÔNG TIN",
+    "title": "Trang web và website",
+    "kind": "bullets",
+    "body": [
+      [
+        "TRANG WEB",
+        "Một siêu văn bản có địa chỉ truy cập trên Internet."
+      ],
+      [
+        "WEBSITE",
+        "Tập hợp các trang web có liên quan, thường truy cập qua một địa chỉ chung."
+      ],
+      [
+        "TRANG CHỦ",
+        "Trang được mở đầu tiên khi truy cập một website."
+      ]
+    ],
+    "notes": "Đặt câu hỏi: Trang chủ có phải toàn bộ website không? Không. Trang chủ là một trang trong website.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TỔ CHỨC THÔNG TIN",
+    "title": "Ví dụ về địa chỉ website",
+    "kind": "urls",
+    "body": [
+      "https://vi.wikipedia.org",
+      "https://vi.wikipedia.org/wiki/Internet"
+    ],
+    "notes": "Phân biệt địa chỉ trang chủ và địa chỉ trang nội dung. Không nhập địa chỉ thật trong mô phỏng nếu đang offline.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TỔ CHỨC THÔNG TIN",
+    "title": "WWW khác Internet",
+    "kind": "comparison",
+    "body": [
+      [
+        "🌐 INTERNET",
+        "Hạ tầng kết nối các mạng máy tính trên khắp thế giới.",
+        "Có nhiều dịch vụ, trong đó có WWW."
+      ],
+      [
+        "🕸️ WWW",
+        "Hệ thống các website liên kết với nhau trên Internet.",
+        "WWW là một dịch vụ của Internet."
+      ]
+    ],
+    "notes": "Bắt buộc chốt: WWW không đồng nghĩa với toàn bộ Internet.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TỔ CHỨC THÔNG TIN",
+    "title": "Kiểm tra SGK trang 24",
+    "kind": "quiz",
+    "body": "Trang siêu văn bản là:",
+    "notes": "Đáp án B. Mời học sinh giải thích đặc điểm siêu liên kết.",
+    "minutes": "",
+    "source": "SGK Tin học 6 · trang 24",
+    "options": [
+      [
+        "A",
+        "Văn bản thường không chứa liên kết."
+      ],
+      [
+        "B",
+        "Văn bản đặc biệt tích hợp nhiều dạng dữ liệu và chứa các liên kết."
+      ],
+      [
+        "C",
+        "Văn bản tích hợp nhiều dạng dữ liệu nhưng không chứa liên kết."
+      ]
+    ],
+    "answer": "B"
+  },
+  {
+    "sec": "T1 · TỔ CHỨC THÔNG TIN",
+    "title": "Em biết website học tập nào?",
+    "kind": "open",
+    "body": "Hãy nêu một địa chỉ website phục vụ học tập.",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Em biết website học tập nào?.",
+    "minutes": "",
+    "source": "SGK Tin học 6 · trang 24",
+    "hint": "Ví dụ: https://vi.wikipedia.org hoặc https://hanhtrangso.nxbgd.vn."
+  },
+  {
+    "sec": "T1 · TRÌNH DUYỆT",
+    "title": "Trình duyệt web là gì?",
+    "kind": "illustration",
+    "body": [
+      "Trình duyệt là phần mềm giúp người dùng truy cập và xem các trang web trên Internet.",
+      "Ví dụ: Chrome · Edge · Firefox · Safari · Cốc Cốc."
+    ],
+    "notes": "Gọi học sinh kể ít nhất hai trình duyệt. Không nhầm tên trình duyệt với website.",
+    "minutes": "10 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TRÌNH DUYỆT",
+    "title": "Ba bước mở một trang web",
+    "kind": "bullets",
+    "body": [
+      [
+        "01 · MỞ",
+        "Mở trình duyệt web."
+      ],
+      [
+        "02 · NHẬP",
+        "Nhập địa chỉ website vào thanh địa chỉ."
+      ],
+      [
+        "03 · ENTER",
+        "Nhấn Enter để truy cập."
+      ]
+    ],
+    "notes": "Giáo viên làm mẫu theo SGK trang 24–25.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TRÌNH DUYỆT",
+    "title": "Mô phỏng trình duyệt – em điều khiển!",
+    "kind": "browser",
+    "body": [
+      "Nhập: https://vi.wikipedia.org",
+      "Mở liên kết, quay lại, tiến tới và lưu dấu trang."
+    ],
+    "notes": "Bài mô phỏng offline: mời học sinh lên bảng nhập địa chỉ, nhấn Enter; nhận biết các nút Back, Forward, Reload, Home, Bookmark. Các trang là giao diện mô phỏng.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TRÌNH DUYỆT",
+    "title": "Nhận diện các nút điều hướng",
+    "kind": "navicons",
+    "body": [
+      [
+        "←",
+        "Back · Quay lại"
+      ],
+      [
+        "→",
+        "Forward · Tiến tới"
+      ],
+      [
+        "↻",
+        "Reload · Tải lại"
+      ],
+      [
+        "⌂",
+        "Home · Trang chủ"
+      ],
+      [
+        "☆",
+        "Bookmark · Dấu trang"
+      ]
+    ],
+    "notes": "Cho học sinh chỉ từng nút và nêu tác dụng.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · TRÌNH DUYỆT",
+    "title": "Củng cố trình duyệt",
+    "kind": "open",
+    "body": "Kể tên 2 trình duyệt em biết. Để truy cập một trang web, ta làm thế nào?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Củng cố trình duyệt.",
+    "minutes": "",
+    "source": "SGK Tin học 6 · trang 25",
+    "hint": "Chrome, Edge, Firefox, Safari, Cốc Cốc. Mở trình duyệt → nhập địa chỉ → Enter."
+  },
+  {
+    "sec": "T1 · LUYỆN TẬP",
+    "title": "Phiếu luyện tập tương tác – Tiết 1",
+    "kind": "worksheet",
+    "body": [
+      [
+        "1",
+        "Tập hợp các trang web có liên quan gọi là gì?"
+      ],
+      [
+        "2",
+        "Ghép WWW, Trang chủ, Trình duyệt, Siêu liên kết."
+      ],
+      [
+        "3",
+        "Nhập địa chỉ trang web ở đâu?"
+      ],
+      [
+        "4",
+        "WWW và Internet khác nhau thế nào?"
+      ]
+    ],
+    "notes": "4 phút cá nhân, 4 phút trao đổi và mời lên bảng, 2 phút chốt. Không in phiếu; các câu hỏi ở slide kế tiếp.",
+    "minutes": "10 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · LUYỆN TẬP",
+    "title": "Câu 1 · Khái niệm website",
+    "kind": "quiz",
+    "body": "Tập hợp các trang web có liên quan là:",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Câu 1 · Khái niệm website.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx",
+    "options": [
+      [
+        "A",
+        "Trình duyệt"
+      ],
+      [
+        "B",
+        "Website"
+      ],
+      [
+        "C",
+        "Siêu liên kết"
+      ]
+    ],
+    "answer": "B"
+  },
+  {
+    "sec": "T1 · LUYỆN TẬP",
+    "title": "Câu 2 · Ghép các khái niệm",
+    "kind": "match",
+    "body": [
+      [
+        "WWW",
+        "Hệ thống website liên kết trên Internet"
+      ],
+      [
+        "Trang chủ",
+        "Trang mở đầu khi vào website"
+      ],
+      [
+        "Trình duyệt",
+        "Phần mềm xem trang web"
+      ],
+      [
+        "Siêu liên kết",
+        "Kết nối dẫn đến nội dung khác"
+      ]
+    ],
+    "notes": "Đáp án theo giáo án: 1–c, 2–d, 3–a, 4–b. Học sinh nhấp bên trái rồi bên phải để ghép.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · LUYỆN TẬP",
+    "title": "Câu 3 · Truy cập website",
+    "kind": "open",
+    "body": "Muốn vào website khi đã biết địa chỉ, em gõ vào đâu và thực hiện bước nào tiếp theo?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Câu 3 · Truy cập website.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx",
+    "hint": "Nhập vào thanh địa chỉ rồi nhấn Enter."
+  },
+  {
+    "sec": "T1 · LUYỆN TẬP",
+    "title": "Câu 4 · Internet và WWW",
+    "kind": "open",
+    "body": "Vì sao WWW và Internet không phải cùng một khái niệm?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Câu 4 · Internet và WWW.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx",
+    "hint": "WWW là một dịch vụ truy cập thông tin trên Internet. Internet còn có các dịch vụ khác."
+  },
+  {
+    "sec": "T1 · TỔNG KẾT",
+    "title": "Ba câu cuối tiết 1",
+    "kind": "sections",
+    "body": [
+      [
+        "01",
+        "WWW là gì?"
+      ],
+      [
+        "02",
+        "Website khác trang web như thế nào?"
+      ],
+      [
+        "03",
+        "Trình duyệt dùng để làm gì?"
+      ]
+    ],
+    "notes": "Kiểm tra nhanh và chuyển sang phần ghi vở.",
+    "minutes": "5 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · GHI VỞ",
+    "title": "KIẾN THỨC CẦN NHỚ · TIẾT 1 (1/2)",
+    "kind": "note",
+    "body": [
+      [
+        "Siêu văn bản",
+        "Văn bản đặc biệt có thể chứa văn bản, hình ảnh, âm thanh, video và siêu liên kết."
+      ],
+      [
+        "Trang web",
+        "Một siêu văn bản có địa chỉ truy cập trên Internet."
+      ],
+      [
+        "Website",
+        "Tập hợp các trang web có liên quan."
+      ],
+      [
+        "Trang chủ",
+        "Trang được mở đầu tiên khi truy cập website."
+      ]
+    ],
+    "notes": "Đây là nội dung học sinh chép vào vở; giữ nguyên cho tới khi các em chép xong.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · GHI VỞ",
+    "title": "KIẾN THỨC CẦN NHỚ · TIẾT 1 (2/2)",
+    "kind": "note",
+    "body": [
+      [
+        "WWW",
+        "Mạng thông tin toàn cầu gồm các website liên kết trên Internet."
+      ],
+      [
+        "Trình duyệt web",
+        "Phần mềm giúp người dùng truy cập và xem các trang web."
+      ],
+      [
+        "Cách truy cập",
+        "Mở trình duyệt → nhập địa chỉ website → nhấn Enter."
+      ],
+      [
+        "Điều hướng",
+        "Nháy siêu liên kết để chuyển tới nội dung khác."
+      ]
+    ],
+    "notes": "Nội dung ghi vở, không cần bấm hiện đáp án.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T1 · VỀ NHÀ",
+    "title": "Hẹn gặp ở tiết thực hành",
+    "kind": "homework",
+    "body": [
+      "Học khái niệm WWW, siêu văn bản, trang web, website, trang chủ, trình duyệt.",
+      "Đọc trước phần thực hành SGK trang 25–27.",
+      "Quan sát thanh địa chỉ, nút Back, Forward, Home nếu có thiết bị."
+    ],
+    "notes": "Không yêu cầu học sinh phải có thiết bị hoặc kết nối Internet tại nhà.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · MỞ ĐẦU",
+    "title": "TIẾT 2 · THỰC HÀNH KHAI THÁC WEB",
+    "kind": "hero",
+    "body": [
+      "BÀI 6",
+      "TIẾT 12 · 45 PHÚT",
+      "Wikipedia · Thời tiết · Thời sự · Lưu dấu trang"
+    ],
+    "notes": "Có thể bắt đầu trực tiếp tiết này từ mục lục.",
+    "minutes": "45 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · KHỞI ĐỘNG",
+    "title": "Ôn tập nhanh",
+    "kind": "open",
+    "body": "Ba bước truy cập website là gì? Nháy vào siêu liên kết sẽ xảy ra điều gì?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Ôn tập nhanh.",
+    "minutes": "4 phút",
+    "source": "Giáo án Lop6_Bai6.docx",
+    "hint": "Mở trình duyệt → nhập địa chỉ → nhấn Enter. Nháy liên kết để chuyển tới nội dung được liên kết."
+  },
+  {
+    "sec": "T2 · THỰC HÀNH",
+    "title": "Hôm nay em sẽ khám phá 3 nguồn",
+    "kind": "sections",
+    "body": [
+      [
+        "01 · 10 phút",
+        "Wikipedia – tra cứu bách khoa"
+      ],
+      [
+        "02 · 11 phút",
+        "Khí tượng – xem thông tin thời tiết"
+      ],
+      [
+        "03 · 8 phút",
+        "Thời sự – xem tin và nhận diện nguồn"
+      ]
+    ],
+    "notes": "Tổng 29 phút thực hành. Nếu không có mạng, sử dụng các mô phỏng trong slide.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · WIKIPEDIA",
+    "title": "Quan sát hình SGK trang 25",
+    "kind": "sgk",
+    "body": [
+      "sgk25.png",
+      "Chỉ: tên và biểu tượng, thanh tìm kiếm, mục chính, liên kết."
+    ],
+    "notes": "Ảnh SGK trang 25 do người dùng cung cấp. Mời học sinh chỉ các phần chính.",
+    "minutes": "",
+    "source": "SGK Tin học 6 · trang 25 · ảnh người dùng cung cấp"
+  },
+  {
+    "sec": "T2 · WIKIPEDIA",
+    "title": "4 bước tra cứu Wikipedia",
+    "kind": "bullets",
+    "body": [
+      [
+        "1",
+        "Mở trình duyệt."
+      ],
+      [
+        "2",
+        "Nhập https://vi.wikipedia.org rồi Enter."
+      ],
+      [
+        "3",
+        "Tìm chủ đề “Hệ Mặt Trời”."
+      ],
+      [
+        "4",
+        "Mở một liên kết và dùng Back để quay lại."
+      ]
+    ],
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: 4 bước tra cứu Wikipedia.",
+    "minutes": "10 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · WIKIPEDIA",
+    "title": "Lên bảng thực hành mô phỏng",
+    "kind": "browser",
+    "body": [
+      "Nhập vi.wikipedia.org; tìm “Hệ Mặt Trời”.",
+      "Nháy liên kết “Mặt Trời”, sau đó Back trở lại."
+    ],
+    "notes": "Thao tác trong trình duyệt mô phỏng offline. Nếu thực hành trên website thật, dùng trình duyệt trên máy tính.",
+    "minutes": "",
+    "source": "Mô phỏng theo nhiệm vụ giáo án"
+  },
+  {
+    "sec": "T2 · WIKIPEDIA",
+    "title": "Em nhận diện được gì?",
+    "kind": "open",
+    "body": "Chỉ ra 3 vùng thông tin trên trang Wikipedia.",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Em nhận diện được gì?.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx",
+    "hint": "Tên và biểu tượng, ô tìm kiếm, nội dung chính hoặc siêu liên kết."
+  },
+  {
+    "sec": "T2 · THỜI TIẾT",
+    "title": "Quan sát thông tin thời tiết",
+    "kind": "sgk",
+    "body": [
+      "sgk26.png",
+      "Nhận diện nguồn, khu vực, thời điểm cập nhật, điều hướng và dấu trang."
+    ],
+    "notes": "Ảnh SGK có dữ liệu thời điểm cũ; không trình bày như thời tiết hiện tại.",
+    "minutes": "11 phút",
+    "source": "SGK Tin học 6 · trang 26 · ảnh người dùng cung cấp"
+  },
+  {
+    "sec": "T2 · THỜI TIẾT",
+    "title": "Tra cứu thời tiết – mô phỏng",
+    "kind": "weather",
+    "body": [
+      "Thông tin được trình bày để luyện cách đọc nguồn.",
+      "Không phải dự báo thời tiết thực tế."
+    ],
+    "notes": "Không gán nhiệt độ hiện tại khi không có dữ liệu thật. Cho học sinh nêu loại dữ liệu có thể thấy: nhiệt độ, trạng thái, cảnh báo, thời điểm cập nhật.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · THỜI TIẾT",
+    "title": "Đọc nguồn trước khi sử dụng",
+    "kind": "open",
+    "body": "Khi xem bản tin thời tiết, em cần kiểm tra những thông tin nào?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Đọc nguồn trước khi sử dụng.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx",
+    "hint": "Tên nguồn, địa điểm, loại thông tin và thời điểm cập nhật (nếu có)."
+  },
+  {
+    "sec": "T2 · THỜI TIẾT",
+    "title": "Đánh dấu trang để mở lại",
+    "kind": "browser",
+    "body": [
+      "Mở trang thời tiết trong mô phỏng.",
+      "Nhấn ☆ để lưu Bookmark; mở mục dấu trang để truy cập lại."
+    ],
+    "notes": "Dạy cách Bookmark bằng mô phỏng; sau đó có thể thực hành thực tế khi có thiết bị.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · THỜI SỰ",
+    "title": "Quan sát một website thời sự",
+    "kind": "sgk",
+    "body": [
+      "sgk26.png",
+      "Nhận diện tên nguồn, chuyên mục, tiêu đề và thời điểm đăng tải."
+    ],
+    "notes": "Hình minh họa SGK có giao diện cũ; trang hiện tại có thể đã thay đổi.",
+    "minutes": "8 phút",
+    "source": "SGK Tin học 6 · trang 26"
+  },
+  {
+    "sec": "T2 · THỜI SỰ",
+    "title": "Tin thời sự – mô phỏng",
+    "kind": "news",
+    "body": [
+      "Đây là giao diện giả lập dùng để luyện đọc thông tin.",
+      "Chọn một thẻ tin để xem nội dung chi tiết và quay lại."
+    ],
+    "notes": "Tuyệt đối không mô tả nội dung mô phỏng thành bản tin thật.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · THỜI SỰ",
+    "title": "Báo cáo nhanh sau khi xem tin",
+    "kind": "open",
+    "body": "Nêu tên nguồn, tiêu đề, thời điểm và ý chính của một bản tin em quan sát.",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Báo cáo nhanh sau khi xem tin.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx",
+    "hint": "Trả lời bám đúng thông tin quan sát được; không tự suy đoán nội dung chưa thấy."
+  },
+  {
+    "sec": "T2 · LUYỆN TẬP",
+    "title": "Phiếu luyện tập trên bảng – Tiết 2",
+    "kind": "worksheet",
+    "body": [
+      [
+        "1",
+        "Chọn cách tổ chức thông tin trên Internet."
+      ],
+      [
+        "2",
+        "Ghép các vế về website, liên kết, trình duyệt và WWW."
+      ]
+    ],
+    "notes": "3 phút làm cá nhân, 3 phút mời học sinh lên bảng ghép cột, 2 phút chữa. Không in phiếu.",
+    "minutes": "8 phút",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · LUYỆN TẬP",
+    "title": "Câu 1 · Cách tổ chức thông tin",
+    "kind": "quiz",
+    "body": "Thông tin trên Internet được tổ chức như thế nào?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Câu 1 · Cách tổ chức thông tin.",
+    "minutes": "",
+    "source": "SGK Tin học 6 · trang 27",
+    "options": [
+      [
+        "A",
+        "Tương tự như trong cuốn sách."
+      ],
+      [
+        "B",
+        "Thành từng văn bản rời rạc."
+      ],
+      [
+        "C",
+        "Thành các trang siêu văn bản kết nối với nhau bởi các liên kết."
+      ],
+      [
+        "D",
+        "Một cách tùy ý."
+      ]
+    ],
+    "answer": "C"
+  },
+  {
+    "sec": "T2 · LUYỆN TẬP",
+    "title": "Câu 2 · Ghép cột A với cột B",
+    "kind": "match",
+    "body": [
+      [
+        "Website là tập hợp…",
+        "Các trang web liên quan được truy cập qua một địa chỉ"
+      ],
+      [
+        "Muốn chuyển đến trang khác, nháy vào…",
+        "Liên kết trỏ đến đó"
+      ],
+      [
+        "Để truy cập các trang web, cần…",
+        "Sử dụng trình duyệt web"
+      ],
+      [
+        "WWW là hệ thống các…",
+        "Website trên Internet"
+      ]
+    ],
+    "notes": "Đáp án: 1–c; 2–d; 3–a; 4–b. Cho phép học sinh click nối từng cặp.",
+    "minutes": "",
+    "source": "SGK Tin học 6 · trang 27"
+  },
+  {
+    "sec": "T2 · VẬN DỤNG",
+    "title": "Vận dụng 1 · Sách khác WWW thế nào?",
+    "kind": "open",
+    "body": "Có điểm gì khác nhau giữa cách tổ chức thông tin trong cuốn sách với cách tổ chức thông tin trên Internet?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Vận dụng 1 · Sách khác WWW thế nào?.",
+    "minutes": "4 phút",
+    "source": "SGK Tin học 6 · trang 27",
+    "hint": "Sách thường đọc theo chương, bài, trang; WWW gồm các trang siêu văn bản liên kết nhau, cho phép chuyển qua liên kết."
+  },
+  {
+    "sec": "T2 · VẬN DỤNG",
+    "title": "Vận dụng 2 · Website em yêu thích",
+    "kind": "open",
+    "body": "Chọn một website phục vụ học tập và giải thích vì sao. Em sẽ lưu lại địa chỉ thế nào?",
+    "notes": "GV hướng dẫn học sinh quan sát, phát biểu, sau đó chốt nội dung: Vận dụng 2 · Website em yêu thích.",
+    "minutes": "",
+    "source": "SGK Tin học 6 · trang 27",
+    "hint": "Ví dụ trang nội dung phù hợp; nhấn biểu tượng ngôi sao hoặc lệnh Bookmark để lưu. Có thể tham khảo hoahoctro.tienphong.vn, vtv7.vtv.vn."
+  },
+  {
+    "sec": "T2 · GHI VỞ",
+    "title": "KIẾN THỨC CẦN NHỚ · TIẾT 2 (1/2)",
+    "kind": "note",
+    "body": [
+      [
+        "Quy trình truy cập",
+        "Mở trình duyệt → nhập địa chỉ website → Enter → quan sát nội dung."
+      ],
+      [
+        "Siêu liên kết",
+        "Nháy vào liên kết để mở nội dung hoặc trang được liên kết."
+      ],
+      [
+        "Back / Forward",
+        "Quay lại trang trước / tiến tới trang tiếp theo."
+      ],
+      [
+        "Home / Bookmark",
+        "Về trang chủ / lưu địa chỉ trang web để mở lại."
+      ]
+    ],
+    "notes": "Cho học sinh chép theo từng dòng; không hiển thị đáp án bí mật.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · GHI VỞ",
+    "title": "KIẾN THỨC CẦN NHỚ · TIẾT 2 (2/2)",
+    "kind": "note",
+    "body": [
+      [
+        "Nguồn thông tin",
+        "Xác định tên trang và đơn vị cung cấp."
+      ],
+      [
+        "Nội dung",
+        "Đọc đúng thông tin cần tìm và các mục trên trang."
+      ],
+      [
+        "Tính cập nhật",
+        "Xem thời điểm cập nhật khi cần, nhất là thời tiết và tin tức."
+      ],
+      [
+        "An toàn",
+        "Không mở liên kết lạ, tải tệp không rõ nguồn hoặc chia sẻ mật khẩu."
+      ]
+    ],
+    "notes": "Cho học sinh chép đầy đủ phần an toàn và kiểm tra nguồn.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  },
+  {
+    "sec": "T2 · KẾT THÚC",
+    "title": "Tổng kết và dặn dò",
+    "kind": "homework",
+    "body": [
+      "Phân biệt Internet, WWW, website, trang web và trình duyệt.",
+      "Hoàn thiện hai câu Vận dụng SGK trang 27.",
+      "Nêu một website phục vụ học tập và lí do lựa chọn.",
+      "Chỉ truy cập trang an toàn; không bắt buộc có Internet tại nhà."
+    ],
+    "notes": "Tổng kết và dặn dò theo giáo án. Không đánh giá thấp học sinh không có thiết bị ở nhà.",
+    "minutes": "",
+    "source": "Giáo án Lop6_Bai6.docx"
+  }
+]</script><script>
+(()=>{'use strict';const S=JSON.parse(document.getElementById('slideData').textContent);const params=new URLSearchParams(location.search),role=params.get('role')||'student';const channel=typeof BroadcastChannel!=='undefined'?new BroadcastChannel('tin6_bai6_slide_channel'):null;const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let idx=0,returnIdx=null,questions={},matchState={},browser={url:'about:home',history:['about:home'],at:0,bookmarks:[]},drawMode=false,strokes={},drawing=false,currentStroke=null,clockSecs=0,clockRunning=false,clockTick=null,applying=false;const saved=()=>({idx,questions,matchState,browser,strokes,clockSecs});const persist=()=>{try{localStorage.setItem('bai6_student_state',JSON.stringify(saved()))}catch(e){}};function broadcast(){persist();if(channel&&!applying)channel.postMessage({kind:'state',data:saved()})}function restore(){try{let x=JSON.parse(localStorage.getItem('bai6_student_state')||'{}');if(x&&typeof x.idx==='number'){idx=Math.max(0,Math.min(S.length-1,x.idx));questions=x.questions||{};matchState=x.matchState||{};browser=x.browser||browser;strokes=x.strokes||{};clockSecs=x.clockSecs||0}}catch(e){}}restore();function scale(){const k=Math.min(innerWidth/1280,innerHeight/720);$('#stage').style.transform=`scale(${k})`;$('#stage').style.left=`calc(50% - ${1280*k/2}px)`;$('#stage').style.top=`calc(50% - ${720*k/2}px)`}addEventListener('resize',scale);scale();function go(i,send=true){idx=Math.max(0,Math.min(S.length-1,i));render();if(send)broadcast()}function btn(label,act,cls=''){return `<button class="action ${cls}" data-act="${esc(act)}">${esc(label)}</button>`}function renderBody(d){const rows=d.body||[];const st=questions[idx]||{};switch(d.kind){case 'hero':return `<div class="hero"><div class="hero-left"><span class="pill">${esc(rows[1])}</span><div class="hero-number">${esc(rows[0])}</div><div class="hero-sub">${esc(rows[2])}</div></div><div class="hero-art">🌐<small>KHÁM PHÁ · KẾT NỐI · HỌC TẬP</small></div></div>`;case 'sections':return `<div class="section-list">${rows.map(([a,b])=>`<div class="section-card"><strong>${esc(a)}</strong>${esc(b)}</div>`).join('')}</div>`;case 'comparison':return `<div class="compare">${rows.map(([a,b,c])=>`<article class="card wash"><h3>${esc(a)}</h3><p><strong>${esc(b)}</strong></p><p>${esc(c)}</p></article>`).join('')}</div>`;case 'bullets':return `<div class="stack">${rows.map(([a,b])=>`<div class="item"><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join('')}</div>`;case 'note':return `<div class="stack">${rows.map(([a,b])=>`<div class="note-item"><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join('')}</div><p style="font-size:21px;color:var(--muted);margin-top:18px">✎ Học sinh ghi các ý trên vào vở.</p>`;case 'homework':return `<div class="stack">${rows.map((x,i)=>`<div class="item" style="grid-template-columns:60px 1fr"><b>${i+1}.</b>${esc(x)}</div>`).join('')}</div>`;case 'illustration':return `<div class="illustration"><div class="illustration-icon">🌍</div><div class="stack">${rows.map(x=>`<div class="card wash">${esc(x)}</div>`).join('')}</div></div>`;case 'graphic':return `<div class="illustration"><div class="illustration-icon">🕸️</div><div class="stack">${rows.map(x=>`<div class="card wash">${esc(x)}</div>`).join('')}</div></div>`;case 'webmap':return `<div class="webmap">${rows.map((x,i)=>`<button data-webmap="${i}" class="${st.webmap===i?'chosen':''}">${esc(x)}${st.webmap===i?' ✓':''}</button>`).join('')}</div><p style="font-size:21px;color:var(--muted)">Mô phỏng cấu trúc website · Nhấp để chọn trang.</p>`;case 'urls':return rows.map((u,i)=>`<div class="url-card">${esc(u)}</div>${i===0?'<p style="margin-bottom:16px">Địa chỉ trang chủ website</p>':'<p>Địa chỉ một trang nội dung trong website</p>'}`).join('');case 'quiz':return `<div class="quiz-question">${esc(d.body)}</div><div class="quiz-options">${d.options.map(([letter,label])=>`<button data-choice="${letter}" class="choice ${st.selected===letter?'selected':''} ${st.revealed?(letter===d.answer?'good':st.selected===letter?'bad':''):''}"><em>${esc(letter)}</em>${esc(label)}</button>`).join('')}</div><div class="actions">${btn('Kiểm tra','check')}${btn(st.revealed?'Ẩn đáp án':'Hiện đáp án','answer','secondary')}${btn('Làm lại','reset','secondary')}</div>${st.feedback?`<div class="answer">${esc(st.feedback)}</div>`:''}`;case 'open':return `<div class="big-question">${esc(d.body)}</div><textarea class="textarea" data-open-answer="1" placeholder="Mời học sinh lên bảng viết hoặc nhập câu trả lời…">${esc(st.text||'')}</textarea><div class="actions">${btn(st.revealed?'Ẩn gợi ý':'Hiện gợi ý','answer')}${btn('Xóa câu trả lời','reset','secondary')}</div>${st.revealed?`<div class="answer">${esc(d.hint)}</div>`:''}`;case 'navicons':return `<div class="grid3">${rows.map(([icon,label])=>`<div class="card wash" style="text-align:center"><div style="font-size:66px;color:var(--blue)">${esc(icon)}</div><div style="font-size:25px">${esc(label)}</div></div>`).join('')}</div>`;case 'browser':return browserRender();case 'match':return matchRender(d);case 'worksheet':return `<p class="pill" style="margin-bottom:18px">Phiếu học tập ngay trên slide · Mời học sinh lên bảng</p><div class="worksheet-list">${rows.map(([num,label],i)=>`<button data-jump="${idx+i+1}"><strong>Câu ${esc(num)} ↗</strong>${esc(label)}</button>`).join('')}</div>`;case 'sgk':return `<div class="sgk-view"><img src="assets/${esc(rows[0])}" alt="Trang SGK được cung cấp"><aside><span class="pill">QUAN SÁT HÌNH SGK</span><p style="margin-top:17px">${esc(rows[1])}</p></aside></div>`;case 'weather':return `<div class="sim-label">DỮ LIỆU MINH HỌA · KHÔNG PHẢI DỰ BÁO HIỆN TẠI</div><div class="weather-cards">${['Hà Nội','Đà Nẵng','TP. Hồ Chí Minh'].map((s,i)=>`<button data-weather="${i}" class="${st.weather===i?'selected':''}">🌤️<br>${s}</button>`).join('')}</div><div class="answer">${st.weather===undefined?'Chọn một địa điểm để thực hành xác định tên nguồn, nhiệt độ, trạng thái và thời điểm cập nhật.':`Khu vực: ${['Hà Nội','Đà Nẵng','TP. Hồ Chí Minh'][st.weather]}. Hãy xác định nơi cần đọc: nguồn, nhiệt độ, tình trạng thời tiết, cảnh báo và thời điểm cập nhật. (Không cung cấp số liệu thời tiết thật.)`}</div>`;case 'news':return `<div class="sim-label">TIN MINH HỌA · KHÔNG PHẢI TIN THỜI SỰ THỰC</div><div class="news-cards">${[['Bản tin học đường','Hoạt động đọc sách'],['Bản tin khoa học','Khám phá hệ Mặt Trời'],['Bản tin cộng đồng','Ngày hội bảo vệ môi trường']].map(([a,b],i)=>`<button data-news="${i}"><b>${esc(a)}</b>${esc(b)}<p style="font-size:19px;margin-top:22px">Mở nội dung →</p></button>`).join('')}</div>${st.news!==undefined?`<div class="answer">Nguồn: Bản tin mô phỏng · Chủ đề: ${['Hoạt động đọc sách','Khám phá hệ Mặt Trời','Ngày hội bảo vệ môi trường'][st.news]} · Ngày đăng: không cung cấp · Nội dung: tình huống luyện nhận diện thông tin. ${btn('Đóng','close-news','secondary')}</div>`:''}`;default:return ''}}
+function browserRender(){const cur=browser.url;let title='',text='',links=[];if(cur==='about:home'){title='Trang chủ trình duyệt mô phỏng';text='Nhập vi.wikipedia.org, khituongvietnam.gov.vn hoặc vtvgo.vn trên thanh địa chỉ rồi Enter.';links=[['Wikipedia','https://vi.wikipedia.org'],['Thời tiết','https://khituongvietnam.gov.vn'],['Thời sự','https://vtvgo.vn']]}else if(cur.includes('wikipedia')){title=cur.toLowerCase().includes('hệ_mặt_trời')?'Hệ Mặt Trời':cur.includes('mặt_trời')?'Mặt Trời':'Wikipedia tiếng Việt (mô phỏng)';text='Tên trang · ô tìm kiếm · nội dung · siêu liên kết. Chọn một liên kết, sau đó thử Back.';links=[['Hệ Mặt Trời','https://vi.wikipedia.org/wiki/Hệ_Mặt_Trời'],['Mặt Trời','https://vi.wikipedia.org/wiki/Mặt_Trời']]}else if(cur.includes('khituong')){title='Trang thông tin thời tiết (mô phỏng)';text='Nguồn: khí tượng · Vùng thông tin: địa điểm, tình trạng, thời điểm cập nhật. Không có số liệu trực tiếp.';links=[['Chuyên mục dự báo','https://khituongvietnam.gov.vn/du-bao']]}else if(cur.includes('vtv')){title='Trang tin tức (mô phỏng)';text='Nhận diện nguồn, chương trình, tiêu đề, ngày đăng và ý chính.';links=[['Mục thời sự','https://vtvgo.vn/thoi-su']]}else{title='Địa chỉ chưa có trong mô phỏng';text='Hãy thử một trong ba địa chỉ hướng dẫn. Trang thật chỉ mở khi giáo viên chủ động mở trình duyệt thực tế.'}return `<div class="browser"><div class="browser-bar"><button data-browse="back" ${browser.at===0?'disabled':''} title="Back">←</button><button data-browse="forward" ${browser.at===browser.history.length-1?'disabled':''} title="Forward">→</button><button data-browse="reload" title="Reload">↻</button><button data-browse="home" title="Home">⌂</button><input id="urlInput" value="${esc(cur==='about:home'?'':cur)}" aria-label="Thanh địa chỉ" placeholder="Nhập địa chỉ website rồi nhấn Enter"><button data-browse="enter" title="Truy cập">↵</button><button data-browse="bookmark" title="Lưu dấu trang">${browser.bookmarks.includes(cur)?'★':'☆'}</button></div><div class="browser-caption">TRÌNH DUYỆT MÔ PHỎNG OFFLINE · KHÔNG TRUY CẬP INTERNET THẬT</div><div class="browser-page"><h3>${esc(title)}</h3><p>${esc(text)}</p><div>${links.map(([t,url])=>`<button class="browser-link" data-url="${esc(url)}">${esc(t)} ↗</button>`).join('')}</div>${browser.bookmarks.length?`<div class="bookmark-list" style="margin-top:18px"><b>★ Dấu trang:</b>${browser.bookmarks.map(u=>`<button data-url="${esc(u)}">${esc(u.replace(/^https:\/\//,''))}</button>`).join('')}</div>`:''}</div></div>`}
+function matchRender(d){let state=matchState[idx]||{left:null,pairs:{},reveal:false},right=[...d.body.map(x=>x[1])];let order=d.body.length===4?[2,0,3,1]:right.map((x,i)=>i);return `<div class="match-grid"><div class="match-col">${d.body.map(([a,b],i)=>`<button class="match-btn ${state.left===i?'selected':''} ${state.pairs[i]!==undefined?'done':''}" data-match-left="${i}">${i+1}. ${esc(a)} ${state.pairs[i]!==undefined?'✓':''}</button>`).join('')}</div><div class="match-col">${order.map((original,j)=>`<button class="match-btn" data-match-right="${original}">${'abcd'[j]}) ${esc(d.body[original][1])}</button>`).join('')}</div></div><div class="match-result">${Object.entries(state.pairs).map(([a,z])=>`${Number(a)+1}–${'abcd'[order.indexOf(z)]}`).join(' · ')||'Nhấp một ô ở cột trái rồi chọn nội dung tương ứng ở cột phải.'}</div><div class="actions">${btn('Kiểm tra','match-check')}${btn('Hiện đáp án','match-answer','secondary')}${btn('Làm lại','match-reset','secondary')}</div>${state.reveal?`<div class="answer">${d.body.map((x,i)=>`${i+1}–${'abcd'[order.indexOf(i)]}`).join(' · ')}</div>`:''}`}
+function render(){const d=S[idx];$('#slide').innerHTML=`<header><div class="kicker">${esc(d.sec)} · ${esc(d.minutes||'TIN HỌC 6')}</div><h1>${esc(d.title)}</h1></header><div id="main">${renderBody(d)}</div><div class="footer"><span>${esc(d.source)}</span><strong>TIẾT ${d.sec.startsWith('T2')?'2':'1'} · ${idx+1}/${S.length}</strong></div>`;$('#count').textContent=`${idx+1}/${S.length}`;$('#prev').disabled=idx===0;$('#next').disabled=idx===S.length-1;$('#returnBtn').hidden=returnIdx===null;$('#draw').classList.toggle('drawing',drawMode);renderDrawing();updatePresenter();if(role==='preview')$('#tools').style.display='none'}function updatePresenter(){if(!document.body.classList.contains('presenter'))return;const d=S[idx];$('#presenterTitle').textContent=`${idx+1}. ${d.title}`;$('#presenterNotes').textContent=d.notes;$('#presenterAnswer').textContent=String(d.hint||d.answer||((d.kind==='match')?d.body.map((x,i)=>`${i+1}: ${x[1]}`).join(' · '):'Gợi ý trả lời xem trong giáo án, hoặc hỏi học sinh giải thích.'));$('#presenterNext').textContent=S[idx+1]?.title||'Kết thúc';$('#presenterTime').textContent=`Thời gian hoạt động: ${d.minutes||'Theo tiến trình giáo án'}`}
+function browse(url,fromHistory=false){if(!fromHistory){browser.history=browser.history.slice(0,browser.at+1);browser.history.push(url);browser.at=browser.history.length-1}browser.url=url;render();broadcast()}function onAction(ev){let t=ev.target.closest('button');if(!t)return;const d=S[idx];const q=questions[idx]||(questions[idx]={});if(t.dataset.choice){q.selected=t.dataset.choice;q.revealed=false;q.feedback='';render();broadcast();return}if(t.dataset.jump){go(Number(t.dataset.jump));return}if(t.dataset.webmap!==undefined){q.webmap=Number(t.dataset.webmap);render();broadcast();return}if(t.dataset.weather!==undefined){q.weather=Number(t.dataset.weather);render();broadcast();return}if(t.dataset.news!==undefined){q.news=Number(t.dataset.news);render();broadcast();return}if(t.dataset.matchLeft!==undefined){let z=matchState[idx]||(matchState[idx]={left:null,pairs:{},reveal:false});z.left=Number(t.dataset.matchLeft);render();return}if(t.dataset.matchRight!==undefined){let z=matchState[idx]||(matchState[idx]={left:null,pairs:{},reveal:false});if(z.left!==null){let val=Number(t.dataset.matchRight);for(let key of Object.keys(z.pairs))if(z.pairs[key]===val)delete z.pairs[key];z.pairs[z.left]=val;z.left=null;render();broadcast()}return}if(t.dataset.url){browse(t.dataset.url);return}if(t.dataset.browse){let a=t.dataset.browse;if(a==='back'&&browser.at>0){browser.at--;browse(browser.history[browser.at],true)}if(a==='forward'&&browser.at<browser.history.length-1){browser.at++;browse(browser.history[browser.at],true)}if(a==='home')browse('about:home');if(a==='reload'){render();broadcast()}if(a==='enter'){let u=$('#urlInput').value.trim();browse(u.startsWith('http')?u:'https://'+u)}if(a==='bookmark'){let u=browser.url;if(u!=='about:home'){browser.bookmarks=browser.bookmarks.includes(u)?browser.bookmarks.filter(x=>x!==u):[...browser.bookmarks,u];render();broadcast()}}return}let a=t.dataset.act;if(!a)return;if(a==='answer'){q.revealed=!q.revealed;q.feedback='';render();broadcast()}if(a==='check'){q.revealed=true;q.feedback=q.selected?`Em chọn ${q.selected}. ${q.selected===d.answer?'Chính xác!':'Hãy đối chiếu đáp án đúng.'} Đáp án: ${d.answer}.`:'Hãy chọn phương án trước khi kiểm tra.';render();broadcast()}if(a==='reset'){questions[idx]={};render();broadcast()}if(a==='match-check'){let z=matchState[idx]||(matchState[idx]={left:null,pairs:{},reveal:false});z.reveal=true;z.feedback=d.body.every((x,i)=>z.pairs[i]===i);render();broadcast()}if(a==='match-answer'){let z=matchState[idx]||(matchState[idx]={left:null,pairs:{},reveal:false});z.reveal=!z.reveal;render();broadcast()}if(a==='match-reset'){matchState[idx]={left:null,pairs:{},reveal:false};render();broadcast()}if(a==='close-news'){delete q.news;render();broadcast()}}$('#slide').addEventListener('click',onAction);$('#slide').addEventListener('input',e=>{if(e.target.matches('[data-open-answer]')){(questions[idx]||(questions[idx]={})).text=e.target.value;broadcast()}});$('#slide').addEventListener('keydown',e=>{if(e.target.id==='urlInput'&&e.key==='Enter'){e.preventDefault();browse(e.target.value.startsWith('http')?e.target.value:'https://'+e.target.value)}});
+function drawPoint(e){const r=$('#draw').getBoundingClientRect();return {x:(e.clientX-r.left)*1280/r.width,y:(e.clientY-r.top)*720/r.height}}function renderDrawing(){const c=$('#draw'),ctx=c.getContext('2d');ctx.clearRect(0,0,1280,720);ctx.strokeStyle='#e75d22';ctx.lineWidth=5;ctx.lineCap='round';ctx.lineJoin='round';for(const line of strokes[idx]||[]){if(!line.length)continue;ctx.beginPath();ctx.moveTo(line[0].x,line[0].y);for(const p of line.slice(1))ctx.lineTo(p.x,p.y);ctx.stroke()}}$('#draw').addEventListener('pointerdown',e=>{if(!drawMode)return;drawing=true;currentStroke=[drawPoint(e)];($('#draw').setPointerCapture)(e.pointerId)});$('#draw').addEventListener('pointermove',e=>{if(!drawing||!drawMode)return;currentStroke.push(drawPoint(e));let arr=strokes[idx]||(strokes[idx]=[]);if(!arr.includes(currentStroke))arr.push(currentStroke);renderDrawing()});$('#draw').addEventListener('pointerup',e=>{if(!drawing)return;drawing=false;let arr=strokes[idx]||(strokes[idx]=[]);if(!arr.includes(currentStroke))arr.push(currentStroke);currentStroke=null;renderDrawing();broadcast()});$('#drawBtn').onclick=()=>{drawMode=!drawMode;$('#drawBtn').textContent=drawMode?'✓ Xong bút':'✏ Bút';$('#draw').classList.toggle('drawing',drawMode)};$('#undoBtn').onclick=()=>{(strokes[idx]||[]).pop();renderDrawing();broadcast()};$('#clearBtn').onclick=()=>{strokes[idx]=[];renderDrawing();broadcast()};
+$('#prev').onclick=()=>go(idx-1);$('#next').onclick=()=>go(idx+1);$('#menuBtn').onclick=()=>$('#menu').classList.add('show');$('#closeMenu').onclick=()=>$('#menu').classList.remove('show');$('#startT1').onclick=()=>{go(0);$('#menu').classList.remove('show')};const T2=S.findIndex(x=>x.sec.startsWith('T2'));$('#startT2').onclick=()=>{go(T2);$('#menu').classList.remove('show')};$('#menuItems').innerHTML=S.map((d,i)=>`<button data-menu="${i}"><small>${i+1}. ${esc(d.sec)}</small><br>${esc(d.title)}</button>`).join('');$('#menuItems').onclick=e=>{let b=e.target.closest('[data-menu]');if(b){go(Number(b.dataset.menu));$('#menu').classList.remove('show')}};function notebook(){if(returnIdx===null)returnIdx=idx;let target=S.findIndex((x,i)=>i>= (idx>=T2?T2:0) && x.sec.startsWith(idx>=T2?'T2 · GHI VỞ':'T1 · GHI VỞ'));go(target)}$('#notesJump').onclick=notebook;$('#returnBtn').onclick=()=>{if(returnIdx!==null){let v=returnIdx;returnIdx=null;go(v)}};$('#fullBtn').onclick=()=>{if(!document.fullscreenElement)document.documentElement.requestFullscreen?.();else document.exitFullscreen?.()};function clockView(){let x=clockSecs;$('#clock').textContent=`${String(Math.floor(x/60)).padStart(2,'0')}:${String(x%60).padStart(2,'0')}`}$('#clockBtn').onclick=()=>{clockRunning=!clockRunning;$('#clockBtn').textContent=clockRunning?'Ⅱ':'▶';if(clockTick)clearInterval(clockTick);if(clockRunning)clockTick=setInterval(()=>{clockSecs++;clockView()},1000)};$('#resetBtn').onclick=()=>{if(!confirm('Bắt đầu tiết mới? Xóa tất cả lựa chọn, nét viết và dấu trang mô phỏng?'))return;questions={};matchState={};strokes={};browser={url:'about:home',history:['about:home'],at:0,bookmarks:[]};clockSecs=0;clockRunning=false;clearInterval(clockTick);clockView();go(idx)};clockView();document.addEventListener('keydown',e=>{if(e.target.matches('input,textarea')||document.body.classList.contains('presenter'))return;if(e.key==='ArrowRight'||e.key==='PageDown')go(idx+1);if(e.key==='ArrowLeft'||e.key==='PageUp')go(idx-1);if(e.key==='Home')go(0);if(e.key==='End')go(S.length-1);if(e.key==='Escape')$('#menu').classList.remove('show')});
+let child=null;function openPresenter(){if(role==='preview')return;let url=new URL(location.href);url.searchParams.set('role','preview');child=window.open(url.toString(),'bai6_audience','width=1280,height=800');if(!child){alert('Trình duyệt chặn cửa sổ mới. Hãy cho phép pop-up rồi bấm lại.');return}document.body.classList.add('presenter');$('#preview').src=url.toString();updatePresenter();broadcast();alert('Đã mở cửa sổ học sinh. Hãy dùng Windows + P → Extend và kéo cửa sổ học sinh sang máy chiếu. Góc giáo viên ở cửa sổ hiện tại.')};$('#presentBtn').onclick=openPresenter;$('#pPrev').onclick=()=>go(idx-1);$('#pNext').onclick=()=>go(idx+1);$('#pClose').onclick=()=>document.body.classList.remove('presenter');$('#pNote').onclick=notebook;$('#pMenu').onclick=()=>{$('#menu').classList.add('show')};if(channel)channel.onmessage=e=>{if(e.data?.kind==='state'&&e.data.data){applying=true;const s=e.data.data;idx=s.idx;questions=s.questions||{};matchState=s.matchState||{};browser=s.browser||browser;strokes=s.strokes||{};clockSecs=s.clockSecs||0;render();clockView();applying=false}};addEventListener('storage',e=>{if(e.key==='bai6_student_state'&&e.newValue){try{const s=JSON.parse(e.newValue);idx=s.idx;questions=s.questions||{};matchState=s.matchState||{};browser=s.browser||browser;strokes=s.strokes||{};render()}catch(err){}}});if(role==='preview'){$('#tools').style.display='none';document.body.style.background='black';}render();})();
+</script></body></html>
