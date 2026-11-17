@@ -1,1 +1,1255 @@
-window.AI6_LESSON={"id": 8, "title": "Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án", "mode": "Trực tiếp tại phòng Tin học", "count": 24, "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "materials": "P8.1–P8.3; mẫu phiếu ý tưởng; mẫu poster A4 hoặc kịch bản hình sáu khung; rubric chung ở phụ lục; bảng bốn mốc tại nhà. GV thống nhất kênh nộp trong lớp trước khi giao.", "alternatives": "Mang ý tưởng đã quan sát; nhóm bốn phân vai điều phối, thiết kế, kiểm chứng, tổng hợp. Có thể chọn sản phẩm giấy.", "video": {"index": 5, "title": "AI: How Computer Vision Works", "start": 15, "end": 40, "poster": "frame_5_20.jpg", "url": "https://contentful-videos.code.org/90t6bu6vlf76/5LHEqBfj39mMaxu0jlpFBQ/e8c81cbd51865522b439643e03a24d53/videoplayback.mp4", "question": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?", "local": "code-5.mp4"}, "outcome": "Phiếu ý tưởng và bản nháp dự án cùng thẻ bàn giao", "slides": [{"type": "cover", "id": "08-01", "number": 1, "title": "Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án", "note": {"activity": "Khởi động", "purpose": "Nhận diện một vấn đề cụ thể thay cho ý tưởng quá rộng.", "teacher": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?", "students": "Trao đổi cặp và sửa một mô tả còn rộng.", "report": "Hai HS đọc vấn đề đã thu hẹp.", "conclusion": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "assessment": "Quan sát HS có nêu kết quả cụ thể; hỗ trợ bằng câu Ai cần làm việc gì?", "answers": ["Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Hôm nay, chúng ta tìm hiểu “Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án”. Cuối hoạt động, các em cần có phiếu ý tưởng và bản nháp dự án cùng thẻ bàn giao.", "explanation": "Trong tiết này, học sinh cần:\nNêu hai ý tưởng nhỏ rồi chọn một ý tưởng phù hợp.\nMô tả dữ liệu vào, việc AI làm, kết quả và cách con người kiểm tra.\nChọn hình thức sản phẩm và chuẩn bị làm dự án tại nhà.", "delivery": "Đọc đầu bài, nêu sản phẩm cuối và mời một ví dụ quen thuộc. Chưa chiếu đáp án hay giao thao tác công cụ ở slide này.", "answer": "• Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "closing": "Giới thiệu mục tiêu và sản phẩm; chưa yêu cầu HS thực hiện công cụ ở slide bìa.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Sau bài học, em làm được gì?”.", "students": "Đọc tên bài, liên hệ một trải nghiệm hoặc một câu hỏi mình muốn tìm hiểu."}}, "theme": "blue"}, {"type": "goals", "goals": ["Nêu hai ý tưởng nhỏ rồi chọn một ý tưởng phù hợp.", "Mô tả dữ liệu vào, việc AI làm, kết quả và cách con người kiểm tra.", "Chọn hình thức sản phẩm và chuẩn bị làm dự án tại nhà."], "outcome": "Phiếu ý tưởng và bản nháp dự án cùng thẻ bàn giao", "id": "08-02", "number": 2, "title": "Sau bài học, em làm được gì?", "note": {"activity": "Khởi động", "purpose": "Nhận diện một vấn đề cụ thể thay cho ý tưởng quá rộng.", "teacher": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?", "students": "Trao đổi cặp và sửa một mô tả còn rộng.", "report": "Hai HS đọc vấn đề đã thu hẹp.", "conclusion": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "assessment": "Quan sát HS có nêu kết quả cụ thể; hỗ trợ bằng câu Ai cần làm việc gì?", "answers": ["Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Cuối hoạt động, các em cần làm được ba việc sau.", "explanation": "Nêu hai ý tưởng nhỏ rồi chọn một ý tưởng phù hợp.\nMô tả dữ liệu vào, việc AI làm, kết quả và cách con người kiểm tra.\nChọn hình thức sản phẩm và chuẩn bị làm dự án tại nhà.", "delivery": "Nói ngắn gọn từng mục tiêu. Hỏi một HS: “Cuối hoạt động, em dùng sản phẩm nào để cho thấy mình đã làm được?”. Tránh diễn giải toàn bộ nội dung trước khi trải nghiệm.", "answer": "• Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "closing": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "transition": "Tiếp theo, mình cùng tìm hiểu: “KHỞI ĐỘNG”.", "students": "Đọc mục tiêu, xác định sản phẩm cần có và hỏi phần chưa rõ."}}, "theme": "cream"}, {"type": "divider", "id": "08-03", "number": 3, "title": "KHỞI ĐỘNG", "note": {"activity": "Khởi động", "purpose": "Nhận diện một vấn đề cụ thể thay cho ý tưởng quá rộng.", "teacher": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?", "students": "Trao đổi cặp và sửa một mô tả còn rộng.", "report": "Hai HS đọc vấn đề đã thu hẹp.", "conclusion": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "assessment": "Quan sát HS có nêu kết quả cụ thể; hỗ trợ bằng câu Ai cần làm việc gì?", "answers": [], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Chúng ta chuyển sang phần “KHỞI ĐỘNG”.", "explanation": "Đây là slide dẫn dắt chỉ có tiêu đề. Dừng ngắn để báo hiệu đổi hoạt động; hướng dẫn chi tiết nằm ở slide tiếp theo.", "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.", "answer": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?", "closing": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Ý tưởng nào dễ bắt đầu hơn?”.", "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."}}, "theme": "blue"}, {"type": "scenario", "text": "Ý tưởng A: “Làm AI giúp mọi người”. Ý tưởng B: “Giúp bạn học hiểu ba từ tiếng Anh và kiểm tra lại bằng bảng từ”. Ý tưởng nào dễ bắt đầu hơn?", "task": "Chỉ ra ở ý tưởng B: ai được giúp và cần làm việc gì.", "answer": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "visual": "flow", "time": 2, "id": "08-04", "number": 4, "title": "Ý tưởng nào dễ bắt đầu hơn?", "note": {"activity": "Khởi động", "purpose": "Nhận diện một vấn đề cụ thể thay cho ý tưởng quá rộng.", "teacher": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?", "students": "Trao đổi cặp và sửa một mô tả còn rộng.", "report": "Hai HS đọc vấn đề đã thu hẹp.", "conclusion": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "assessment": "Quan sát HS có nêu kết quả cụ thể; hỗ trợ bằng câu Ai cần làm việc gì?", "answers": ["Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Ý tưởng A: “Làm AI giúp mọi người”. Ý tưởng B: “Giúp bạn học hiểu ba từ tiếng Anh và kiểm tra lại bằng bảng từ”. Ý tưởng nào dễ bắt đầu hơn?", "explanation": "\nDự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "delivery": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?\nHai HS đọc vấn đề đã thu hẹp.", "answer": "• Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "closing": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.", "transition": "Tiếp theo, mình cùng tìm hiểu: “KHÁM PHÁ 1: SO SÁNH VÀ CHỌN Ý TƯỞNG”.", "students": "Chỉ ra ở ý tưởng B: ai được giúp và cần làm việc gì."}}, "theme": "cream", "diagram": [["Nêu hai ý tưởng", "Giúp ai và giúp việc gì?"], ["So sánh", "Dữ liệu, cách kiểm, thiết bị."], ["Chọn một ý tưởng", "Viết phiếu và phác thảo."]]}, {"type": "divider", "id": "08-05", "number": 5, "title": "KHÁM PHÁ 1: SO SÁNH VÀ CHỌN Ý TƯỞNG", "note": {"activity": "Khám phá 2.1 So sánh và chọn ý tưởng", "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.", "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?", "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.", "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.", "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.", "answers": [], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Chúng ta chuyển sang phần “KHÁM PHÁ 1: SO SÁNH VÀ CHỌN Ý TƯỞNG”.", "explanation": "Đây là slide dẫn dắt chỉ có tiêu đề. Dừng ngắn để báo hiệu đổi hoạt động; hướng dẫn chi tiết nằm ở slide tiếp theo.", "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.", "answer": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?", "closing": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Máy làm gì, người làm gì?”.", "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."}}, "theme": "blue"}, {"type": "question", "question": "Máy làm gì, người làm gì?", "instruction": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?", "poster": "frame_5_20.jpg", "id": "08-06", "number": 6, "title": "Máy làm gì, người làm gì?", "note": {"activity": "Khám phá 2.1 So sánh và chọn ý tưởng", "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.", "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?", "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.", "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.", "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.", "answers": ["Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?", "explanation": "Đây là câu hỏi định hướng quan sát, không yêu cầu HS hiểu hết thuật ngữ tiếng Anh. Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "delivery": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?\nNhóm nêu một lí do chọn và một lí do bỏ ý còn lại.", "answer": "• Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "closing": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Video: Nhận dạng hình ảnh trên cánh đồng”.", "students": "Suy nghĩ về câu hỏi định hướng, ghi một dự đoán và tìm chi tiết đối chiếu khi xem video."}}, "theme": "cream"}, {"type": "video", "video": {"index": 5, "title": "AI: How Computer Vision Works", "start": 15, "end": 40, "poster": "frame_5_20.jpg", "url": "https://contentful-videos.code.org/90t6bu6vlf76/5LHEqBfj39mMaxu0jlpFBQ/e8c81cbd51865522b439643e03a24d53/videoplayback.mp4", "question": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?", "local": "code-5.mp4"}, "id": "08-07", "number": 7, "title": "Video: Nhận dạng hình ảnh trên cánh đồng", "note": {"activity": "Khám phá 2.1 So sánh và chọn ý tưởng", "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.", "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?", "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.", "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.", "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.", "answers": ["Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Mình xem đoạn video với câu hỏi: Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?", "explanation": "Dùng nút Phát đoạn gợi ý, từ 15 đến 40 giây. Video tiếng Anh; GV giải nghĩa phần liên quan bằng tiếng Việt. Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "delivery": "Trước xem: giao một câu hỏi. Trong xem: cho HS chú ý một ví dụ, dừng khi cần giải nghĩa. Sau xem: mời hai ý kiến và yêu cầu chỉ chi tiết làm căn cứ. Nếu trình duyệt chặn âm thanh ở màn chiếu, bấm phát trực tiếp tại cửa sổ đó một lần.", "answer": "• Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "closing": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Một ý tưởng nhỏ cần rõ những gì?”.", "students": "Quan sát chi tiết liên quan câu hỏi; nêu một nhận xét có căn cứ sau đoạn xem."}}, "theme": "cream"}, {"type": "concept", "cards": [["Nhu cầu và người dùng", "Ai cần làm việc gì? Phạm vi đủ nhỏ để kiểm tra hoàn thành."], ["Vai trò của AI", "Dữ liệu vào, chức năng hỗ trợ và loại kết quả ra."], ["Vai trò con người", "Đặt mục tiêu, kiểm tra, quyết định; xử lí khi kết quả chưa phù hợp."]], "visual": "flow", "id": "08-08", "number": 8, "title": "Một ý tưởng nhỏ cần rõ những gì?", "note": {"activity": "Khám phá 2.1 So sánh và chọn ý tưởng", "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.", "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?", "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.", "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.", "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.", "answers": ["Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Mình cùng làm rõ “Một ý tưởng nhỏ cần rõ những gì?”. Ai cần làm việc gì? Phạm vi đủ nhỏ để kiểm tra hoàn thành.", "explanation": "Nhu cầu và người dùng: Ai cần làm việc gì? Phạm vi đủ nhỏ để kiểm tra hoàn thành.\nVai trò của AI: Dữ liệu vào, chức năng hỗ trợ và loại kết quả ra.\nVai trò con người: Đặt mục tiêu, kiểm tra, quyết định; xử lí khi kết quả chưa phù hợp.", "delivery": "Giải thích lần lượt các khối trên slide. Sau mỗi ý, hỏi “Em có thể lấy một ví dụ hoặc nêu căn cứ không?”. Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?", "answer": "• Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "closing": "Ý tưởng nhỏ và rõ sẽ dễ thực hiện, dễ kiểm tra hơn.", "transition": "Tiếp theo, mình cùng tìm hiểu: “P8.1 — Đặt hai ý tưởng cạnh nhau”.", "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý."}}, "theme": "cream", "diagram": [["Nêu hai ý tưởng", "Giúp ai và giúp việc gì?"], ["So sánh", "Dữ liệu, cách kiểm, thiết bị."], ["Chọn một ý tưởng", "Viết phiếu và phác thảo."]], "takeaway": "Ý tưởng nhỏ và rõ sẽ dễ thực hiện, dễ kiểm tra hơn."}, {"type": "worksheet", "worksheet": {"title": "P8.1 So sánh hai ý tưởng", "intro": "Chọn nhu cầu nhỏ, gần gũi; chưa cần làm sản phẩm ở bước này.", "headers": null, "rows": null, "questions": [], "answers": ["Đạt khi so sánh hai ý dựa nhu cầu, dữ liệu, khả năng kiểm và điều kiện. Có thể chọn giải pháp chủ yếu dùng công cụ thông thường nếu giải thích rõ phần AI hữu ích. Không bắt ý tưởng phức tạp mới đạt."], "pages": [{"title": "Nêu hai ý tưởng", "instruction": "Chọn nhu cầu nhỏ, gần gũi; chưa cần làm sản phẩm ở bước này.", "fields": [{"label": "Ý tưởng A: giúp ai làm việc gì?", "placeholder": "", "key": "08-09-v3-0"}, {"label": "Ý tưởng B: giúp ai làm việc gì?", "placeholder": "", "key": "08-09-v3-1"}], "example": "Ví dụ: giải nghĩa ba từ tiếng Anh; nhận biết Bút/Cốc qua ảnh."}, {"title": "So sánh ý tưởng — phần 1", "instruction": "Điền một câu ngắn cho mỗi ý tưởng theo từng tiêu chí.", "headers": ["Điều cần xem xét", "Ý tưởng A", "Ý tưởng B"], "rows": [["AI hỗ trợ việc gì?", {"label": "AI hỗ trợ việc gì? — A", "placeholder": "", "key": "08-09-v3-2"}, {"label": "AI hỗ trợ việc gì? — B", "placeholder": "", "key": "08-09-v3-3"}], ["Dùng dữ liệu nào?", {"label": "Dùng dữ liệu nào? — A", "placeholder": "", "key": "08-09-v3-4"}, {"label": "Dùng dữ liệu nào? — B", "placeholder": "", "key": "08-09-v3-5"}], ["Kiểm tra kết quả bằng gì?", {"label": "Kiểm tra kết quả bằng gì? — A", "placeholder": "", "key": "08-09-v3-6"}, {"label": "Kiểm tra kết quả bằng gì? — B", "placeholder": "", "key": "08-09-v3-7"}]]}, {"title": "So sánh ý tưởng — phần 2", "instruction": "Điền một câu ngắn cho mỗi ý tưởng theo từng tiêu chí.", "headers": ["Điều cần xem xét", "Ý tưởng A", "Ý tưởng B"], "rows": [["Có thiết bị và thời gian không?", {"label": "Có thiết bị và thời gian không? — A", "placeholder": "", "key": "08-09-v3-8"}, {"label": "Có thiết bị và thời gian không? — B", "placeholder": "", "key": "08-09-v3-9"}], ["Sẽ làm sản phẩm dạng nào?", {"label": "Sẽ làm sản phẩm dạng nào? — A", "placeholder": "", "key": "08-09-v3-10"}, {"label": "Sẽ làm sản phẩm dạng nào? — B", "placeholder": "", "key": "08-09-v3-11"}]]}, {"title": "Chọn một ý tưởng", "instruction": "Dựa vào bảng so sánh, thống nhất lựa chọn của nhóm.", "fields": [{"label": "Nhóm chọn A hay B? Vì sao?", "placeholder": "", "key": "08-09-v3-12"}, {"label": "Cần làm ý tưởng nhỏ hoặc rõ hơn ở điểm nào?", "placeholder": "", "key": "08-09-v3-13"}]}]}, "time": 5, "id": "08-09", "number": 9, "title": "P8.1 — Đặt hai ý tưởng cạnh nhau", "note": {"activity": "Khám phá 2.1 So sánh và chọn ý tưởng", "purpose": "Hoàn thành đặt hai ý tưởng cạnh nhau theo các bước trên phiếu.", "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?", "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.", "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.", "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.", "answers": ["Đạt khi so sánh hai ý dựa nhu cầu, dữ liệu, khả năng kiểm và điều kiện. Có thể chọn giải pháp chủ yếu dùng công cụ thông thường nếu giải thích rõ phần AI hữu ích. Không bắt ý tưởng phức tạp mới đạt."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Mình làm phiếu “Đặt hai ý tưởng cạnh nhau” theo từng bước. Chọn nhu cầu nhỏ, gần gũi; chưa cần làm sản phẩm ở bước này.", "explanation": "1. Nêu hai ý tưởng: Chọn nhu cầu nhỏ, gần gũi; chưa cần làm sản phẩm ở bước này.\n2. So sánh ý tưởng — phần 1: Điền một câu ngắn cho mỗi ý tưởng theo từng tiêu chí.\n3. So sánh ý tưởng — phần 2: Điền một câu ngắn cho mỗi ý tưởng theo từng tiêu chí.\n4. Chọn một ý tưởng: Dựa vào bảng so sánh, thống nhất lựa chọn của nhóm.", "delivery": "Đọc yêu cầu của bước đang mở. Chỉ vào đúng ô cần ghi; cho HS trả lời rồi chuyển bước bằng nút Trang sau của phiếu. Không yêu cầu điền đáp án vào chỗ hướng dẫn.", "answer": "• Đạt khi so sánh hai ý dựa nhu cầu, dữ liệu, khả năng kiểm và điều kiện. Có thể chọn giải pháp chủ yếu dùng công cụ thông thường nếu giải thích rõ phần AI hữu ích. Không bắt ý tưởng phức tạp mới đạt.", "closing": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Chọn ý tưởng có căn cứ”.", "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."}}, "theme": "cream"}, {"type": "conclusion", "text": "Ý tưởng phù hợp cần rõ: giúp ai, giúp việc gì, dùng dữ liệu nào và kiểm tra ra sao.", "task": "Nêu lí do chọn một ý tưởng và điều cần thu hẹp ở ý tưởng còn lại.", "answer": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.", "cards": ["Dự án nhỏ cần nhu cầu, người dùng và mục tiêu rõ.", "Phân biệt việc AI hỗ trợ và việc con người làm."], "id": "08-10", "number": 10, "title": "Chọn ý tưởng có căn cứ", "note": {"activity": "Khám phá 2.1 So sánh và chọn ý tưởng", "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.", "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?", "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.", "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.", "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.", "answers": ["Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Ý tưởng phù hợp cần rõ: giúp ai, giúp việc gì, dùng dữ liệu nào và kiểm tra ra sao.", "explanation": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu rõ.\nPhân biệt việc AI hỗ trợ và việc con người làm.", "delivery": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?\nNhóm nêu một lí do chọn và một lí do bỏ ý còn lại.", "answer": "• Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.", "closing": "Ý tưởng phù hợp cần rõ: giúp ai, giúp việc gì, dùng dữ liệu nào và kiểm tra ra sao.", "transition": "Tiếp theo, mình cùng tìm hiểu: “KHÁM PHÁ 2: THIẾT KẾ Ý TƯỞNG DỰ ÁN”.", "students": "Nêu lí do chọn một ý tưởng và điều cần thu hẹp ở ý tưởng còn lại."}}, "theme": "cream"}, {"type": "divider", "id": "08-11", "number": 11, "title": "KHÁM PHÁ 2: THIẾT KẾ Ý TƯỞNG DỰ ÁN", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Mô tả rõ quan hệ con người và AI.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": [], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Chúng ta chuyển sang phần “KHÁM PHÁ 2: THIẾT KẾ Ý TƯỞNG DỰ ÁN”.", "explanation": "Đây là slide dẫn dắt chỉ có tiêu đề. Dừng ngắn để báo hiệu đổi hoạt động; hướng dẫn chi tiết nằm ở slide tiếp theo.", "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.", "answer": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Trợ lí AI trong cuộc sống của em”.", "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."}}, "theme": "blue"}, {"type": "task", "text": "Điền phiếu ý tưởng P8.2 theo từng bước. Nêu rõ việc AI hỗ trợ và việc con người kiểm tra.", "product": "Phiếu ý tưởng và bản phác thảo sản phẩm. Có thể mới là ý tưởng minh họa; không bắt buộc làm mô hình chạy thật.", "roles": ["Thao tác", "Đọc nhiệm vụ", "Ghi kết quả", "Đối chiếu"], "visual": "poster", "id": "08-12", "number": 12, "title": "Trợ lí AI trong cuộc sống của em", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Mô tả rõ quan hệ con người và AI.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": ["AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Điền phiếu ý tưởng P8.2 theo từng bước. Nêu rõ việc AI hỗ trợ và việc con người kiểm tra.", "explanation": "Phiếu ý tưởng và bản phác thảo sản phẩm. Có thể mới là ý tưởng minh họa; không bắt buộc làm mô hình chạy thật.\nAI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "delivery": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.\nPhân vai: Thao tác, Đọc nhiệm vụ, Ghi kết quả, Đối chiếu. Ghi đúng kết quả thực hiện và điều kiện của nhóm.", "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Xác định vấn đề và người dùng”.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."}}, "theme": "cream"}, {"type": "step", "heading": "Xác định vấn đề và người dùng", "text": "Giúp học sinh hiểu ba từ trong hướng dẫn tiếng Anh.", "steps": ["Nêu ai cần, cần việc gì, dấu hiệu hoàn thành.", "Đây là ví dụ để tham khảo, nhóm chọn nhu cầu của mình."], "visual": "poster", "step": 1, "time": 0, "id": "08-13", "number": 13, "title": "Xác định vấn đề và người dùng", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Mô tả rõ quan hệ con người và AI.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": ["AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Giúp học sinh hiểu ba từ trong hướng dẫn tiếng Anh.", "explanation": "Nêu ai cần, cần việc gì, dấu hiệu hoàn thành.\nĐây là ví dụ để tham khảo, nhóm chọn nhu cầu của mình.", "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nNêu ai cần, cần việc gì, dấu hiệu hoàn thành.\nĐây là ví dụ để tham khảo, nhóm chọn nhu cầu của mình.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.", "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Đầu vào và chức năng AI”.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."}}, "theme": "cream"}, {"type": "step", "heading": "Đầu vào và chức năng AI", "text": "Câu/từ mẫu → gợi ý nghĩa.", "steps": ["Chọn dữ liệu thực sự cần.", "Ghi dữ liệu không thu thập: tên, địa chỉ, thông tin riêng."], "visual": "flow", "step": 2, "time": 0, "id": "08-14", "number": 14, "title": "Đầu vào và chức năng AI", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Mô tả rõ quan hệ con người và AI.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": ["AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Câu/từ mẫu → gợi ý nghĩa.", "explanation": "Chọn dữ liệu thực sự cần.\nGhi dữ liệu không thu thập: tên, địa chỉ, thông tin riêng.", "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nChọn dữ liệu thực sự cần.\nGhi dữ liệu không thu thập: tên, địa chỉ, thông tin riêng.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.", "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Đầu ra và việc con người làm”.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."}}, "theme": "cream", "diagram": [["Dữ liệu đưa vào", "Ba từ tiếng Anh cần hiểu."], ["AI hỗ trợ", "Gợi ý nghĩa bằng tiếng Việt."], ["Con người kiểm tra", "Xem bảng từ hoặc hỏi GV."]]}, {"type": "step", "heading": "Đầu ra và con người kiểm", "text": "Gợi ý nghĩa → đối chiếu bảng từ/SGK.", "steps": ["Chỉ rõ ai kiểm tra, ai quyết định.", "Nếu chưa phù hợp: hỏi GV hoặc tìm nguồn phù hợp."], "visual": "flow", "step": 3, "time": 0, "id": "08-15", "number": 15, "title": "Đầu ra và việc con người làm", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Mô tả rõ quan hệ con người và AI.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": ["AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Gợi ý nghĩa → đối chiếu bảng từ/SGK.", "explanation": "Chỉ rõ ai kiểm tra, ai quyết định.\nNếu chưa phù hợp: hỏi GV hoặc tìm nguồn phù hợp.", "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nChỉ rõ ai kiểm tra, ai quyết định.\nNếu chưa phù hợp: hỏi GV hoặc tìm nguồn phù hợp.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.", "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Chọn hình thức sản phẩm”.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."}}, "theme": "cream", "diagram": [["Kết quả AI gợi ý", "Nghĩa hoặc ví dụ của từ."], ["Đối chiếu", "So với bảng từ phù hợp."], ["Quyết định", "Giữ / sửa / hỏi thêm."]]}, {"type": "step", "heading": "Chọn hình thức sản phẩm", "text": "Chọn áp phích, vài slide, kịch bản hình, video hoặc mô hình.", "steps": ["Chọn theo thiết bị và thời gian nhóm đang có.", "Nếu mới mô tả cách làm, ghi “Ý tưởng minh họa”."], "visual": "poster", "step": 4, "time": 0, "id": "08-16", "number": 16, "title": "Chọn hình thức sản phẩm", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Mô tả rõ quan hệ con người và AI.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": ["AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Chọn áp phích, vài slide, kịch bản hình, video hoặc mô hình.", "explanation": "Chọn theo thiết bị và thời gian nhóm đang có.\nNếu mới mô tả cách làm, ghi “Ý tưởng minh họa”.", "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nChọn theo thiết bị và thời gian nhóm đang có.\nNếu mới mô tả cách làm, ghi “Ý tưởng minh họa”.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.", "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "transition": "Tiếp theo, mình cùng tìm hiểu: “P8.2 — Phiếu ý tưởng dự án”.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."}}, "theme": "cream"}, {"type": "worksheet", "worksheet": {"title": "P8.2 Phiếu ý tưởng dự án", "intro": "Điền theo ý tưởng nhóm đã chọn, mỗi mục 1–2 câu.", "headers": null, "rows": null, "questions": [], "answers": ["Ví dụ: học sinh cần hiểu ba từ hướng dẫn tiếng Anh; AI gợi ý nghĩa; người đối chiếu bảng từ/SGK và hỏi GV khi chưa chắc; không thu tên/địa chỉ; poster mô tả ý tưởng.", "Thiếu bước con người kiểm tra hoặc dữ liệu đầu vào không phù hợp thì cần sửa. Không đánh giá mô hình chạy thật nếu chỉ có sơ đồ."], "pages": [{"title": "Làm rõ ý tưởng — phần 1", "instruction": "Điền theo ý tưởng nhóm đã chọn, mỗi mục 1–2 câu.", "fields": [{"label": "1. Nhóm muốn giải quyết việc gì?", "placeholder": "", "key": "08-17-v3-0"}, {"label": "2. Ai sẽ sử dụng?", "placeholder": "", "key": "08-17-v3-1"}, {"label": "3. Làm được điều gì thì coi là hoàn thành?", "placeholder": "", "key": "08-17-v3-2"}, {"label": "4. Dữ liệu nào được đưa vào?", "placeholder": "", "key": "08-17-v3-3"}]}, {"title": "Làm rõ ý tưởng — phần 2", "instruction": "Điền theo ý tưởng nhóm đã chọn, mỗi mục 1–2 câu.", "fields": [{"label": "5. AI sẽ hỗ trợ làm gì?", "placeholder": "", "key": "08-17-v3-4"}, {"label": "6. Người dùng nhận kết quả gì?", "placeholder": "", "key": "08-17-v3-5"}, {"label": "7. Con người làm và kiểm tra phần nào?", "placeholder": "", "key": "08-17-v3-6"}, {"label": "8. Nếu kết quả sai hoặc chưa rõ, sẽ xử lí thế nào?", "placeholder": "", "key": "08-17-v3-7"}]}, {"title": "Làm rõ ý tưởng — phần 3", "instruction": "Điền theo ý tưởng nhóm đã chọn, mỗi mục 1–2 câu.", "fields": [{"label": "9. Những thông tin cá nhân nào không cần thu thập?", "placeholder": "", "key": "08-17-v3-8"}, {"label": "10. Nhóm chọn hình thức sản phẩm nào?", "placeholder": "", "key": "08-17-v3-9"}]}, {"title": "Phác thảo sản phẩm", "instruction": "Có thể vẽ ở vở hoặc ghi bố cục bằng lời trong ô dưới.", "fields": [{"label": "1. Sơ đồ: dữ liệu vào → AI hỗ trợ → kết quả → người kiểm tra", "placeholder": "", "key": "08-17-v3-10"}, {"label": "2. Nhóm đặt ví dụ, cách kiểm tra và nguồn ở đâu trên sản phẩm?", "placeholder": "", "key": "08-17-v3-11"}], "reference": "Chọn một hình thức: áp phích (poster), vài slide, kịch bản hình sáu khung, video hoặc mô hình hoạt động. Ghi rõ nếu mới là ý tưởng minh họa."}]}, "time": 16, "id": "08-17", "number": 17, "title": "P8.2 — Phiếu ý tưởng dự án", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Hoàn thành phiếu ý tưởng dự án theo các bước trên phiếu.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": ["Ví dụ: học sinh cần hiểu ba từ hướng dẫn tiếng Anh; AI gợi ý nghĩa; người đối chiếu bảng từ/SGK và hỏi GV khi chưa chắc; không thu tên/địa chỉ; poster mô tả ý tưởng.", "Thiếu bước con người kiểm tra hoặc dữ liệu đầu vào không phù hợp thì cần sửa. Không đánh giá mô hình chạy thật nếu chỉ có sơ đồ."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Mình làm phiếu “Phiếu ý tưởng dự án” theo từng bước. Điền theo ý tưởng nhóm đã chọn, mỗi mục 1–2 câu.", "explanation": "1. Làm rõ ý tưởng — phần 1: Điền theo ý tưởng nhóm đã chọn, mỗi mục 1–2 câu.\n2. Làm rõ ý tưởng — phần 2: Điền theo ý tưởng nhóm đã chọn, mỗi mục 1–2 câu.\n3. Làm rõ ý tưởng — phần 3: Điền theo ý tưởng nhóm đã chọn, mỗi mục 1–2 câu.\n4. Phác thảo sản phẩm: Có thể vẽ ở vở hoặc ghi bố cục bằng lời trong ô dưới.", "delivery": "Đọc yêu cầu của bước đang mở. Chỉ vào đúng ô cần ghi; cho HS trả lời rồi chuyển bước bằng nút Trang sau của phiếu. Không yêu cầu điền đáp án vào chỗ hướng dẫn.", "answer": "• Ví dụ: học sinh cần hiểu ba từ hướng dẫn tiếng Anh; AI gợi ý nghĩa; người đối chiếu bảng từ/SGK và hỏi GV khi chưa chắc; không thu tên/địa chỉ; poster mô tả ý tưởng.\n• Thiếu bước con người kiểm tra hoặc dữ liệu đầu vào không phù hợp thì cần sửa. Không đánh giá mô hình chạy thật nếu chỉ có sơ đồ.", "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Đổi phiếu và góp ý”.", "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."}}, "theme": "cream"}, {"type": "report", "text": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.", "task": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung kịch bản hình, có một tình huống AI chưa phù hợp.", "answer": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "product": "Phiếu ý tưởng và bản phác thảo sản phẩm. Có thể mới là ý tưởng minh họa; không bắt buộc làm mô hình chạy thật.", "id": "08-18", "number": 18, "title": "Đổi phiếu và góp ý", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Mô tả rõ quan hệ con người và AI.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": ["AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.", "explanation": "Nhóm chọn giúp ai và việc gì?\nAI hỗ trợ gì; con người kiểm tra gì?\nNhóm cần làm rõ điểm nào nữa?", "delivery": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.\nHai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Kiến thức cần nhớ”.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung kịch bản hình, có một tình huống AI chưa phù hợp."}}, "theme": "cream", "reportQuestions": ["Nhóm chọn giúp ai và việc gì?", "AI hỗ trợ gì; con người kiểm tra gì?", "Nhóm cần làm rõ điểm nào nữa?"]}, {"type": "recap", "items": ["Chọn một việc nhỏ và nói rõ ai cần giúp.", "Tách rõ việc AI hỗ trợ và việc con người kiểm tra.", "Chọn sản phẩm phù hợp thời gian, thiết bị; ghi đúng mức đã làm."], "id": "08-19", "number": 19, "title": "Kiến thức cần nhớ", "note": {"activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án", "purpose": "Mô tả rõ quan hệ con người và AI.", "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.", "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.", "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.", "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.", "answers": ["AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Mình nhắc lại các ý cần nhớ. Mỗi em chọn một ý và giải thích bằng việc vừa làm.", "explanation": "Chọn một việc nhỏ và nói rõ ai cần giúp.\nTách rõ việc AI hỗ trợ và việc con người kiểm tra.\nChọn sản phẩm phù hợp thời gian, thiết bị; ghi đúng mức đã làm.", "delivery": "Mời ba HS, mỗi em diễn đạt lại một ý. Yêu cầu nối với ví dụ hoặc minh chứng trong tiết học; chỉnh ngắn gọn nếu HS khái quát quá mức.", "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.", "closing": "Mời một HS giải thích một ý bằng ví dụ của chính nhóm.", "transition": "Tiếp theo, mình cùng tìm hiểu: “LUYỆN TẬP”.", "students": "Nói lại một ý bằng lời riêng và lấy ví dụ vừa thực hiện."}}, "theme": "cream"}, {"type": "divider", "id": "08-20", "number": 20, "title": "LUYỆN TẬP", "note": {"activity": "Luyện tập cá nhân", "purpose": "Kiểm tra mức hiểu của từng thành viên về dự án.", "teacher": "Cho HS viết riêng không nhìn phiếu nhóm trong phút đầu. Hỏi thêm bạn nào còn nhầm AI làm toàn bộ dự án.", "students": "Viết rồi đối chiếu với bản nhóm, tự sửa chỗ chưa thống nhất.", "report": "Mời thành viên không phải người báo cáo mô tả một chức năng.", "conclusion": "Mỗi thành viên cần giải thích được ý tưởng, không chỉ hoàn thành phần trang trí.", "assessment": "Dùng câu trả lời để xác định HS cần hỗ trợ trước giai đoạn 1.", "answers": [], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Chúng ta chuyển sang phần “LUYỆN TẬP”.", "explanation": "Đây là slide dẫn dắt chỉ có tiêu đề. Dừng ngắn để báo hiệu đổi hoạt động; hướng dẫn chi tiết nằm ở slide tiếp theo.", "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.", "answer": "Cho HS viết riêng không nhìn phiếu nhóm trong phút đầu. Hỏi thêm bạn nào còn nhầm AI làm toàn bộ dự án.", "closing": "Mỗi thành viên cần giải thích được ý tưởng, không chỉ hoàn thành phần trang trí.", "transition": "Tiếp theo, mình cùng tìm hiểu: “P8.3A — Mỗi thành viên hiểu dự án chưa?”.", "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."}}, "theme": "blue"}, {"type": "worksheet", "worksheet": {"title": "P8.3 Hiểu ý tưởng và bàn giao", "intro": "Trả lời trước khi trao đổi với nhóm. Đối chiếu với phiếu ý tưởng sau khi viết.", "headers": null, "rows": null, "questions": [], "answers": ["A Câu trả lời phải phù hợp P8.2 và thể hiện mức hiểu riêng. Nếu khác nhau, nhóm thống nhất lại chức năng."], "pages": [{"title": "Mỗi thành viên tự giải thích", "instruction": "Trả lời trước khi trao đổi với nhóm. Đối chiếu với phiếu ý tưởng sau khi viết.", "fields": [{"label": "1. Người dùng của dự án là ai?", "placeholder": "", "key": "08-21-v3-0"}, {"label": "2. AI nhận dữ liệu gì và hỗ trợ tạo kết quả gì?", "placeholder": "", "key": "08-21-v3-1"}, {"label": "3. Ai kiểm tra kết quả và kiểm tra bằng gì?", "placeholder": "", "key": "08-21-v3-2"}]}]}, "time": 4, "id": "08-21", "number": 21, "title": "P8.3A — Mỗi thành viên hiểu dự án chưa?", "note": {"activity": "Luyện tập cá nhân", "purpose": "Hoàn thành mỗi thành viên hiểu dự án chưa? theo các bước trên phiếu.", "teacher": "Cho HS viết riêng không nhìn phiếu nhóm trong phút đầu. Hỏi thêm bạn nào còn nhầm AI làm toàn bộ dự án.", "students": "Viết rồi đối chiếu với bản nhóm, tự sửa chỗ chưa thống nhất.", "report": "Mời thành viên không phải người báo cáo mô tả một chức năng.", "conclusion": "Mỗi thành viên cần giải thích được ý tưởng, không chỉ hoàn thành phần trang trí.", "assessment": "Dùng câu trả lời để xác định HS cần hỗ trợ trước giai đoạn 1.", "answers": ["A Câu trả lời phải phù hợp P8.2 và thể hiện mức hiểu riêng. Nếu khác nhau, nhóm thống nhất lại chức năng."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Mình làm phiếu “Mỗi thành viên hiểu dự án chưa?” theo từng bước. Trả lời trước khi trao đổi với nhóm. Đối chiếu với phiếu ý tưởng sau khi viết.", "explanation": "1. Mỗi thành viên tự giải thích: Trả lời trước khi trao đổi với nhóm. Đối chiếu với phiếu ý tưởng sau khi viết.", "delivery": "Đọc yêu cầu của bước đang mở. Chỉ vào đúng ô cần ghi; cho HS trả lời rồi chuyển bước bằng nút Trang sau của phiếu. Không yêu cầu điền đáp án vào chỗ hướng dẫn.", "answer": "• A Câu trả lời phải phù hợp P8.2 và thể hiện mức hiểu riêng. Nếu khác nhau, nhóm thống nhất lại chức năng.", "closing": "Mỗi thành viên cần giải thích được ý tưởng, không chỉ hoàn thành phần trang trí.", "transition": "Tiếp theo, mình cùng tìm hiểu: “CHUYỂN GIAO DỰ ÁN TẠI NHÀ”.", "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."}}, "theme": "cream"}, {"type": "divider", "id": "08-22", "number": 22, "title": "CHUYỂN GIAO DỰ ÁN TẠI NHÀ", "note": {"activity": "Vận dụng và chuyển giao dự án", "purpose": "Hiểu bốn mốc tại nhà và điều kiện nộp.", "teacher": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.", "students": "Đọc yêu cầu, xác nhận hình thức và ghi việc cần làm đầu tiên ở giai đoạn 1.", "report": "Đại diện nhắc lại bốn mốc, một HS nêu cách hỏi khi gặp khó.", "conclusion": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.", "assessment": "Chỉ giao khi nhóm biết đầu ra giai đoạn 1, cách nhận phản hồi và lựa chọn khi thiếu thiết bị.", "answers": [], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Chúng ta chuyển sang phần “CHUYỂN GIAO DỰ ÁN TẠI NHÀ”.", "explanation": "Đây là slide dẫn dắt chỉ có tiêu đề. Dừng ngắn để báo hiệu đổi hoạt động; hướng dẫn chi tiết nằm ở slide tiếp theo.", "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.", "answer": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.", "closing": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.", "transition": "Tiếp theo, mình cùng tìm hiểu: “P8.3B — Bốn giai đoạn và tiêu chí”.", "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."}}, "theme": "blue"}, {"type": "worksheet", "worksheet": {"title": "P8.3 Hiểu ý tưởng và bàn giao", "intro": "Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.", "headers": null, "rows": null, "questions": [], "answers": ["B Có hình thức phù hợp điều kiện nhóm, cách hỗ trợ và đầu ra giai đoạn 1. Ngày/kênh để GV điền, không tự bịa lịch. Rubric dùng chung đặt ở phụ lục cuối bộ."], "pages": [{"title": "Chọn hình thức và cách hỗ trợ", "instruction": "Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.", "fields": [{"label": "1. Nhóm chọn hình thức sản phẩm nào?", "placeholder": "", "key": "08-23-v3-0"}, {"label": "2. Khi thiếu thiết bị, nhóm sẽ nhờ ai hỗ trợ?", "placeholder": "", "key": "08-23-v3-1"}], "reference": "1. Chọn vấn đề, lập kế hoạch.\n2. Tìm nguồn, vẽ thiết kế.\n3. Làm sản phẩm bản đầu.\n4. Nhận góp ý, hoàn thiện và nộp."}, {"title": "Thống nhất phần việc và lịch", "instruction": "Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.", "fields": [{"label": "3. Phần việc đầu tiên của từng thành viên là gì?", "placeholder": "", "key": "08-23-v3-2"}, {"label": "4. Lịch và kênh nộp GV đã thông báo là gì?", "placeholder": "Nếu chưa có thông báo, ghi: cần hỏi GV.", "key": "08-23-v3-3"}]}]}, "time": 3, "id": "08-23", "number": 23, "title": "P8.3B — Bốn giai đoạn và tiêu chí", "note": {"activity": "Vận dụng và chuyển giao dự án", "purpose": "Hoàn thành bốn giai đoạn và tiêu chí theo các bước trên phiếu.", "teacher": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.", "students": "Đọc yêu cầu, xác nhận hình thức và ghi việc cần làm đầu tiên ở giai đoạn 1.", "report": "Đại diện nhắc lại bốn mốc, một HS nêu cách hỏi khi gặp khó.", "conclusion": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.", "assessment": "Chỉ giao khi nhóm biết đầu ra giai đoạn 1, cách nhận phản hồi và lựa chọn khi thiếu thiết bị.", "answers": ["B Có hình thức khả thi, cách hỗ trợ và đầu ra giai đoạn 1. Ngày/kênh để GV điền, không tự bịa lịch. Rubric dùng chung đặt ở phụ lục cuối bộ."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Mình làm phiếu “Bốn giai đoạn và tiêu chí” theo từng bước. Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.", "explanation": "1. Chọn hình thức và cách hỗ trợ: Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.\n2. Thống nhất phần việc và lịch: Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.", "delivery": "Đọc yêu cầu của bước đang mở. Chỉ vào đúng ô cần ghi; cho HS trả lời rồi chuyển bước bằng nút Trang sau của phiếu. Không yêu cầu điền đáp án vào chỗ hướng dẫn.", "answer": "• B Có hình thức khả thi, cách hỗ trợ và đầu ra giai đoạn 1. Ngày/kênh để GV điền, không tự bịa lịch. Rubric dùng chung đặt ở phụ lục cuối bộ.", "closing": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.", "transition": "Tiếp theo, mình cùng tìm hiểu: “Nhóm em bắt đầu từ đâu?”.", "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."}}, "theme": "cream"}, {"type": "home", "text": "Bắt đầu giai đoạn 1 theo P9: xem lại nhu cầu, điều chỉnh ý tưởng và lập kế hoạch có người phụ trách. Bản tiết 8 chỉ là bản nháp.", "outcome": "Phiếu ý tưởng và bản nháp dự án cùng thẻ bàn giao", "next": "Dự án tại nhà - Giai đoạn 1: Lựa chọn vấn đề và lập kế hoạch", "id": "08-24", "number": 24, "title": "Nhóm em bắt đầu từ đâu?", "note": {"activity": "Vận dụng và chuyển giao dự án", "purpose": "Hiểu bốn mốc tại nhà và điều kiện nộp.", "teacher": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.", "students": "Đọc yêu cầu, xác nhận hình thức và ghi việc cần làm đầu tiên ở giai đoạn 1.", "report": "Đại diện nhắc lại bốn mốc, một HS nêu cách hỏi khi gặp khó.", "conclusion": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.", "assessment": "Chỉ giao khi nhóm biết đầu ra giai đoạn 1, cách nhận phản hồi và lựa chọn khi thiếu thiết bị.", "answers": ["Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13."], "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.", "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.", "script": {"opening": "Bắt đầu giai đoạn 1 theo P9: xem lại nhu cầu, điều chỉnh ý tưởng và lập kế hoạch có người phụ trách. Bản tiết 8 chỉ là bản nháp.", "explanation": "\nTại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.", "delivery": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.\nĐại diện nhắc lại bốn mốc, một HS nêu cách hỏi khi gặp khó.", "answer": "• Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.", "closing": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.", "transition": "Các em lưu sản phẩm và nộp theo hướng dẫn của lớp.", "students": "Đọc yêu cầu, xác nhận hình thức và ghi việc cần làm đầu tiên ở giai đoạn 1."}}, "theme": "cream"}], "rubric": [["1 Vấn đề và tính khả thi", "Chưa nêu vấn đề/người dùng hoặc mục tiêu không thể thực hiện.", "Có vấn đề/người dùng nhưng mục tiêu hoặc cách thực hiện còn rộng.", "Vấn đề, người dùng, mục tiêu rõ; hình thức và quy mô phù hợp điều kiện."], ["2 Chức năng AI và chính xác", "Không mô tả đúng AI hoặc gán chức năng không có bằng chứng.", "Có đầu vào/đầu ra nhưng thiếu liên kết hoặc chưa phân biệt ý tưởng với chạy thật.", "Chức năng, đầu vào/đầu ra và ví dụ đúng; ghi rõ minh họa hay hoạt động thật."], ["3 Con người và an toàn", "Không có bước kiểm tra, hoặc chia sẻ dữ liệu riêng tư không cần thiết chưa xử lí.", "Có người kiểm tra nhưng cách kiểm/điều kiện riêng tư còn chung chung.", "Có nguồn/cách đối chiếu, xử lí khi sai, quyết định của con người và giảm dữ liệu không cần."], ["4 Sản phẩm nguồn và quá trình", "Thiếu phần cốt lõi, không có nguồn hoặc không có bằng chứng quá trình.", "Sản phẩm đọc được nhưng còn thiếu một phần, nguồn khó kiểm lại hoặc nhật kí ít rõ.", "Đủ nội dung, nguồn xác định được, sản phẩm đọc/xem được và có nhật kí quá trình."], ["5 Hợp tác chỉnh sửa giới thiệu", "Không có đóng góp cá nhân/góp ý/chỉnh sửa và chưa giới thiệu sản phẩm.", "Có phân công hoặc sửa nhưng lí do chưa rõ; giới thiệu chưa đủ hoặc còn thiếu minh chứng.", "Có đóng góp, ít nhất một sửa có lí do, video 2–3 phút giới thiệu rõ vai trò AI và con người."]], "evidence": [["Chọn ý tưởng và thiết kế", "6.2.TC1b", "Đề xuất dự án nhỏ và phân biệt phần AI/con người.", "P8.1–P8.2, P8.3A cá nhân", "Chức năng AI phù hợp, kiểm tra có người thực hiện; đây là minh chứng đề xuất, chưa chứng minh mô hình chạy thật."]]};
+window.AI6_LESSON={
+  "id": 8,
+  "title": "Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án",
+  "mode": "Trực tiếp tại phòng Tin học",
+  "count": 24,
+  "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+  "materials": "P8.1–P8.3; mẫu phiếu ý tưởng; mẫu poster A4 hoặc kịch bản hình sáu khung; rubric chung ở phụ lục; bảng bốn mốc tại nhà. GV thống nhất kênh nộp trong lớp trước khi giao.",
+  "alternatives": "Mang ý tưởng đã quan sát; nhóm bốn phân vai điều phối, thiết kế, kiểm chứng, tổng hợp. Có thể chọn sản phẩm giấy.",
+  "video": {
+    "index": 5,
+    "title": "AI: How Computer Vision Works",
+    "start": 15,
+    "end": 40,
+    "poster": "frame_5_20.jpg",
+    "url": "https://contentful-videos.code.org/90t6bu6vlf76/5LHEqBfj39mMaxu0jlpFBQ/e8c81cbd51865522b439643e03a24d53/videoplayback.mp4",
+    "question": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?",
+    "local": "code-5.mp4"
+  },
+  "outcome": "Phiếu ý tưởng và bản nháp dự án cùng thẻ bàn giao",
+  "slides": [
+    {
+      "type": "cover",
+      "id": "08-01",
+      "number": 1,
+      "title": "Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án",
+      "note": {
+        "activity": "Khởi động",
+        "purpose": "Nhận diện một vấn đề cụ thể thay cho ý tưởng quá rộng.",
+        "teacher": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?",
+        "students": "Trao đổi cặp và sửa một mô tả còn rộng.",
+        "report": "Hai HS đọc vấn đề đã thu hẹp.",
+        "conclusion": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+        "assessment": "Quan sát HS có nêu kết quả cụ thể; hỗ trợ bằng câu Ai cần làm việc gì?",
+        "answers": [
+          "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Hôm nay mình bắt đầu: Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án. Sản phẩm cần có là Phiếu ý tưởng và bản nháp dự án cùng thẻ bàn giao.",
+          "explanation": "Trong tiết này, học sinh cần:\nNêu hai ý tưởng nhỏ rồi chọn một ý tưởng phù hợp.\nMô tả dữ liệu vào, việc AI làm, kết quả và cách con người kiểm tra.\nChọn hình thức sản phẩm và chuẩn bị làm dự án tại nhà.",
+          "delivery": "Đọc đầu bài, nêu sản phẩm cuối và mời một ví dụ quen thuộc. Chưa chiếu đáp án hay giao thao tác công cụ ở slide này.",
+          "answer": "• Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+          "closing": "Giới thiệu mục tiêu và sản phẩm; chưa yêu cầu HS thực hiện công cụ ở slide bìa.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Sau bài học, em làm được gì?.",
+          "students": "Đọc tên bài, liên hệ một trải nghiệm hoặc một câu hỏi mình muốn tìm hiểu."
+        }
+      },
+      "theme": "blue",
+      "originalNumber": 1
+    },
+    {
+      "type": "goals",
+      "goals": [
+        "Nêu hai ý tưởng nhỏ rồi chọn một ý tưởng phù hợp.",
+        "Mô tả dữ liệu vào, việc AI làm, kết quả và cách con người kiểm tra.",
+        "Chọn hình thức sản phẩm và chuẩn bị làm dự án tại nhà."
+      ],
+      "outcome": "Phiếu ý tưởng và bản nháp dự án cùng thẻ bàn giao",
+      "id": "08-02",
+      "number": 2,
+      "title": "Sau bài học, em làm được gì?",
+      "note": {
+        "activity": "Khởi động",
+        "purpose": "Nhận diện một vấn đề cụ thể thay cho ý tưởng quá rộng.",
+        "teacher": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?",
+        "students": "Trao đổi cặp và sửa một mô tả còn rộng.",
+        "report": "Hai HS đọc vấn đề đã thu hẹp.",
+        "conclusion": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+        "assessment": "Quan sát HS có nêu kết quả cụ thể; hỗ trợ bằng câu Ai cần làm việc gì?",
+        "answers": [
+          "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Cuối tiết/giai đoạn này, em cần làm được ba việc sau.",
+          "explanation": "Nêu hai ý tưởng nhỏ rồi chọn một ý tưởng phù hợp.\nMô tả dữ liệu vào, việc AI làm, kết quả và cách con người kiểm tra.\nChọn hình thức sản phẩm và chuẩn bị làm dự án tại nhà.",
+          "delivery": "Nói ngắn gọn từng mục tiêu. Hỏi một HS: “Cuối hoạt động, em dùng sản phẩm nào để cho thấy mình đã làm được?”. Tránh diễn giải toàn bộ nội dung trước khi trải nghiệm.",
+          "answer": "• Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+          "closing": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: KHỞI ĐỘNG.",
+          "students": "Đọc mục tiêu, xác định sản phẩm cần có và hỏi phần chưa rõ."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 2
+    },
+    {
+      "type": "divider",
+      "id": "08-03",
+      "number": 3,
+      "title": "KHỞI ĐỘNG",
+      "note": {
+        "activity": "Khởi động",
+        "purpose": "Nhận diện một vấn đề cụ thể thay cho ý tưởng quá rộng.",
+        "teacher": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?",
+        "students": "Trao đổi cặp và sửa một mô tả còn rộng.",
+        "report": "Hai HS đọc vấn đề đã thu hẹp.",
+        "conclusion": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+        "assessment": "Quan sát HS có nêu kết quả cụ thể; hỗ trợ bằng câu Ai cần làm việc gì?",
+        "answers": [],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình chuyển sang khởi động.",
+          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
+          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "answer": "",
+          "closing": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Ý tưởng nào dễ bắt đầu hơn?.",
+          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+        }
+      },
+      "theme": "blue",
+      "originalNumber": 3
+    },
+    {
+      "type": "scenario",
+      "text": "Ý tưởng A: “Làm AI giúp mọi người”. Ý tưởng B: “Giúp bạn học hiểu ba từ tiếng Anh và kiểm tra lại bằng bảng từ”. Ý tưởng nào dễ bắt đầu hơn?",
+      "task": "Chỉ ra ở ý tưởng B: ai được giúp và cần làm việc gì.",
+      "answer": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+      "visual": "flow",
+      "time": 2,
+      "id": "08-04",
+      "number": 4,
+      "title": "Ý tưởng nào dễ bắt đầu hơn?",
+      "note": {
+        "activity": "Khởi động",
+        "purpose": "Nhận diện một vấn đề cụ thể thay cho ý tưởng quá rộng.",
+        "teacher": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?",
+        "students": "Trao đổi cặp và sửa một mô tả còn rộng.",
+        "report": "Hai HS đọc vấn đề đã thu hẹp.",
+        "conclusion": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+        "assessment": "Quan sát HS có nêu kết quả cụ thể; hỗ trợ bằng câu Ai cần làm việc gì?",
+        "answers": [
+          "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Ý tưởng A: “Làm AI giúp mọi người”. Ý tưởng B: “Giúp bạn học hiểu ba từ tiếng Anh và kiểm tra lại bằng bảng từ”. Ý tưởng nào dễ bắt đầu hơn?",
+          "explanation": "Ý tưởng A: “Làm AI giúp mọi người”. Ý tưởng B: “Giúp bạn học hiểu ba từ tiếng Anh và kiểm tra lại bằng bảng từ”. Ý tưởng nào dễ bắt đầu hơn?",
+          "delivery": "Đọc hai mô tả và yêu cầu chỉ ra người dùng/nhiệm vụ. Hỏi làm sao biết nhóm đã hoàn thành?\nHai HS đọc vấn đề đã thu hẹp.",
+          "answer": "• Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+          "closing": "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu có thể kiểm tra.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: KHÁM PHÁ 1: SO SÁNH VÀ CHỌN Ý TƯỞNG.",
+          "students": "Chỉ ra ở ý tưởng B: ai được giúp và cần làm việc gì."
+        }
+      },
+      "theme": "cream",
+      "diagram": [
+        [
+          "Nêu hai ý tưởng",
+          "Giúp ai và giúp việc gì?"
+        ],
+        [
+          "So sánh",
+          "Dữ liệu, cách kiểm, thiết bị."
+        ],
+        [
+          "Chọn một ý tưởng",
+          "Viết phiếu và phác thảo."
+        ]
+      ],
+      "originalNumber": 4
+    },
+    {
+      "type": "divider",
+      "id": "08-05",
+      "number": 5,
+      "title": "KHÁM PHÁ 1: SO SÁNH VÀ CHỌN Ý TƯỞNG",
+      "note": {
+        "activity": "Khám phá 2.1 So sánh và chọn ý tưởng",
+        "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.",
+        "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?",
+        "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.",
+        "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.",
+        "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+        "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.",
+        "answers": [],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình chuyển sang khám phá 1: so sánh và chọn ý tưởng.",
+          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
+          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "answer": "",
+          "closing": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Máy làm gì, người làm gì?.",
+          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+        }
+      },
+      "theme": "blue",
+      "originalNumber": 5
+    },
+    {
+      "type": "question",
+      "question": "Máy làm gì, người làm gì?",
+      "instruction": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?",
+      "poster": "frame_5_20.jpg",
+      "id": "08-06",
+      "number": 6,
+      "title": "Máy làm gì, người làm gì?",
+      "note": {
+        "activity": "Khám phá 2.1 So sánh và chọn ý tưởng",
+        "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.",
+        "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?",
+        "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.",
+        "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.",
+        "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+        "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.",
+        "answers": [
+          "Con người xác định nhiệm vụ, kiểm tra và can thiệp khi kết quả chưa phù hợp.",
+          "AI xử lí hình ảnh để hỗ trợ nhiệm vụ được thiết kế. Trong dự án nhỏ, cũng cần rõ phần AI làm và ai kiểm tra."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?",
+          "explanation": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?",
+          "delivery": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?\nNhóm nêu một lí do chọn và một lí do bỏ ý còn lại.",
+          "answer": "• Con người xác định nhiệm vụ, kiểm tra và can thiệp khi kết quả chưa phù hợp.\n• AI xử lí hình ảnh để hỗ trợ nhiệm vụ được thiết kế. Trong dự án nhỏ, cũng cần rõ phần AI làm và ai kiểm tra.",
+          "closing": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Video: Nhận dạng hình ảnh trên cánh đồng.",
+          "students": "Suy nghĩ về câu hỏi định hướng, ghi một dự đoán và tìm chi tiết đối chiếu khi xem video."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 6
+    },
+    {
+      "type": "video",
+      "video": {
+        "index": 5,
+        "title": "AI: How Computer Vision Works",
+        "start": 15,
+        "end": 40,
+        "poster": "frame_5_20.jpg",
+        "url": "https://contentful-videos.code.org/90t6bu6vlf76/5LHEqBfj39mMaxu0jlpFBQ/e8c81cbd51865522b439643e03a24d53/videoplayback.mp4",
+        "question": "Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?",
+        "local": "code-5.mp4"
+      },
+      "id": "08-07",
+      "number": 7,
+      "title": "Video: Nhận dạng hình ảnh trên cánh đồng",
+      "note": {
+        "activity": "Khám phá 2.1 So sánh và chọn ý tưởng",
+        "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.",
+        "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?",
+        "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.",
+        "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.",
+        "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+        "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.",
+        "answers": [
+          "Con người xác định nhiệm vụ, kiểm tra và can thiệp khi kết quả chưa phù hợp.",
+          "AI xử lí hình ảnh để hỗ trợ nhiệm vụ được thiết kế. Trong dự án nhỏ, cũng cần rõ phần AI làm và ai kiểm tra."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Trước khi xem: Quan sát ứng dụng trên cánh đồng. Ai đặt mục tiêu, ai kiểm tra và can thiệp khi cần?",
+          "explanation": "Xem đoạn 15–40 giây. Lời dẫn và câu hỏi Việt là học liệu GV biên soạn; không phải phụ đề chính thức.",
+          "delivery": "Trước xem: giao một câu hỏi. Trong xem: cho HS chú ý một ví dụ, dừng khi cần giải nghĩa. Sau xem: mời hai ý kiến và yêu cầu chỉ chi tiết làm căn cứ. Nếu trình duyệt chặn âm thanh ở màn chiếu, bấm phát trực tiếp tại cửa sổ đó một lần.",
+          "answer": "• Con người xác định nhiệm vụ, kiểm tra và can thiệp khi kết quả chưa phù hợp.\n• AI xử lí hình ảnh để hỗ trợ nhiệm vụ được thiết kế. Trong dự án nhỏ, cũng cần rõ phần AI làm và ai kiểm tra.",
+          "closing": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+          "transition": "Dự án của lớp không cần lớn như máy trên cánh đồng; chỉ cần rõ AI làm gì và ai kiểm tra.",
+          "students": "Quan sát chi tiết liên quan câu hỏi; nêu một nhận xét có căn cứ sau đoạn xem."
+        }
+      },
+      "theme": "cream",
+      "fallback": "AI hỗ trợ một phần nhiệm vụ; con người đặt mục tiêu, kiểm tra và quyết định. Dự án của lớp chỉ cần một việc nhỏ, rõ.",
+      "originalNumber": 7
+    },
+    {
+      "type": "concept",
+      "cards": [
+        [
+          "Nhu cầu và người dùng",
+          "Ai cần làm việc gì? Phạm vi đủ nhỏ để kiểm tra hoàn thành."
+        ],
+        [
+          "Vai trò của AI",
+          "Dữ liệu vào, chức năng hỗ trợ và loại kết quả ra."
+        ],
+        [
+          "Vai trò con người",
+          "Đặt mục tiêu, kiểm tra, quyết định; xử lí khi kết quả chưa phù hợp."
+        ]
+      ],
+      "visual": "flow",
+      "id": "08-08",
+      "number": 8,
+      "title": "Một ý tưởng nhỏ cần rõ những gì?",
+      "note": {
+        "activity": "Khám phá 2.1 So sánh và chọn ý tưởng",
+        "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.",
+        "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?",
+        "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.",
+        "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.",
+        "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+        "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.",
+        "answers": [
+          "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình cùng thực hiện: Một ý tưởng nhỏ cần rõ những gì?",
+          "explanation": "Nhu cầu và người dùng: Ai cần làm việc gì? Phạm vi đủ nhỏ để kiểm tra hoàn thành.\nVai trò của AI: Dữ liệu vào, chức năng hỗ trợ và loại kết quả ra.\nVai trò con người: Đặt mục tiêu, kiểm tra, quyết định; xử lí khi kết quả chưa phù hợp.",
+          "delivery": "Giải thích lần lượt các khối trên slide. Sau mỗi ý, hỏi “Em có thể lấy một ví dụ hoặc nêu căn cứ không?”. Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?",
+          "answer": "• Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+          "closing": "Ý tưởng nhỏ và rõ sẽ dễ thực hiện, dễ kiểm tra hơn.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: P8.1 — Đặt hai ý tưởng cạnh nhau.",
+          "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý."
+        }
+      },
+      "theme": "cream",
+      "diagram": [
+        [
+          "Nêu hai ý tưởng",
+          "Giúp ai và giúp việc gì?"
+        ],
+        [
+          "So sánh",
+          "Dữ liệu, cách kiểm, thiết bị."
+        ],
+        [
+          "Chọn một ý tưởng",
+          "Viết phiếu và phác thảo."
+        ]
+      ],
+      "takeaway": "Ý tưởng nhỏ và rõ sẽ dễ thực hiện, dễ kiểm tra hơn.",
+      "originalNumber": 8
+    },
+    {
+      "type": "worksheet",
+      "worksheet": {
+        "title": "P8.1 So sánh hai ý tưởng",
+        "intro": "Chọn nhu cầu nhỏ, gần gũi; chưa cần làm sản phẩm ở bước này.",
+        "headers": null,
+        "rows": null,
+        "questions": [],
+        "answers": [
+          "Đạt khi so sánh hai ý dựa nhu cầu, dữ liệu, khả năng kiểm và điều kiện. Có thể chọn giải pháp chủ yếu dùng công cụ thông thường nếu giải thích rõ phần AI hữu ích. Không bắt ý tưởng phức tạp mới đạt."
+        ],
+        "pages": [
+          {
+            "title": "Mở lại hai ý tưởng đã chuẩn bị",
+            "instruction": "Dùng nhu cầu từ tiết 7. Ghi ngắn hai ý; xem thiết bị và chọn hình thức có thể làm.",
+            "fields": [
+              {
+                "label": "Ý tưởng A: giúp ai làm việc gì?",
+                "key": "08-09-v3-0",
+                "placeholder": ""
+              },
+              {
+                "label": "Ý tưởng B: giúp ai làm việc gì?",
+                "key": "08-09-v3-1",
+                "placeholder": ""
+              },
+              {
+                "label": "Thiết bị và thời gian của nhóm",
+                "key": "08-09-v4-condition",
+                "placeholder": "",
+                "options": [
+                  "Có thiết bị và thời gian phù hợp",
+                  "Dùng thiết bị chung, cần chia lượt",
+                  "Làm nội dung giấy trước, cần GV hỗ trợ số"
+                ]
+              },
+              {
+                "label": "Hình thức có thể thực hiện",
+                "key": "08-09-v4-format",
+                "placeholder": "",
+                "options": [
+                  "Áp phích",
+                  "Vài slide",
+                  "Kịch bản hình",
+                  "Video",
+                  "Mô hình đơn giản"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "So sánh rồi chọn một ý",
+            "instruction": "Điền ngắn mỗi ô, rồi chọn A hoặc B và nêu lí do.",
+            "headers": [
+              "Điều cần so sánh",
+              "Ý tưởng A",
+              "Ý tưởng B"
+            ],
+            "rows": [
+              [
+                "AI hỗ trợ gì? Dữ liệu nào?",
+                {
+                  "label": "AI và dữ liệu — A",
+                  "key": "08-09-v4-ad",
+                  "placeholder": ""
+                },
+                {
+                  "label": "AI và dữ liệu — B",
+                  "key": "08-09-v4-bd",
+                  "placeholder": ""
+                }
+              ],
+              [
+                "Kiểm kết quả bằng gì?",
+                {
+                  "label": "Cách kiểm — A",
+                  "key": "08-09-v3-6",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Cách kiểm — B",
+                  "key": "08-09-v3-7",
+                  "placeholder": ""
+                }
+              ]
+            ],
+            "fields": [
+              {
+                "label": "Nhóm chọn ý nào?",
+                "key": "08-09-v4-choice",
+                "placeholder": "",
+                "options": [
+                  "A",
+                  "B"
+                ]
+              },
+              {
+                "label": "Vì sao chọn? Cần thu hẹp gì?",
+                "key": "08-09-v4-reason",
+                "placeholder": ""
+              }
+            ],
+            "compact": true
+          }
+        ]
+      },
+      "time": 5,
+      "id": "08-09",
+      "number": 9,
+      "title": "P8.1 — Đặt hai ý tưởng cạnh nhau",
+      "note": {
+        "activity": "Khám phá 2.1 So sánh và chọn ý tưởng",
+        "purpose": "Hoàn thành đặt hai ý tưởng cạnh nhau theo các bước trên phiếu.",
+        "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?",
+        "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.",
+        "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.",
+        "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+        "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.",
+        "answers": [
+          "Đạt khi so sánh hai ý dựa nhu cầu, dữ liệu, khả năng kiểm và điều kiện. Có thể chọn giải pháp chủ yếu dùng công cụ thông thường nếu giải thích rõ phần AI hữu ích. Không bắt ý tưởng phức tạp mới đạt."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình cùng thực hiện: P8.1 — Đặt hai ý tưởng cạnh nhau",
+          "explanation": "Mở lại hai ý tưởng đã chuẩn bị: Dùng nhu cầu từ tiết 7. Ghi ngắn hai ý; xem thiết bị và chọn hình thức có thể làm.\nSo sánh rồi chọn một ý: Điền ngắn mỗi ô, rồi chọn A hoặc B và nêu lí do.",
+          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
+          "answer": "• Đạt khi so sánh hai ý dựa nhu cầu, dữ liệu, khả năng kiểm và điều kiện. Có thể chọn giải pháp chủ yếu dùng công cụ thông thường nếu giải thích rõ phần AI hữu ích. Không bắt ý tưởng phức tạp mới đạt.",
+          "closing": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Chọn ý tưởng có căn cứ.",
+          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 9
+    },
+    {
+      "type": "conclusion",
+      "text": "Ý tưởng phù hợp cần rõ: giúp ai, giúp việc gì, dùng dữ liệu nào và kiểm tra ra sao.",
+      "task": "Nêu lí do chọn một ý tưởng và điều cần thu hẹp ở ý tưởng còn lại.",
+      "answer": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.",
+      "cards": [
+        "Dự án nhỏ cần nhu cầu, người dùng và mục tiêu rõ.",
+        "Phân biệt việc AI hỗ trợ và việc con người làm."
+      ],
+      "id": "08-10",
+      "number": 10,
+      "title": "Chọn ý tưởng có căn cứ",
+      "note": {
+        "activity": "Khám phá 2.1 So sánh và chọn ý tưởng",
+        "purpose": "Chọn một ý tưởng theo nhu cầu và khả năng.",
+        "teacher": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?",
+        "students": "Mỗi thành viên góp một ý; nhóm chọn hai ý để so sánh rồi thống nhất một ý.",
+        "report": "Nhóm nêu một lí do chọn và một lí do bỏ ý còn lại.",
+        "conclusion": "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+        "assessment": "Đạt khi có hai ý và lựa chọn có căn cứ; giúp nhóm giảm quy mô nếu đòi công cụ trả phí/lập trình lớn.",
+        "answers": [
+          "Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Ý tưởng phù hợp cần rõ: giúp ai, giúp việc gì, dùng dữ liệu nào và kiểm tra ra sao.",
+          "explanation": "Ý tưởng phù hợp cần rõ: giúp ai, giúp việc gì, dùng dữ liệu nào và kiểm tra ra sao.",
+          "delivery": "Giao nhóm dùng ý tưởng từ tiết 7 hoặc chọn ví dụ trong phiếu. Hỏi ý tưởng có thật sự cần AI không? Có thể thể hiện bằng poster/storyboard không?\nNhóm nêu một lí do chọn và một lí do bỏ ý còn lại.",
+          "answer": "• Giải pháp phù hợp cần làm rõ phần AI và tính khả thi; không cần sản phẩm phức tạp.",
+          "closing": "Ý tưởng phù hợp cần rõ: giúp ai, giúp việc gì, dùng dữ liệu nào và kiểm tra ra sao.",
+          "transition": "Dùng lại ý đã chọn; chỉ bổ sung đầu ra, cách xử lí khi sai và phác thảo sản phẩm.",
+          "students": "Nêu lí do chọn một ý tưởng và điều cần thu hẹp ở ý tưởng còn lại."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 10
+    },
+    {
+      "type": "divider",
+      "id": "08-11",
+      "number": 11,
+      "title": "KHÁM PHÁ 2: THIẾT KẾ Ý TƯỞNG DỰ ÁN",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Mô tả rõ quan hệ con người và AI.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình chuyển sang khám phá 2: thiết kế ý tưởng dự án.",
+          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
+          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "answer": "",
+          "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Trợ lí AI trong cuộc sống của em.",
+          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+        }
+      },
+      "theme": "blue",
+      "originalNumber": 11
+    },
+    {
+      "type": "task",
+      "text": "Điền phiếu ý tưởng P8.2 theo từng bước. Nêu rõ việc AI hỗ trợ và việc con người kiểm tra.",
+      "product": "Phiếu ý tưởng và bản phác thảo sản phẩm. Có thể mới là ý tưởng minh họa; không bắt buộc làm mô hình chạy thật.",
+      "roles": [
+        "Thao tác",
+        "Đọc nhiệm vụ",
+        "Ghi kết quả",
+        "Đối chiếu"
+      ],
+      "visual": "poster",
+      "id": "08-12",
+      "number": 12,
+      "title": "Trợ lí AI trong cuộc sống của em",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Mô tả rõ quan hệ con người và AI.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [
+          "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Điền phiếu ý tưởng P8.2 theo từng bước. Nêu rõ việc AI hỗ trợ và việc con người kiểm tra.",
+          "explanation": "Điền phiếu ý tưởng P8.2 theo từng bước. Nêu rõ việc AI hỗ trợ và việc con người kiểm tra.\n\nPhiếu ý tưởng và bản phác thảo sản phẩm. Có thể mới là ý tưởng minh họa; không bắt buộc làm mô hình chạy thật.",
+          "delivery": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.\nPhân vai: Thao tác, Đọc nhiệm vụ, Ghi kết quả, Đối chiếu. Ghi đúng kết quả thực hiện và điều kiện của nhóm.",
+          "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Xác định vấn đề và người dùng.",
+          "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 12
+    },
+    {
+      "type": "step",
+      "heading": "Xác định vấn đề và người dùng",
+      "text": "Giúp học sinh hiểu ba từ trong hướng dẫn tiếng Anh.",
+      "steps": [
+        "Nêu ai cần, cần việc gì, dấu hiệu hoàn thành.",
+        "Đây là ví dụ để tham khảo, nhóm chọn nhu cầu của mình."
+      ],
+      "visual": "poster",
+      "step": 1,
+      "time": 0,
+      "id": "08-13",
+      "number": 13,
+      "title": "Xác định vấn đề và người dùng",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Mô tả rõ quan hệ con người và AI.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [
+          "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Giúp học sinh hiểu ba từ trong hướng dẫn tiếng Anh.",
+          "explanation": "Nêu ai cần, cần việc gì, dấu hiệu hoàn thành.\nĐây là ví dụ để tham khảo, nhóm chọn nhu cầu của mình.",
+          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nNêu ai cần, cần việc gì, dấu hiệu hoàn thành.\nĐây là ví dụ để tham khảo, nhóm chọn nhu cầu của mình.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
+          "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Đầu vào và chức năng AI.",
+          "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 13
+    },
+    {
+      "type": "step",
+      "heading": "Đầu vào và chức năng AI",
+      "text": "Câu/từ mẫu → gợi ý nghĩa.",
+      "steps": [
+        "Chọn dữ liệu thực sự cần.",
+        "Ghi dữ liệu không thu thập: tên, địa chỉ, thông tin riêng."
+      ],
+      "visual": "flow",
+      "step": 2,
+      "time": 0,
+      "id": "08-14",
+      "number": 14,
+      "title": "Đầu vào và chức năng AI",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Mô tả rõ quan hệ con người và AI.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [
+          "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Câu/từ mẫu → gợi ý nghĩa.",
+          "explanation": "Chọn dữ liệu thực sự cần.\nGhi dữ liệu không thu thập: tên, địa chỉ, thông tin riêng.",
+          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nChọn dữ liệu thực sự cần.\nGhi dữ liệu không thu thập: tên, địa chỉ, thông tin riêng.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
+          "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Đầu ra và việc con người làm.",
+          "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."
+        }
+      },
+      "theme": "cream",
+      "diagram": [
+        [
+          "Dữ liệu đưa vào",
+          "Ba từ tiếng Anh cần hiểu."
+        ],
+        [
+          "AI hỗ trợ",
+          "Gợi ý nghĩa bằng tiếng Việt."
+        ],
+        [
+          "Con người kiểm tra",
+          "Xem bảng từ hoặc hỏi GV."
+        ]
+      ],
+      "originalNumber": 14
+    },
+    {
+      "type": "step",
+      "heading": "Đầu ra và con người kiểm",
+      "text": "Gợi ý nghĩa → đối chiếu bảng từ/SGK.",
+      "steps": [
+        "Chỉ rõ ai kiểm tra, ai quyết định.",
+        "Nếu chưa phù hợp: hỏi GV hoặc tìm nguồn phù hợp."
+      ],
+      "visual": "flow",
+      "step": 3,
+      "time": 0,
+      "id": "08-15",
+      "number": 15,
+      "title": "Đầu ra và việc con người làm",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Mô tả rõ quan hệ con người và AI.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [
+          "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Gợi ý nghĩa → đối chiếu bảng từ/SGK.",
+          "explanation": "Chỉ rõ ai kiểm tra, ai quyết định.\nNếu chưa phù hợp: hỏi GV hoặc tìm nguồn phù hợp.",
+          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nChỉ rõ ai kiểm tra, ai quyết định.\nNếu chưa phù hợp: hỏi GV hoặc tìm nguồn phù hợp.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
+          "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Chọn hình thức sản phẩm.",
+          "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."
+        }
+      },
+      "theme": "cream",
+      "diagram": [
+        [
+          "Kết quả AI gợi ý",
+          "Nghĩa hoặc ví dụ của từ."
+        ],
+        [
+          "Đối chiếu",
+          "So với bảng từ phù hợp."
+        ],
+        [
+          "Quyết định",
+          "Giữ / sửa / hỏi thêm."
+        ]
+      ],
+      "originalNumber": 15
+    },
+    {
+      "type": "step",
+      "heading": "Chọn hình thức sản phẩm",
+      "text": "Chọn áp phích, vài slide, kịch bản hình, video hoặc mô hình.",
+      "steps": [
+        "Chọn theo thiết bị và thời gian nhóm đang có.",
+        "Nếu mới mô tả cách làm, ghi “Ý tưởng minh họa”."
+      ],
+      "visual": "poster",
+      "step": 4,
+      "time": 0,
+      "id": "08-16",
+      "number": 16,
+      "title": "Chọn hình thức sản phẩm",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Mô tả rõ quan hệ con người và AI.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [
+          "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Chọn áp phích, vài slide, kịch bản hình, video hoặc mô hình.",
+          "explanation": "Chọn theo thiết bị và thời gian nhóm đang có.\nNếu mới mô tả cách làm, ghi “Ý tưởng minh họa”.",
+          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nChọn theo thiết bị và thời gian nhóm đang có.\nNếu mới mô tả cách làm, ghi “Ý tưởng minh họa”.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
+          "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: P8.2 — Phiếu ý tưởng dự án.",
+          "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 16
+    },
+    {
+      "type": "worksheet",
+      "worksheet": {
+        "title": "P8.2 Phiếu ý tưởng dự án",
+        "intro": "Dùng lại ý tưởng đã chọn; bổ sung phần còn thiếu rồi phác thảo, không chép lại một bản giống hệt.",
+        "headers": null,
+        "rows": null,
+        "questions": [],
+        "answers": [
+          "Ví dụ: học sinh cần hiểu ba từ hướng dẫn tiếng Anh; AI gợi ý nghĩa; người đối chiếu bảng từ/SGK và hỏi GV khi chưa chắc; không thu tên/địa chỉ; poster mô tả ý tưởng.",
+          "Thiếu bước con người kiểm tra hoặc dữ liệu đầu vào không phù hợp thì cần sửa. Không đánh giá mô hình chạy thật nếu chỉ có sơ đồ."
+        ],
+        "pages": [
+          {
+            "title": "Làm rõ ý tưởng — phần 1",
+            "instruction": "Dùng lại thông tin đã rõ ở Phiếu chọn ý tưởng. Bổ sung mục còn thiếu, mỗi mục một câu ngắn.",
+            "fields": [
+              {
+                "label": "1. Nhóm muốn giải quyết việc gì?",
+                "placeholder": "",
+                "key": "08-17-v3-0"
+              },
+              {
+                "label": "2. Ai sẽ sử dụng?",
+                "placeholder": "",
+                "key": "08-17-v3-1"
+              },
+              {
+                "label": "3. Làm được điều gì thì coi là hoàn thành?",
+                "placeholder": "",
+                "key": "08-17-v3-2"
+              },
+              {
+                "label": "4. Dữ liệu nào được đưa vào?",
+                "placeholder": "",
+                "key": "08-17-v3-3"
+              }
+            ]
+          },
+          {
+            "title": "Làm rõ ý tưởng — phần 2",
+            "instruction": "Dùng lại thông tin đã rõ ở Phiếu chọn ý tưởng. Bổ sung mục còn thiếu, mỗi mục một câu ngắn.",
+            "fields": [
+              {
+                "label": "5. AI sẽ hỗ trợ làm gì?",
+                "placeholder": "",
+                "key": "08-17-v3-4"
+              },
+              {
+                "label": "6. Người dùng nhận kết quả gì?",
+                "placeholder": "",
+                "key": "08-17-v3-5"
+              },
+              {
+                "label": "7. Con người làm và kiểm tra phần nào?",
+                "placeholder": "",
+                "key": "08-17-v3-6"
+              },
+              {
+                "label": "8. Nếu kết quả sai hoặc chưa rõ, sẽ xử lí thế nào?",
+                "placeholder": "",
+                "key": "08-17-v3-7"
+              }
+            ]
+          },
+          {
+            "title": "Làm rõ ý tưởng — phần 3",
+            "instruction": "Dùng lại thông tin đã rõ ở Phiếu chọn ý tưởng. Bổ sung mục còn thiếu, mỗi mục một câu ngắn.",
+            "fields": [
+              {
+                "label": "9. Những thông tin cá nhân nào không cần thu thập?",
+                "placeholder": "",
+                "key": "08-17-v3-8"
+              },
+              {
+                "label": "10. Nhóm chọn hình thức sản phẩm nào?",
+                "placeholder": "",
+                "key": "08-17-v3-9"
+              }
+            ]
+          },
+          {
+            "title": "Phác thảo sản phẩm",
+            "instruction": "Có thể vẽ ở vở hoặc ghi bố cục bằng lời trong ô dưới.",
+            "fields": [
+              {
+                "label": "1. Sơ đồ: dữ liệu vào → AI hỗ trợ → kết quả → người kiểm tra",
+                "placeholder": "",
+                "key": "08-17-v3-10"
+              },
+              {
+                "label": "2. Nhóm đặt ví dụ, cách kiểm tra và nguồn ở đâu trên sản phẩm?",
+                "placeholder": "",
+                "key": "08-17-v3-11"
+              }
+            ],
+            "reference": "Chọn một hình thức: áp phích (poster), vài slide, kịch bản hình sáu khung, video hoặc mô hình hoạt động. Ghi rõ nếu mới là ý tưởng minh họa."
+          }
+        ]
+      },
+      "time": 16,
+      "id": "08-17",
+      "number": 17,
+      "title": "P8.2 — Phiếu ý tưởng dự án",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Hoàn thành phiếu ý tưởng dự án theo các bước trên phiếu.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [
+          "Ví dụ: học sinh cần hiểu ba từ hướng dẫn tiếng Anh; AI gợi ý nghĩa; người đối chiếu bảng từ/SGK và hỏi GV khi chưa chắc; không thu tên/địa chỉ; poster mô tả ý tưởng.",
+          "Thiếu bước con người kiểm tra hoặc dữ liệu đầu vào không phù hợp thì cần sửa. Không đánh giá mô hình chạy thật nếu chỉ có sơ đồ."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình cùng thực hiện: P8.2 — Phiếu ý tưởng dự án",
+          "explanation": "Làm rõ ý tưởng — phần 1: Dùng lại thông tin đã rõ ở Phiếu chọn ý tưởng. Bổ sung mục còn thiếu, mỗi mục một câu ngắn.\nLàm rõ ý tưởng — phần 2: Dùng lại thông tin đã rõ ở Phiếu chọn ý tưởng. Bổ sung mục còn thiếu, mỗi mục một câu ngắn.\nLàm rõ ý tưởng — phần 3: Dùng lại thông tin đã rõ ở Phiếu chọn ý tưởng. Bổ sung mục còn thiếu, mỗi mục một câu ngắn.\nPhác thảo sản phẩm: Có thể vẽ ở vở hoặc ghi bố cục bằng lời trong ô dưới.",
+          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
+          "answer": "• Ví dụ: học sinh cần hiểu ba từ hướng dẫn tiếng Anh; AI gợi ý nghĩa; người đối chiếu bảng từ/SGK và hỏi GV khi chưa chắc; không thu tên/địa chỉ; poster mô tả ý tưởng.\n• Thiếu bước con người kiểm tra hoặc dữ liệu đầu vào không phù hợp thì cần sửa. Không đánh giá mô hình chạy thật nếu chỉ có sơ đồ.",
+          "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Đổi phiếu và góp ý.",
+          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+        }
+      },
+      "theme": "cream",
+      "reuseKind": "idea",
+      "originalNumber": 17
+    },
+    {
+      "type": "report",
+      "text": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.",
+      "task": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung kịch bản hình, có một tình huống AI chưa phù hợp.",
+      "answer": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+      "product": "Phiếu ý tưởng và bản phác thảo sản phẩm. Có thể mới là ý tưởng minh họa; không bắt buộc làm mô hình chạy thật.",
+      "id": "08-18",
+      "number": 18,
+      "title": "Đổi phiếu và góp ý",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Mô tả rõ quan hệ con người và AI.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [
+          "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.",
+          "explanation": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.\n\nPhiếu ý tưởng và bản phác thảo sản phẩm. Có thể mới là ý tưởng minh họa; không bắt buộc làm mô hình chạy thật.",
+          "delivery": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.\nHai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+          "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "closing": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: Kiến thức cần nhớ.",
+          "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung kịch bản hình, có một tình huống AI chưa phù hợp."
+        }
+      },
+      "theme": "cream",
+      "reportQuestions": [
+        "Nhóm chọn giúp ai và việc gì?",
+        "AI hỗ trợ gì; con người kiểm tra gì?",
+        "Nhóm cần làm rõ điểm nào nữa?"
+      ],
+      "originalNumber": 18
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Chọn một việc nhỏ và nói rõ ai cần giúp.",
+        "Tách rõ việc AI hỗ trợ và việc con người kiểm tra.",
+        "Chọn sản phẩm phù hợp thời gian, thiết bị; ghi đúng mức đã làm."
+      ],
+      "id": "08-19",
+      "number": 19,
+      "title": "Kiến thức cần nhớ",
+      "note": {
+        "activity": "Khám phá 2.2 Thiết kế phiếu ý tưởng dự án",
+        "purpose": "Mô tả rõ quan hệ con người và AI.",
+        "teacher": "Giới thiệu chủ đề chung, yêu cầu công khai đây là thiết kế hay mô hình hoạt động. Hỏi dữ liệu nào không cần thu? Ai kiểm tra? Khi AI sai thì sản phẩm hướng dẫn làm gì? Dùng rubric để góp ý ngắn.",
+        "students": "Điền phiếu; chia phần việc; tạo bản nháp poster hoặc sáu khung storyboard, có một tình huống AI chưa phù hợp.",
+        "report": "Hai nhóm đổi phiếu và nêu một điểm rõ, một câu hỏi cần làm rõ.",
+        "conclusion": "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+        "assessment": "Kiểm tra đủ vấn đề/người dùng/chức năng/kiểm tra; thiếu phần con người thì yêu cầu sửa trước khi làm ở nhà.",
+        "answers": [
+          "AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mỗi em chọn một ý và giải thích bằng việc vừa làm.",
+          "explanation": "Chọn một việc nhỏ và nói rõ ai cần giúp.\nTách rõ việc AI hỗ trợ và việc con người kiểm tra.\nChọn sản phẩm phù hợp thời gian, thiết bị; ghi đúng mức đã làm.",
+          "delivery": "Mời ba HS, mỗi em diễn đạt lại một ý. Yêu cầu nối với ví dụ hoặc minh chứng trong tiết học; chỉnh ngắn gọn nếu HS khái quát quá mức.",
+          "answer": "• AI hỗ trợ một phần công việc; con người xác định mục đích, kiểm tra và quyết định. Sản phẩm mô tả phải ghi là ý tưởng.",
+          "closing": "Mời một HS giải thích một ý bằng ví dụ của chính nhóm.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: LUYỆN TẬP.",
+          "students": "Nói lại một ý bằng lời riêng và lấy ví dụ vừa thực hiện."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 19
+    },
+    {
+      "type": "divider",
+      "id": "08-20",
+      "number": 20,
+      "title": "LUYỆN TẬP",
+      "note": {
+        "activity": "Luyện tập cá nhân",
+        "purpose": "Kiểm tra mức hiểu của từng thành viên về dự án.",
+        "teacher": "Cho HS viết riêng không nhìn phiếu nhóm trong phút đầu. Hỏi thêm bạn nào còn nhầm AI làm toàn bộ dự án.",
+        "students": "Viết rồi đối chiếu với bản nhóm, tự sửa chỗ chưa thống nhất.",
+        "report": "Mời thành viên không phải người báo cáo mô tả một chức năng.",
+        "conclusion": "Mỗi thành viên cần giải thích được ý tưởng, không chỉ hoàn thành phần trang trí.",
+        "assessment": "Dùng câu trả lời để xác định HS cần hỗ trợ trước giai đoạn 1.",
+        "answers": [],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình chuyển sang luyện tập.",
+          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
+          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "answer": "",
+          "closing": "Mỗi thành viên cần giải thích được ý tưởng, không chỉ hoàn thành phần trang trí.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: P8.3A — Mỗi thành viên hiểu dự án chưa?.",
+          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+        }
+      },
+      "theme": "blue",
+      "originalNumber": 20
+    },
+    {
+      "type": "worksheet",
+      "worksheet": {
+        "title": "P8.3 Hiểu ý tưởng và bàn giao",
+        "intro": "Trả lời trước khi trao đổi với nhóm. Đối chiếu với phiếu ý tưởng sau khi viết.",
+        "headers": null,
+        "rows": null,
+        "questions": [],
+        "answers": [
+          "A Câu trả lời phải phù hợp P8.2 và thể hiện mức hiểu riêng. Nếu khác nhau, nhóm thống nhất lại chức năng."
+        ],
+        "pages": [
+          {
+            "title": "Mỗi thành viên tự giải thích",
+            "instruction": "Trả lời trước khi trao đổi với nhóm. Đối chiếu với phiếu ý tưởng sau khi viết.",
+            "fields": [
+              {
+                "label": "1. Người dùng của dự án là ai?",
+                "placeholder": "",
+                "key": "08-21-v3-0"
+              },
+              {
+                "label": "2. AI nhận dữ liệu gì và hỗ trợ tạo kết quả gì?",
+                "placeholder": "",
+                "key": "08-21-v3-1"
+              },
+              {
+                "label": "3. Ai kiểm tra kết quả và kiểm tra bằng gì?",
+                "placeholder": "",
+                "key": "08-21-v3-2"
+              }
+            ]
+          }
+        ]
+      },
+      "time": 4,
+      "id": "08-21",
+      "number": 21,
+      "title": "P8.3A — Mỗi thành viên hiểu dự án chưa?",
+      "note": {
+        "activity": "Luyện tập cá nhân",
+        "purpose": "Hoàn thành mỗi thành viên hiểu dự án chưa? theo các bước trên phiếu.",
+        "teacher": "Cho HS viết riêng không nhìn phiếu nhóm trong phút đầu. Hỏi thêm bạn nào còn nhầm AI làm toàn bộ dự án.",
+        "students": "Viết rồi đối chiếu với bản nhóm, tự sửa chỗ chưa thống nhất.",
+        "report": "Mời thành viên không phải người báo cáo mô tả một chức năng.",
+        "conclusion": "Mỗi thành viên cần giải thích được ý tưởng, không chỉ hoàn thành phần trang trí.",
+        "assessment": "Dùng câu trả lời để xác định HS cần hỗ trợ trước giai đoạn 1.",
+        "answers": [
+          "A Câu trả lời phải phù hợp P8.2 và thể hiện mức hiểu riêng. Nếu khác nhau, nhóm thống nhất lại chức năng."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình cùng thực hiện: P8.3A — Mỗi thành viên hiểu dự án chưa?",
+          "explanation": "Mỗi thành viên tự giải thích: Trả lời trước khi trao đổi với nhóm. Đối chiếu với phiếu ý tưởng sau khi viết.",
+          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
+          "answer": "• A Câu trả lời phải phù hợp P8.2 và thể hiện mức hiểu riêng. Nếu khác nhau, nhóm thống nhất lại chức năng.",
+          "closing": "Mỗi thành viên cần giải thích được ý tưởng, không chỉ hoàn thành phần trang trí.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: CHUYỂN GIAO DỰ ÁN TẠI NHÀ.",
+          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 21
+    },
+    {
+      "type": "divider",
+      "id": "08-22",
+      "number": 22,
+      "title": "CHUYỂN GIAO DỰ ÁN TẠI NHÀ",
+      "note": {
+        "activity": "Vận dụng và chuyển giao dự án",
+        "purpose": "Hiểu bốn mốc tại nhà và điều kiện nộp.",
+        "teacher": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.",
+        "students": "Đọc yêu cầu, xác nhận hình thức và ghi việc cần làm đầu tiên ở giai đoạn 1.",
+        "report": "Đại diện nhắc lại bốn mốc, một HS nêu cách hỏi khi gặp khó.",
+        "conclusion": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.",
+        "assessment": "Chỉ giao khi nhóm biết đầu ra giai đoạn 1, cách nhận phản hồi và lựa chọn khi thiếu thiết bị.",
+        "answers": [],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Mình chuyển sang chuyển giao dự án tại nhà.",
+          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
+          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "answer": "",
+          "closing": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.",
+          "transition": "Dùng kết quả vừa có để chuyển sang: P8.3B — Bốn giai đoạn và tiêu chí dự án.",
+          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+        }
+      },
+      "theme": "blue",
+      "originalNumber": 22
+    },
+    {
+      "type": "worksheet",
+      "worksheet": {
+        "title": "P8.3 Hiểu ý tưởng và bàn giao",
+        "intro": "Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.",
+        "headers": null,
+        "rows": null,
+        "questions": [],
+        "answers": [
+          "Thống nhất hình thức có thể làm, cách hỗ trợ và đầu ra giai đoạn 1. Ngày và kênh nộp do GV thông báo.",
+          "Bấm Chiếu tiêu chí dự án để đọc đủ năm tiêu chí và mô tả mức 0–2 trước khi làm. Mỗi giai đoạn tiếp tục cùng một dự án."
+        ],
+        "pages": [
+          {
+            "title": "Chọn hình thức và cách hỗ trợ",
+            "instruction": "Xem Tiêu chí dự án, đọc bốn giai đoạn rồi thống nhất cách làm. Lịch/kênh nộp do GV thông báo.",
+            "fields": [
+              {
+                "label": "1. Nhóm chọn hình thức sản phẩm nào?",
+                "placeholder": "",
+                "key": "08-23-v3-0"
+              },
+              {
+                "label": "2. Khi thiếu thiết bị, nhóm sẽ nhờ ai hỗ trợ?",
+                "placeholder": "",
+                "key": "08-23-v3-1"
+              }
+            ],
+            "reference": "1. Chọn vấn đề, lập kế hoạch.\n2. Tìm nguồn, vẽ thiết kế.\n3. Làm sản phẩm bản đầu.\n4. Nhận góp ý, hoàn thiện và nộp."
+          },
+          {
+            "title": "Thống nhất phần việc và lịch",
+            "instruction": "Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.",
+            "fields": [
+              {
+                "label": "3. Phần việc đầu tiên của từng thành viên là gì?",
+                "placeholder": "",
+                "key": "08-23-v3-2"
+              },
+              {
+                "label": "4. Lịch và kênh nộp GV đã thông báo là gì?",
+                "placeholder": "Nếu chưa có thông báo, ghi: cần hỏi GV.",
+                "key": "08-23-v3-3"
+              }
+            ]
+          }
+        ],
+        "rubricAccess": true
+      },
+      "time": 3,
+      "id": "08-23",
+      "number": 23,
+      "title": "P8.3B — Bốn giai đoạn và tiêu chí dự án",
+      "note": {
+        "activity": "Vận dụng và chuyển giao dự án",
+        "purpose": "Hoàn thành bốn giai đoạn và tiêu chí theo các bước trên phiếu.",
+        "teacher": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.",
+        "students": "Đọc yêu cầu, xác nhận hình thức và ghi việc cần làm đầu tiên ở giai đoạn 1.",
+        "report": "Đại diện nhắc lại bốn mốc, một HS nêu cách hỏi khi gặp khó.",
+        "conclusion": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.",
+        "assessment": "Chỉ giao khi nhóm biết đầu ra giai đoạn 1, cách nhận phản hồi và lựa chọn khi thiếu thiết bị.",
+        "answers": [
+          "Thống nhất hình thức có thể làm, cách hỗ trợ và đầu ra giai đoạn 1. Ngày và kênh nộp do GV thông báo.",
+          "Bấm Chiếu tiêu chí dự án để đọc đủ năm tiêu chí và mô tả mức 0–2 trước khi làm. Mỗi giai đoạn tiếp tục cùng một dự án."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Trước khi bắt đầu dự án, mình xem năm nhóm tiêu chí. Sau đó thống nhất cách làm qua bốn giai đoạn.",
+          "explanation": "Chọn hình thức và cách hỗ trợ: Xem Tiêu chí dự án, đọc bốn giai đoạn rồi thống nhất cách làm. Lịch/kênh nộp do GV thông báo.\nThống nhất phần việc và lịch: Cả nhóm đọc bốn giai đoạn rồi thống nhất cách làm.",
+          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
+          "answer": "• Thống nhất hình thức có thể làm, cách hỗ trợ và đầu ra giai đoạn 1. Ngày và kênh nộp do GV thông báo.\n• Bấm Chiếu tiêu chí dự án để đọc đủ năm tiêu chí và mô tả mức 0–2 trước khi làm. Mỗi giai đoạn tiếp tục cùng một dự án.",
+          "closing": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.",
+          "transition": "Xem tiêu chí trước khi làm. Bốn giai đoạn sau cùng hoàn thiện một dự án, không phải làm bốn dự án khác nhau.",
+          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 23
+    },
+    {
+      "type": "home",
+      "text": "Bắt đầu giai đoạn 1 theo P9: xem lại nhu cầu, điều chỉnh ý tưởng và lập kế hoạch có người phụ trách. Bản tiết 8 chỉ là bản nháp.",
+      "outcome": "Phiếu ý tưởng và bản nháp dự án cùng thẻ bàn giao",
+      "next": "Dự án tại nhà - Giai đoạn 1: Lựa chọn vấn đề và lập kế hoạch",
+      "id": "08-24",
+      "number": 24,
+      "title": "Nhóm em bắt đầu từ đâu?",
+      "note": {
+        "activity": "Vận dụng và chuyển giao dự án",
+        "purpose": "Hiểu bốn mốc tại nhà và điều kiện nộp.",
+        "teacher": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.",
+        "students": "Đọc yêu cầu, xác nhận hình thức và ghi việc cần làm đầu tiên ở giai đoạn 1.",
+        "report": "Đại diện nhắc lại bốn mốc, một HS nêu cách hỏi khi gặp khó.",
+        "conclusion": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.",
+        "assessment": "Chỉ giao khi nhóm biết đầu ra giai đoạn 1, cách nhận phản hồi và lựa chọn khi thiếu thiết bị.",
+        "answers": [
+          "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13."
+        ],
+        "source": "Bài 13 Dự án AI sáng tạo, mục Xác định chủ đề, ý tưởng và kế hoạch dự án nhóm AI, trang in 99; Bài 11 AI quanh ta và tác động thực tế. Lược bỏ yêu cầu lập trình, nhận dạng tư thế để phù hợp khung 12 tiết.",
+        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "script": {
+          "opening": "Bắt đầu giai đoạn 1 theo P9: xem lại nhu cầu, điều chỉnh ý tưởng và lập kế hoạch có người phụ trách. Bản tiết 8 chỉ là bản nháp.",
+          "explanation": "Bắt đầu giai đoạn 1 theo P9: xem lại nhu cầu, điều chỉnh ý tưởng và lập kế hoạch có người phụ trách. Bản tiết 8 chỉ là bản nháp.",
+          "delivery": "Giới thiệu bốn giai đoạn, mỗi giai đoạn khoảng 45 phút tự làm, được chia phiên; công bố kênh lớp. Kiểm tra nhóm thiếu thiết bị để bố trí phương án giấy và hỗ trợ quay sản phẩm cuối.\nĐại diện nhắc lại bốn mốc, một HS nêu cách hỏi khi gặp khó.",
+          "answer": "• Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.",
+          "closing": "Tại nhà sẽ hoàn thiện một dự án liên tục; không phải bốn dự án và không có tiết báo cáo thứ 13.",
+          "transition": "",
+          "students": "Đọc yêu cầu, xác nhận hình thức và ghi việc cần làm đầu tiên ở giai đoạn 1."
+        }
+      },
+      "theme": "cream",
+      "originalNumber": 24
+    }
+  ],
+  "rubric": [
+    [
+      "1 Vấn đề và tính khả thi",
+      "Chưa nêu vấn đề/người dùng hoặc mục tiêu không thể thực hiện.",
+      "Có vấn đề/người dùng nhưng mục tiêu hoặc cách thực hiện còn rộng.",
+      "Vấn đề, người dùng, mục tiêu rõ; hình thức và quy mô phù hợp điều kiện."
+    ],
+    [
+      "2 Chức năng AI và chính xác",
+      "Không mô tả đúng AI hoặc gán chức năng không có bằng chứng.",
+      "Có đầu vào/đầu ra nhưng thiếu liên kết hoặc chưa phân biệt ý tưởng với chạy thật.",
+      "Chức năng, đầu vào/đầu ra và ví dụ đúng; ghi rõ minh họa hay hoạt động thật."
+    ],
+    [
+      "3 Con người và an toàn",
+      "Không có bước kiểm tra, hoặc chia sẻ dữ liệu riêng tư không cần thiết chưa xử lí.",
+      "Có người kiểm tra nhưng cách kiểm/điều kiện riêng tư còn chung chung.",
+      "Có nguồn/cách đối chiếu, xử lí khi sai, quyết định của con người và giảm dữ liệu không cần."
+    ],
+    [
+      "4 Sản phẩm nguồn và quá trình",
+      "Thiếu phần cốt lõi, không có nguồn hoặc không có bằng chứng quá trình.",
+      "Sản phẩm đọc được nhưng còn thiếu một phần, nguồn khó kiểm lại hoặc nhật kí ít rõ.",
+      "Đủ nội dung, nguồn xác định được, sản phẩm đọc/xem được và có nhật kí quá trình."
+    ],
+    [
+      "5 Hợp tác chỉnh sửa giới thiệu",
+      "Không có đóng góp cá nhân/góp ý/chỉnh sửa và chưa giới thiệu sản phẩm.",
+      "Có phân công hoặc sửa nhưng lí do chưa rõ; giới thiệu chưa đủ hoặc còn thiếu minh chứng.",
+      "Có đóng góp, ít nhất một sửa có lí do, video 2–3 phút giới thiệu rõ vai trò AI và con người."
+    ]
+  ],
+  "evidence": [
+    [
+      "Chọn ý tưởng và thiết kế",
+      "6.2.TC1b",
+      "Đề xuất dự án nhỏ và phân biệt phần AI/con người.",
+      "P8.1–P8.2, P8.3A cá nhân",
+      "Chức năng AI phù hợp, kiểm tra có người thực hiện; đây là minh chứng đề xuất, chưa chứng minh mô hình chạy thật."
+    ]
+  ],
+  "revision": "V4 — sau kiểm định 17/11/2026"
+};

@@ -1,1 +1,2 @@
-(()=>{const n=Number(new URLSearchParams(location.search).get('lesson'));if(!Number.isInteger(n)||n<1||n>12){document.body.innerHTML='<p>Chọn một tiết từ trang mục lục rồi bấm Chiếu.</p><a href="index.html">Về mục lục</a>';return}const s=document.createElement('script');s.src='assets/js/lessons/tiet-'+String(n).padStart(2,'0')+'.js';s.onload=()=>{const app=document.createElement('script');app.src='assets/js/deck.js';document.body.append(app)};document.body.append(s)})();
+// Lối mở cũ chuyển về bài học hiện hành; bấm Chiếu để dùng hai cửa sổ.
+(()=>{const n=Number(new URLSearchParams(location.search).get('lesson'));location.replace(Number.isInteger(n)&&n>=1&&n<=12?'lessons/tiet-'+String(n).padStart(2,'0')+'.html':'index.html')})();

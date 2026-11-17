@@ -1,142 +1,153 @@
-[
-  {
-    "file": "code-0.mp4",
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 854,
-        "height": 480
-      },
-      {
-        "codec_name": "aac",
-        "codec_type": "audio"
+{
+  "files": [
+    {
+      "file": "assets/videos/code-0.mp4",
+      "bytes": 5773126,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "89.941000"
+        }
       }
-    ],
-    "format": {
-      "duration": "89.941000"
-    }
-  },
-  {
-    "file": "code-2.mp4",
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 854,
-        "height": 480
-      },
-      {
-        "codec_name": "aac",
-        "codec_type": "audio"
+    },
+    {
+      "file": "assets/videos/code-2.mp4",
+      "bytes": 9280869,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "172.757000"
+        }
       }
-    ],
-    "format": {
-      "duration": "172.757000"
-    }
-  },
-  {
-    "file": "code-3.mp4",
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 854,
-        "height": 480
-      },
-      {
-        "codec_name": "aac",
-        "codec_type": "audio"
+    },
+    {
+      "file": "assets/videos/code-3.mp4",
+      "bytes": 6954765,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "160.170000"
+        }
       }
-    ],
-    "format": {
-      "duration": "160.170000"
-    }
-  },
-  {
-    "file": "code-5.mp4",
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 854,
-        "height": 480
-      },
-      {
-        "codec_name": "aac",
-        "codec_type": "audio"
+    },
+    {
+      "file": "assets/videos/code-5.mp4",
+      "bytes": 16452548,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "384.406009"
+        }
       }
-    ],
-    "format": {
-      "duration": "384.406009"
-    }
-  },
-  {
-    "file": "code-6.mp4",
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 854,
-        "height": 480
-      },
-      {
-        "codec_name": "aac",
-        "codec_type": "audio"
+    },
+    {
+      "file": "assets/videos/code-6.mp4",
+      "bytes": 15502664,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "440.661000"
+        }
       }
-    ],
-    "format": {
-      "duration": "440.661000"
-    }
-  },
-  {
-    "file": "code-8.mp4",
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 854,
-        "height": 480
-      },
-      {
-        "codec_name": "aac",
-        "codec_type": "audio"
+    },
+    {
+      "file": "assets/videos/code-8.mp4",
+      "bytes": 14924835,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "206.976000"
+        }
       }
-    ],
-    "format": {
-      "duration": "206.976000"
-    }
-  },
-  {
-    "file": "code-9.mp4",
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "codec_type": "video",
-        "width": 854,
-        "height": 480
-      },
-      {
-        "codec_name": "aac",
-        "codec_type": "audio"
+    },
+    {
+      "file": "assets/videos/code-9.mp4",
+      "bytes": 13156092,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "203.498000"
+        }
       }
-    ],
-    "format": {
-      "duration": "203.498000"
     }
-  }
-]
+  ],
+  "live_review_test": "Video Computer Vision code-5.mp4: readyState 4, currentTime 107.847814, paused false, error null sau bấm Phát đoạn gợi ý (đoạn 85–110).",
+  "limit": "Chưa xác nhận âm thanh qua loa/máy chiếu thật; không coi kiểm định tệp là đã xem và nghe toàn bộ mọi video."
+}

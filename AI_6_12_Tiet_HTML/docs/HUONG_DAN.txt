@@ -1,72 +1,67 @@
-TRÍ TUỆ NHÂN TẠO 6 — 12 TIẾT, 256 SLIDE HTML/CSS/JAVASCRIPT
+TRÍ TUỆ NHÂN TẠO 6 — BẢN V4 SAU KIỂM ĐỊNH
+12 tiết · 242 slide chính · 4 video ôn tùy chọn
 
 MỞ BỘ SLIDE
-1. Giải nén toàn bộ AI_6_12_Tiet_HTML.zip; giữ nguyên cấu trúc thư mục.
-2. Mở index.html bằng Chrome hoặc Edge. Không cần npm hay máy chủ.
-3. Chọn Mở bài học; mỗi tiết mở trang độc lập, không trộn CSS vào index.
-4. Nút ngôi nhà trên thanh đầu bài trở về mục lục.
+1. Giải nén toàn bộ AI_6_12_Tiet_HTML.zip, giữ nguyên thư mục assets, lessons và docs.
+2. Mở index.html bằng Chrome hoặc Edge rồi chọn bài học. Không cần cài npm.
+3. Mỗi tiết là một trang độc lập. Tên bài giữ đúng bộ khung đã cung cấp.
+4. Font, hình, phiếu, bảy tệp video và ba PDF nguồn nằm trong gói. Công cụ AI bên ngoài cần mạng.
 
-PHÍM VÀ ĐIỀU KHIỂN
-←/→, PageUp/PageDown: trước/sau. Home/End: đầu/cuối.
-F: toàn màn hình. M: mục lục slide. N: ghi chú giáo viên.
-Phím tắt không chuyển slide khi đang nhập ô trả lời hoặc thao tác video.
-Đồng hồ chỉ chạy khi bấm Bắt đầu, có tạm dừng và đặt lại.
+CHIẾU VÀ MÀN GIÁO VIÊN
+1. Trong bài, bấm Chiếu. Cửa sổ mới chỉ chiếu slide; màn chính chuyển sang bàn giáo viên có slide và chú thích.
+2. Đưa cửa sổ chiếu sang màn hình thứ hai rồi bấm F/toàn màn hình. Nếu popup bị chặn, cho phép mở cửa sổ của bài học và bấm Chiếu lại.
+3. Chuyển slide, đổi trang phiếu và nhập câu trả lời từ màn chính. Màn chiếu nhận thay đổi nhưng không cho nhập vào phiếu.
+4. Ghi chú/Gợi ý cho giáo viên là riêng. Lời dẫn, giải thích, đáp án, chốt ý và câu nối theo slide hiện tại.
+5. Khi muốn cho HS xem, dùng đúng nút Chiếu bảng đối chiếu hoặc Chiếu tiêu chí dự án. Chỉ nội dung công khai đó được truyền, không truyền chú thích riêng.
+6. Bấm Về slide để đóng bảng công khai. Dừng chiếu để đóng cửa sổ chiếu và trở về chế độ xem.
+7. Màn giáo viên tắt tiếng video khi đang chiếu; tiếng phát ở màn chiếu. Trình duyệt có thể yêu cầu bấm phát tại màn chiếu một lần. Thử loa và video trước giờ dạy.
+8. Một màn hình: dùng Ghi chú, đóng ghi chú trước khi đưa slide cho HS. Chưa có cửa sổ chiếu thì không có sự tách màn riêng.
 
-HAI MÀN HÌNH — NÚT CHIẾU
-1. Mở một tiết từ index.html rồi bấm Chiếu.
-2. Cửa sổ mới chỉ hiển thị slide cho HS; màn chính chuyển thành màn giáo viên với slide bên trái và chú thích bên phải.
-3. Kéo cửa sổ chiếu sang máy chiếu/màn hình thứ hai, bấm F hoặc nút Toàn màn hình khi đưa chuột tới góc dưới phải.
-4. Điều khiển từ màn chính: chuyển slide, chọn mục lục, nhập phiếu, đổi tab/phân trang và phát video sẽ đồng bộ sang màn chiếu.
-5. Chú thích, đáp án, rubric và hộp thoại của GV không truyền sang màn chiếu. Bấm các nút Lời dẫn / Giải thích / Đáp án / Câu nối để tới đúng phần chú thích.
-6. Video ở màn giáo viên được tắt tiếng; âm thanh phát tại màn chiếu. Nếu trình duyệt chặn phát tiếng, bấm phát tại màn chiếu một lần.
-7. Bấm Chiếu lần nữa để đưa lại cửa sổ đang dùng; không tạo thêm bản chiếu cho cùng phiên. Nếu đóng cửa sổ chiếu bằng dấu X, màn chính vẫn giữ chú thích và có thể mở lại.
-8. Dừng chiếu đóng cửa sổ chiếu và đưa màn chính về chế độ xem thông thường.
-Nếu popup bị chặn, cho phép cửa sổ mới rồi bấm Chiếu lại. Nếu chỉ có một màn hình, dùng Ghi chú.
-Tải lại màn chính vẫn giữ chế độ GV và phiên đồng bộ. Không đưa cửa sổ giáo viên sang máy chiếu.
+PHÍM VÀ ĐỒNG HỒ
+←/→, PageUp/PageDown: chuyển slide; Home/End: đầu/cuối; M: mục lục; N: ghi chú; F: toàn màn hình.
+Phím chuyển slide tạm dừng khi nhập câu trả lời. Đồng hồ chỉ chạy khi bấm Bắt đầu; có tạm dừng và đặt lại.
+Các nút số ở đầu phiếu chuyển trang phiếu; mũi tên ở thanh dưới cùng chuyển slide.
 
-CHÚ THÍCH CHO 256 SLIDE
-Mỗi slide có lời dẫn gợi ý có thể nói trực tiếp, giải thích nội dung, cách tổ chức và câu hỏi gợi mở, việc HS, đáp án/gợi ý có căn cứ, chốt ý và câu nối sang slide tiếp theo.
-Gợi ý đáp án dựa trên giáo án/phiếu; không tự đặt kết quả thực nghiệm cho nhóm HS. Slide chuyển phần không có đáp án đóng.
-Có bản văn bản để đọc/chỉnh riêng: docs/CHU_THICH_GIAO_VIEN.txt và bản dữ liệu JSON tương ứng.
-Sửa nội dung đang hiển thị trong note.script của assets/js/lessons/tiet-XX.js; TXT/JSON là bản sao tham khảo, không tự đồng bộ ngược vào bài.
-
-PHIẾU VÀ GỢI Ý
-Mỗi phiếu có các bước đánh số ở thanh trên. Đọc tiêu đề và yêu cầu rồi ghi vào đúng ô có nhãn. Thông tin/ví dụ được đặt riêng; không điền vào phần đó.
-Dùng Trang trước/Trang sau của phiếu hoặc chọn số bước. Nút chuyển slide ở thanh dưới vẫn dùng để chuyển sang slide khác.
-Câu hỏi mở do GV nhận xét. Gợi ý cho giáo viên chỉ mở trên màn chính, không truyền sang màn chiếu. P1.1 có sáu thẻ và đối chiếu tự động, cần HS giải thích thêm lựa chọn.
-P6.2 có bản sao giả định để chỉnh trực tiếp; sau khi xóa thông tin thừa, chọn Tải bản câu hỏi đã sửa và mở tệp Cau_hoi_tu_vung.txt để kiểm tra.
-Bản V3 dùng ô trả lời mới và vùng lưu nháp riêng. Bài nháp của bản cũ không bị xóa nhưng không tự chuyển sang các câu hỏi đã viết lại.
+PHIẾU — GHI MỘT LẦN, DÙNG LẠI KHI CẦN
+- Đọc yêu cầu ngắn của trang hiện tại rồi điền đúng ô có nhãn; không cần phiếu in.
+- Nút Ghi vào phiếu ở slide hướng dẫn mở đúng trang ghi kết quả. Không chép lại vào slide thao tác.
+- P1.2 ghi cả dịch và nhận dạng ảnh; nêu công dụng, cách kiểm và hình thức đã làm. Không tự đặt kết quả công cụ.
+- P5.2 giữ bản dịch gốc, nguồn kiểm, quyết định và bản cuối/lí do chưa dùng.
+- P6.2 là bản sao giả định để sửa; tải Cau_hoi_tu_vung.txt rồi mở tệp thật để kiểm.
+- P8.1 có hai trang: ý tưởng/điều kiện và so sánh/chọn ý A hoặc B. Ở P8.2 bấm Dùng lại bản đã có để lấy ý đã chọn vào ô trống.
+- Nút Dùng lại bản đã có ở giai đoạn 3 lấy dữ liệu kế hoạch/thiết kế trước đó trong cùng trình duyệt, chỉ điền ô trống. Thiếu dữ liệu thì mở bản cũ và chép phần cần dùng. Đọc và sửa lại cho đúng sản phẩm.
+- P10.3A vẽ sơ đồ/bố cục; sau khi nhờ bạn giải thích mới ghi góp ý ở P10.3B.
+- P12.2A viết lời giới thiệu; P12.2B quay rồi mở bản quay để kiểm. Không phải có video ngay khi đang viết lời.
+- Tự đánh giá có năm tiêu chí 0–2. Tổng tự tính /10, kèm số tiêu chí đã chấm; để trống khác chọn 0. Đây là tự chấm, không tự gửi điểm cho GV.
 
 LƯU VÀ NỘP BÀI
-Trong Học liệu hoặc cuối tiết chọn Tải bài làm để tạo .txt UTF-8 gồm câu hỏi/đầu mục và câu trả lời. Tệp tải về không tự gửi đến GV.
-Nộp qua kênh lớp được GV quy định. Không có ngày/kênh nộp giả trong bộ slide.
-Trên máy dùng chung, tải file rồi dùng Xóa nháp tiết này khi cần. Chức năng chỉ xóa dữ liệu của đúng tiết.
-Nếu trình duyệt chặn lưu cục bộ, vẫn có thể tải bài trong phiên đang dùng; đừng đóng trước khi tải.
+Học liệu → Tải bài làm tạo .txt UTF-8 gồm nhãn và câu trả lời đang dùng. Tải file không đồng nghĩa đã nộp; gửi theo kênh GV quy định.
+Giữ vùng lưu V3 để giữ được phần lớn câu trả lời cũ. Những câu hỏi mới có khóa mới nên còn trống; không tự suy diễn câu trả lời. Trang phiếu hiện tại được nhớ riêng theo V4. Dữ liệu cũ đã bỏ khỏi nội dung không được chèn vào file xuất mới.
+Bản nháp chỉ ở trình duyệt/thiết bị; mở trên thiết bị hoặc thư mục gốc khác có thể không thấy lại. Nên tải bài sau mỗi tiết. Trên máy dùng chung, tải bài trước khi chọn Xóa nháp tiết này.
+Dữ liệu nhóm dùng thử khi kiểm tra không đóng gói trong bộ slide.
 
-NGOẠI TUYẾN
-Font, ảnh, sơ đồ, phiếu và bảy video Code.org được lưu trong assets, không phụ thuộc CDN.
-Video có nút Phát đoạn gợi ý và controls; rời slide sẽ dừng phát.
-Dịch vụ Google Dịch, nhận dạng ảnh và Teachable Machine là công cụ bên ngoài, cần mạng và điều kiện thiết bị. GV thử trước, chỉ dùng dữ liệu mẫu, không bắt tài khoản cá nhân HS.
-Khi thiếu mạng/thiết bị: quan sát GV hoặc dùng ảnh, bảng từ, quy tắc giả lập/học liệu dự phòng. Ghi đúng hình thức; không coi quan sát là đã trực tiếp huấn luyện.
-Video tiếng Anh; câu hỏi/lời dẫn Việt được biên soạn, không phải phụ đề chính thức.
+HỌC LIỆU VÀ CÔNG CỤ
+- Video Code.org tiếng Anh, có đoạn gợi ý và nút Xem tóm tắt Việt. Lời dẫn/tóm tắt do GV biên soạn, không phải phụ đề chính thức. Khi HS đang trả lời, có thể giữ tóm tắt ẩn.
+- Tiết 9–12 dùng Ôn khi cần; video không chặn luồng nhiệm vụ chính. Đây là một dự án qua bốn giai đoạn.
+- Tiết 10 có liên kết trực tiếp PDF SGK Bài 8/11/13 trong gói và trang How AI Works. Chỉ ghi nguồn thực sự đọc và thao tác tìm đã làm.
+- Tiết 1 dùng Google Images/Google Lens để thử tìm kiếm bằng ảnh. GV mở công cụ, chọn tìm bằng ảnh, tải ảnh cốc mẫu; kết quả có thể là nhiều gợi ý. Thử trước vì giao diện, mạng hoặc yêu cầu truy cập có thể thay đổi. Không bắt HS tạo tài khoản cá nhân.
+- Đổi imageToolUrl trong assets/js/config.js nếu trường dùng công cụ khác. Ghi đúng tự thao tác, quan sát GV hoặc dùng dự phòng. Không gọi ảnh minh họa là kết quả AI đã chạy.
+- Teachable Machine: menu góc trái → Download project as file để lưu; Open project from file để mở lại. Giữ bộ ảnh đúng nhãn; huấn luyện lại nếu cần. Export Model là xuất mô hình, khác lưu dự án. Menu đã đối chiếu trực tiếp ngày 17/11/2026, chưa thử trọn quy trình huấn luyện/lưu/mở trong lần kiểm định này.
+- Tiết 4 giữ sáu tệp T1–T6 riêng trước khi thử; Preview chọn Input File. Không đưa chúng vào ảnh học bổ sung. Khi không chạy được công cụ, ghi đúng hình thức hỗ trợ thay vì tạo kết quả giả.
 
 THỜI LƯỢNG
-Tiết 1–8: 4 + 10 + 20 + 6 + 4 + 1 = 45 phút. HS thực hiện nhiệm vụ 30 phút: 2 + 5 + 16 + 4 + 3. Video/lời dẫn/báo cáo/chốt không cộng vào 30 phút này.
-Tiết 9–12: bốn giai đoạn MỘT dự án liên tục. Tự làm khoảng 45 phút mỗi giai đoạn, chia phiên: đọc 7, thực hiện 27, tự kiểm 8, lưu/nộp 3 phút. Không tính thời gian chờ phản hồi GV, không có tiết báo cáo thứ 13.
-Slide dẫn dắt chỉ có tiêu đề, dùng trong chuyển hoạt động, không cộng thêm thời gian học.
+Tiết 1–8: 45 phút theo khung; nhiệm vụ HS 2 + 5 + 16 + 4 + 3 = 30 phút, phần còn lại dành giao nhiệm vụ/báo cáo/chốt. Slide dẫn dắt không tạo thêm một mốc thời gian.
+Tiết 9–12: khoảng 45 phút mỗi giai đoạn, có thể chia phiên; không tính thời gian chờ phản hồi. Không thêm tiết báo cáo thứ 13.
+Ngày/kênh nộp do GV thông báo; không tự gán lịch trong bộ slide.
 
-CHỈNH SỬA
-- assets/js/config.js: điền school, teacher, teachingDate nếu muốn hiển thị ở chân bìa; mặc định để trống.
-- assets/js/lessons/tiet-XX.js: tên bài, mục tiêu, nội dung, câu hỏi, phiếu, đáp án, ghi chú và học liệu của tiết.
-- assets/js/lesson-registry.js và index.html: thông tin danh mục. Khi đổi tên, cập nhật cả index và dữ liệu bài để thống nhất.
-- assets/css/tokens.css: màu và font; deck.css: bố cục trình chiếu; index.css: trang mục lục.
-- assets/js/deck.js: bộ điều khiển và các kiểu hoạt động; presenter.js: mở đúng dữ liệu cho cửa sổ GV.
-- Không lấy innerHTML các bài để nhét vào index. Dùng liên kết độc lập; nếu nhúng phải dùng iframe với document riêng.
-- Ảnh thumbnail được lấy từ bìa; khi sửa tiêu đề, tạo lại thumbnail tương ứng.
-
-NGUỒN VÀ KIỂM TRA
-NGUON_HOC_LIEU.csv: media theo vị trí, URL/trang và nguồn.
-DOI_CHIEU_GIAO_AN.csv: hoạt động/phiếu/mục tiêu đối chiếu từng slide.
-slide-inventory.json: 256 slide và trạng thái rà soát.
-BAO_CAO_KIEM_TRA.txt: các kiểm tra thực đã làm và giới hạn còn lại.
-Font: Oswald và Noto Sans; giấy phép trong assets/fonts. Không tự gán giấy phép mở cho ảnh SGK/video.
+CHỈNH SỬA VÀ TRUY VẾT
+assets/js/lessons/tiet-XX.js: nội dung, phiếu, note.script và học liệu. TXT/JSON chú thích là bản đọc tham khảo, không tự đồng bộ ngược.
+assets/js/config.js: tên trường/GV/ngày và công cụ ảnh. Mặc định thông tin lớp để trống.
+assets/css/tokens.css, deck.css, index.css: màu/chữ/bố cục. index.html và lesson-registry.js: danh mục.
+presenter.html là lối mở cũ, chuyển về bài tương ứng; dùng nút Chiếu trong bài.
+Không ghép innerHTML của 12 bài vào index. Mỗi bài dùng tài liệu độc lập.
+DOI_CHIEU_47_DE_XUAT.csv: vấn đề và thay đổi đã làm cho 47 đề xuất.
+CHUYEN_DOI_256_SANG_242.csv: vị trí mới của từng slide cũ, kể cả video tùy chọn.
+DOI_CHIEU_GIAO_AN.csv, CHU_THICH_GIAO_VIEN.txt/.json, slide-inventory.json: bản hiện tại.
+NGUON_HOC_LIEU.csv: nguồn ảnh/video/PDF. Giấy phép font nằm trong assets/fonts; không tự gán giấy phép mở cho SGK/video.
+BAO_CAO_KIEM_TRA.txt: kiểm tra thực tế và giới hạn. Không dùng kết quả của V3 để khẳng định V4 đã được dạy thử trên lớp.
