@@ -1,0 +1,1592 @@
+{
+  "all_pages": [
+    {
+      "lesson": 1,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 30
+    },
+    {
+      "lesson": 2,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 34
+    },
+    {
+      "lesson": 3,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 33
+    },
+    {
+      "lesson": 4,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 35
+    },
+    {
+      "lesson": 5,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 31
+    },
+    {
+      "lesson": 6,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 31
+    },
+    {
+      "lesson": 7,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 31
+    },
+    {
+      "lesson": 8,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 34
+    },
+    {
+      "lesson": 9,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 22
+    },
+    {
+      "lesson": 10,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 24
+    },
+    {
+      "lesson": 11,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 26
+    },
+    {
+      "lesson": 12,
+      "bad": [],
+      "banned": [],
+      "broken": [],
+      "count": 28
+    }
+  ],
+  "revealed_examples": [
+    {
+      "lesson": 1,
+      "bad": [],
+      "count": 5
+    },
+    {
+      "lesson": 2,
+      "bad": [],
+      "count": 5
+    },
+    {
+      "lesson": 3,
+      "bad": [],
+      "count": 5
+    },
+    {
+      "lesson": 4,
+      "bad": [],
+      "count": 5
+    },
+    {
+      "lesson": 5,
+      "bad": [],
+      "count": 5
+    },
+    {
+      "lesson": 6,
+      "bad": [],
+      "count": 5
+    },
+    {
+      "lesson": 7,
+      "bad": [],
+      "count": 5
+    },
+    {
+      "lesson": 8,
+      "bad": [],
+      "count": 5
+    },
+    {
+      "lesson": 9,
+      "bad": [],
+      "count": 3
+    },
+    {
+      "lesson": 10,
+      "bad": [],
+      "count": 4
+    },
+    {
+      "lesson": 11,
+      "bad": [],
+      "count": 4
+    },
+    {
+      "lesson": 12,
+      "bad": [],
+      "count": 4
+    }
+  ],
+  "responsive_matrix": [
+    {
+      "lesson": 1,
+      "slide": 9,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Nhìn mẫu: chọn tính năng AI"
+    },
+    {
+      "lesson": 1,
+      "slide": 18,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P1.2 — Ghi kết quả, rồi rút ý"
+    },
+    {
+      "lesson": 2,
+      "slide": 13,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Bốn bước phân loại rác ở trường"
+    },
+    {
+      "lesson": 2,
+      "slide": 20,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P2.2 — Ghi vai, thử và so sánh"
+    },
+    {
+      "lesson": 3,
+      "slide": 19,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Ghi mẫu hai lượt thử"
+    },
+    {
+      "lesson": 3,
+      "slide": 20,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P3.2 — bảng ghi thử mô hình"
+    },
+    {
+      "lesson": 4,
+      "slide": 19,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu so kết quả trước và sau"
+    },
+    {
+      "lesson": 4,
+      "slide": 20,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P4.2 — So sánh hai lượt thử"
+    },
+    {
+      "lesson": 5,
+      "slide": 9,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu kiểm một câu AI nói sai"
+    },
+    {
+      "lesson": 5,
+      "slide": 18,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P5.2 — bảng ghi kiểm tra bản dịch"
+    },
+    {
+      "lesson": 6,
+      "slide": 13,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu sửa hai khung chat"
+    },
+    {
+      "lesson": 6,
+      "slide": 18,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P6.2 — Sửa và kiểm bản sạch"
+    },
+    {
+      "lesson": 7,
+      "slide": 13,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu: có nên nhờ AI viết hộ?"
+    },
+    {
+      "lesson": 7,
+      "slide": 17,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Phiếu B — Quyết định có lí do"
+    },
+    {
+      "lesson": 8,
+      "slide": 13,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu một ý tưởng đã điền"
+    },
+    {
+      "lesson": 8,
+      "slide": 20,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P8.2 — Từ ý tưởng đến phác thảo"
+    },
+    {
+      "lesson": 9,
+      "slide": 10,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu phân công ba em, bốn tuần"
+    },
+    {
+      "lesson": 9,
+      "slide": 11,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P9.2 — Mỗi việc có người và mốc"
+    },
+    {
+      "lesson": 10,
+      "slide": 12,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu sơ đồ từ hỏi đến dùng"
+    },
+    {
+      "lesson": 10,
+      "slide": 13,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P10.3A — Vẽ cách hoạt động"
+    },
+    {
+      "lesson": 11,
+      "slide": 12,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu ghi nguồn và việc đã làm"
+    },
+    {
+      "lesson": 11,
+      "slide": 16,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P11.3 — Kiểm bản 1 bằng vị trí thật"
+    },
+    {
+      "lesson": 12,
+      "slide": 9,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu lời giới thiệu hai phút"
+    },
+    {
+      "lesson": 12,
+      "slide": 16,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P12.3 — Có minh chứng rồi chấm điểm"
+    },
+    {
+      "lesson": 1,
+      "slide": 9,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Nhìn mẫu: chọn tính năng AI"
+    },
+    {
+      "lesson": 1,
+      "slide": 18,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P1.2 — Ghi kết quả, rồi rút ý"
+    },
+    {
+      "lesson": 2,
+      "slide": 13,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Bốn bước phân loại rác ở trường"
+    },
+    {
+      "lesson": 2,
+      "slide": 20,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P2.2 — Ghi vai, thử và so sánh"
+    },
+    {
+      "lesson": 3,
+      "slide": 19,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Ghi mẫu hai lượt thử"
+    },
+    {
+      "lesson": 3,
+      "slide": 20,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P3.2 — bảng ghi thử mô hình"
+    },
+    {
+      "lesson": 4,
+      "slide": 19,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu so kết quả trước và sau"
+    },
+    {
+      "lesson": 4,
+      "slide": 20,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P4.2 — So sánh hai lượt thử"
+    },
+    {
+      "lesson": 5,
+      "slide": 9,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu kiểm một câu AI nói sai"
+    },
+    {
+      "lesson": 5,
+      "slide": 18,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P5.2 — bảng ghi kiểm tra bản dịch"
+    },
+    {
+      "lesson": 6,
+      "slide": 13,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu sửa hai khung chat"
+    },
+    {
+      "lesson": 6,
+      "slide": 18,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P6.2 — Sửa và kiểm bản sạch"
+    },
+    {
+      "lesson": 7,
+      "slide": 13,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu: có nên nhờ AI viết hộ?"
+    },
+    {
+      "lesson": 7,
+      "slide": 17,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Phiếu B — Quyết định có lí do"
+    },
+    {
+      "lesson": 8,
+      "slide": 13,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu một ý tưởng đã điền"
+    },
+    {
+      "lesson": 8,
+      "slide": 20,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P8.2 — Từ ý tưởng đến phác thảo"
+    },
+    {
+      "lesson": 9,
+      "slide": 10,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu phân công ba em, bốn tuần"
+    },
+    {
+      "lesson": 9,
+      "slide": 11,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P9.2 — Mỗi việc có người và mốc"
+    },
+    {
+      "lesson": 10,
+      "slide": 12,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu sơ đồ từ hỏi đến dùng"
+    },
+    {
+      "lesson": 10,
+      "slide": 13,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P10.3A — Vẽ cách hoạt động"
+    },
+    {
+      "lesson": 11,
+      "slide": 12,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu ghi nguồn và việc đã làm"
+    },
+    {
+      "lesson": 11,
+      "slide": 16,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P11.3 — Kiểm bản 1 bằng vị trí thật"
+    },
+    {
+      "lesson": 12,
+      "slide": 9,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu lời giới thiệu hai phút"
+    },
+    {
+      "lesson": 12,
+      "slide": 16,
+      "viewport": [
+        1366,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P12.3 — Có minh chứng rồi chấm điểm"
+    },
+    {
+      "lesson": 1,
+      "slide": 9,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Nhìn mẫu: chọn tính năng AI"
+    },
+    {
+      "lesson": 1,
+      "slide": 18,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P1.2 — Ghi kết quả, rồi rút ý"
+    },
+    {
+      "lesson": 2,
+      "slide": 13,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Bốn bước phân loại rác ở trường"
+    },
+    {
+      "lesson": 2,
+      "slide": 20,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P2.2 — Ghi vai, thử và so sánh"
+    },
+    {
+      "lesson": 3,
+      "slide": 19,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Ghi mẫu hai lượt thử"
+    },
+    {
+      "lesson": 3,
+      "slide": 20,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P3.2 — bảng ghi thử mô hình"
+    },
+    {
+      "lesson": 4,
+      "slide": 19,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu so kết quả trước và sau"
+    },
+    {
+      "lesson": 4,
+      "slide": 20,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P4.2 — So sánh hai lượt thử"
+    },
+    {
+      "lesson": 5,
+      "slide": 9,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu kiểm một câu AI nói sai"
+    },
+    {
+      "lesson": 5,
+      "slide": 18,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P5.2 — bảng ghi kiểm tra bản dịch"
+    },
+    {
+      "lesson": 6,
+      "slide": 13,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu sửa hai khung chat"
+    },
+    {
+      "lesson": 6,
+      "slide": 18,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P6.2 — Sửa và kiểm bản sạch"
+    },
+    {
+      "lesson": 7,
+      "slide": 13,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu: có nên nhờ AI viết hộ?"
+    },
+    {
+      "lesson": 7,
+      "slide": 17,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Phiếu B — Quyết định có lí do"
+    },
+    {
+      "lesson": 8,
+      "slide": 13,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu một ý tưởng đã điền"
+    },
+    {
+      "lesson": 8,
+      "slide": 20,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P8.2 — Từ ý tưởng đến phác thảo"
+    },
+    {
+      "lesson": 9,
+      "slide": 10,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu phân công ba em, bốn tuần"
+    },
+    {
+      "lesson": 9,
+      "slide": 11,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P9.2 — Mỗi việc có người và mốc"
+    },
+    {
+      "lesson": 10,
+      "slide": 12,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu sơ đồ từ hỏi đến dùng"
+    },
+    {
+      "lesson": 10,
+      "slide": 13,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P10.3A — Vẽ cách hoạt động"
+    },
+    {
+      "lesson": 11,
+      "slide": 12,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu ghi nguồn và việc đã làm"
+    },
+    {
+      "lesson": 11,
+      "slide": 16,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P11.3 — Kiểm bản 1 bằng vị trí thật"
+    },
+    {
+      "lesson": 12,
+      "slide": 9,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu lời giới thiệu hai phút"
+    },
+    {
+      "lesson": 12,
+      "slide": 16,
+      "viewport": [
+        1280,
+        720
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P12.3 — Có minh chứng rồi chấm điểm"
+    },
+    {
+      "lesson": 1,
+      "slide": 9,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Nhìn mẫu: chọn tính năng AI"
+    },
+    {
+      "lesson": 1,
+      "slide": 18,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P1.2 — Ghi kết quả, rồi rút ý"
+    },
+    {
+      "lesson": 2,
+      "slide": 13,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Bốn bước phân loại rác ở trường"
+    },
+    {
+      "lesson": 2,
+      "slide": 20,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P2.2 — Ghi vai, thử và so sánh"
+    },
+    {
+      "lesson": 3,
+      "slide": 19,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Ghi mẫu hai lượt thử"
+    },
+    {
+      "lesson": 3,
+      "slide": 20,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P3.2 — bảng ghi thử mô hình"
+    },
+    {
+      "lesson": 4,
+      "slide": 19,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu so kết quả trước và sau"
+    },
+    {
+      "lesson": 4,
+      "slide": 20,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P4.2 — So sánh hai lượt thử"
+    },
+    {
+      "lesson": 5,
+      "slide": 9,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu kiểm một câu AI nói sai"
+    },
+    {
+      "lesson": 5,
+      "slide": 18,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P5.2 — bảng ghi kiểm tra bản dịch"
+    },
+    {
+      "lesson": 6,
+      "slide": 13,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu sửa hai khung chat"
+    },
+    {
+      "lesson": 6,
+      "slide": 18,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P6.2 — Sửa và kiểm bản sạch"
+    },
+    {
+      "lesson": 7,
+      "slide": 13,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu: có nên nhờ AI viết hộ?"
+    },
+    {
+      "lesson": 7,
+      "slide": 17,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Phiếu B — Quyết định có lí do"
+    },
+    {
+      "lesson": 8,
+      "slide": 13,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu một ý tưởng đã điền"
+    },
+    {
+      "lesson": 8,
+      "slide": 20,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P8.2 — Từ ý tưởng đến phác thảo"
+    },
+    {
+      "lesson": 9,
+      "slide": 10,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu phân công ba em, bốn tuần"
+    },
+    {
+      "lesson": 9,
+      "slide": 11,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P9.2 — Mỗi việc có người và mốc"
+    },
+    {
+      "lesson": 10,
+      "slide": 12,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu sơ đồ từ hỏi đến dùng"
+    },
+    {
+      "lesson": 10,
+      "slide": 13,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P10.3A — Vẽ cách hoạt động"
+    },
+    {
+      "lesson": 11,
+      "slide": 12,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu ghi nguồn và việc đã làm"
+    },
+    {
+      "lesson": 11,
+      "slide": 16,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P11.3 — Kiểm bản 1 bằng vị trí thật"
+    },
+    {
+      "lesson": 12,
+      "slide": 9,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "Mẫu lời giới thiệu hai phút"
+    },
+    {
+      "lesson": 12,
+      "slide": 16,
+      "viewport": [
+        1024,
+        768
+      ],
+      "body": 0,
+      "overflow": [
+        0,
+        0
+      ],
+      "sheet": 0,
+      "title": "P12.3 — Có minh chứng rồi chấm điểm"
+    }
+  ]
+}

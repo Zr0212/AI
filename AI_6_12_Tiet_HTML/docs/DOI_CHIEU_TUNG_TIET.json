@@ -1,0 +1,1155 @@
+[
+  {
+    "lesson": 1,
+    "title": "Bài 1. Làm quen với AI và một số công nghệ AI quen thuộc",
+    "old_count": 22,
+    "new_count": 27,
+    "models": [
+      {
+        "number": 9,
+        "id": "01-09-mau",
+        "for": "01-09",
+        "context": "Mẫu tạo sẵn. Tính năng gợi ý video dùng AI.",
+        "question_30s": "Em sẽ kiểm ô cuối bằng cách nào?"
+      },
+      {
+        "number": 13,
+        "id": "01-12-mau",
+        "for": "01-12",
+        "context": "Đầu ra dưới đây chỉ là ví dụ để học cách ghi.",
+        "question_30s": "Em ghi hai kết quả ở đâu?"
+      },
+      {
+        "number": 17,
+        "id": "01-17-mau",
+        "for": "01-17",
+        "context": "Ví dụ tạo sẵn: This is a pen.",
+        "question_30s": "Em sẽ điền cách kiểm thế nào?"
+      },
+      {
+        "number": 21,
+        "id": "01-21-mau",
+        "for": "01-21",
+        "context": "Ví dụ: đọc một tệp âm thanh đã lưu.",
+        "question_30s": "Em sẽ hỏi thêm điều gì?"
+      },
+      {
+        "number": 25,
+        "id": "01-23-mau",
+        "for": "01-23",
+        "context": "Ví dụ khác: AI chuyển lời nói thành chữ.",
+        "question_30s": "Em kiểm dòng chữ bằng gì?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "01-04",
+        "number": 4,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "01-09",
+        "number": 9,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "01-12",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "01-17",
+        "number": 15,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "01-21",
+        "number": 19,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "01-23",
+        "number": 21,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "01-04",
+        "before": "Máy tính bỏ túi tính 125 + 37 rất nhanh. AI cũng có thể nhận dạng đồ vật rất nhanh. Chỉ nhìn tốc độ, em đã biết tính năng nào dùng AI chưa?",
+        "after": "Máy tính: 125 + 37 = 162. / Công cụ AI: nhận ảnh, gợi ý tên đồ vật. / Chỉ nhìn tốc độ, em đã phân biệt được chưa?"
+      },
+      {
+        "id": "01-17",
+        "before": "Dịch từng câu. Chép nguyên kết quả của công cụ, sau đó đối chiếu với bảng từ.",
+        "after": "Dịch hai câu. Ghi kết quả gốc rồi đối chiếu từng chi tiết với bảng từ."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Cá nhân 3 phút, cặp đôi 2 phút. Không giao thảo luận nhóm.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 2,
+    "title": "Bài 2. Con người tạo và điều khiển AI",
+    "old_count": 24,
+    "new_count": 29,
+    "models": [
+      {
+        "number": 10,
+        "id": "02-10-mau",
+        "for": "02-10",
+        "context": "Ví dụ mẫu: dạy AI phân biệt giấy và nhựa.",
+        "question_30s": "Ai cần đối chiếu tên gợi ý?"
+      },
+      {
+        "number": 13,
+        "id": "02-12-mau",
+        "for": "02-12",
+        "context": "Sơ đồ mẫu. Chưa chạy AI thật.",
+        "question_30s": "Nếu AI nhầm, ai cần kiểm và sửa?"
+      },
+      {
+        "number": 19,
+        "id": "02-17-mau",
+        "for": "02-17",
+        "context": "Mẫu dùng trò chơi giấy/nhựa. Bài em dùng Bút/Cốc.",
+        "question_30s": "Ô người kiểm tra cần ghi ai, làm gì?"
+      },
+      {
+        "number": 23,
+        "id": "02-21-mau",
+        "for": "02-21",
+        "context": "Ví dụ: thêm ảnh giấy có tên đúng trước khi dạy AI.",
+        "question_30s": "Vì sao việc này thuộc tạo mô hình?"
+      },
+      {
+        "number": 27,
+        "id": "02-23-mau",
+        "for": "02-23",
+        "context": "AI mẫu chỉ phân biệt giấy và nhựa.",
+        "question_30s": "Em có dùng ngay nhãn Giấy không?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "02-10",
+        "number": 10,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "02-12",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "02-15",
+        "number": 15,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "02-17",
+        "number": 17,
+        "terms_or_pronouns": [
+          "Bạn"
+        ],
+        "needed_worked_example": true
+      },
+      {
+        "id": "02-21",
+        "number": 21,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "02-23",
+        "number": 23,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "02-04",
+        "before": "Công cụ gọi đúng tên chiếc cốc. Theo em, ai chọn nhiệm vụ, ai chuẩn bị ảnh ví dụ và ai kiểm tra khi công cụ gọi sai?",
+        "after": "Ai chọn nhiệm vụ? / Ai chuẩn bị ảnh? / Ai kiểm tra kết quả?"
+      },
+      {
+        "id": "02-10",
+        "before": "Đọc bốn mô tả rồi chọn chữ tương ứng cho từng khái niệm.",
+        "after": "Ghép bốn khái niệm với a–d. Đọc lại mỗi cặp để kiểm nghĩa."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Cá nhân 3 phút, cặp đôi 2 phút. Không giao thảo luận nhóm.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 3,
+    "title": "Bài 3. Dạy AI nhận biết đồ vật bằng Teachable Machine",
+    "old_count": 24,
+    "new_count": 29,
+    "models": [
+      {
+        "number": 9,
+        "id": "03-09-mau",
+        "for": "03-09",
+        "context": "Mẫu chụp ảnh bút chì và thước kẻ.",
+        "question_30s": "Em nên tránh chụp thêm thông tin nào?"
+      },
+      {
+        "number": 13,
+        "id": "03-12-mau",
+        "for": "03-12",
+        "context": "Mẫu: Bút chì/Thước kẻ. Bài em: Bút/Cốc.",
+        "question_30s": "Em dùng điều gì để kiểm tên AI?"
+      },
+      {
+        "number": 19,
+        "id": "03-17-mau",
+        "for": "03-17",
+        "context": "Kết quả minh họa. Không phải AI vừa chạy.",
+        "question_30s": "Từ hai lượt, em kết luận thế nào?"
+      },
+      {
+        "number": 23,
+        "id": "03-21-mau",
+        "for": "03-21",
+        "context": "Tình huống tạo sẵn: AI ghi 99% cho nhãn Thước.",
+        "question_30s": "Em dùng điểm hay vật thật để kiểm?"
+      },
+      {
+        "number": 27,
+        "id": "03-23-mau",
+        "for": "03-23",
+        "context": "Bài mẫu đã có ảnh cốc chính diện.",
+        "question_30s": "Em lấy tên đúng từ đâu?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "03-09",
+        "number": 9,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "03-12",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "03-17",
+        "number": 17,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": true
+      },
+      {
+        "id": "03-21",
+        "number": 21,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "03-23",
+        "number": 23,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "03-04",
+        "before": "Hai ảnh cùng chụp một chiếc cốc nhưng có ánh sáng khác nhau. Ảnh nào giúp em nhìn đồ vật rõ hơn? Muốn máy nhận nhiều kiểu cốc, cần chuẩn bị những ảnh nào?",
+        "after": "Ảnh nào nhìn rõ hơn? / Muốn nhận nhiều kiểu cốc, cần ảnh nào?"
+      },
+      {
+        "id": "03-09",
+        "before": "Dùng bút và cốc. Ghi số ảnh dự kiến rồi cập nhật số ảnh thực tế sau khi chụp.",
+        "after": "Dự kiến số ảnh Bút/Cốc. Cập nhật số thật sau khi chụp."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Cá nhân 3 phút, cặp đôi 2 phút. Không giao thảo luận nhóm.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 4,
+    "title": "Bài 4. Kiểm thử và cải tiến mô hình AI",
+    "old_count": 24,
+    "new_count": 29,
+    "models": [
+      {
+        "number": 9,
+        "id": "04-09-mau",
+        "for": "04-09",
+        "context": "Mẫu một tệp ảnh. Em sẽ thử T1–T6.",
+        "question_30s": "Em không được đưa T1 vào đâu?"
+      },
+      {
+        "number": 13,
+        "id": "04-12-mau",
+        "for": "04-12",
+        "context": "Tình huống minh họa: AI hay nhầm ảnh nghiêng.",
+        "question_30s": "Em cần làm gì để biết thay đổi có ích?"
+      },
+      {
+        "number": 19,
+        "id": "04-17-mau",
+        "for": "04-17",
+        "context": "Ví dụ minh họa. Không phải kết quả của lớp.",
+        "question_30s": "Em nên điền kết luận nào cho ảnh T4?"
+      },
+      {
+        "number": 23,
+        "id": "04-21-mau",
+        "for": "04-21",
+        "context": "Ví dụ: Nhận đúng hai ảnh nghĩa là luôn đúng.",
+        "question_30s": "Em kiểm thêm bằng ảnh nào?"
+      },
+      {
+        "number": 27,
+        "id": "04-23-mau",
+        "for": "04-23",
+        "context": "Ví dụ: bộ thử chưa có cốc chụp từ trên.",
+        "question_30s": "Sau khi AI đoán, em làm gì?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "04-09",
+        "number": 9,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "04-12",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "04-17",
+        "number": 17,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "04-21",
+        "number": 21,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "04-23",
+        "number": 23,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "04-04",
+        "before": "Mô hình gọi đúng chiếc cốc vừa chụp nhiều lần. Có thể nói mô hình nhận đúng mọi cốc không? Cần thử thêm gì?",
+        "after": "Mô hình nhận đúng ảnh đã thấy. / Điều đó chứng minh được gì? / Cần thử thêm ảnh nào?"
+      },
+      {
+        "id": "04-09",
+        "before": "Lưu đúng tệp T1–T6 theo mô tả. Trong Preview, chọn File để thử từng tệp. Giữ nguyên sáu tệp cho lần thử sau.",
+        "after": "Dùng đúng T1–T3 đã lưu, chưa đưa vào ảnh học. Ghi dự đoán rồi đối chiếu."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Cá nhân 3 phút, cặp đôi 2 phút. Không giao thảo luận nhóm.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 5,
+    "title": "Bài 5. AI hỗ trợ học tập nhưng con người quyết định",
+    "old_count": 22,
+    "new_count": 27,
+    "models": [
+      {
+        "number": 9,
+        "id": "05-09-mau",
+        "for": "05-09",
+        "context": "Câu AI tạo sẵn để luyện: 2³ = 6.",
+        "question_30s": "Ô bản sẽ dùng cần viết kết quả nào?"
+      },
+      {
+        "number": 13,
+        "id": "05-12-mau",
+        "for": "05-12",
+        "context": "Bản dịch sai do Thầy/Cô tạo để luyện.",
+        "question_30s": "Bản cuối cần đổi vị trí nào?"
+      },
+      {
+        "number": 17,
+        "id": "05-17-mau",
+        "for": "05-17",
+        "context": "Ví dụ khác câu em sẽ tự kiểm.",
+        "question_30s": "Vì sao em có thể giữ nguyên bản này?"
+      },
+      {
+        "number": 21,
+        "id": "05-21-mau",
+        "for": "05-21",
+        "context": "Hai AI cùng nói 2³ = 6 trong ví dụ tạo sẵn.",
+        "question_30s": "Em sẽ giữ hay sửa câu trả lời?"
+      },
+      {
+        "number": 25,
+        "id": "05-23-mau",
+        "for": "05-23",
+        "context": "Ví dụ: Open your book.",
+        "question_30s": "Em dùng nguồn nào để kiểm nghĩa?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "05-09",
+        "number": 9,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "05-12",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "05-17",
+        "number": 15,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "05-21",
+        "number": 19,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "05-23",
+        "number": 21,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "05-04",
+        "before": "Tình huống giả định: câu “The cat is under the table” được dịch thành “Con mèo ở trên cái bàn”. Em có đồng ý với bản dịch này không?",
+        "after": "Câu gốc: The cat is under the table. / Bản dịch ví dụ tạo sẵn: Con mèo ở trên bàn. / Em có đồng ý không?"
+      },
+      {
+        "id": "05-09",
+        "before": "Dùng bản dịch giả định đã quan sát. Chỉ ra nguồn giúp kiểm từng chi tiết.",
+        "after": "Chỉ đúng nghĩa trong bảng từ giúp kiểm school bag và under."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Cá nhân 3 phút, cặp đôi 2 phút. Không giao thảo luận nhóm.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 6,
+    "title": "Bài 6. Dữ liệu cá nhân, quyền riêng tư và an toàn khi dùng AI",
+    "old_count": 22,
+    "new_count": 27,
+    "models": [
+      {
+        "number": 9,
+        "id": "06-09-mau",
+        "for": "06-09",
+        "context": "Tất cả tên và số dưới đây là ví dụ tạo sẵn.",
+        "question_30s": "Ô vị trí nhà nên giữ hay bỏ?"
+      },
+      {
+        "number": 13,
+        "id": "06-12-mau",
+        "for": "06-12",
+        "context": "Ví dụ tạo sẵn. Không dùng thông tin thật.",
+        "question_30s": "Trước khi gửi, em cần kiểm gì?"
+      },
+      {
+        "number": 17,
+        "id": "06-17-mau",
+        "for": "06-17",
+        "context": "Bản sạch cần giữ câu hỏi, không giữ hồ sơ.",
+        "question_30s": "Khi mở tệp, em cần thấy điều gì?"
+      },
+      {
+        "number": 21,
+        "id": "06-21-mau",
+        "for": "06-21",
+        "context": "Ứng dụng hỏi nghĩa từ muốn truy cập danh bạ.",
+        "question_30s": "Em nhờ ai cùng xem yêu cầu?"
+      },
+      {
+        "number": 25,
+        "id": "06-23-mau",
+        "for": "06-23",
+        "context": "Ví dụ: một công cụ mới xin vị trí chính xác.",
+        "question_30s": "Em sẽ viết câu nhờ hỗ trợ thế nào?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "06-09",
+        "number": 9,
+        "terms_or_pronouns": [
+          "Bạn"
+        ],
+        "needed_worked_example": true
+      },
+      {
+        "id": "06-12",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "06-15",
+        "number": 14,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "06-17",
+        "number": 15,
+        "terms_or_pronouns": [
+          "Bạn"
+        ],
+        "needed_worked_example": true
+      },
+      {
+        "id": "06-18",
+        "number": 16,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "06-21",
+        "number": 19,
+        "terms_or_pronouns": [
+          "Bạn",
+          "bạn"
+        ],
+        "needed_worked_example": true
+      },
+      {
+        "id": "06-23",
+        "number": 21,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "06-04",
+        "before": "Một ứng dụng giải nghĩa từ đòi họ tên đầy đủ, vị trí chính xác và danh bạ. Em có cấp ngay không? Cần tìm hiểu gì?",
+        "after": "Mục đích: hiểu từ under. / Ứng dụng xin tên, vị trí, danh bạ. / Em có đồng ý ngay không?"
+      },
+      {
+        "id": "06-09",
+        "before": "Mục đích duy nhất: hỏi nghĩa của từ under. Tất cả thông tin dưới đây là giả định.",
+        "after": "Với từng mục ví dụ tạo sẵn, chọn giữ/bỏ theo mục đích hỏi nghĩa under."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Cá nhân 3 phút, cặp đôi 2 phút. Không giao thảo luận nhóm.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 7,
+    "title": "Bài 7. Mặt tốt, hạn chế và lựa chọn sử dụng AI",
+    "old_count": 21,
+    "new_count": 26,
+    "models": [
+      {
+        "number": 9,
+        "id": "07-09-mau",
+        "for": "07-09",
+        "context": "Hai bộ có 30 ảnh. Chưa chạy để đo kết quả.",
+        "question_30s": "Em cần làm gì trước khi khẳng định?"
+      },
+      {
+        "number": 13,
+        "id": "07-12-mau",
+        "for": "07-12",
+        "context": "Một em định nộp nguyên bài văn do AI viết.",
+        "question_30s": "Phần nào em vẫn phải tự làm?"
+      },
+      {
+        "number": 16,
+        "id": "07-17-mau",
+        "for": "07-17",
+        "context": "AI gợi ý video học rồi gợi thêm video khác.",
+        "question_30s": "Khi xem đủ phần cần học, em làm gì?"
+      },
+      {
+        "number": 20,
+        "id": "07-21-mau",
+        "for": "07-21",
+        "context": "AI gợi tên lá cây trong một ảnh minh họa.",
+        "question_30s": "Em không nên quyết định gì từ gợi ý này?"
+      },
+      {
+        "number": 24,
+        "id": "07-23-mau",
+        "for": "07-23",
+        "context": "Ví dụ: em muốn dùng video để học đúng mục tiêu.",
+        "question_30s": "Em nhận ra đã làm đúng bằng dấu hiệu nào?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "07-09",
+        "number": 9,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "07-12",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "07-17",
+        "number": 14,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "07-21",
+        "number": 18,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "07-23",
+        "number": 20,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "07-04",
+        "before": "Ứng dụng giúp em tìm được một video học tập, rồi liên tục gợi ý xem thêm. Việc đó có ích gì? Khi nào em cần dừng?",
+        "after": "Tìm được video học tập. / Ứng dụng gợi ý xem tiếp. / Khi nào em nên dừng?"
+      },
+      {
+        "id": "07-09",
+        "before": "Đây là tình huống giả định để thảo luận; chưa có kết quả đo mô hình.",
+        "after": "So hai bộ ảnh ví dụ tạo sẵn. Chỉ rõ số lượng giống và điều kiện khác."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Cá nhân 3 phút, cặp đôi 2 phút. Không giao thảo luận nhóm.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 8,
+    "title": "Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án",
+    "old_count": 24,
+    "new_count": 29,
+    "models": [
+      {
+        "number": 9,
+        "id": "08-09-mau",
+        "for": "08-09",
+        "context": "Các ý tưởng là mô tả hỗ trợ học tập.",
+        "question_30s": "Em chọn ý nào và kiểm kết quả bằng gì?"
+      },
+      {
+        "number": 13,
+        "id": "08-12-mau",
+        "for": "08-12",
+        "context": "Tên dự án: Ba từ tiếng Anh mỗi ngày.",
+        "question_30s": "Khi bảng từ chưa đủ, nhóm nên làm gì?"
+      },
+      {
+        "number": 19,
+        "id": "08-17-mau",
+        "for": "08-17",
+        "context": "Dự án mẫu chỉ mô tả, chưa chạy hệ thống thật.",
+        "question_30s": "Em đặt ví dụ và nguồn ở đâu để dễ kiểm?"
+      },
+      {
+        "number": 23,
+        "id": "08-21-mau",
+        "for": "08-21",
+        "context": "Dự án mẫu: thẻ ba từ tiếng Anh.",
+        "question_30s": "Em sẽ nói giới hạn thế nào?"
+      },
+      {
+        "number": 27,
+        "id": "08-23-mau",
+        "for": "08-23",
+        "context": "Đây là một dự án làm dần qua bốn giai đoạn.",
+        "question_30s": "Nhóm cần xem gì trước khi làm?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "08-04",
+        "number": 4,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "08-09",
+        "number": 9,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "08-12",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "08-17",
+        "number": 17,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "08-21",
+        "number": 21,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "08-23",
+        "number": 23,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "08-04",
+        "before": "Ý tưởng A: “Làm AI giúp mọi người”. Ý tưởng B: “Giúp bạn học hiểu ba từ tiếng Anh và kiểm tra lại bằng bảng từ”. Ý tưởng nào dễ bắt đầu hơn?",
+        "after": "A: Làm AI giúp mọi người. / B: Giúp em cùng nhóm hiểu ba từ, có bảng từ để kiểm. / Vì sao B dễ lập kế hoạch hơn?"
+      },
+      {
+        "id": "08-09",
+        "before": "Dùng nhu cầu từ tiết 7. Ghi ngắn hai ý; xem thiết bị và chọn hình thức có thể làm.",
+        "after": "Dùng nhu cầu tiết 7, ghi hai ý và điều kiện thiết bị. Chọn hình thức có thể làm."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Nhóm có vai. Nhóm ba em có thể gộp vai ghi và theo dõi.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 9,
+    "title": "Dự án tại nhà - Giai đoạn 1: Lựa chọn vấn đề và lập kế hoạch",
+    "old_count": 14,
+    "new_count": 17,
+    "models": [
+      {
+        "number": 6,
+        "id": "09-08-mau",
+        "for": "09-08",
+        "context": "Từ ý rộng: AI giúp em học tiếng Anh.",
+        "question_30s": "Con người cần kiểm phần nào?"
+      },
+      {
+        "number": 10,
+        "id": "09-10-mau",
+        "for": "09-10",
+        "context": "Lịch minh họa. Mốc thật theo Thầy/Cô thông báo.",
+        "question_30s": "Mỗi em cần ghi thêm gì để không quên việc?"
+      },
+      {
+        "number": 13,
+        "id": "09-13-mau",
+        "for": "09-13",
+        "context": "Mẫu nhóm ba em. Chưa có lịch nộp thật.",
+        "question_30s": "Dòng này còn cần thêm thông tin gì?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "09-04",
+        "number": 4,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "09-05",
+        "number": 5,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "09-08",
+        "number": 6,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "09-10",
+        "number": 9,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "09-13",
+        "number": 11,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "09-04",
+        "before": "Xem lại phiếu ý tưởng tiết 8 và nhận xét của GV/bạn. Mỗi thành viên chọn một điểm cần làm rõ.",
+        "after": "Đọc ý tưởng tiết 8. / Đọc góp ý đã nhận. / Chọn một điểm cần làm rõ."
+      },
+      {
+        "id": "09-08",
+        "before": "Xem lại bản nháp ở tiết 8. Chọn một việc đủ nhỏ để nhóm hoàn thành.",
+        "after": "Mở bản tiết 8. Chốt người dùng, việc nhỏ và dấu hiệu hoàn thành."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Nhóm có vai. Nhóm ba em có thể gộp vai ghi và theo dõi.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 10,
+    "title": "Dự án tại nhà - Giai đoạn 2: Tìm kiếm thông tin và thiết kế ý tưởng",
+    "old_count": 15,
+    "new_count": 19,
+    "models": [
+      {
+        "number": 6,
+        "id": "10-07-mau",
+        "for": "10-07",
+        "context": "Nguồn mẫu trong gói: SGK AI 6, Bài 8.",
+        "question_30s": "Sau khi đọc, em cần ghi ý nào?"
+      },
+      {
+        "number": 8,
+        "id": "10-08-mau",
+        "for": "10-08",
+        "context": "Ví dụ dự án cần biết nghĩa của under.",
+        "question_30s": "Em chọn nguồn 1 vì điều gì?"
+      },
+      {
+        "number": 12,
+        "id": "10-11-mau",
+        "for": "10-11",
+        "context": "Dự án mẫu: hiểu nghĩa từ trong bài tiếng Anh.",
+        "question_30s": "Nếu chưa kiểm được, em đi nhánh nào?"
+      },
+      {
+        "number": 15,
+        "id": "10-13-mau",
+        "for": "10-13",
+        "context": "Một em thử đọc sơ đồ thẻ từ của nhóm.",
+        "question_30s": "Nhóm nên thử đọc lại thế nào?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "10-07",
+        "number": 6,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "10-08",
+        "number": 7,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "10-11",
+        "number": 10,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "10-13",
+        "number": 12,
+        "terms_or_pronouns": [
+          "Bạn",
+          "bạn"
+        ],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "10-04",
+        "before": "Dự án còn thiếu thông tin nào? Ví dụ: công cụ dịch nhận dữ liệu gì, và em kiểm tra nghĩa từ bằng nguồn nào?",
+        "after": "Muốn làm sản phẩm, cần biết gì? / Câu hỏi nào có thể tìm trong nguồn?"
+      },
+      {
+        "id": "10-07",
+        "before": "Đọc một nguồn rồi ghi đủ bốn mục.",
+        "after": "Mở và đọc nguồn 1. Ghi cách tìm, vị trí và thông tin sẽ dùng."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Nhóm có vai. Nhóm ba em có thể gộp vai ghi và theo dõi.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 11,
+    "title": "Dự án tại nhà - Giai đoạn 3: Tạo sản phẩm",
+    "old_count": 15,
+    "new_count": 19,
+    "models": [
+      {
+        "number": 7,
+        "id": "11-08-mau",
+        "for": "11-08",
+        "context": "Dự án mẫu: áp phích ba từ tiếng Anh.",
+        "question_30s": "Nhóm cần ghi giới hạn và nguồn ra sao?"
+      },
+      {
+        "number": 10,
+        "id": "11-10-mau",
+        "for": "11-10",
+        "context": "Mẫu ba em làm chung một áp phích.",
+        "question_30s": "Mỗi em cần ghi việc của em thế nào?"
+      },
+      {
+        "number": 12,
+        "id": "11-11-mau",
+        "for": "11-11",
+        "context": "Một nhóm ba em làm áp phích ý tưởng.",
+        "question_30s": "Dòng em C nên ghi việc cụ thể nào?"
+      },
+      {
+        "number": 15,
+        "id": "11-13-mau",
+        "for": "11-13",
+        "context": "Áp phích mẫu có nguồn nhưng thiếu cách kiểm nghĩa.",
+        "question_30s": "Nhóm nên hỏi góp ý bằng câu nào?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "11-04",
+        "number": 4,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "11-08",
+        "number": 7,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "11-10",
+        "number": 9,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": true
+      },
+      {
+        "id": "11-11",
+        "number": 10,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "11-13",
+        "number": 12,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "11-04",
+        "before": "Xem góp ý ở giai đoạn 2. Chọn hình thức sản phẩm và chia sáu phần nội dung cho các thành viên.",
+        "after": "Đọc góp ý giai đoạn 2. / Chốt hình thức sản phẩm. / Chia phần nội dung để cùng làm."
+      },
+      {
+        "id": "11-08",
+        "before": "Chọn một hình thức phù hợp; không bắt buộc lập trình.",
+        "after": "Chọn hình thức và mức sản phẩm đúng điều nhóm làm."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Nhóm có vai. Nhóm ba em có thể gộp vai ghi và theo dõi.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  },
+  {
+    "lesson": 12,
+    "title": "Dự án tại nhà - Giai đoạn 4: Hoàn thiện và nộp sản phẩm",
+    "old_count": 15,
+    "new_count": 19,
+    "models": [
+      {
+        "number": 6,
+        "id": "12-05-mau",
+        "for": "12-05",
+        "context": "Bản trước chỉ có AI gợi nghĩa, chưa có người kiểm.",
+        "question_30s": "Vì sao thay đổi này có ích?"
+      },
+      {
+        "number": 9,
+        "id": "12-08-mau",
+        "for": "12-08",
+        "context": "Thời lượng là gợi ý, không cần lộ mặt.",
+        "question_30s": "Sau khi quay, em cần kiểm gì trước?"
+      },
+      {
+        "number": 11,
+        "id": "12-10-mau",
+        "for": "12-10",
+        "context": "Ví dụ mẫu dài 2 phút. Không có video thật ở đây.",
+        "question_30s": "Khi nào em có thể đánh dấu đã kiểm?"
+      },
+      {
+        "number": 15,
+        "id": "12-13-mau",
+        "for": "12-13",
+        "context": "Điểm mẫu để học cách chấm, không phải điểm lớp.",
+        "question_30s": "Em cần xem minh chứng nào trước khi chọn ô cuối?"
+      }
+    ],
+    "before_issues": [
+      {
+        "id": "12-04",
+        "number": 4,
+        "terms_or_pronouns": [
+          "bạn"
+        ],
+        "needed_worked_example": false
+      },
+      {
+        "id": "12-05",
+        "number": 6,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "12-08",
+        "number": 8,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "12-10",
+        "number": 9,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      },
+      {
+        "id": "12-13",
+        "number": 12,
+        "terms_or_pronouns": [],
+        "needed_worked_example": true
+      }
+    ],
+    "before_after": [
+      {
+        "id": "12-04",
+        "before": "Đọc góp ý của GV/bạn. Chọn ít nhất một góp ý giúp nội dung đúng hoặc rõ hơn.",
+        "after": "Đọc góp ý đã nhận. / Ưu tiên nội dung đúng và rõ. / Không sửa máy móc mọi ý."
+      },
+      {
+        "id": "12-05",
+        "before": "Chọn ít nhất một góp ý giúp nội dung rõ hoặc đúng hơn.",
+        "after": "Chọn một góp ý có ích. Ghi người góp ý và lí do nhóm sẽ sửa."
+      }
+    ],
+    "authored_pupil_banned_count": 0,
+    "authored_pupil_prose_over_15_words": 0,
+    "proper_headings": "Giữ nguyên đầu bài; tên dài tách dòng trên bìa.",
+    "quiet_mode": "Nhóm có vai. Nhóm ba em có thể gộp vai ghi và theo dõi.",
+    "keys_unique_and_preserved": true,
+    "speaker_notes_updated": true,
+    "browser_layout_pass": true
+  }
+]

@@ -1,46 +1,58 @@
-BÁO CÁO HOÀN THIỆN SLIDE AI 6 — V4
-Ngày hoàn thiện: 17/11/2026
+BÁO CÁO HOÀN THIỆN — V6 — 18/11/2026
 
-KẾT QUẢ
-Đã áp dụng 47 đề xuất trong kế hoạch kiểm định. Bộ hiện tại gồm 12 trang bài học, index.html và 242 slide chính; bốn video dự án được chuyển sang Ôn khi cần, không bị xóa khỏi học liệu. 256 mã slide cũ đều có vị trí mới trong bảng chuyển đổi.
-Tên 12 bài giữ nguyên theo bộ nguồn. Bài 1: Làm quen với AI và một số công nghệ AI quen thuộc.
+ĐÃ SỬA TRỰC TIẾP BỘ TRÌNH CHIẾU
+12 trang bài học và index.html. Tổng 242 → 297 slide, gồm 55 mẫu.
+Đây là bộ HTML/CSS/JS chạy được, không chỉ là bản đề xuất nội dung.
+Đã kết hợp bản biên tập sư phạm V5 và prompt người dùng đính kèm.
+Theo lựa chọn của người dùng, hoàn thiện cả 12 tiết trước khi bàn giao.
 
-THAY ĐỔI CHÍNH
-1. Sửa câu hỏi/đáp án video cho khớp hai vế; giải thích điểm ảnh vừa sức; phân biệt trò chơi quy tắc với huấn luyện thật, điểm dự đoán với kết quả đã kiểm chứng.
-2. Gộp hướng dẫn lặp, giữ một nơi ghi kết quả. Làm rõ dữ kiện, việc cần làm, ô trả lời và sản phẩm của phiếu. P2.2 sáu xuống bốn trang; P8.1 bốn xuống hai; bảng tự kiểm giai đoạn 3 còn hai trang bốn dòng và một trang phản hồi.
-3. Sửa thứ tự thiết bị trước phân công; thiết kế trước góp ý; ví dụ sửa trước tự sửa; viết lời trước quay, quay trước xem lại. Giữ các slide tiêu đề chuyển phần và Kiến thức cần nhớ.
-4. Gắn lối mở công cụ ảnh, nguồn đọc thật; khoanh vùng thao tác trên ảnh Teachable Machine. Giữ ảnh trước huấn luyện và không dựng kết quả mô hình.
-5. Viết lại chú thích theo nội dung mới: lời dẫn, giải thích, tổ chức, việc HS, đáp án, chốt ý và câu nối cho 242 slide. Đáp án phiếu và chú thích dùng cùng nội dung.
-6. Tách bảng đối chiếu/tiêu chí được chiếu công khai khỏi ghi chú riêng. Khóa nhập ở màn chiếu sau mọi lần tạo trang phiếu. Lưu lại trang phiếu đang mở.
-7. Nút dùng lại bản đã có điền ô trống; không ghi đè nội dung đã sửa. Xuất bài theo nhãn và vị trí trường hiện tại, kể cả ô góp ý đã chuyển sang P10.3B.
-8. Tự chấm năm tiêu chí có tổng /10 tự tính, số tiêu chí đã chọn và điểm 0 hợp lệ. Không tự coi bỏ trống là đã chấm.
+NỘI DUNG VÀ TỔ CHỨC
+- Chữ chiếu ngắn; giải thích dài chuyển xuống ghi chú Thầy/Cô.
+- Dùng em/các em; thống nhất thuật ngữ dễ hiểu trên mặt chiếu.
+- Mỗi slide nội dung có câu nối và dòng giao việc có thời gian/nơi làm.
+- Tiết 1–7: tự làm 3 phút, so theo cặp 2 phút. Bảng phân vai tiết 2 là đề xuất cá nhân trước, chưa chia nhóm.
+- Tiết 8–12: có vai đọc, làm, kiểm và ghi. Nhóm ba em có thể gộp hai vai.
+- Mẫu đứng ngay trước từng phiếu hoặc hoạt động thực hành độc lập.
+- Mẫu có nhãn rõ, bối cảnh, phần đã điền, chú thích Vì sao và ô hỏi 30 giây.
+- Có nút Mở/Ẩn ô cuối và Xem lại mẫu. Ô mẫu không ghi vào bài làm HS.
+- Đã tích hợp ảnh SGK, ảnh giao diện thật, video và sơ đồ HTML/SVG. Không dùng số đo AI bịa thành kết quả thật.
+- Giữ đầu bài gốc, các trang chuyển phần và Kiến thức cần nhớ.
 
-KIỂM TRA ĐÃ THỰC HIỆN
-- Đối chiếu 12 đầu bài với dữ liệu trước sửa: trùng chính xác. 242 mã hiện tại không trùng; 334 khóa trường phiếu không trùng; các đích Ghi vào phiếu hợp lệ.
-- Tất cả tệp JavaScript qua node --check; liên kết nội bộ HTML tới tệp tồn tại.
-- Đo 305 trạng thái hiển thị: 242 slide cùng 63 trang phiếu bổ sung. Không phát hiện tràn dọc vượt ngưỡng 3px trong vùng nội dung/phiếu, hoặc ảnh tải lỗi trong lượt đo cuối.
-- Đo 48 trường hợp: một slide phiếu đại diện mỗi tiết tại 1920×1080, 1366×768, 1280×720, 1024×768. Không phát hiện tràn ở các vùng đã đo. Đây không phải 305×4 trường hợp.
-- Đã xem trực tiếp một số phiếu sau sửa, gồm P8.1 trang so sánh hai ý tưởng; cập nhật 12 ảnh bìa ở index.
-- Đã quan sát Chiếu: popup, bảng đối chiếu công khai, riêng tư ghi chú, đồng bộ trang phiếu/ô nhập, khóa nhập ở audience, nhớ trang khi tải lại, dừng chiếu.
-- Dùng lại P8.1 → P8.2 lấy đúng ý A; sau khi sửa ô đích, bấm lại vẫn giữ nội dung đã sửa. Dữ liệu thử được hoàn nguyên qua giao diện.
-- Tải bài tiết 10 tạo tệp thật; ô góp ý giữ khóa cũ nhưng chuyển vị trí vẫn có đúng nhãn/nội dung trong file xuất. Dữ liệu thử được hoàn nguyên.
-- Tự chấm 2+2+0+2+2 cho 8/10, đã chấm 5/5. Đã khôi phục lựa chọn sau thử.
-- Bảy tệp video có luồng H.264/AAC và đọc được thời lượng bằng ffprobe. Video ôn Computer Vision mở thật: readyState 4, chạy đến 107,85 giây, không có lỗi media. Chưa quan sát trọn mọi đoạn và mọi thiết bị âm thanh.
-- Menu lưu/mở dự án Teachable Machine được đối chiếu trực tiếp; không chạy trọn quy trình tạo bộ ảnh/huấn luyện/lưu/mở trong đợt này.
+PHẠM VI KIỂM TRA THỰC TẾ
+- 359 trạng thái: 297 slide cùng các trang phiếu bổ sung. Không tràn quá ngưỡng 3px ở vùng nội dung/phiếu đã đo; không ảnh lỗi trong lượt cuối.
+- Thử thêm 55 mẫu sau khi hiện ô cuối: không phát hiện tràn.
+- 96 trường hợp đại diện: một mẫu và một phiếu mỗi tiết, tại 1920×1080, 1366×768, 1280×720 và 1024×768. Không tràn ở các vùng đo.
+- Rà dữ liệu chữ chiếu: không còn các cách xưng hô/từ thuộc danh sách cấm. Không còn câu văn biên soạn vượt 15 từ theo quy tắc tách câu. Giữ tên đầu bài nguyên văn; bìa dài chia dòng.
+- Giữ đủ 334 khóa ô phiếu, không trùng. Giữ giá trị lựa chọn cũ; chỉ đổi nhãn hiển thị. Sáu thẻ P1.1 và tám ô cuối dự án tiếp tục dùng khóa cũ.
+- Tất cả JavaScript kiểm cú pháp hợp lệ. Liên kết tệp nội bộ tồn tại.
+- Thử Chiếu: ô cuối của mẫu mở đúng sang màn chiếu; ghi chú không rò sang đó. Tải lại màn chính khôi phục trạng thái đồng bộ.
+- Trang phiếu và bài nháp giữ được sau tải lại. Trường ở màn chiếu readOnly/disabled, ngoài thứ tự Tab.
+- Tải bài làm tạo tệp thật có nhãn và nội dung thử. Tải bản sạch tiết 6 cho đúng câu hỏi đã sửa. Dữ liệu thử đã hoàn nguyên qua giao diện.
+- Tự chấm 2+2+0+2+2 cho 8/10 và 5/5 tiêu chí. Đã hoàn nguyên lựa chọn.
+- Bảy video giữ nguyên SHA256 so với V4. Không khẳng định đã nghe/xem lại toàn bộ video ở V6.
+- Cập nhật 12 ảnh bìa và toàn bộ số slide ở index.
 
-GIỚI HẠN CẦN HIỂU ĐÚNG
-Chưa dạy thử trực tiếp với học sinh và chưa kiểm máy chiếu/loa của lớp. Dịch vụ AI bên ngoài cần GV thử bằng mạng và thiết bị thực tế; giao diện hoặc điều kiện truy cập có thể thay đổi. Những kết quả mô hình của HS phải được thực hiện và ghi thật trong giờ học.
-Ở lượt mở trang kiểm tra bổ sung cuối, công cụ xem trước từ chối truy cập theo chính sách; không có thêm kết quả UI sau thời điểm đó. Báo cáo chỉ ghi những phép thử đã quan sát thành công trước đó; các chỉnh chú thích cuối đã được kiểm cú pháp và đối chiếu dữ liệu.
-Đây là báo cáo thay đổi và phạm vi kiểm tra, không phải chứng nhận chất lượng dạy học hoặc điểm kiểm định mới.
+CÁCH HIỂU CÁC CHỈNH SỬA SO VỚI PROMPT
+1. Số mẫu lớn hơn gợi ý tối thiểu vì yêu cầu có mẫu trước MỌI hoạt động độc lập. Không biến mẫu thành thêm bài viết bắt buộc.
+2. Các mẫu làm sẵn phần lớn nội dung, thường bốn trong năm ý. Mẫu bảng phân vai có ba trong bốn dòng tên sẵn để giữ đúng cấu trúc bốn vai. Mục đích là một khoảng trống nhỏ để kiểm cách hiểu, không thêm vai thứ năm chỉ để đủ tỉ lệ.
+3. Không đổi nghĩa giả định thành bí mật. Nội dung không thật ghi Ví dụ tạo sẵn. Mẫu tiết 6 tô dấu thông tin riêng cần xóa nhưng không sử dụng dữ liệu cá nhân thật.
+4. Không đổi khóa đã lưu chỉ vì thêm slide. Giữ mã ổn định, cập nhật số thứ tự hiển thị và kiểm trùng để tránh mất bài nháp.
+5. Bảng bốn tuần ở tiết 9 chỉ là lịch mẫu. Mốc thật và kênh nộp theo Thầy/Cô; không tự đặt lịch cho lớp.
+6. Mẫu Bút chì/Thước kẻ ở tiết 3 dạy cách làm. Bài thực hành Bút/Cốc vẫn giữ theo bộ giáo án, có dòng phân biệt rõ.
 
-TRUY VẾT TRONG THƯ MỤC DOCS
-DOI_CHIEU_47_DE_XUAT.csv — 47 vấn đề, thay đổi đã áp dụng và vị trí hiện tại.
-CHUYEN_DOI_256_SANG_242.csv — đủ 256 slide gốc → vị trí mới/video ôn.
-DOI_CHIEU_GIAO_AN.csv — hoạt động, mục tiêu, phiếu và nguồn cho 242 slide.
-CHU_THICH_GIAO_VIEN.txt/.json — toàn bộ chú thích hiện hành.
-KET_QUA_KIEM_TRA_BO_CUC.json — 305 trạng thái và 48 trường hợp đại diện.
-KIEM_TRA_TINH_NHAT_QUAN.json, KIEM_TRA_VIDEO.json, KIEM_TRA_CHE_DO_CHIEU.txt — bằng chứng theo phạm vi.
-NGUON_HOC_LIEU.csv, DANH_SACH_TEP_SHA256.txt — học liệu và danh sách tệp.
+GIỚI HẠN
+Chưa dạy thử với lớp đông, chưa thử máy chiếu/loa thực tế của trường. Thời gian là gợi ý tổ chức, cần Thầy/Cô điều chỉnh theo lớp. Công cụ AI bên ngoài cần mạng và cần thử trước. Không tự coi các phép đo bố cục là chứng nhận hiệu quả học tập hay đạt tuyệt đối mọi tiêu chí sư phạm.
 
-SỬ DỤNG
-Giải nén toàn bộ gói rồi mở index.html bằng Chrome/Edge. Mỗi tiết có trang riêng. Đọc HUONG_DAN.txt để dùng Chiếu, phiếu, nguồn, lưu/nộp và đổi cấu hình công cụ ảnh.
+TRUY VẾT
+DOI_CHIEU_TUNG_TIET.html/.json: hiện trạng cũ, mẫu mới, hai ví dụ trước–sau và bằng chứng từng tiết.
+CHUYEN_DOI_V4_SANG_V6.csv: vị trí cũ/mới của toàn bộ nội dung.
+DANH_MUC_55_MAU.csv: từng mẫu, bài tập đích, Vì sao và câu hỏi 30 giây.
+CHU_THICH_GIAO_VIEN.txt/.json: chú thích của 297 slide.
+KIEM_TRA_BO_CUC.json: 359 trạng thái, 55 trạng thái đã mở và 96 trường hợp kích thước.
+KIEM_TRA_TINH_NHAT_QUAN.json: kiểm khóa, số slide, tên bài và liên kết.
+NGUON_HOC_LIEU.csv: nguồn và minh họa đã dùng.
+lich_su_V4: các báo cáo cũ, không dùng như kết quả kiểm V6.
+
+MỞ BỘ SLIDE
+Giải nén toàn bộ AI_6_12_Tiet_HTML.zip, mở index.html bằng Chrome/Edge.
+Giữ nguyên assets, lessons và docs. Không cần npm hay máy chủ.

@@ -1,0 +1,9 @@
+KIỂM TRA CHẾ ĐỘ CHIẾU — V4
+Đã quan sát trong trình duyệt:
+- Chiếu mở popup; màn chính thành bàn giáo viên.
+- Bảng đối chiếu công khai truyền được sang màn chiếu, không kèm hộp thoại/chú thích riêng.
+- Nút ghi vào phiếu mở đúng trang; chuyển trang tiếp theo đồng bộ.
+- Trường nhập ở trang phiếu mới render trên màn chiếu readOnly, tabindex=-1; lựa chọn disabled. Nhập ở màn chính vẫn nhận được.
+- Tải lại màn chính giữ trang phiếu; Dừng chiếu đóng popup.
+- Cấu trúc mã tiếp tục chặn input/change trên audience, chỉ màn chính lưu nháp.
+Giới hạn: chưa thử máy chiếu vật lí, loa, tổ hợp hai màn hệ điều hành và các chính sách popup/autoplay trên máy lớp. Không khẳng định đã kiểm trọn mọi cặp slide-video trên thiết bị lớp.

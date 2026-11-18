@@ -2,10 +2,10 @@ window.AI6_LESSON={
   "id": 7,
   "title": "Bài 7. Mặt tốt, hạn chế và lựa chọn sử dụng AI",
   "mode": "Trực tiếp tại phòng Tin học",
-  "count": 21,
+  "count": 26,
   "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-  "materials": "Bốn thẻ P7.1; hai bộ ảnh giả định A/B có độ đa dạng khác nhau theo P7.2; P7.3; bản ghi lợi ích–hạn chế. Không dùng ảnh người hoặc đặc điểm nhạy cảm để phân loại.",
-  "alternatives": "Xem lại bảng kiểm riêng tư tiết 6 và bảng thử nghiệm tiết 4; nhóm phân vai người nêu lợi ích, hạn chế, kiểm chứng, tổng hợp.",
+  "materials": "Thầy/Cô chuẩn bị học liệu có sẵn trong gói. Chỉ dùng dữ liệu mẫu. Thử công cụ trước giờ học.",
+  "alternatives": "Thiếu thiết bị, em quan sát Thầy/Cô. Em vẫn ghi rõ cách thực hiện.",
   "video": {
     "index": 9,
     "title": "Ethics & AI: Equal Access and Algorithmic Bias",
@@ -16,217 +16,244 @@ window.AI6_LESSON={
     "question": "Quan sát người dùng ở bối cảnh khác nhau. Dữ liệu và điều kiện sử dụng ảnh hưởng lựa chọn dùng AI thế nào?",
     "local": "code-9.mp4"
   },
-  "outcome": "Bảng lựa chọn bốn tình huống và quy tắc sử dụng",
+  "outcome": "Bảng chọn cách dùng AI và ba quy tắc cụ thể.",
   "slides": [
     {
       "type": "cover",
       "id": "07-01",
-      "number": 1,
       "title": "Bài 7. Mặt tốt, hạn chế và lựa chọn sử dụng AI",
       "note": {
         "activity": "Khởi động",
         "purpose": "Phát hiện cùng một công cụ có thể hữu ích và gây khó khăn.",
-        "teacher": "Đưa tình huống giả định không gắn nền tảng cụ thể. Hỏi ai quyết định thời gian sử dụng và nội dung cần học.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Trao đổi cặp, nêu một lợi ích và một hạn chế.",
         "report": "Hai cặp trình bày hai mặt khác nhau.",
         "conclusion": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-        "assessment": "Không chấp nhận kết luận mọi gợi ý đều tốt hoặc đều xấu; yêu cầu căn cứ tình huống.",
+        "assessment": "Không chấp nhận kết luận mọi gợi ý đều tốt hoặc đều xấu. Yêu cầu căn cứ tình huống.",
         "answers": [
           "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Hôm nay mình bắt đầu: Bài 7. Mặt tốt, hạn chế và lựa chọn sử dụng AI. Sản phẩm cần có là Bảng lựa chọn bốn tình huống và quy tắc sử dụng.",
-          "explanation": "Trong tiết này, học sinh cần:\nNêu lợi ích và hạn chế của một tình huống dùng AI.\nChọn cách dùng phù hợp trong bốn tình huống và giải thích.\nNêu cách kiểm tra kết quả, bảo vệ thông tin và quản lí thời gian.",
-          "delivery": "Đọc đầu bài, nêu sản phẩm cuối và mời một ví dụ quen thuộc. Chưa chiếu đáp án hay giao thao tác công cụ ở slide này.",
-          "answer": "• Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-          "closing": "Giới thiệu mục tiêu và sản phẩm; chưa yêu cầu HS thực hiện công cụ ở slide bìa.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Sau bài học, em làm được gì?.",
-          "students": "Đọc tên bài, liên hệ một trải nghiệm hoặc một câu hỏi mình muốn tìm hiểu."
+          "opening": "Thầy/Cô nói: Em bắt đầu bằng một điều muốn tìm hiểu. Trong 10 giây, em đọc đầu bài trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc đầu bài trên slide.",
+          "answer": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Không chỉ hỏi AI có làm được không, em còn hỏi có nên dùng trong tình huống ấy không. Đây là ba việc cần làm được."
         }
       },
       "theme": "blue",
-      "originalNumber": 1
+      "v6": true,
+      "screen": [],
+      "phase": "Khởi động",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 10 giây, em đọc đầu bài trên slide."
+      ],
+      "connector": "Em bắt đầu bằng một điều muốn tìm hiểu.",
+      "number": 1
     },
     {
       "type": "goals",
-      "goals": [
-        "Nêu lợi ích và hạn chế của một tình huống dùng AI.",
-        "Chọn cách dùng phù hợp trong bốn tình huống và giải thích.",
-        "Nêu cách kiểm tra kết quả, bảo vệ thông tin và quản lí thời gian."
-      ],
-      "outcome": "Bảng lựa chọn bốn tình huống và quy tắc sử dụng",
       "id": "07-02",
-      "number": 2,
-      "title": "Sau bài học, em làm được gì?",
+      "title": "Hôm nay em làm được gì?",
       "note": {
         "activity": "Khởi động",
         "purpose": "Phát hiện cùng một công cụ có thể hữu ích và gây khó khăn.",
-        "teacher": "Đưa tình huống giả định không gắn nền tảng cụ thể. Hỏi ai quyết định thời gian sử dụng và nội dung cần học.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Trao đổi cặp, nêu một lợi ích và một hạn chế.",
         "report": "Hai cặp trình bày hai mặt khác nhau.",
         "conclusion": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-        "assessment": "Không chấp nhận kết luận mọi gợi ý đều tốt hoặc đều xấu; yêu cầu căn cứ tình huống.",
+        "assessment": "Không chấp nhận kết luận mọi gợi ý đều tốt hoặc đều xấu. Yêu cầu căn cứ tình huống.",
         "answers": [
           "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Cuối tiết/giai đoạn này, em cần làm được ba việc sau.",
+          "opening": "Thầy/Cô nói: Đầu bài cho biết chủ đề. Em xem việc cần làm. Trong 20 giây, em chọn một mục tiêu trên slide.",
           "explanation": "Nêu lợi ích và hạn chế của một tình huống dùng AI.\nChọn cách dùng phù hợp trong bốn tình huống và giải thích.\nNêu cách kiểm tra kết quả, bảo vệ thông tin và quản lí thời gian.",
-          "delivery": "Nói ngắn gọn từng mục tiêu. Hỏi một HS: “Cuối hoạt động, em dùng sản phẩm nào để cho thấy mình đã làm được?”. Tránh diễn giải toàn bộ nội dung trước khi trải nghiệm.",
-          "answer": "• Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-          "closing": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: KHỞI ĐỘNG.",
-          "students": "Đọc mục tiêu, xác định sản phẩm cần có và hỏi phần chưa rõ."
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 20 giây, em chọn một mục tiêu trên slide.",
+          "answer": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Em bắt đầu từ câu hỏi: “Gợi ý video giúp học hay giữ chân em?”"
         }
       },
       "theme": "cream",
-      "originalNumber": 2
+      "v6": true,
+      "screen": [
+        "Nêu lợi ích và hạn chế trong tình huống.",
+        "Chọn cách dùng AI và giải thích.",
+        "Nêu cách kiểm, bảo vệ dữ liệu và thời gian."
+      ],
+      "phase": "Khởi động",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 20 giây, em chọn một mục tiêu trên slide."
+      ],
+      "connector": "Đầu bài cho biết chủ đề. Em xem việc cần làm.",
+      "number": 2
     },
     {
       "type": "divider",
       "id": "07-03",
-      "number": 3,
-      "title": "KHỞI ĐỘNG",
+      "title": "Khởi động",
       "note": {
         "activity": "Khởi động",
         "purpose": "Phát hiện cùng một công cụ có thể hữu ích và gây khó khăn.",
-        "teacher": "Đưa tình huống giả định không gắn nền tảng cụ thể. Hỏi ai quyết định thời gian sử dụng và nội dung cần học.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Trao đổi cặp, nêu một lợi ích và một hạn chế.",
         "report": "Hai cặp trình bày hai mặt khác nhau.",
         "conclusion": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-        "assessment": "Không chấp nhận kết luận mọi gợi ý đều tốt hoặc đều xấu; yêu cầu căn cứ tình huống.",
+        "assessment": "Không chấp nhận kết luận mọi gợi ý đều tốt hoặc đều xấu. Yêu cầu căn cứ tình huống.",
         "answers": [],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang khởi động.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Từ việc quen thuộc, em thử nêu câu hỏi. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Gợi ý video giúp học hay làm xem mãi?.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Nhớ một lần được gợi ý xem tiếp. Nêu lúc cần dừng."
         }
       },
       "theme": "blue",
-      "originalNumber": 3
+      "v6": true,
+      "screen": [],
+      "phase": "Khởi động",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Từ việc quen thuộc, em thử nêu câu hỏi.",
+      "number": 3
     },
     {
       "type": "scenario",
-      "text": "Ứng dụng giúp em tìm được một video học tập, rồi liên tục gợi ý xem thêm. Việc đó có ích gì? Khi nào em cần dừng?",
-      "task": "Nêu một lợi ích và một điều em cần tự kiểm soát.",
-      "answer": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-      "visual": "flow",
       "time": 2,
       "id": "07-04",
-      "number": 4,
-      "title": "Gợi ý video giúp học hay làm xem mãi?",
+      "title": "Gợi ý video giúp học hay giữ chân em?",
       "note": {
         "activity": "Khởi động",
         "purpose": "Phát hiện cùng một công cụ có thể hữu ích và gây khó khăn.",
-        "teacher": "Đưa tình huống giả định không gắn nền tảng cụ thể. Hỏi ai quyết định thời gian sử dụng và nội dung cần học.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Trao đổi cặp, nêu một lợi ích và một hạn chế.",
         "report": "Hai cặp trình bày hai mặt khác nhau.",
         "conclusion": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-        "assessment": "Không chấp nhận kết luận mọi gợi ý đều tốt hoặc đều xấu; yêu cầu căn cứ tình huống.",
+        "assessment": "Không chấp nhận kết luận mọi gợi ý đều tốt hoặc đều xấu. Yêu cầu căn cứ tình huống.",
         "answers": [
           "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Ứng dụng giúp em tìm được một video học tập, rồi liên tục gợi ý xem thêm. Việc đó có ích gì? Khi nào em cần dừng?",
+          "opening": "Thầy/Cô nói: Từ mục tiêu hôm nay, em xem một tình huống. Trong 30 giây, em tự chọn câu trả lời tại chỗ.",
           "explanation": "Ứng dụng giúp em tìm được một video học tập, rồi liên tục gợi ý xem thêm. Việc đó có ích gì? Khi nào em cần dừng?",
-          "delivery": "Đưa tình huống giả định không gắn nền tảng cụ thể. Hỏi ai quyết định thời gian sử dụng và nội dung cần học.\nHai cặp trình bày hai mặt khác nhau.",
-          "answer": "• Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-          "closing": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: KHÁM PHÁ 1: DỮ LIỆU VÀ KẾT QUẢ LỆCH.",
-          "students": "Nêu một lợi ích và một điều em cần tự kiểm soát."
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em tự chọn câu trả lời tại chỗ.",
+          "answer": "Đánh giá AI cần xét mục đích, điều kiện và ảnh hưởng đến người sử dụng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Một tính năng có thể vừa hữu ích vừa có hạn chế. Em còn phải xem dữ liệu và điều kiện sử dụng."
         }
       },
       "theme": "cream",
-      "diagram": [
-        [
-          "Đọc tình huống",
-          "Có ích gì? Có hạn chế gì?"
-        ],
-        [
-          "Chọn cách dùng",
-          "Nêu điều kiện cụ thể."
-        ],
-        [
-          "Kiểm tra lại",
-          "Bảo vệ thông tin và thời gian."
-        ]
+      "v6": true,
+      "screen": [
+        "Tìm được video học tập.",
+        "Ứng dụng gợi ý xem tiếp.",
+        "Khi nào em nên dừng?"
       ],
-      "originalNumber": 4
+      "phase": "Khởi động",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 30 giây, em tự chọn câu trả lời tại chỗ."
+      ],
+      "connector": "Từ mục tiêu hôm nay, em xem một tình huống.",
+      "number": 4
     },
     {
       "type": "divider",
       "id": "07-05",
-      "number": 5,
-      "title": "KHÁM PHÁ 1: DỮ LIỆU VÀ KẾT QUẢ LỆCH",
+      "title": "Khám phá: dữ liệu có bao quát?",
       "note": {
         "activity": "Khám phá 2.1 Dữ liệu và kết quả lệch",
         "purpose": "Giải thích đơn giản vai trò dữ liệu đa dạng.",
-        "teacher": "Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "So sánh số kiểu và điều kiện ảnh, đề xuất bổ sung; không tự ghi tỉ lệ chính xác chưa đo.",
         "report": "Nhóm trình bày một nguy cơ của dữ liệu thiếu đại diện.",
         "conclusion": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm; không đòi thuật ngữ chuyên sâu về thiên lệch.",
+        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm. Không đòi thuật ngữ chuyên sâu về thiên lệch.",
         "answers": [],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang khám phá 1: dữ liệu và kết quả lệch.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Câu hỏi vừa nêu dẫn em tới cách AI làm việc. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Có phù hợp với mọi người?.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Nhìn hai bộ ảnh cùng số lượng. Chuẩn bị nêu điểm khác về điều kiện."
         }
       },
       "theme": "blue",
-      "originalNumber": 5
+      "v6": true,
+      "screen": [],
+      "phase": "Khám phá",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Câu hỏi vừa nêu dẫn em tới cách AI làm việc.",
+      "number": 5
     },
     {
       "type": "question",
-      "question": "Có phù hợp với mọi người?",
-      "instruction": "Quan sát người dùng ở bối cảnh khác nhau. Dữ liệu và điều kiện sử dụng ảnh hưởng lựa chọn dùng AI thế nào?",
       "poster": "frame_9_135.jpg",
       "id": "07-06",
-      "number": 6,
-      "title": "Có phù hợp với mọi người?",
+      "title": "Một bộ dữ liệu có bao quát hết không?",
       "note": {
         "activity": "Khám phá 2.1 Dữ liệu và kết quả lệch",
         "purpose": "Giải thích đơn giản vai trò dữ liệu đa dạng.",
-        "teacher": "Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "So sánh số kiểu và điều kiện ảnh, đề xuất bổ sung; không tự ghi tỉ lệ chính xác chưa đo.",
         "report": "Nhóm trình bày một nguy cơ của dữ liệu thiếu đại diện.",
         "conclusion": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm; không đòi thuật ngữ chuyên sâu về thiên lệch.",
+        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm. Không đòi thuật ngữ chuyên sâu về thiên lệch.",
         "answers": [
-          "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử."
+          "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Quan sát người dùng ở bối cảnh khác nhau. Dữ liệu và điều kiện sử dụng ảnh hưởng lựa chọn dùng AI thế nào?",
+          "opening": "Thầy/Cô nói: Trước khi xem, em đọc câu hỏi cần tìm. Trong 15 giây, em đọc câu hỏi trên slide.",
           "explanation": "Quan sát người dùng ở bối cảnh khác nhau. Dữ liệu và điều kiện sử dụng ảnh hưởng lựa chọn dùng AI thế nào?",
-          "delivery": "Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết?\nNhóm trình bày một nguy cơ của dữ liệu thiếu đại diện.",
-          "answer": "• Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-          "closing": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Video: Dữ liệu và kết quả thiên lệch.",
-          "students": "Suy nghĩ về câu hỏi định hướng, ghi một dự đoán và tìm chi tiết đối chiếu khi xem video."
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 15 giây, em đọc câu hỏi trên slide.",
+          "answer": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Hãy xem ví dụ trong phim, rồi thử phân tích một trường hợp đơn giản với ảnh cốc."
         }
       },
       "theme": "cream",
-      "originalNumber": 6
+      "v6": true,
+      "screen": [
+        "Ví dụ học có đủ khác nhau không?",
+        "Ai hoặc trường hợp nào có thể bị bỏ sót?"
+      ],
+      "phase": "Khám phá",
+      "scene": "video",
+      "taskLines": [
+        "Trong 15 giây, em đọc câu hỏi trên slide."
+      ],
+      "connector": "Trước khi xem, em đọc câu hỏi cần tìm.",
+      "number": 6
     },
     {
       "type": "video",
@@ -237,137 +264,187 @@ window.AI6_LESSON={
         "end": 150,
         "poster": "frame_9_135.jpg",
         "url": "https://contentful-videos.code.org/90t6bu6vlf76/6bdcJTTcr9iESnI5jMsxGR/f61be02642cc453a5f03df83d0d4fffb/ai-06-ai-ethics-access-bias.mp4",
-        "question": "Quan sát người dùng ở bối cảnh khác nhau. Dữ liệu và điều kiện sử dụng ảnh hưởng lựa chọn dùng AI thế nào?",
+        "question": "Tìm điều kiện dữ liệu còn thiếu. Nêu điều cần kiểm tra trước khi dùng.",
         "local": "code-9.mp4"
       },
       "id": "07-07",
-      "number": 7,
-      "title": "Video: Dữ liệu và kết quả thiên lệch",
+      "title": "Khi dữ liệu chưa bao quát",
       "note": {
         "activity": "Khám phá 2.1 Dữ liệu và kết quả lệch",
         "purpose": "Giải thích đơn giản vai trò dữ liệu đa dạng.",
-        "teacher": "Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "So sánh số kiểu và điều kiện ảnh, đề xuất bổ sung; không tự ghi tỉ lệ chính xác chưa đo.",
         "report": "Nhóm trình bày một nguy cơ của dữ liệu thiếu đại diện.",
         "conclusion": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm; không đòi thuật ngữ chuyên sâu về thiên lệch.",
+        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm. Không đòi thuật ngữ chuyên sâu về thiên lệch.",
         "answers": [
-          "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử."
+          "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Trước khi xem: Quan sát người dùng ở bối cảnh khác nhau. Dữ liệu và điều kiện sử dụng ảnh hưởng lựa chọn dùng AI thế nào?",
-          "explanation": "Xem đoạn 120–150 giây. Lời dẫn và câu hỏi Việt là học liệu GV biên soạn; không phải phụ đề chính thức.",
-          "delivery": "Trước xem: giao một câu hỏi. Trong xem: cho HS chú ý một ví dụ, dừng khi cần giải nghĩa. Sau xem: mời hai ý kiến và yêu cầu chỉ chi tiết làm căn cứ. Nếu trình duyệt chặn âm thanh ở màn chiếu, bấm phát trực tiếp tại cửa sổ đó một lần.",
-          "answer": "• Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-          "closing": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-          "transition": "Ví dụ cốc giúp thấy dữ liệu chưa đa dạng; với người dùng còn phải xét ai bị ảnh hưởng và điều kiện dùng.",
-          "students": "Quan sát chi tiết liên quan câu hỏi; nêu một nhận xét có căn cứ sau đoạn xem."
+          "opening": "Thầy/Cô nói: Giữ câu hỏi vừa đọc. Em tìm ví dụ trong phim. Trong 30 giây, em ghi một ví dụ vào vở.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em ghi một ví dụ vào vở.",
+          "answer": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Ví dụ trong phim khá rộng. Em bắt đầu bằng hai bộ ảnh cùng số lượng để nhìn rõ sự khác nhau."
         }
       },
       "theme": "cream",
-      "originalNumber": 7
+      "v6": true,
+      "screen": [
+        "Tìm điều kiện dữ liệu còn thiếu.",
+        "Nêu điều cần kiểm tra trước khi dùng."
+      ],
+      "phase": "Khám phá",
+      "scene": "video",
+      "taskLines": [
+        "Trong 30 giây, em ghi một ví dụ vào vở."
+      ],
+      "fallback": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử.",
+      "connector": "Giữ câu hỏi vừa đọc. Em tìm ví dụ trong phim.",
+      "number": 7
     },
     {
       "type": "concept",
-      "cards": [
-        [
-          "Bộ A: 30 ảnh",
-          "Cùng một cốc trắng, cùng góc chụp."
-        ],
-        [
-          "Bộ B: 30 ảnh",
-          "Nhiều kiểu cốc, nhiều góc và nền phù hợp; nhãn đều đúng."
-        ],
-        [
-          "Câu hỏi cần thử",
-          "Bộ nào có thể giúp nhận nhiều kiểu cốc hơn? Cần thử ảnh mới để biết kết quả."
-        ]
-      ],
-      "visual": "flow",
       "id": "07-08",
-      "number": 8,
-      "title": "So sánh hai bộ dữ liệu ảnh cốc",
+      "title": "Cùng 30 ảnh, khác cách chọn",
       "note": {
         "activity": "Khám phá 2.1 Dữ liệu và kết quả lệch",
         "purpose": "Giải thích đơn giản vai trò dữ liệu đa dạng.",
-        "teacher": "Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "So sánh số kiểu và điều kiện ảnh, đề xuất bổ sung; không tự ghi tỉ lệ chính xác chưa đo.",
         "report": "Nhóm trình bày một nguy cơ của dữ liệu thiếu đại diện.",
         "conclusion": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm; không đòi thuật ngữ chuyên sâu về thiên lệch.",
+        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm. Không đòi thuật ngữ chuyên sâu về thiên lệch.",
         "answers": [
-          "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử."
+          "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: So sánh hai bộ dữ liệu ảnh cốc",
-          "explanation": "Bộ A: 30 ảnh: Cùng một cốc trắng, cùng góc chụp.\nBộ B: 30 ảnh: Nhiều kiểu cốc, nhiều góc và nền phù hợp; nhãn đều đúng.\nCâu hỏi cần thử: Bộ nào có thể giúp nhận nhiều kiểu cốc hơn? Cần thử ảnh mới để biết kết quả.",
-          "delivery": "Giải thích lần lượt các khối trên slide. Sau mỗi ý, hỏi “Em có thể lấy một ví dụ hoặc nêu căn cứ không?”. Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết?",
-          "answer": "• Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-          "closing": "Dữ liệu chưa bao quát có thể làm kết quả kém phù hợp ở điều kiện mới; phải thử để biết.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Phiếu A — Dữ liệu đa dạng.",
-          "students": "So sánh số kiểu và điều kiện ảnh, đề xuất bổ sung; không tự ghi tỉ lệ chính xác chưa đo."
+          "opening": "Thầy/Cô nói: Từ ví dụ vừa có, em đặt tên cho điều đã thấy. Trong 30 giây, em chỉ một ý trên hình.",
+          "explanation": "Bộ A: 30 ảnh: Cùng một cốc trắng, cùng góc chụp.\nBộ B: 30 ảnh: Nhiều kiểu cốc, nhiều góc và nền phù hợp. Nhãn đều đúng.\nCâu hỏi cần thử: Bộ nào có thể giúp nhận nhiều kiểu cốc hơn? Cần thử ảnh mới để biết kết quả.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em chỉ một ý trên hình.",
+          "answer": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu mẫu so hai bộ ảnh."
         }
       },
       "theme": "cream",
-      "diagram": [
-        [
-          "Đọc tình huống",
-          "Có ích gì? Có hạn chế gì?"
-        ],
-        [
-          "Chọn cách dùng",
-          "Nêu điều kiện cụ thể."
-        ],
-        [
-          "Kiểm tra lại",
-          "Bảo vệ thông tin và thời gian."
-        ]
+      "v6": true,
+      "screen": [
+        "Bộ A: một cốc, một góc.",
+        "Bộ B: nhiều kiểu cốc và góc phù hợp.",
+        "Muốn so sánh, cần thử ảnh mới."
       ],
-      "takeaway": "Dữ liệu chưa bao quát có thể làm kết quả kém phù hợp ở điều kiện mới; phải thử để biết.",
-      "originalNumber": 8
+      "phase": "Khám phá",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 30 giây, em chỉ một ý trên hình."
+      ],
+      "connector": "Từ ví dụ vừa có, em đặt tên cho điều đã thấy.",
+      "number": 8
+    },
+    {
+      "id": "07-09-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Mẫu so hai bộ ảnh",
+      "theme": "cream",
+      "phase": "Khám phá",
+      "scene": "Diversity",
+      "worked": {
+        "title": "Mẫu so hai bộ ảnh",
+        "context": "Hai bộ có 30 ảnh. Chưa chạy để đo kết quả.",
+        "labels": [
+          "Giống nhau",
+          "Bộ A",
+          "Bộ B",
+          "Dự đoán có lí do",
+          "Cách kiểm dự đoán"
+        ],
+        "values": [
+          "Cùng 30 ảnh cốc",
+          "Một cốc trắng, cùng một góc",
+          "Nhiều cốc và góc phù hợp",
+          "B có thể bao quát nhiều trường hợp hơn",
+          "Thử ảnh mới rồi so với cốc thật"
+        ],
+        "why": [
+          "Số lượng giống chưa có nghĩa nội dung giống.",
+          "Dự đoán chưa phải kết quả đã đo.",
+          "Ảnh mới giúp kiểm điều em nghĩ."
+        ],
+        "question": "Em cần làm gì trước khi khẳng định?",
+        "scene": "Diversity"
+      },
+      "targetId": "07-09",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "Thử ảnh mới rồi so với cốc thật",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "Thử ảnh mới rồi so với cốc thật"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "Hai bộ có 30 ảnh. Chưa chạy để đo kết quả.\nSố lượng giống chưa có nghĩa nội dung giống.\nDự đoán chưa phải kết quả đã đo.\nẢnh mới giúp kiểm điều em nghĩ.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "Thử ảnh mới rồi so với cốc thật",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 9
     },
     {
       "type": "worksheet",
       "worksheet": {
         "title": "P7.2 Dữ liệu đa dạng",
-        "intro": "Đây là tình huống giả định để thảo luận; chưa có kết quả đo mô hình.",
-        "headers": null,
-        "rows": null,
-        "questions": [],
+        "intro": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
         "answers": [
           "B có dữ liệu đa dạng hơn về kiểu cốc và điều kiện, có thể phù hợp hơn với nhiệm vụ nhận nhiều kiểu cốc.",
-          "Không thể bảo đảm luôn tốt hơn; phải kiểm tra chất lượng, mức phù hợp và thử bằng đầu vào mới có nhãn thực.",
-          "Bộ thử gồm các cốc mới ở điều kiện được ghi rõ, ngoài tập huấn luyện; không tự dựng tỉ lệ chính xác."
+          "Không thể bảo đảm luôn tốt hơn. Phải kiểm tra chất lượng, mức phù hợp và thử bằng đầu vào mới có nhãn thực.",
+          "Bộ thử gồm các cốc mới ở điều kiện được ghi rõ, ngoài tập dạy AI. Không tự dựng tỉ lệ chính xác."
         ],
         "pages": [
           {
             "title": "So sánh hai bộ ảnh",
-            "instruction": "Đây là tình huống giả định để thảo luận; chưa có kết quả đo mô hình.",
+            "instruction": "So hai bộ ảnh ví dụ tạo sẵn. Chỉ rõ số lượng giống và điều kiện khác.",
             "fields": [
               {
-                "label": "1. Bộ nào có nhiều kiểu cốc và điều kiện chụp hơn?",
-                "placeholder": "",
+                "label": "Bộ nào có nhiều kiểu cốc và điều kiện chụp hơn?",
                 "key": "07-09-v3-0"
               },
               {
-                "label": "2. Vì sao bộ đó có thể phù hợp hơn khi cần nhận nhiều kiểu cốc?",
-                "placeholder": "",
+                "label": "Vì sao bộ đó có thể phù hợp hơn khi cần nhận nhiều kiểu cốc?",
                 "key": "07-09-v3-1"
               }
             ],
-            "reference": "Bộ A: 30 ảnh một cốc trắng, cùng góc chụp.\nBộ B: 30 ảnh nhiều kiểu cốc, nhiều góc và nền; các ảnh đều được gắn nhãn đúng."
+            "reference": "Bộ A: 30 ảnh một cốc trắng, cùng góc chụp.\nBộ B: 30 ảnh nhiều kiểu cốc, nhiều góc và nền. Các ảnh đều được gắn nhãn đúng."
           },
           {
             "title": "Cần thử để biết",
-            "instruction": "Không khẳng định một bộ ảnh sẽ luôn tốt hơn trong mọi trường hợp.",
+            "instruction": "Nêu ảnh mới cần thử và cách biết kết quả đúng. Chưa đoán kết quả là thật.",
             "fields": [
               {
-                "label": "3. Em cần thử bằng những ảnh mới nào để so sánh hai mô hình?",
-                "placeholder": "",
+                "label": "Em cần thử bằng những ảnh mới nào để so sánh hai mô hình?",
                 "key": "07-09-v3-2"
               }
             ]
@@ -377,304 +454,448 @@ window.AI6_LESSON={
       },
       "time": 5,
       "id": "07-09",
-      "number": 9,
-      "title": "Phiếu A — Dữ liệu đa dạng",
+      "title": "Phiếu A — So sánh dữ liệu",
       "note": {
         "activity": "Khám phá 2.1 Dữ liệu và kết quả lệch",
         "purpose": "Hoàn thành bộ dữ liệu nào bao quát hơn? theo các bước trên phiếu.",
-        "teacher": "Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết? Mã theo giáo án: P7.2. Nhãn Phiếu A/B theo thứ tự học trên slide.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "So sánh số kiểu và điều kiện ảnh, đề xuất bổ sung; không tự ghi tỉ lệ chính xác chưa đo.",
         "report": "Nhóm trình bày một nguy cơ của dữ liệu thiếu đại diện.",
         "conclusion": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm; không đòi thuật ngữ chuyên sâu về thiên lệch.",
+        "assessment": "Thầy/Cô xem từng mục đã điền. Em nêu căn cứ khi được hỏi. Chấp nhận cách diễn đạt đúng khác lời mẫu.",
         "answers": [
           "B có dữ liệu đa dạng hơn về kiểu cốc và điều kiện, có thể phù hợp hơn với nhiệm vụ nhận nhiều kiểu cốc.",
-          "Không thể bảo đảm luôn tốt hơn; phải kiểm tra chất lượng, mức phù hợp và thử bằng đầu vào mới có nhãn thực.",
-          "Bộ thử gồm các cốc mới ở điều kiện được ghi rõ, ngoài tập huấn luyện; không tự dựng tỉ lệ chính xác."
+          "Không thể bảo đảm luôn tốt hơn. Phải kiểm tra chất lượng, mức phù hợp và thử bằng đầu vào mới có nhãn thực.",
+          "Bộ thử gồm các cốc mới ở điều kiện được ghi rõ, ngoài tập dạy AI. Không tự dựng tỉ lệ chính xác."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: Phiếu A — Dữ liệu đa dạng",
-          "explanation": "So sánh hai bộ ảnh: Đây là tình huống giả định để thảo luận; chưa có kết quả đo mô hình.\nCần thử để biết: Không khẳng định một bộ ảnh sẽ luôn tốt hơn trong mọi trường hợp.",
-          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
-          "answer": "• B có dữ liệu đa dạng hơn về kiểu cốc và điều kiện, có thể phù hợp hơn với nhiệm vụ nhận nhiều kiểu cốc.\n• Không thể bảo đảm luôn tốt hơn; phải kiểm tra chất lượng, mức phù hợp và thử bằng đầu vào mới có nhãn thực.\n• Bộ thử gồm các cốc mới ở điều kiện được ghi rõ, ngoài tập huấn luyện; không tự dựng tỉ lệ chính xác.",
-          "closing": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Đa dạng dữ liệu và giới hạn kết luận.",
-          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "answer": "B có dữ liệu đa dạng hơn về kiểu cốc và điều kiện, có thể phù hợp hơn với nhiệm vụ nhận nhiều kiểu cốc.\nKhông thể bảo đảm luôn tốt hơn. Phải kiểm tra chất lượng, mức phù hợp và thử bằng đầu vào mới có nhãn thực.\nBộ thử gồm các cốc mới ở điều kiện được ghi rõ, ngoài tập dạy AI. Không tự dựng tỉ lệ chính xác.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Ví dụ cốc cho thấy giới hạn dữ liệu. Khi dùng với người, em còn phải xét người bị ảnh hưởng."
         }
       },
       "theme": "cream",
-      "originalNumber": 9
+      "v6": true,
+      "screen": [
+        "Chỉ điểm giống và khác.",
+        "Dự đoán có lí do.",
+        "Đề xuất ảnh mới để thử."
+      ],
+      "phase": "Khám phá",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 3 phút, em tự điền trên phiếu.",
+        "Trong 2 phút, em so kết quả với em ngồi cạnh."
+      ],
+      "sampleId": "07-09-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 10
     },
     {
       "type": "conclusion",
-      "text": "Ví dụ cốc cho thấy ảnh học thiếu đa dạng có thể làm kết quả kém phù hợp. Với người dùng, còn cần xem ai bị ảnh hưởng và điều kiện sử dụng ra sao.",
-      "task": "Nêu một kiểu cốc hoặc điều kiện chụp còn thiếu.",
-      "answer": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm; không đòi thuật ngữ chuyên sâu về thiên lệch.",
-      "cards": [
-        "AI có lợi ích và hạn chế tùy tình huống.",
-        "Xét dữ liệu, mục tiêu, ảnh hưởng và riêng tư."
-      ],
       "id": "07-10",
-      "number": 10,
-      "title": "Đa dạng dữ liệu và giới hạn kết luận",
+      "title": "Dữ liệu chỉ là một phần",
       "note": {
         "activity": "Khám phá 2.1 Dữ liệu và kết quả lệch",
         "purpose": "Giải thích đơn giản vai trò dữ liệu đa dạng.",
-        "teacher": "Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "So sánh số kiểu và điều kiện ảnh, đề xuất bổ sung; không tự ghi tỉ lệ chính xác chưa đo.",
         "report": "Nhóm trình bày một nguy cơ của dữ liệu thiếu đại diện.",
         "conclusion": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm; không đòi thuật ngữ chuyên sâu về thiên lệch.",
+        "assessment": "Đạt khi chỉ ra yếu tố thiếu và một cách kiểm. Không đòi thuật ngữ chuyên sâu về thiên lệch.",
         "answers": [
-          "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử."
+          "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Ví dụ cốc cho thấy ảnh học thiếu đa dạng có thể làm kết quả kém phù hợp. Với người dùng, còn cần xem ai bị ảnh hưởng và điều kiện sử dụng ra sao.",
-          "explanation": "Ví dụ cốc cho thấy ảnh học thiếu đa dạng có thể làm kết quả kém phù hợp. Với người dùng, còn cần xem ai bị ảnh hưởng và điều kiện sử dụng ra sao.",
-          "delivery": "Nêu câu hỏi trước xem; giao nhận xét thay vì đoán kết quả chắc chắn. Hỏi bộ dữ liệu nào bao quát kiểu cốc mới tốt hơn? Ta cần thử gì để biết?\nNhóm trình bày một nguy cơ của dữ liệu thiếu đại diện.",
-          "answer": "• Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp; muốn biết mức ảnh hưởng phải thử.",
-          "closing": "Nếu ảnh học chỉ có một kiểu cốc, mô hình có thể nhận kém với cốc khác. Dữ liệu đa dạng hơn có thể giúp, nhưng vẫn cần chạy thử.",
-          "transition": "Dữ liệu chỉ là một điều kiện. Mình còn xét mục đích, cách kiểm, thông tin riêng và thời gian.",
-          "students": "Nêu một kiểu cốc hoặc điều kiện chụp còn thiếu."
+          "opening": "Thầy/Cô nói: Em so kết quả để rút ra điều có căn cứ. Trong 30 giây, em nêu một căn cứ tại chỗ.",
+          "explanation": "Ví dụ cốc cho thấy ảnh học thiếu đa dạng có thể làm kết quả kém phù hợp. Với người dùng, còn cần xem ai bị ảnh hưởng và điều kiện sử dụng ra sao.\nVí dụ ảnh cốc minh họa phạm vi dữ liệu, chưa đủ để kết luận công bằng với con người. Khi chuyển sang người dùng, cần hỏi ai bị ảnh hưởng, điều kiện và quyền riêng tư.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em nêu một căn cứ tại chỗ.",
+          "answer": "Dữ liệu ít đa dạng có thể làm kết quả kém phù hợp ở một số trường hợp. Muốn biết mức ảnh hưởng phải thử.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Em dùng thêm mục đích, cách kiểm và riêng tư để quyết định trong bốn tình huống cụ thể."
         }
       },
       "theme": "cream",
-      "originalNumber": 10
+      "v6": true,
+      "screen": [
+        "Ảnh học chưa bao quát có thể gây hạn chế.",
+        "Dùng với người còn cần xét ảnh hưởng.",
+        "Không kết luận công bằng chỉ từ ảnh cốc."
+      ],
+      "phase": "Khám phá",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 30 giây, em nêu một căn cứ tại chỗ."
+      ],
+      "connector": "Em so kết quả để rút ra điều có căn cứ.",
+      "number": 11
     },
     {
       "type": "divider",
       "id": "07-11",
-      "number": 11,
-      "title": "KHÁM PHÁ 2: LỰA CHỌN CÓ NÊN SỬ DỤNG AI",
+      "title": "Thực hành: chọn cách dùng AI",
       "note": {
         "activity": "Khám phá 2.2 Lựa chọn nên dùng hay không",
         "purpose": "Phân tích lợi ích, hạn chế và quyết định có điều kiện.",
-        "teacher": "Giao ba lựa chọn và yêu cầu nêu điều kiện cụ thể nếu chọn dùng có điều kiện. Hỏi người dùng có cách kiểm tra không? Mục tiêu có cần AI không? Ai chịu trách nhiệm nếu dùng kết quả?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ.",
         "report": "Hai nhóm so sánh quyết định cho cùng một thẻ; nhóm khác nêu điều kiện còn thiếu.",
         "conclusion": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp; chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
+        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp. Chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
         "answers": [],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang khám phá 2: lựa chọn có nên sử dụng ai.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Em đã xem ví dụ. Giờ em thử theo từng bước. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Ba lựa chọn và cách giải thích.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu mẫu: có nên nhờ ai viết hộ?."
         }
       },
       "theme": "blue",
-      "originalNumber": 11
+      "v6": true,
+      "screen": [],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Em đã xem ví dụ. Giờ em thử theo từng bước.",
+      "number": 12
+    },
+    {
+      "id": "07-12-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Mẫu: có nên nhờ AI viết hộ?",
+      "theme": "cream",
+      "phase": "Luyện tập / Thực hành",
+      "scene": "Decision",
+      "worked": {
+        "title": "Mẫu: có nên nhờ AI viết hộ?",
+        "context": "Một em định nộp nguyên bài văn do AI viết.",
+        "labels": [
+          "Cách dùng định chọn",
+          "Nên hay không",
+          "Vì sao",
+          "Cách dùng phù hợp hơn",
+          "Việc em tự làm"
+        ],
+        "values": [
+          "Nhờ AI viết toàn bộ rồi nộp",
+          "Không nộp nguyên bài như bài em tự viết",
+          "Em chưa tự luyện viết và nêu ý",
+          "Xin gợi ý câu hỏi hoặc dàn ý",
+          "Tự viết bài và kiểm lại nội dung"
+        ],
+        "why": [
+          "AI hỗ trợ không thay phần luyện của em.",
+          "Em chịu trách nhiệm về bài nộp.",
+          "Chọn hỗ trợ đúng mục tiêu học."
+        ],
+        "question": "Phần nào em vẫn phải tự làm?",
+        "scene": "Decision"
+      },
+      "targetId": "07-12",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "Tự viết bài và kiểm lại nội dung",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "Tự viết bài và kiểm lại nội dung"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "Một em định nộp nguyên bài văn do AI viết.\nAI hỗ trợ không thay phần luyện của em.\nEm chịu trách nhiệm về bài nộp.\nChọn hỗ trợ đúng mục tiêu học.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "Tự viết bài và kiểm lại nội dung",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 13
     },
     {
       "type": "task",
-      "text": "Đọc bốn tình huống trong P7.1. Với mỗi tình huống, chọn cách dùng và nêu điều kiện để dùng phù hợp.",
-      "product": "Bốn quyết định kèm lợi ích, hạn chế và cách kiểm tra hoặc xử lí.",
-      "roles": [
-        "Thao tác",
-        "Đọc nhiệm vụ",
-        "Ghi kết quả",
-        "Đối chiếu"
-      ],
-      "visual": "flow",
       "id": "07-12",
-      "number": 12,
-      "title": "Ba lựa chọn và cách giải thích",
+      "title": "Chọn cách dùng, nêu điều kiện",
       "note": {
         "activity": "Khám phá 2.2 Lựa chọn nên dùng hay không",
         "purpose": "Phân tích lợi ích, hạn chế và quyết định có điều kiện.",
-        "teacher": "Giao ba lựa chọn và yêu cầu nêu điều kiện cụ thể nếu chọn dùng có điều kiện. Hỏi người dùng có cách kiểm tra không? Mục tiêu có cần AI không? Ai chịu trách nhiệm nếu dùng kết quả?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ.",
         "report": "Hai nhóm so sánh quyết định cho cùng một thẻ; nhóm khác nêu điều kiện còn thiếu.",
         "conclusion": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp; chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
+        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp. Chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
         "answers": [
           "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Đọc bốn tình huống trong P7.1. Với mỗi tình huống, chọn cách dùng và nêu điều kiện để dùng phù hợp.",
-          "explanation": "Đọc bốn tình huống trong P7.1. Với mỗi tình huống, chọn cách dùng và nêu điều kiện để dùng phù hợp.\n\nBốn quyết định kèm lợi ích, hạn chế và cách kiểm tra hoặc xử lí.",
-          "delivery": "Giao ba lựa chọn và yêu cầu nêu điều kiện cụ thể nếu chọn dùng có điều kiện. Hỏi người dùng có cách kiểm tra không? Mục tiêu có cần AI không? Ai chịu trách nhiệm nếu dùng kết quả?\nPhân vai: Thao tác, Đọc nhiệm vụ, Ghi kết quả, Đối chiếu. Ghi đúng kết quả thực hiện và điều kiện của nhóm.",
-          "answer": "• Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "closing": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Cùng làm mẫu một tình huống.",
-          "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 11 phút, em chọn cách dùng trên phiếu tình huống.",
+          "explanation": "Đọc bốn tình huống trong P7.1. Với mỗi tình huống, chọn cách dùng và nêu điều kiện để dùng phù hợp.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 11 phút, em chọn cách dùng trên phiếu tình huống.",
+          "answer": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Trước khi tự quyết định, lớp cùng làm mẫu một tình huống dịch câu."
         }
       },
       "theme": "cream",
-      "diagram": [
-        [
-          "Đọc tình huống",
-          "Có ích gì? Có hạn chế gì?"
-        ],
-        [
-          "Chọn cách dùng",
-          "Nêu điều kiện cụ thể."
-        ],
-        [
-          "Kiểm tra lại",
-          "Bảo vệ thông tin và thời gian."
-        ]
+      "v6": true,
+      "screen": [
+        "Xem lợi ích và hạn chế.",
+        "Chọn dùng / dùng có điều kiện / chưa dùng.",
+        "Nói rõ vì sao."
       ],
-      "originalNumber": 12
+      "phase": "Luyện tập / Thực hành",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 11 phút, em chọn cách dùng trên phiếu tình huống."
+      ],
+      "sampleId": "07-12-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 14
     },
     {
       "type": "step",
-      "heading": "Dịch một câu học tập",
-      "text": "AI giúp dịch một câu học tập; có bảng từ và GV để đối chiếu.",
-      "steps": [
-        "Có ích: giúp hiểu câu. Hạn chế: có thể dịch chưa phù hợp.",
-        "Chọn dùng khi kiểm được nghĩa và vị trí bằng nguồn phù hợp.",
-        "Ba tình huống còn lại, nhóm tự cân nhắc trước khi mở gợi ý."
-      ],
-      "visual": "decision",
       "step": 1,
       "time": 0,
       "id": "07-13",
-      "number": 13,
-      "title": "Cùng làm mẫu một tình huống",
+      "title": "Làm mẫu: dùng AI dịch câu",
       "note": {
         "activity": "Khám phá 2.2 Lựa chọn nên dùng hay không",
         "purpose": "Phân tích lợi ích, hạn chế và quyết định có điều kiện.",
-        "teacher": "Giao ba lựa chọn và yêu cầu nêu điều kiện cụ thể nếu chọn dùng có điều kiện. Hỏi người dùng có cách kiểm tra không? Mục tiêu có cần AI không? Ai chịu trách nhiệm nếu dùng kết quả?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ.",
         "report": "Hai nhóm so sánh quyết định cho cùng một thẻ; nhóm khác nêu điều kiện còn thiếu.",
         "conclusion": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp; chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
+        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp. Chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
         "answers": [
           "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "AI giúp dịch một câu học tập; có bảng từ và GV để đối chiếu.",
-          "explanation": "Có ích: giúp hiểu câu. Hạn chế: có thể dịch chưa phù hợp.\nChọn dùng khi kiểm được nghĩa và vị trí bằng nguồn phù hợp.\nBa tình huống còn lại, nhóm tự cân nhắc trước khi mở gợi ý.",
-          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nLợi ích: giúp hiểu câu; hạn chế: có thể dịch chưa phù hợp.\nNêu điều kiện kiểm chứng trước khi dùng.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
-          "answer": "• Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "closing": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "transition": "Đã có một mẫu. Trong Phiếu B, các nhóm tự chọn cách dùng cho những tình huống còn lại rồi giải thích.",
-          "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ."
+          "opening": "Thầy/Cô nói: Em xem một tình huống trước khi tự chọn cách dùng. Trong 1 phút, em làm bước này trên máy.",
+          "explanation": "AI giúp dịch một câu học tập. Có bảng từ và Thầy/Cô để đối chiếu.\nCó ích: giúp hiểu câu. Hạn chế: có thể dịch chưa phù hợp.\nChọn dùng khi kiểm được nghĩa và vị trí bằng nguồn phù hợp.\nBa tình huống còn lại, nhóm tự cân nhắc trước khi mở gợi ý.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 1 phút, em làm bước này trên máy.",
+          "answer": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu mẫu một lựa chọn có điều kiện."
         }
       },
       "theme": "cream",
-      "originalNumber": 13
+      "v6": true,
+      "screen": [
+        "Có ích: gợi ý nghĩa.",
+        "Hạn chế: có thể dịch chưa phù hợp.",
+        "Điều kiện: có nguồn để kiểm."
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 1 phút, em làm bước này trên máy."
+      ],
+      "connector": "Em xem một tình huống trước khi tự chọn cách dùng.",
+      "number": 15
+    },
+    {
+      "id": "07-17-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Mẫu một lựa chọn có điều kiện",
+      "theme": "cream",
+      "phase": "Luyện tập / Thực hành",
+      "scene": "Video",
+      "worked": {
+        "title": "Mẫu một lựa chọn có điều kiện",
+        "context": "AI gợi ý video học rồi gợi thêm video khác.",
+        "labels": [
+          "Lợi ích",
+          "Hạn chế",
+          "Lựa chọn",
+          "Điều kiện",
+          "Việc khi hết mục tiêu"
+        ],
+        "values": [
+          "Tìm được video cần cho bài",
+          "Dễ xem tiếp nội dung không liên quan",
+          "Chỉ dùng để tìm bài cần học",
+          "Đặt điểm dừng theo nhiệm vụ",
+          "Dừng xem và quay lại bài làm"
+        ],
+        "why": [
+          "Nêu cả mặt giúp và mặt cản.",
+          "Điều kiện phải làm được ngay.",
+          "Không coi mọi video gợi ý đều xấu."
+        ],
+        "question": "Khi xem đủ phần cần học, em làm gì?",
+        "scene": "Video"
+      },
+      "targetId": "07-17",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "Dừng xem và quay lại bài làm",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "Dừng xem và quay lại bài làm"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "AI gợi ý video học rồi gợi thêm video khác.\nNêu cả mặt giúp và mặt cản.\nĐiều kiện phải làm được ngay.\nKhông coi mọi video gợi ý đều xấu.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "Dừng xem và quay lại bài làm",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 16
     },
     {
       "type": "worksheet",
       "worksheet": {
         "title": "P7.1 Lợi ích và lựa chọn sử dụng",
-        "intro": "Đọc tình huống rồi nêu cách dùng phù hợp. Có thể có nhiều cách trả lời nếu giải thích rõ.",
-        "headers": null,
-        "rows": null,
-        "questions": [],
+        "intro": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
         "answers": [
-          "1 Có thể dùng có kiểm chứng; giúp hiểu câu, có nguy cơ dịch sai.",
-          "2 Có ích tìm nội dung nhưng dễ kéo dài thời gian; đặt mục tiêu, giới hạn thời gian, chọn nội dung và dừng khi cần.",
-          "3 Không tin ngay nhãn sai; kiểm vật thật và xem dữ liệu/điều kiện, có thể dùng để học kiểm thử có hướng dẫn.",
-          "4 Không gửi thông tin không cần; hỏi mục đích, từ chối quyền không liên quan và nhờ GV. Chấp nhận lựa chọn khác nếu điều kiện/rủi ro được giải thích thỏa đáng."
+          "1 Có thể dùng có kiểm tra. Giúp hiểu câu, có nguy cơ dịch sai.",
+          "2 Có ích tìm nội dung nhưng dễ kéo dài thời gian. Đặt mục tiêu, giới hạn thời gian, chọn nội dung và dừng khi cần.",
+          "3 Không tin ngay nhãn sai. Kiểm vật thật và xem dữ liệu/điều kiện, có thể dùng để học kiểm thử có hướng dẫn.",
+          "4 Không gửi thông tin không cần. Hỏi mục đích, từ chối quyền không liên quan và nhờ Thầy/Cô. Chấp nhận lựa chọn khác nếu điều kiện/rủi ro được giải thích thỏa đáng."
         ],
         "pages": [
           {
             "title": "Tình huống 1",
-            "instruction": "Đọc tình huống rồi nêu cách dùng phù hợp. Có thể có nhiều cách trả lời nếu giải thích rõ.",
+            "instruction": "Dùng mẫu dịch để nêu lợi ích, hạn chế và lựa chọn có điều kiện.",
             "fields": [
               {
-                "label": "1. Có ích ở điểm nào? Có thể gây khó khăn gì?",
-                "placeholder": "",
+                "label": "Có ích ở điểm nào? Có thể gây khó khăn gì?",
                 "key": "07-17-v3-0"
               },
               {
-                "label": "2. Ai có thể bị ảnh hưởng?",
-                "placeholder": "",
+                "label": "Ai có thể bị ảnh hưởng?",
                 "key": "07-17-v3-1"
               },
               {
-                "label": "3. Em chọn cách nào?",
-                "placeholder": "",
+                "label": "Em chọn cách nào?",
                 "options": [
                   "Dùng và kiểm tra kết quả",
                   "Chỉ dùng khi đáp ứng điều kiện",
                   "Tạm không dùng trong tình huống này"
                 ],
-                "key": "07-17-v3-2"
+                "key": "07-17-v3-2",
+                "optionLabels": [
+                  "Dùng và kiểm tra kết quả",
+                  "Chỉ dùng khi đáp ứng điều kiện",
+                  "Tạm không dùng trong tình huống này"
+                ]
               },
               {
-                "label": "4. Em sẽ kiểm tra hoặc xử lí thế nào?",
-                "placeholder": "",
+                "label": "Em sẽ kiểm tra hoặc xử lí thế nào?",
                 "key": "07-17-v3-3"
               }
             ],
-            "reference": "AI giúp dịch câu; có bảng từ và GV để đối chiếu."
+            "reference": "AI giúp dịch câu. Có bảng từ và Thầy/Cô để đối chiếu."
           },
           {
             "title": "Tình huống 2",
-            "instruction": "Tự nêu lợi ích, hạn chế và cách dùng. Nhóm khác có thể chọn khác nếu có lí do phù hợp.",
+            "instruction": "Cân nhắc video gợi ý. Nêu việc làm để giữ đúng mục đích và thời gian.",
             "fields": [
               {
-                "label": "1. Có ích ở điểm nào? Có thể gây khó khăn gì?",
-                "placeholder": "",
+                "label": "Có ích ở điểm nào? Có thể gây khó khăn gì?",
                 "key": "07-17-v3-4"
               },
               {
-                "label": "2. Ai có thể bị ảnh hưởng?",
-                "placeholder": "",
+                "label": "Ai có thể bị ảnh hưởng?",
                 "key": "07-17-v3-5"
               },
               {
-                "label": "3. Em chọn cách nào?",
-                "placeholder": "",
+                "label": "Em chọn cách nào?",
                 "options": [
                   "Dùng và kiểm tra kết quả",
                   "Chỉ dùng khi đáp ứng điều kiện",
                   "Tạm không dùng trong tình huống này"
                 ],
-                "key": "07-17-v3-6"
+                "key": "07-17-v3-6",
+                "optionLabels": [
+                  "Dùng và kiểm tra kết quả",
+                  "Chỉ dùng khi đáp ứng điều kiện",
+                  "Tạm không dùng trong tình huống này"
+                ]
               },
               {
-                "label": "4. Em sẽ kiểm tra hoặc xử lí thế nào?",
-                "placeholder": "",
+                "label": "Em sẽ kiểm tra hoặc xử lí thế nào?",
                 "key": "07-17-v3-7"
               }
             ],
-            "reference": "Ứng dụng gợi ý video học nhưng tiếp tục đề nghị nhiều video không liên quan."
+            "reference": "Ứng dụng gợi video học. Sau đó, ứng dụng gợi nhiều video không liên quan."
           },
           {
             "title": "Tình huống 3",
-            "instruction": "Đọc tình huống rồi nêu cách dùng phù hợp. Có thể có nhiều cách trả lời nếu giải thích rõ.",
+            "instruction": "So nhãn Bút với vật thật là cốc. Nêu việc người dùng cần làm.",
             "fields": [
               {
-                "label": "1. Có ích ở điểm nào? Có thể gây khó khăn gì?",
-                "placeholder": "",
+                "label": "Có ích ở điểm nào? Có thể gây khó khăn gì?",
                 "key": "07-17-v3-8"
               },
               {
-                "label": "2. Ai có thể bị ảnh hưởng?",
-                "placeholder": "",
+                "label": "Ai có thể bị ảnh hưởng?",
                 "key": "07-17-v3-9"
               },
               {
-                "label": "3. Em chọn cách nào?",
-                "placeholder": "",
+                "label": "Em chọn cách nào?",
                 "options": [
                   "Dùng và kiểm tra kết quả",
                   "Chỉ dùng khi đáp ứng điều kiện",
                   "Tạm không dùng trong tình huống này"
                 ],
-                "key": "07-17-v3-10"
+                "key": "07-17-v3-10",
+                "optionLabels": [
+                  "Dùng và kiểm tra kết quả",
+                  "Chỉ dùng khi đáp ứng điều kiện",
+                  "Tạm không dùng trong tình huống này"
+                ]
               },
               {
-                "label": "4. Em sẽ kiểm tra hoặc xử lí thế nào?",
-                "placeholder": "",
+                "label": "Em sẽ kiểm tra hoặc xử lí thế nào?",
                 "key": "07-17-v3-11"
               }
             ],
@@ -682,31 +903,32 @@ window.AI6_LESSON={
           },
           {
             "title": "Tình huống 4",
-            "instruction": "Đọc tình huống rồi nêu cách dùng phù hợp. Có thể có nhiều cách trả lời nếu giải thích rõ.",
+            "instruction": "So yêu cầu địa chỉ/liên hệ với mục đích hỏi bài. Nêu cách xử lí.",
             "fields": [
               {
-                "label": "1. Có ích ở điểm nào? Có thể gây khó khăn gì?",
-                "placeholder": "",
+                "label": "Có ích ở điểm nào? Có thể gây khó khăn gì?",
                 "key": "07-17-v3-12"
               },
               {
-                "label": "2. Ai có thể bị ảnh hưởng?",
-                "placeholder": "",
+                "label": "Ai có thể bị ảnh hưởng?",
                 "key": "07-17-v3-13"
               },
               {
-                "label": "3. Em chọn cách nào?",
-                "placeholder": "",
+                "label": "Em chọn cách nào?",
                 "options": [
                   "Dùng và kiểm tra kết quả",
                   "Chỉ dùng khi đáp ứng điều kiện",
                   "Tạm không dùng trong tình huống này"
                 ],
-                "key": "07-17-v3-14"
+                "key": "07-17-v3-14",
+                "optionLabels": [
+                  "Dùng và kiểm tra kết quả",
+                  "Chỉ dùng khi đáp ứng điều kiện",
+                  "Tạm không dùng trong tình huống này"
+                ]
               },
               {
-                "label": "4. Em sẽ kiểm tra hoặc xử lí thế nào?",
-                "placeholder": "",
+                "label": "Em sẽ kiểm tra hoặc xử lí thế nào?",
                 "key": "07-17-v3-15"
               }
             ],
@@ -717,156 +939,203 @@ window.AI6_LESSON={
       },
       "time": 16,
       "id": "07-17",
-      "number": 14,
-      "title": "Phiếu B — Lựa chọn cách dùng",
+      "title": "Phiếu B — Quyết định có lí do",
       "note": {
         "activity": "Khám phá 2.2 Lựa chọn nên dùng hay không",
         "purpose": "Hoàn thành bảng quyết định của nhóm theo các bước trên phiếu.",
-        "teacher": "Giao ba lựa chọn và yêu cầu nêu điều kiện cụ thể nếu chọn dùng có điều kiện. Hỏi người dùng có cách kiểm tra không? Mục tiêu có cần AI không? Ai chịu trách nhiệm nếu dùng kết quả? Mã theo giáo án: P7.1. Nhãn Phiếu A/B theo thứ tự học trên slide.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ.",
         "report": "Hai nhóm so sánh quyết định cho cùng một thẻ; nhóm khác nêu điều kiện còn thiếu.",
         "conclusion": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp; chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
+        "assessment": "Thầy/Cô xem từng mục đã điền. Em nêu căn cứ khi được hỏi. Chấp nhận cách diễn đạt đúng khác lời mẫu.",
         "answers": [
-          "1 Có thể dùng có kiểm chứng; giúp hiểu câu, có nguy cơ dịch sai.",
-          "2 Có ích tìm nội dung nhưng dễ kéo dài thời gian; đặt mục tiêu, giới hạn thời gian, chọn nội dung và dừng khi cần.",
-          "3 Không tin ngay nhãn sai; kiểm vật thật và xem dữ liệu/điều kiện, có thể dùng để học kiểm thử có hướng dẫn.",
-          "4 Không gửi thông tin không cần; hỏi mục đích, từ chối quyền không liên quan và nhờ GV. Chấp nhận lựa chọn khác nếu điều kiện/rủi ro được giải thích thỏa đáng."
+          "1 Có thể dùng có kiểm tra. Giúp hiểu câu, có nguy cơ dịch sai.",
+          "2 Có ích tìm nội dung nhưng dễ kéo dài thời gian. Đặt mục tiêu, giới hạn thời gian, chọn nội dung và dừng khi cần.",
+          "3 Không tin ngay nhãn sai. Kiểm vật thật và xem dữ liệu/điều kiện, có thể dùng để học kiểm thử có hướng dẫn.",
+          "4 Không gửi thông tin không cần. Hỏi mục đích, từ chối quyền không liên quan và nhờ Thầy/Cô. Chấp nhận lựa chọn khác nếu điều kiện/rủi ro được giải thích thỏa đáng."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: Phiếu B — Lựa chọn cách dùng",
-          "explanation": "Tình huống 1: Đọc tình huống rồi nêu cách dùng phù hợp. Có thể có nhiều cách trả lời nếu giải thích rõ.\nTình huống 2: Tự nêu lợi ích, hạn chế và cách dùng. Nhóm khác có thể chọn khác nếu có lí do phù hợp.\nTình huống 3: Đọc tình huống rồi nêu cách dùng phù hợp. Có thể có nhiều cách trả lời nếu giải thích rõ.\nTình huống 4: Đọc tình huống rồi nêu cách dùng phù hợp. Có thể có nhiều cách trả lời nếu giải thích rõ.",
-          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
-          "answer": "• 1 Có thể dùng có kiểm chứng; giúp hiểu câu, có nguy cơ dịch sai.\n• 2 Có ích tìm nội dung nhưng dễ kéo dài thời gian; đặt mục tiêu, giới hạn thời gian, chọn nội dung và dừng khi cần.\n• 3 Không tin ngay nhãn sai; kiểm vật thật và xem dữ liệu/điều kiện, có thể dùng để học kiểm thử có hướng dẫn.\n• 4 Không gửi thông tin không cần; hỏi mục đích, từ chối quyền không liên quan và nhờ GV. Chấp nhận lựa chọn khác nếu điều kiện/rủi ro được giải thích thỏa đáng.",
-          "closing": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Vì sao có lựa chọn khác nhau?.",
-          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "answer": "1 Có thể dùng có kiểm tra. Giúp hiểu câu, có nguy cơ dịch sai.\n2 Có ích tìm nội dung nhưng dễ kéo dài thời gian. Đặt mục tiêu, giới hạn thời gian, chọn nội dung và dừng khi cần.\n3 Không tin ngay nhãn sai. Kiểm vật thật và xem dữ liệu/điều kiện, có thể dùng để học kiểm thử có hướng dẫn.\n4 Không gửi thông tin không cần. Hỏi mục đích, từ chối quyền không liên quan và nhờ Thầy/Cô. Chấp nhận lựa chọn khác nếu điều kiện/rủi ro được giải thích thỏa đáng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Hai nhóm có thể chọn khác nhau. Em đối chiếu lí do, không chỉ so tên lựa chọn."
         }
       },
       "theme": "cream",
-      "originalNumber": 17
+      "v6": true,
+      "screen": [
+        "Tình huống giúp việc gì?",
+        "Có hạn chế hoặc rủi ro nào?",
+        "Em chọn cách dùng ra sao?"
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 3 phút, em tự điền trên phiếu.",
+        "Trong 2 phút, em so kết quả với em ngồi cạnh."
+      ],
+      "sampleId": "07-17-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 17
     },
     {
       "type": "report",
-      "text": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.",
-      "task": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ.",
-      "answer": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-      "product": "Bốn quyết định kèm lợi ích, hạn chế và cách kiểm tra hoặc xử lí.",
       "id": "07-18",
-      "number": 15,
-      "title": "Vì sao có lựa chọn khác nhau?",
+      "title": "Khác lựa chọn, có khác căn cứ?",
       "note": {
         "activity": "Khám phá 2.2 Lựa chọn nên dùng hay không",
         "purpose": "Phân tích lợi ích, hạn chế và quyết định có điều kiện.",
-        "teacher": "Giao ba lựa chọn và yêu cầu nêu điều kiện cụ thể nếu chọn dùng có điều kiện. Hỏi người dùng có cách kiểm tra không? Mục tiêu có cần AI không? Ai chịu trách nhiệm nếu dùng kết quả?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ.",
         "report": "Hai nhóm so sánh quyết định cho cùng một thẻ; nhóm khác nêu điều kiện còn thiếu.",
         "conclusion": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp; chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
+        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp. Chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
         "answers": [
           "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.",
-          "explanation": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.\n\nBốn quyết định kèm lợi ích, hạn chế và cách kiểm tra hoặc xử lí.",
-          "delivery": "Giao ba lựa chọn và yêu cầu nêu điều kiện cụ thể nếu chọn dùng có điều kiện. Hỏi người dùng có cách kiểm tra không? Mục tiêu có cần AI không? Ai chịu trách nhiệm nếu dùng kết quả?\nHai nhóm so sánh quyết định cho cùng một thẻ; nhóm khác nêu điều kiện còn thiếu.",
-          "answer": "• Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "closing": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Kiến thức cần nhớ.",
-          "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ."
+          "opening": "Thầy/Cô nói: Em đã có bảng ghi. Em dùng bảng để giải thích kết quả. Trong 30 giây, em kể một kết quả tại chỗ.",
+          "explanation": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em kể một kết quả tại chỗ.",
+          "answer": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Các nhóm khác lựa chọn vì điều kiện khác nhau. Em tự cân nhắc thêm tình huống tìm hiểu chiếc lá."
         }
       },
       "theme": "cream",
-      "reportQuestions": [
-        "Nhóm chọn cách dùng nào cho một tình huống?",
-        "Lợi ích và hạn chế là gì?",
-        "Cần điều kiện hoặc cách kiểm tra nào?"
+      "v6": true,
+      "screen": [
+        "Em muốn đạt mục đích gì?",
+        "Em kiểm được điều gì?",
+        "Điều kiện nào làm lựa chọn thay đổi?"
       ],
-      "originalNumber": 18
-    },
-    {
-      "type": "recap",
-      "items": [
-        "Một cách dùng AI có thể vừa có lợi ích vừa có hạn chế.",
-        "Ảnh học đa dạng hơn vẫn cần được kiểm tra bằng ảnh mới.",
-        "Chọn cách dùng theo mục đích, cách kiểm tra và thông tin cần bảo vệ."
+      "phase": "Luyện tập / Thực hành",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 30 giây, em kể một kết quả tại chỗ."
       ],
-      "id": "07-19",
-      "number": 16,
-      "title": "Kiến thức cần nhớ",
-      "note": {
-        "activity": "Khám phá 2.2 Lựa chọn nên dùng hay không",
-        "purpose": "Phân tích lợi ích, hạn chế và quyết định có điều kiện.",
-        "teacher": "Giao ba lựa chọn và yêu cầu nêu điều kiện cụ thể nếu chọn dùng có điều kiện. Hỏi người dùng có cách kiểm tra không? Mục tiêu có cần AI không? Ai chịu trách nhiệm nếu dùng kết quả?",
-        "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ.",
-        "report": "Hai nhóm so sánh quyết định cho cùng một thẻ; nhóm khác nêu điều kiện còn thiếu.",
-        "conclusion": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp; chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
-        "answers": [
-          "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người."
-        ],
-        "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
-        "script": {
-          "opening": "Mỗi em chọn một ý và giải thích bằng việc vừa làm.",
-          "explanation": "Một cách dùng AI có thể vừa có lợi ích vừa có hạn chế.\nẢnh học đa dạng hơn vẫn cần được kiểm tra bằng ảnh mới.\nChọn cách dùng theo mục đích, cách kiểm tra và thông tin cần bảo vệ.",
-          "delivery": "Mời ba HS, mỗi em diễn đạt lại một ý. Yêu cầu nối với ví dụ hoặc minh chứng trong tiết học; chỉnh ngắn gọn nếu HS khái quát quá mức.",
-          "answer": "• Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
-          "closing": "Mời một HS giải thích một ý bằng ví dụ của chính nhóm.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: LUYỆN TẬP.",
-          "students": "Nói lại một ý bằng lời riêng và lấy ví dụ vừa thực hiện."
-        }
-      },
-      "theme": "cream",
-      "originalNumber": 19
+      "connector": "Em đã có bảng ghi. Em dùng bảng để giải thích kết quả.",
+      "number": 18
     },
     {
       "type": "divider",
       "id": "07-20",
-      "number": 17,
-      "title": "LUYỆN TẬP",
+      "title": "Luyện tập: nêu lựa chọn có lí do",
       "note": {
         "activity": "Luyện tập cá nhân",
         "purpose": "Tự đưa ra lựa chọn và giải thích.",
-        "teacher": "Nhấn mạnh không dùng kết quả nhận dạng để quyết định ăn/dùng cây. Gợi hỏi nhiệm vụ học tập khác quyết định sức khỏe thế nào?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Trả lời và nêu cách hỏi GV khi chưa chắc.",
         "report": "Một HS nêu lựa chọn có giới hạn sử dụng.",
         "conclusion": "Tìm hiểu kiến thức cần kiểm chứng; quyết định liên quan an toàn phải có người có chuyên môn.",
         "assessment": "Đánh giá căn cứ, không kiểm tra kiến thức thực vật ngoài bài.",
         "answers": [],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang luyện tập.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Em dùng kết quả vừa có để tự kiểm cách hiểu. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Tìm hiểu kiến thức cần kiểm chứng; quyết định liên quan an toàn phải có người có chuyên môn.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: P7.3A — Tự đưa ra lựa chọn.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu mẫu tách tìm hiểu và quyết định."
         }
       },
       "theme": "blue",
-      "originalNumber": 20
+      "v6": true,
+      "screen": [],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Em dùng kết quả vừa có để tự kiểm cách hiểu.",
+      "number": 19
+    },
+    {
+      "id": "07-21-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Mẫu tách tìm hiểu và quyết định",
+      "theme": "cream",
+      "phase": "Luyện tập / Thực hành",
+      "scene": "Decision",
+      "worked": {
+        "title": "Mẫu tách tìm hiểu và quyết định",
+        "context": "AI gợi tên lá cây trong một ảnh minh họa.",
+        "labels": [
+          "Việc AI gợi",
+          "Điều em biết",
+          "Điều chưa chắc",
+          "Cách dùng để tìm hiểu",
+          "Quyết định cần tránh"
+        ],
+        "values": [
+          "Một tên lá",
+          "Đó là gợi ý từ ảnh",
+          "Tên đúng và độ an toàn của lá",
+          "Xem nguồn phù hợp, hỏi người có chuyên môn",
+          "Không ăn hoặc dùng làm thuốc chỉ vì gợi ý"
+        ],
+        "why": [
+          "Tên gợi ý không bảo đảm an toàn.",
+          "Mục đích tìm hiểu khác quyết định sức khỏe.",
+          "Em chưa có đủ căn cứ để dùng lá."
+        ],
+        "question": "Em không nên quyết định gì từ gợi ý này?",
+        "scene": "Decision"
+      },
+      "targetId": "07-21",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "Không ăn hoặc dùng làm thuốc chỉ vì gợi ý",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "Không ăn hoặc dùng làm thuốc chỉ vì gợi ý"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "AI gợi tên lá cây trong một ảnh minh họa.\nTên gợi ý không bảo đảm an toàn.\nMục đích tìm hiểu khác quyết định sức khỏe.\nEm chưa có đủ căn cứ để dùng lá.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "Không ăn hoặc dùng làm thuốc chỉ vì gợi ý",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 20
     },
     {
       "type": "worksheet",
       "worksheet": {
         "title": "P7.3 Quy tắc có thể thực hiện",
-        "intro": "Ghi đúng/sai và viết lại ý chưa đúng.",
-        "headers": null,
-        "rows": null,
-        "questions": [],
+        "intro": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
         "answers": [
           "1. Sai: một cách dùng AI có thể vừa có lợi ích vừa có hạn chế.",
-          "2. Sai: cần xem dữ liệu có phù hợp, đa dạng và ai có thể bị ảnh hưởng; nhiều dữ liệu không tự bảo đảm công bằng.",
+          "2. Sai: cần xem dữ liệu có phù hợp, đa dạng và ai có thể bị ảnh hưởng. Nhiều dữ liệu không tự bảo đảm công bằng.",
           "3. Đúng: cần xét mục đích và cách kiểm tra.",
-          "4. Không dựa vào nhãn ảnh để quyết định ăn lá; nhận dạng có thể sai.",
-          "5. Nếu muốn tìm hiểu tên cây, xem sách/tài liệu phù hợp hoặc hỏi GV. Tìm được tên chưa xác nhận cây ăn được."
+          "4. Không dựa vào nhãn ảnh để quyết định ăn lá. Nhận dạng có thể sai.",
+          "5. Nếu muốn tìm hiểu tên cây, xem sách/tài liệu phù hợp hoặc hỏi Thầy/Cô. Tìm được tên chưa xác nhận cây ăn được."
         ],
         "pages": [
           {
@@ -874,18 +1143,15 @@ window.AI6_LESSON={
             "instruction": "Ghi đúng/sai và viết lại ý chưa đúng.",
             "fields": [
               {
-                "label": "1. “AI có lợi thì không có hạn chế.”",
-                "placeholder": "",
+                "label": "“AI có lợi thì không có hạn chế.”",
                 "key": "07-21-v3-0"
               },
               {
-                "label": "2. “Càng nhiều dữ liệu thì kết quả luôn công bằng.”",
-                "placeholder": "",
+                "label": "“Càng nhiều dữ liệu thì kết quả luôn công bằng.”",
                 "key": "07-21-v3-1"
               },
               {
-                "label": "3. “Trước khi dùng, cần xét mục đích và cách kiểm tra.”",
-                "placeholder": "",
+                "label": "“Trước khi dùng, cần xét mục đích và cách kiểm tra.”",
                 "key": "07-21-v3-2"
               }
             ]
@@ -895,13 +1161,11 @@ window.AI6_LESSON={
             "instruction": "AI gợi ý tên một chiếc lá qua ảnh.",
             "fields": [
               {
-                "label": "4. Có nên dựa vào gợi ý đó để quyết định ăn lá không? Vì sao?",
-                "placeholder": "",
+                "label": "Có nên dựa vào gợi ý đó để quyết định ăn lá không? Vì sao?",
                 "key": "07-21-v3-3"
               },
               {
-                "label": "5. Nếu chỉ muốn tìm hiểu tên cây, em có thể kiểm tra thêm bằng gì?",
-                "placeholder": "",
+                "label": "Nếu chỉ muốn tìm hiểu tên cây, em có thể kiểm tra thêm bằng gì?",
                 "key": "07-21-v3-4"
               }
             ]
@@ -910,77 +1174,200 @@ window.AI6_LESSON={
       },
       "time": 4,
       "id": "07-21",
-      "number": 18,
-      "title": "P7.3A — Tự đưa ra lựa chọn",
+      "title": "P7.3A — Tự cân nhắc trước khi dùng",
       "note": {
         "activity": "Luyện tập cá nhân",
         "purpose": "Hoàn thành tự đưa ra lựa chọn theo các bước trên phiếu.",
-        "teacher": "Nhấn mạnh không dùng kết quả nhận dạng để quyết định ăn/dùng cây. Gợi hỏi nhiệm vụ học tập khác quyết định sức khỏe thế nào?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Trả lời và nêu cách hỏi GV khi chưa chắc.",
         "report": "Một HS nêu lựa chọn có giới hạn sử dụng.",
         "conclusion": "Tìm hiểu kiến thức cần kiểm chứng; quyết định liên quan an toàn phải có người có chuyên môn.",
-        "assessment": "Đánh giá căn cứ, không kiểm tra kiến thức thực vật ngoài bài.",
+        "assessment": "Thầy/Cô xem từng mục đã điền. Em nêu căn cứ khi được hỏi. Chấp nhận cách diễn đạt đúng khác lời mẫu.",
         "answers": [
           "1. Sai: một cách dùng AI có thể vừa có lợi ích vừa có hạn chế.",
-          "2. Sai: cần xem dữ liệu có phù hợp, đa dạng và ai có thể bị ảnh hưởng; nhiều dữ liệu không tự bảo đảm công bằng.",
+          "2. Sai: cần xem dữ liệu có phù hợp, đa dạng và ai có thể bị ảnh hưởng. Nhiều dữ liệu không tự bảo đảm công bằng.",
           "3. Đúng: cần xét mục đích và cách kiểm tra.",
-          "4. Không dựa vào nhãn ảnh để quyết định ăn lá; nhận dạng có thể sai.",
-          "5. Nếu muốn tìm hiểu tên cây, xem sách/tài liệu phù hợp hoặc hỏi GV. Tìm được tên chưa xác nhận cây ăn được."
+          "4. Không dựa vào nhãn ảnh để quyết định ăn lá. Nhận dạng có thể sai.",
+          "5. Nếu muốn tìm hiểu tên cây, xem sách/tài liệu phù hợp hoặc hỏi Thầy/Cô. Tìm được tên chưa xác nhận cây ăn được."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: P7.3A — Tự đưa ra lựa chọn",
-          "explanation": "Đúng hay sai? Vì sao?: Ghi đúng/sai và viết lại ý chưa đúng.\nPhân biệt tìm hiểu với quyết định an toàn: AI gợi ý tên một chiếc lá qua ảnh.",
-          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
-          "answer": "• 1. Sai: một cách dùng AI có thể vừa có lợi ích vừa có hạn chế.\n• 2. Sai: cần xem dữ liệu có phù hợp, đa dạng và ai có thể bị ảnh hưởng; nhiều dữ liệu không tự bảo đảm công bằng.\n• 3. Đúng: cần xét mục đích và cách kiểm tra.\n• 4. Không dựa vào nhãn ảnh để quyết định ăn lá; nhận dạng có thể sai.\n• 5. Nếu muốn tìm hiểu tên cây, xem sách/tài liệu phù hợp hoặc hỏi GV. Tìm được tên chưa xác nhận cây ăn được.",
-          "closing": "Tìm hiểu kiến thức cần kiểm chứng; quyết định liên quan an toàn phải có người có chuyên môn.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: VẬN DỤNG.",
-          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "explanation": "Nhận dạng tên lá có thể phục vụ tìm hiểu. Không dùng riêng gợi ý ảnh để quyết định ăn, uống hoặc dùng làm thuốc. Tình huống chỉ yêu cầu giải thích giới hạn quyết định.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "answer": "1. Sai: một cách dùng AI có thể vừa có lợi ích vừa có hạn chế.\n2. Sai: cần xem dữ liệu có phù hợp, đa dạng và ai có thể bị ảnh hưởng. Nhiều dữ liệu không tự bảo đảm công bằng.\n3. Đúng: cần xét mục đích và cách kiểm tra.\n4. Không dựa vào nhãn ảnh để quyết định ăn lá. Nhận dạng có thể sai.\n5. Nếu muốn tìm hiểu tên cây, xem sách/tài liệu phù hợp hoặc hỏi Thầy/Cô. Tìm được tên chưa xác nhận cây ăn được.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Tìm hiểu và quyết định an toàn không giống nhau. Em chốt các điều kiện cần cân nhắc trước khi viết quy tắc cá nhân."
         }
       },
       "theme": "cream",
-      "originalNumber": 21
+      "v6": true,
+      "screen": [
+        "Sửa ý nói quá chắc chắn.",
+        "Phân biệt tìm hiểu và quyết định an toàn.",
+        "Nêu cách kiểm phù hợp."
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 3 phút, em tự điền trên phiếu.",
+        "Trong 2 phút, em so kết quả với em ngồi cạnh."
+      ],
+      "sampleId": "07-21-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 21
+    },
+    {
+      "type": "recap",
+      "id": "07-19",
+      "title": "Kiến thức cần nhớ",
+      "note": {
+        "activity": "Khám phá 2.2 Lựa chọn nên dùng hay không",
+        "purpose": "Phân tích lợi ích, hạn chế và quyết định có điều kiện.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
+        "students": "Phân vai phân tích; thống nhất quyết định, ghi cả ý kiến khác nếu có căn cứ.",
+        "report": "Hai nhóm so sánh quyết định cho cùng một thẻ; nhóm khác nêu điều kiện còn thiếu.",
+        "conclusion": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
+        "assessment": "Đạt ít nhất 3/4 quyết định có lí do phù hợp. Chấp nhận cách lựa chọn khác nhau nếu xử lí rủi ro rõ.",
+        "answers": [
+          "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người."
+        ],
+        "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
+        "script": {
+          "opening": "Thầy/Cô nói: Những việc vừa làm giúp em rút ra ba ý. Trong 30 giây, em giải thích một ý tại chỗ.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em giải thích một ý tại chỗ.",
+          "answer": "Quyết định phù hợp gắn với nhu cầu, bằng chứng, quyền riêng tư và khả năng kiểm tra của con người.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Em chuyển cách cân nhắc vừa học thành ba quy tắc hành động của em, rồi chuẩn bị một nhu cầu cho dự án."
+        }
+      },
+      "theme": "cream",
+      "v6": true,
+      "screen": [
+        "Cân nhắc lợi ích và hạn chế cùng lúc.",
+        "Dữ liệu đa dạng vẫn cần được kiểm thử.",
+        "Chọn cách dùng theo mục đích và điều kiện."
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 30 giây, em giải thích một ý tại chỗ."
+      ],
+      "connector": "Những việc vừa làm giúp em rút ra ba ý.",
+      "number": 22
     },
     {
       "type": "divider",
       "id": "07-22",
-      "number": 19,
-      "title": "VẬN DỤNG",
+      "title": "Vận dụng: quy tắc của em",
       "note": {
         "activity": "Vận dụng",
         "purpose": "Viết quy tắc sử dụng AI có thể thực hiện.",
-        "teacher": "Gợi ý các trục kiểm tra kết quả, dữ liệu cá nhân, thời gian sử dụng. Yêu cầu đổi khẩu hiệu cẩn thận thành việc làm quan sát được.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Viết, trao đổi và chọn một quy tắc ưu tiên cho dự án.",
         "report": "HS nêu quy tắc và tình huống dùng quy tắc đó.",
         "conclusion": "Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm.",
         "assessment": "Kết hợp bảng tình huống và thẻ cá nhân để nhận xét năng lực đánh giá, không suy từ sản phẩm nhóm.",
         "answers": [],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang vận dụng.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Em dùng cách làm vừa học trong một việc mới. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: P7.3B — Ba quy tắc có thể thực hiện.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu mẫu biến khẩu hiệu thành hành động."
         }
       },
       "theme": "blue",
-      "originalNumber": 22
+      "v6": true,
+      "screen": [],
+      "phase": "Vận dụng",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Em dùng cách làm vừa học trong một việc mới.",
+      "number": 23
+    },
+    {
+      "id": "07-23-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Mẫu biến khẩu hiệu thành hành động",
+      "theme": "cream",
+      "phase": "Vận dụng",
+      "scene": "Video",
+      "worked": {
+        "title": "Mẫu biến khẩu hiệu thành hành động",
+        "context": "Ví dụ: em muốn dùng video để học đúng mục tiêu.",
+        "labels": [
+          "Lời chung chung",
+          "Tình huống",
+          "Hành động",
+          "Lúc thực hiện",
+          "Cách biết đã làm"
+        ],
+        "values": [
+          "Dùng AI có trách nhiệm",
+          "AI gợi nhiều video xem tiếp",
+          "Chọn video đúng câu hỏi bài học",
+          "Dừng khi đã tìm đủ phần cần học",
+          "Em quay lại hoàn thành bài đang làm"
+        ],
+        "why": [
+          "Quy tắc phải nói việc em làm.",
+          "Nêu lúc dừng để dễ thực hiện.",
+          "Không chỉ viết một lời hứa chung."
+        ],
+        "question": "Em nhận ra đã làm đúng bằng dấu hiệu nào?",
+        "scene": "Video"
+      },
+      "targetId": "07-23",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "Em quay lại hoàn thành bài đang làm",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "Em quay lại hoàn thành bài đang làm"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "Ví dụ: em muốn dùng video để học đúng mục tiêu.\nQuy tắc phải nói việc em làm.\nNêu lúc dừng để dễ thực hiện.\nKhông chỉ viết một lời hứa chung.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "Em quay lại hoàn thành bài đang làm",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 24
     },
     {
       "type": "worksheet",
       "worksheet": {
         "title": "P7.3 Quy tắc có thể thực hiện",
-        "intro": "Mỗi quy tắc phải nói rõ một hành động em có thể thực hiện.",
-        "headers": null,
-        "rows": null,
-        "questions": [],
+        "intro": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
         "answers": [
-          "B Ví dụ: kiểm hai chi tiết bằng nguồn; bỏ trường địa chỉ trước chia sẻ; dừng xem khi hết thời gian đã định. Không chỉ viết dùng AI có trách nhiệm."
+          "B Ví dụ: kiểm hai chi tiết bằng nguồn. Bỏ trường địa chỉ trước chia sẻ. Dừng xem khi hết thời gian đã định. Không chỉ viết dùng AI có trách nhiệm."
         ],
         "pages": [
           {
@@ -988,72 +1375,77 @@ window.AI6_LESSON={
             "instruction": "Mỗi quy tắc phải nói rõ một hành động em có thể thực hiện.",
             "fields": [
               {
-                "label": "1. Quy tắc kiểm tra kết quả",
-                "placeholder": "",
+                "label": "Quy tắc kiểm tra kết quả",
                 "key": "07-23-v3-0"
               },
               {
-                "label": "2. Quy tắc bảo vệ thông tin cá nhân",
-                "placeholder": "",
+                "label": "Quy tắc bảo vệ thông tin cá nhân",
                 "key": "07-23-v3-1"
               },
               {
-                "label": "3. Quy tắc quản lí thời gian hoặc lựa chọn nội dung",
-                "placeholder": "",
+                "label": "Quy tắc quản lí thời gian hoặc lựa chọn nội dung",
                 "key": "07-23-v3-2"
               },
               {
-                "label": "4. Nhóm ưu tiên quy tắc nào cho dự án? Vì sao?",
-                "placeholder": "",
+                "label": "Em ưu tiên quy tắc nào cho dự án? Vì sao?",
                 "key": "07-23-v3-3"
               }
             ],
-            "example": "Ví dụ cách viết: Trước khi dùng bản dịch, em đối chiếu từ chưa hiểu với bảng từ."
+            "example": "Ví dụ: Em kiểm từ chưa hiểu bằng bảng từ trước khi dùng bản dịch."
           }
         ]
       },
       "time": 3,
       "id": "07-23",
-      "number": 20,
-      "title": "P7.3B — Ba quy tắc có thể thực hiện",
+      "title": "P7.3B — Ba quy tắc làm được",
       "note": {
         "activity": "Vận dụng",
         "purpose": "Hoàn thành ba quy tắc có thể thực hiện theo các bước trên phiếu.",
-        "teacher": "Gợi ý các trục kiểm tra kết quả, dữ liệu cá nhân, thời gian sử dụng. Yêu cầu đổi khẩu hiệu cẩn thận thành việc làm quan sát được.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Viết, trao đổi và chọn một quy tắc ưu tiên cho dự án.",
         "report": "HS nêu quy tắc và tình huống dùng quy tắc đó.",
         "conclusion": "Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm.",
-        "assessment": "Kết hợp bảng tình huống và thẻ cá nhân để nhận xét năng lực đánh giá, không suy từ sản phẩm nhóm.",
+        "assessment": "Thầy/Cô xem từng mục đã điền. Em nêu căn cứ khi được hỏi. Chấp nhận cách diễn đạt đúng khác lời mẫu.",
         "answers": [
-          "B Ví dụ: kiểm hai chi tiết bằng nguồn; bỏ trường địa chỉ trước chia sẻ; dừng xem khi hết thời gian đã định. Không chỉ viết dùng AI có trách nhiệm."
+          "B Ví dụ: kiểm hai chi tiết bằng nguồn. Bỏ trường địa chỉ trước chia sẻ. Dừng xem khi hết thời gian đã định. Không chỉ viết dùng AI có trách nhiệm."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: P7.3B — Ba quy tắc có thể thực hiện",
-          "explanation": "Viết ba quy tắc cụ thể: Mỗi quy tắc phải nói rõ một hành động em có thể thực hiện.",
-          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
-          "answer": "• B Ví dụ: kiểm hai chi tiết bằng nguồn; bỏ trường địa chỉ trước chia sẻ; dừng xem khi hết thời gian đã định. Không chỉ viết dùng AI có trách nhiệm.",
-          "closing": "Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Chuẩn bị ý tưởng dự án.",
-          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "answer": "B Ví dụ: kiểm hai chi tiết bằng nguồn. Bỏ trường địa chỉ trước chia sẻ. Dừng xem khi hết thời gian đã định. Không chỉ viết dùng AI có trách nhiệm.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Giữ các quy tắc làm điều kiện cho một ý tưởng dự án nhỏ ở tiết tới."
         }
       },
       "theme": "cream",
-      "originalNumber": 23
+      "v6": true,
+      "screen": [
+        "Mỗi quy tắc nêu một hành động.",
+        "Nói rõ lúc nào thực hiện.",
+        "Tránh khẩu hiệu chung chung."
+      ],
+      "phase": "Vận dụng",
+      "scene": "decision",
+      "taskLines": [
+        "Trong 3 phút, em tự điền trên phiếu.",
+        "Trong 2 phút, em so kết quả với em ngồi cạnh."
+      ],
+      "sampleId": "07-23-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 25
     },
     {
       "type": "home",
-      "text": "Tìm một nhu cầu gần gũi mà AI có thể hỗ trợ; ghi ai cần, AI làm gì và một giới hạn. Chưa cần tạo sản phẩm.",
-      "outcome": "Bảng lựa chọn bốn tình huống và quy tắc sử dụng",
-      "next": "Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án",
       "id": "07-24",
-      "number": 21,
-      "title": "Chuẩn bị ý tưởng dự án",
+      "title": "Mang tới một nhu cầu gần gũi",
       "note": {
         "activity": "Vận dụng",
         "purpose": "Viết quy tắc sử dụng AI có thể thực hiện.",
-        "teacher": "Gợi ý các trục kiểm tra kết quả, dữ liệu cá nhân, thời gian sử dụng. Yêu cầu đổi khẩu hiệu cẩn thận thành việc làm quan sát được.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Viết, trao đổi và chọn một quy tắc ưu tiên cho dự án.",
         "report": "HS nêu quy tắc và tình huống dùng quy tắc đó.",
         "conclusion": "Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm.",
@@ -1062,19 +1454,31 @@ window.AI6_LESSON={
           "Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm."
         ],
         "source": "Bài 11 AI quanh ta và tác động thực tế, trang in 81–82 và mục Lợi ích, khó khăn; Bài 12 Đạo đức AI quyền riêng tư và công bằng, rủi ro và dữ liệu thiên lệch, trang in 91, 94.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Tìm một nhu cầu gần gũi mà AI có thể hỗ trợ; ghi ai cần, AI làm gì và một giới hạn. Chưa cần tạo sản phẩm.",
-          "explanation": "Tìm một nhu cầu gần gũi mà AI có thể hỗ trợ; ghi ai cần, AI làm gì và một giới hạn. Chưa cần tạo sản phẩm.",
-          "delivery": "Gợi ý các trục kiểm tra kết quả, dữ liệu cá nhân, thời gian sử dụng. Yêu cầu đổi khẩu hiệu cẩn thận thành việc làm quan sát được.\nHS nêu quy tắc và tình huống dùng quy tắc đó.",
-          "answer": "• Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm.",
-          "closing": "Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm.",
-          "transition": "",
-          "students": "Viết, trao đổi và chọn một quy tắc ưu tiên cho dự án."
+          "opening": "Thầy/Cô nói: Em giữ kết quả hôm nay để chuẩn bị bước tiếp. Sau giờ học, em ghi một quan sát vào vở.",
+          "explanation": "Tìm một nhu cầu gần gũi mà AI có thể hỗ trợ. Ghi ai cần, AI làm gì và một giới hạn. Chưa cần tạo sản phẩm.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Sau giờ học, em ghi một quan sát vào vở.",
+          "answer": "Quy tắc có ích khi chỉ ra việc cần làm và khi nào làm.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Tiết tới, em sẽ so hai ý tưởng và chọn một việc vừa sức để bắt đầu."
         }
       },
       "theme": "cream",
-      "originalNumber": 24
+      "v6": true,
+      "screen": [
+        "Ai cần giúp?",
+        "AI hỗ trợ việc gì?",
+        "Có giới hạn nào cần lưu ý?"
+      ],
+      "phase": "Vận dụng",
+      "scene": "decision",
+      "taskLines": [
+        "Sau giờ học, em ghi một quan sát vào vở."
+      ],
+      "connector": "Em giữ kết quả hôm nay để chuẩn bị bước tiếp.",
+      "number": 26
     }
   ],
   "rubric": [],
@@ -1094,5 +1498,5 @@ window.AI6_LESSON={
       "Nêu điều kiện thực hiện được; hỏi bổ sung nếu chỉ viết nên cẩn thận."
     ]
   ],
-  "revision": "V4 — sau kiểm định 17/11/2026"
+  "revision": "V6 — biên tập sư phạm và làm mẫu"
 };

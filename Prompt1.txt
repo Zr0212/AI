@@ -1,0 +1,97 @@
+# BỐI CẢNH & BÀI TOÁN GỐC TỪ TÁC GIẢ
+Bộ học liệu "Trí tuệ nhân tạo 6" (gồm `index.html` và 12 file bài học `lessons/tiet-01.html` đến `lessons/tiet-12.html`) đang gặp **2 lỗi cốt lõi** cần xử lý triệt để:
+
+1. **Lỗi thiếu bước hướng dẫn làm mẫu (Gây ồn ào & khó hiểu khi thực hành):**
+   - Trong thiết kế hiện tại, nhiều bài đẩy thẳng học sinh (HS) lớp 6 vào hoạt động thực hành theo nhóm hoặc tự điền phiếu bài tập ngay lập tức (điển hình như ở Bài 2 khi thực hành nhận diện quy trình/vai trò). Với lớp học THCS đông học sinh, việc bắt các em thảo luận nhóm ngay từ đầu sẽ gây rất ồn, học sinh lúng túng không biết làm gì và giáo viên phải đi giải thích lại từng bàn.
+   - **Giải pháp bắt buộc:** Trước MỌI hoạt động thực hành, phải chèn thêm **1 đến 2 slide "Thực hành mẫu có sẵn" (Worked Examples)**. Slide này không phải lý thuyết suông, mà là **một bài thực hành đã được làm mẫu sẵn 80%**, có mũi tên/ghi chú chỉ rõ *"Tại sao lại điền như vậy"* để học sinh nhìn vào là hiểu ngay cách làm, sau đó mới tự làm phần của mình trong yên lặng.
+
+2. **Lỗi văn phong nặng thuật ngữ, thiếu nhất mạch và nhất quán:**
+   - Cách diễn đạt hiện tại quá hàn lâm, mang nặng văn phong tài liệu kỹ thuật/sách giáo khoa khô cứng đối với học sinh lớp 6 (11–12 tuổi).
+   - Giữa các slide trong cùng một bài và giữa 12 tiết với nhau đang bị lệch tông (lúc gọi "bạn", lúc gọi "người học", lúc dùng câu bị động dài dòng).
+   - **Giải pháp bắt buộc:** Viết lại toàn bộ văn bản theo **Chuẩn Văn Phong Lớp 6** dưới đây, đảm bảo 12 tiết đọc lên như cùng một người thầy/cô tận tâm, gần gũi đang giảng bài trên lớp.
+
+---
+
+# HỆ QUY CHIẾU CHUẨN (BENCHMARK RUBRIC - TIÊU CHUẨN DUYỆT TỪNG TIẾT)
+Mọi file HTML sau khi sửa phải thỏa mãn **100% các điều khoản dưới đây**. Nếu vi phạm dù chỉ 1 điều khoản, tiết đó bị tính là **CHƯA ĐẠT** và phải sửa lại.
+
+## PHẦN A: BỘ QUY TẮC VĂN PHONG & NGÔN NGỮ LỚP 6 (TONE & VOICE BIBLE)
+1. **Nhân vật & Xưng hô (Bất di bất dịch):**
+   - Trên mặt slide (nội dung HS đọc): Luôn gọi học sinh là **"em"** (số ít) hoặc **"các em"** (số nhiều). Tuyệt đối XÓA BỎ các từ: *"bạn"*, *"người học"*, *"học viên"*, *"chúng ta"*.
+   - Trong ghi chú giáo viên (`Speaker Notes`): Luôn gọi giáo viên là **"Thầy/Cô"**.
+2. **Nhịp điệu & Cấu trúc câu (Ngắn - Trực diện - Giàu hình ảnh):**
+   - **Mỗi câu chỉ chứa 1 ý.** Độ dài tối đa **15 từ/câu**. Cấm dùng câu ghép nhiều mệnh đề phụ, cấm dùng thể bị động kiểu hành chính (VD: *không viết* "Dữ liệu được thu thập bởi con người", *hãy viết* "Con người tự tay thu thập ảnh mẫu").
+   - **Câu lệnh thực hành luôn theo công thức 3 bước:** `[Thời gian] + [Hành động cụ thể] + [Nơi làm]`.
+     - *Sai (cũ):* "Các nhóm hãy thảo luận và hoàn thành bảng phân vai con người trong quy trình AI."
+     - *Đúng (mới):* "**Trong 3 phút**, mỗi em **tự điền** vào bảng bên dưới (chưa trao đổi nhóm)."
+3. **Tính nhất mạch giữa các slide (Flow & Connectors):**
+   - Mỗi slide mới phải có một dòng dẫn nối mạch tự nhiên từ slide trước đó (VD: *Từ ví dụ trên, bây giờ em hãy thử...*, *Sau khi AI học xong, chuyện gì sẽ xảy ra?*). Không nhảy ý đột ngột.
+4. **Từ điển chuyển ngữ bắt buộc (Cấm dùng từ ở cột trái trên slide):**
+   - `Mô hình hai lớp` $\rightarrow$ **AI phân biệt 2 nhóm**
+   - `Dữ liệu huấn luyện` $\rightarrow$ **Ảnh/dữ liệu mẫu dạy AI**
+   - `Quy trình AI / Phân vai con người` $\rightarrow$ **Các bước tạo ra AI / Con người làm việc gì?**
+   - `Kiểm chứng kết quả AI` $\rightarrow$ **Kiểm tra xem AI nói đúng hay sai**
+   - `Nhận xét giới hạn` $\rightarrow$ **Tìm điểm AI hay đoán nhầm**
+   - `Thông tin giả định` $\rightarrow$ **Thông tin cá nhân bí mật**
+   - `Thẻ bàn giao` $\rightarrow$ **Phiếu tóm tắt nhiệm vụ**
+   - `Nhật kí dữ liệu / Nhật kí chỉnh sửa` $\rightarrow$ **Bảng ghi chép quá trình làm / Những lỗi em đã sửa**
+
+## PHẦN B: GIẢI PHẪU BẮT BUỘC CỦA "SLIDE THỰC HÀNH MẪU CÓ SẴN"
+Mỗi khi chèn 1–2 slide thực hành mẫu vào trước phần thực hành của HS, slide đó bắt buộc phải có đủ **4 thành phần cấu trúc** sau:
+1. **Nhãn nhận diện rõ ràng ở đầu slide:** Ghi rõ `[VÍ DỤ MẪU - CẢ LỚP CÙNG XEM]` để phân biệt với slide lý thuyết và slide bài tập.
+2. **Bối cảnh thực tế gần gũi học sinh lớp 6:** Dùng ví dụ đời thường (nhận diện rác nhựa/giấy, phân biệt bút chì/thước kẻ, nhận diện biển báo cổng trường, hỏi AI bài Lịch sử lớp 6...).
+3. **Bài làm đã hoàn thành sẵn 80% + Chú thích "Vì sao?":**
+   - Điền sẵn mẫu vào chính cái bảng/sơ đồ mà lát nữa HS sẽ phải làm.
+   - Kèm 2–3 bong bóng giải thích ngắn gọn (kiểu: *"Chú ý: Ở ô này ta điền 'Con người' vì máy không tự biết ảnh nào là rác tái chế"*).
+4. **1 Câu hỏi mồi tương tác nhanh (30 giây):** Chừa lại 1 ô trống cuối cùng trên bảng mẫu kèm câu hỏi: *"Đố cả lớp: Ở ô trống cuối cùng này, chúng ta nên điền gì?"* (Giúp GV gọi 1–2 HS đứng tại chỗ trả lời, kiểm tra xem cả lớp đã hiểu luật chơi chưa trước khi bấm sang slide tiếp theo cho HS tự làm).
+
+## PHẦN C: QUY TẮC CHỐNG ỒN LỚP HỌC
+- **Từ Tiết 01 đến Tiết 07:** Xóa bỏ toàn bộ hoạt động *"Thảo luận nhóm"* ồn ào. Thay bằng quy trình **Think - Pair (Cá nhân trước - Cặp đôi sau)**:
+  - *Bước 1 (3 phút):* Mỗi em tự suy nghĩ và điền vào phiếu trên máy/giấy (Giữ trật tự).
+  - *Bước 2 (2 phút):* Quay sang so sánh nhanh kết quả với bạn ngồi ngay bên cạnh.
+- **Từ Tiết 08 đến Tiết 12 (Giai đoạn Dự án):** Giữ làm việc nhóm nhưng phải kèm khung phân công rõ ràng để tránh đùn đẩy, ồn ào.
+
+## PHẦN D: KỸ THUẬT HTML/CSS/JS
+- Giữ nguyên toàn bộ kiến trúc mã nguồn, phím tắt (`←`, `→`, `M`, `N`, `F`), giao diện trình chiếu 2 màn hình và tính năng lưu bài cục bộ (`localStorage`).
+- Khi chèn slide mới vào giữa file, bắt buộc kiểm tra và cập nhật lại toàn bộ `id` của các thẻ `<input>` / `<textarea>` phía sau để đảm bảo không bị trùng lặp hay mất dữ liệu lưu nháp của HS.
+- Cập nhật đầy đủ nội dung hướng dẫn GV trong phần `Speaker Notes` cho các slide mới thêm.
+
+---
+
+# CHI TIẾT NHIỆM VỤ TỪNG TIẾT (12 TIẾT + TRANG CHỦ)
+- **Tiết 01 (`tiet-01.html`):** Chèn **1 slide thực hành mẫu** điền sẵn 1 thẻ trải nghiệm AI (*Gợi ý video trên YouTube*). Chuyển thực hành sang làm cá nhân.
+- **Tiết 02 (`tiet-02.html`):** Chèn **2 slide thực hành mẫu**:
+  - *Slide mẫu 1:* Sơ đồ 4 bước làm AI phân loại rác thải ở trường, gắn sẵn nhãn việc nào của Con người, việc nào của Máy.
+  - *Slide mẫu 2:* Bảng phân vai đã điền sẵn 2 dòng mẫu có giải thích "Vì sao?", chừa 1 dòng hỏi nhanh cả lớp trước khi HS tự điền bảng của mình.
+- **Tiết 03 (`tiet-03.html`):** Chèn **2 slide thực hành mẫu**:
+  - *Slide mẫu 1:* Hướng dẫn trực quan 3 bước dạy AI phân biệt 2 nhóm đồ vật (*Bút chì* và *Thước kẻ*).
+  - *Slide mẫu 2:* Bảng ghi chép mẫu 2 lần thử nghiệm (1 lần đưa bút chì thẳng $\rightarrow$ AI đoán đúng; 1 lần đưa vật lạ $\rightarrow$ AI đoán nhầm).
+- **Tiết 04 (`tiet-04.html`):** Chèn **1 slide thực hành mẫu** đối chiếu bảng kết quả *Trước khi dạy thêm ảnh nghiêng* (AI sai) và *Sau khi bổ sung ảnh* (AI đúng), kèm câu mẫu chỉ ra điểm AI hay nhầm.
+- **Tiết 05 (`tiet-05.html`):** Chèn **1 slide thực hành mẫu** hiển thị câu trả lời của AI có cài sẵn 1 lỗi sai kiến thức lớp 6, khoanh đỏ chỗ sai và điền mẫu vào bảng kiểm tra.
+- **Tiết 06 (`tiet-06.html`):** Chèn **1 slide thực hành mẫu** đặt cạnh nhau 2 khung chat: Bên trái bôi đỏ thông tin cá nhân bí mật (*Tên thật, Trường, SĐT*); bên phải là câu hỏi đã che thông tin để hỏi AI an toàn.
+- **Tiết 07 (`tiet-07.html`):** Chèn **1 slide thực hành mẫu** giải sẵn 1 tình huống (*Nhờ AI viết hộ toàn bộ bài văn*) theo 3 cột: *Nên/Không nên $\rightarrow$ Vì sao? $\rightarrow$ Cách dùng đúng*.
+- **Tiết 08 (`tiet-08.html`):** Chèn **2 slide thực hành mẫu**:
+  - *Slide mẫu 1:* Gợi ý 4 đề tài dự án nhỏ, vừa sức học sinh lớp 6.
+  - *Slide mẫu 2:* Một phiếu ý tưởng dự án đã điền hoàn chỉnh từ đầu đến cuối làm mẫu cho các nhóm nhìn theo.
+- **Tiết 09 (`tiet-09.html` - Tự làm tại nhà):** Chèn **1 slide thực hành mẫu** bảng phân công công việc mẫu cho nhóm 3 em trong 4 tuần.
+- **Tiết 10 (`tiet-10.html` - Tự làm tại nhà):** Chèn **1 slide thực hành mẫu** sơ đồ khối hoạt động của sản phẩm (Đầu vào $\rightarrow$ AI xử lí $\rightarrow$ Con người kiểm tra $\rightarrow$ Kết quả).
+- **Tiết 11 (`tiet-11.html` - Tự làm tại nhà):** Chèn **1 slide thực hành mẫu** bảng ghi nguồn ảnh/thông tin và bảng tick đóng góp cá nhân.
+- **Tiết 12 (`tiet-12.html` - Tự làm tại nhà):** Chèn **1 slide thực hành mẫu** kịch bản khung 4 phần cho video báo cáo 2 phút và bảng tự đánh giá đã tick mẫu.
+- **Cuối cùng (`index.html`):** Cập nhật lại tổng số slide toàn khóa và số slide chi tiết trên từng thẻ bài học (Tiết 01 – Tiết 12).
+
+---
+
+# CƠ CHẾ KHÓA KIỂM DUYỆT TỪNG TIẾT (STRICT GATEKEEPER PROTOCOL)
+Bạn **TUYỆT ĐỐI KHÔNG ĐƯỢC** làm gộp nhiều tiết trong một lần trả lời. Với mỗi tiết (bắt đầu từ `tiet-01.html`), bạn phải đi qua đủ **4 trạm kiểm soát** sau:
+
+- **TRẠM 1 (Soi lỗi hiện trạng):** Liệt kê danh sách các slide trong tiết hiện tại đang mắc lỗi: (a) Dùng từ cấm trong Từ điển chuyển ngữ; (b) Lệch xưng hô hoặc câu dài trên 15 từ; (c) Giao thực hành nhóm ồn ào hoặc thiếu slide làm mẫu.
+- **TRẠM 2 (Xuất mã nguồn nâng cấp):** Cung cấp code HTML hoàn chỉnh của tiết đó sau khi đã viết lại toàn bộ văn phong và chèn đủ các Slide Thực hành mẫu có sẵn (đủ 4 thành phần cấu trúc ở Phần B).
+- **TRẠM 3 (Bảng đối chiếu Hệ quy chiếu chuẩn):** Lập bảng tự chấm điểm chi tiết cho tiết vừa sửa:
+  1. *Văn phong & Thuật ngữ:* Xác nhận 0 từ cấm, 100% xưng "em", mạch văn liền lạc giữa các slide (Kèm 2 ví dụ trích dẫn Trước $\rightarrow$ Sau tiêu biểu trong bài).
+  2. *Slide Thực hành mẫu:* Ghi rõ số thứ tự slide mẫu vừa chèn, xác nhận đã có đủ 4 thành phần (Nhãn mẫu, Bối cảnh lớp 6, Điền sẵn 80% + giải thích "Vì sao?", Câu hỏi mồi 30s).
+  3. *Chống ồn:* Xác nhận đã đổi thảo luận nhóm sang làm cá nhân/cặp đôi (với Tiết 01–07).
+  4. *Kỹ thuật:* Xác nhận không trùng ID `localStorage`, đã cập nhật `Speaker Notes`, tổng số slide cũ $\rightarrow$ mới.
+- **TRẠM 4 (Khóa chờ duyệt):** DỪNG HẲN LẠI và xuất đúng câu hỏi sau:
+  > *"Tiết [XX] đã hoàn tất 4 trạm kiểm soát và đối chiếu đạt chuẩn Hệ quy chiếu. Bạn hãy kiểm tra lại, nếu đồng ý hãy gõ **'Duyệt Tiết [XX], tiếp tục Tiết [XX+1]'** để tôi chuyển sang bài tiếp theo."*
+
+**Bây giờ, hãy thực hiện Trạm 1, Trạm 2, Trạm 3 và Trạm 4 cho duy nhất file `lessons/tiet-01.html`.**

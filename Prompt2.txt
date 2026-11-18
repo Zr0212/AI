@@ -1,0 +1,147 @@
+# VAI TRÒ & NHIỆM VỤ TRỌNG TÂM
+Bạn là Chuyên gia Thiết kế Học liệu Số THCS (Instructional Designer) kiêm Senior Frontend Developer.
+Bạn đang làm việc trực tiếp trên kho mã nguồn bộ học liệu "Trí tuệ nhân tạo 6" gồm:
+- Hệ thống giao diện & biến thiết kế: `assets/css/tokens.css`, `assets/css/deck.css`, `assets/css/index.css`
+- Engine dựng slide & đăng ký bài học: `assets/js/deck.js`, `assets/js/lesson-registry.js`, `index.html`
+- Dữ liệu chi tiết 12 tiết học: `assets/js/lessons/tiet-01.js` đến `assets/js/lessons/tiet-12.js`
+- Kho tư liệu ảnh/video thật có sẵn: `assets/images/` (`cup_clear.png`, `cup_dark.png`, `tm_book_ui.png`, `tm_editor.jpg`, `tm_projects.jpg`, `frame_*.jpg`) và `assets/videos/` (`code-0.mp4` ... `code-9.mp4`)
+- Hệ thống tài liệu kiểm định: `docs/slide-inventory.json`, `docs/CHU_THICH_GIAO_VIEN.json`, `docs/DOI_CHIEU_TUNG_TIET.json`
+
+Nhiệm vụ của bạn là **TÁI CẤU TRÚC TOÀN DIỆN** bộ slide theo đúng 5 yêu cầu cốt lõi dưới đây, thực hiện cuốn chiếu từng phần và luôn tự đối chiếu với **HỆ QUY CHIẾU CHUẨN** trước khi sang phần tiếp theo.
+
+---
+
+# 5 VẤN ĐỀ CỐT LÕI CẦN GIẢI QUYẾT TRIỆT ĐỂ
+
+## Vấn đề 1: Tăng cỡ chữ (Text & Sub-text) và làm thoáng bố cục (`tokens.css` & `deck.css`)
+- Mở `assets/css/tokens.css` và `assets/css/deck.css`:
+  - Tăng cỡ chữ tiêu đề slide (`h1`, `h2`, `.slide-title`) lên tối thiểu `clamp(2rem, 3.2vw, 2.8rem)`.
+  - Tăng cỡ chữ nội dung chính (`body text`, `.slide-body`, `li`, `p`) lên tối thiểu `clamp(1.35rem, 2vw, 1.75rem)` (tương đương 24px–28px trên màn chiếu).
+  - Tăng cỡ chữ phụ (`sub-text`, `.subtext`, `.caption`, `.badge`, `.hint`, chữ trong bảng `td/th`) lên tối thiểu `clamp(1.1rem, 1.5vw, 1.35rem)` (tối thiểu 18px–22px, tuyệt đối không có chữ nào trên slide nhỏ hơn 18px).
+  - Tăng `line-height` lên `1.5 - 1.6` và tăng khoảng cách (`gap`, `padding`) giữa các thẻ để slide thoáng, dễ đọc từ cuối lớp học.
+
+## Vấn đề 2: Thiết lập hệ thống Highlight thị giác rõ ràng (`deck.css` & `deck.js`)
+- Bổ sung vào `assets/css/deck.css` 4 class highlight chuẩn để dùng xuyên suốt 12 tiết:
+  1. `.hl-key` (Nền vàng ấm `#FEF08A`, chữ đậm `#854D0E`, bo góc `6px`, padding `2px 8px`): Dùng để tô sáng **từ khóa cốt lõi** học sinh cần nhớ.
+  2. `.hl-action` (Nền xanh dương nhạt `#DBEAFE`, viền trái `4px solid #2563EB`, chữ `#1E40AF`): Dùng để đóng khung **hành động / bước thực hiện**.
+  3. `.hl-error` (Nền đỏ nhạt `#FEE2E2`, chữ `#991B1B`, gạch chân hoặc khoanh viền đỏ): Dùng để chỉ ra **lỗi sai của AI / thông tin cá nhân cần che**.
+  4. `.hl-explain` (Khung chú thích bong bóng nền xanh lá nhạt `#DCFCE7`, chữ `#166534`): Dùng cho bước **"Dịch nghĩa dễ hiểu / Giải thích vì sao"**.
+- Mọi slide đều phải có điểm nhấn thị giác (focal point) bằng các class highlight này, tuyệt đối không để cả slide chỉ toàn chữ đen/xám đều nhau.
+
+## Vấn đề 3: Cấm tự vẽ hình SVG ngô nghê — Thay bằng Thư viện Icon SVG chuẩn & Ảnh thật
+- **CẤM TUYỆT ĐỐI** việc tự viết code `<svg>` vẽ hình người, máy tính, robot, sơ đồ bằng các hình khối `<rect>`, `<circle>`, `<polygon>` tự chế trong các file `tiet-XX.js` và `deck.js`.
+- **Giải pháp thay thế bắt buộc:**
+  1. **Với Icon minh họa:** Chỉ sử dụng mã SVG chuẩn từ thư viện **Lucide Icons** hoặc **Tabler Icons** (chuẩn `viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"`). Tạo một bảng ánh xạ icon chuẩn trong `assets/js/deck.js` (ví dụ: icon `brain`, `user-check`, `sparkles`, `alert-triangle`, `shield-check`, `camera`, `check-circle-2`, `x-circle`, `arrow-right`, `lightbulb`).
+  2. **Với Hình ảnh minh họa thực tế:** Khai thác tối đa kho ảnh thật đã có trong `assets/images/` (`tm_book_ui.png`, `tm_editor.jpg`, `tm_projects.jpg`, `cup_clear.png`, `cup_dark.png`, `frame_0_20.jpg` ... `frame_9_135.jpg`) hoặc liên kết ảnh chụp màn hình thực tế/ảnh minh họa rõ nét từ nguồn mở uy tín (Wikimedia Commons / Unsplash), tuyệt đối không tự gen hình vẽ vector giả.
+
+## Vấn đề 4: Tách nhỏ Slide (Tăng số lượng slide, giảm chữ trên mỗi slide) & Trình bày theo chuỗi "3 Bước Dẫn Dắt"
+- **Mục tiêu số lượng slide:** Tăng tổng số slide toàn khóa từ **242 slide lên khoảng 310 – 340 slide** (Các tiết học trực tiếp Tiết 01–08 tăng từ ~22–24 slide lên **28–32 slide/tiết**; các tiết dự án Tiết 09–12 tăng từ ~14–15 slide lên **18–22 slide/tiết**).
+- **Quy tắc mật độ chữ tối đa trên 1 slide:**
+  - Mỗi slide chỉ truyền tải **ĐÚNG 1 Ý CHÍNH** hoặc **1 BƯỚC TRONG QUY TRÌNH**.
+  - Tối đa **35 – 45 từ** hiển thị trên một slide (không tính bảng mẫu). Mỗi dòng văn bản chính không quá **12 từ**, kèm 1 dòng `sub-text` giải thích ngắn gọn bên dưới.
+- **Công thức "3 Bước Dẫn Dắt" (Progressive Step-by-Step Breakdown) cho mọi khái niệm & bài thực hành:**
+  Thay vì ném cả một bảng bài tập hoặc một khái niệm khó lên 1 slide duy nhất, bạn BẮT BUỘC phải tách thành chuỗi 2–3 slide nối tiếp nhau (hoặc 3 thẻ bước trực quan lần lượt):
+  - **Bước 1 – Câu gốc / Tình huống thực tế:** Đưa ra câu nhận định, tình huống, hoặc dữ liệu thô ban đầu (Ví dụ: *"AI nhận diện ảnh rác tái chế"* hoặc một câu trả lời của AI).
+  - **Bước 2 – "Dịch nghĩa" sang ngôn ngữ học sinh Lớp 6:** Giải mã câu/tình huống ở Bước 1 có nghĩa là gì bằng từ ngữ đời thường, gần gũi nhất (Dùng khung `.hl-explain`: *"Nói dễ hiểu là: Máy tính nhìn ảnh và đoán xem đó là chai nhựa hay giấy vụn"*).
+  - **Bước 3 – Highlight điểm mấu chốt & Điền mẫu vào bảng:** Tô sáng (`.hl-key` / `.hl-error`) đúng từ khóa quyết định, chỉ mũi tên vào ô trong bảng thực hành và điền mẫu sẵn 80% kèm câu hỏi mồi 30 giây cho cả lớp trước khi học sinh tự làm.
+
+## Vấn đề 5: Chuẩn hóa Văn phong Lớp 6 & Chống ồn khi thực hành
+- **Xưng hô:** Thống nhất 100% gọi học sinh là **"em / các em"** trên slide, gọi giáo viên là **"Thầy/Cô"** trong chú thích.
+- **Loại bỏ thuật ngữ hàn lâm:** Thay thế toàn bộ các cụm từ cứng nhắc (`Mô hình hai lớp` $\rightarrow$ **AI phân biệt 2 nhóm đồ vật**; `Kiểm chứng kết quả` $\rightarrow$ **Kiểm tra xem AI nói đúng hay sai**; `Nhận xét giới hạn` $\rightarrow$ **Tìm điểm AI hay đoán nhầm**; `Thông tin giả định` $\rightarrow$ **Thông tin cá nhân bí mật**; `Thẻ bàn giao` $\rightarrow$ **Phiếu tóm tắt nhiệm vụ**).
+- **Chống ồn lớp học (Tiết 01 – Tiết 07):** Thay toàn bộ hoạt động *"Thảo luận nhóm"* bằng quy trình **"Làm cá nhân yên lặng (3 phút) $\rightarrow$ Đổi bài kiểm tra nhanh với bạn cùng bàn (2 phút)"**.
+
+---
+
+# LỘ TRÌNH SỬA CHI TIẾT TỪNG PHẦN & TỪNG TIẾT (SLIDE-BY-SLIDE PLAN)
+
+## PHẦN 0: Nâng cấp Hệ thống Nền tảng (`tokens.css`, `deck.css`, `deck.js`)
+1. Cập nhật biến font-size, line-height, spacing trong `assets/css/tokens.css`.
+2. Thêm bộ class `.hl-key`, `.hl-action`, `.hl-error`, `.hl-explain` và layout thẻ Bước 1 - Bước 2 - Bước 3 vào `assets/css/deck.css`.
+3. Tích hợp kho Icon SVG chuẩn (Lucide Icons) vào `assets/js/deck.js` và xóa bỏ các hàm tự vẽ SVG thủ công.
+
+## PHẦN 1 ĐẾN PHẦN 12: Tái cấu trúc từng file `assets/js/lessons/tiet-01.js` đến `tiet-12.js`
+
+### 1. Tiết 01 (`tiet-01.js` - Tăng từ 22 lên ~28–30 slide): Làm quen với AI
+- **Nhóm slide Khởi động & Khái niệm:** Tách định nghĩa AI thành chuỗi 3 bước: (Bước 1) Ví dụ YouTube tự gợi ý video hoạt hình $\rightarrow$ (Bước 2) Dịch nghĩa: Máy tính học thói quen xem của em để đoán video em thích $\rightarrow$ (Bước 3) Highlight 3 dấu hiệu nhận biết công nghệ có AI.
+- **Nhóm slide Thực hành 1 (Nhật kí hai trải nghiệm):** Tách thêm 2 slide làm mẫu từng bước trước khi cho HS điền phiếu:
+  - *Slide mẫu 1:* Bước 1 (Chọn tình huống: Mở khóa điện thoại bằng khuôn mặt) $\rightarrow$ Bước 2 (Dịch ra: AI nhìn mặt ai? Giúp ích gì?) $\rightarrow$ Bước 3 (Highlight chỗ AI hay nhầm khi đeo khẩu trang/trời tối).
+  - *Slide mẫu 2:* Bảng điền mẫu hoàn chỉnh có chú thích bong bóng `.hl-explain` chỉ vào từng cột.
+- **Nhóm slide Thực hành 2 (Thẻ giới thiệu tính năng AI):** Chèn 1 slide điền mẫu sẵn 80%, chừa 1 ô cuối hỏi nhanh cả lớp trong 30 giây, sau đó mới sang slide phiếu làm cá nhân của HS.
+
+### 2. Tiết 02 (`tiet-02.js` - Tăng từ 24 lên ~30–32 slide): Con người tạo và điều khiển AI
+- **Nhóm slide Quy trình tạo AI:** Tách 4 bước tạo AI thành 4 slide riêng biệt (ít chữ, dùng ảnh `frame_*.jpg` từ video Code.org có sẵn trong `assets/images/`), mỗi slide có `sub-text` to rõ giải thích con người làm gì ở bước đó.
+- **Nhóm slide Thực hành nhận diện & Bảng phân vai (Trọng tâm chống ồn):**
+  - *Slide mẫu 1 (Bước 1 & Bước 2):* Đưa tình huống *"Dạy AI phân loại vỏ lon và giấy vụn ở trường"*. Dịch từng bước ra câu hỏi đơn giản: *"Ai là người chụp ảnh vỏ lon? Máy tự đi chụp được không?"*.
+  - *Slide mẫu 2 (Bước 3 - Highlight & Điền mẫu sơ đồ):* Tô sáng nhãn **CON NGƯỜI QUYẾT ĐỊNH** (`.hl-key`) ở các bước chọn dữ liệu, kiểm tra lỗi; tô nhãn **MÁY TÍNH HỖ TRỢ** ở bước học nhanh từ ảnh.
+  - *Slide mẫu 3 (Điền mẫu Bảng phân vai):* Điền sẵn 2 dòng đầu trong bảng phân vai kèm giải thích *"Vì sao chọn Con người?"*, chừa dòng thứ 3 để GV gọi 1 HS trả lời mẫu, sau đó mới chuyển sang slide bài làm cá nhân.
+
+### 3. Tiết 03 (`tiet-03.js` - Tăng từ 24 lên ~30–32 slide): Dạy AI nhận biết đồ vật bằng Teachable Machine
+- **Nhóm slide Giải thích "AI phân biệt 2 nhóm":** Bỏ thuật ngữ "Mô hình hai lớp". Dùng ảnh thật `assets/images/cup_clear.png`, `cup_dark.png`, `tm_book_ui.png`, `tm_editor.jpg` để tách thành 3 slide hướng dẫn từng thao tác bấm nút.
+- **Nhóm slide Thực hành mẫu trước khi mở máy:**
+  - *Slide mẫu 1:* Bước 1 (Đặt tên 2 nhóm: *Bút chì* và *Thước kẻ*) $\rightarrow$ Bước 2 (Dịch nghĩa: Mỗi nhóm cần khoảng 15–20 tấm ảnh chụp ở nhiều góc khác nhau).
+  - *Slide mẫu 2:* Điền mẫu "Bảng ghi chép dữ liệu và 2 lần thử" (Lần 1 đưa bút chì vào $\rightarrow$ Highlight xanh `Đoán đúng 98%`; Lần 2 đưa cục tẩy vào $\rightarrow$ Highlight đỏ `AI đoán nhầm thành Thước kẻ` kèm giải thích vì sao).
+
+### 4. Tiết 04 (`tiet-04.js` - Tăng từ 24 lên ~30–32 slide): Kiểm thử và cải tiến mô hình AI
+- **Nhóm slide Khái niệm "Điểm AI hay đoán nhầm":** Tách ví dụ từ ảnh `frame_5_*.jpg` / `frame_6_*.jpg` thành 3 bước: (Bước 1) Khi nào AI đoán sai? $\rightarrow$ (Bước 2) Dịch nguyên nhân: Do lúc dạy thiếu ảnh góc nghiêng hoặc ngược sáng $\rightarrow$ (Bước 3) Highlight cách sửa: Chụp bổ sung đúng kiểu ảnh đang thiếu.
+- **Nhóm slide Thực hành mẫu (Bảng 6 lượt thử Trước & Sau):**
+  - Chèn 2 slide làm mẫu: Slide 1 minh họa điền 3 lượt thử **Trước khi sửa** (highlight đỏ các lần đưa đồ vật nghiêng/xa bị sai); Slide 2 minh họa điền 3 lượt thử **Sau khi dạy thêm ảnh** và cách viết câu kết luận ngắn gọn theo mẫu điền từ.
+
+### 5. Tiết 05 (`tiet-05.js` - Tăng từ 22 lên ~28–30 slide): AI hỗ trợ học tập nhưng con người quyết định
+- **Nhóm slide Bắt lỗi AI:** Không nói lý thuyết chung chung. Tách thành 3 slide trình diễn từng bước:
+  - *Slide mẫu 1 (Bước 1 - Câu trả lời gốc của AI):* Hiển thị một đoạn văn ngắn AI trả lời câu hỏi Địa lí/Lịch sử lớp 6 nhưng có cài 1 chi tiết sai thực tế.
+  - *Slide mẫu 2 (Bước 2 - Dịch & Đối chiếu SGK):* Đặt câu của AI cạnh thông tin chuẩn trong Sách giáo khoa, dùng `.hl-error` khoanh đỏ đúng cụm từ AI bịa ra.
+  - *Slide mẫu 3 (Bước 3 - Điền mẫu Bảng kiểm tra):* Hướng dẫn từng ô: *AI nói gì? $\rightarrow$ Đúng hay sai? $\rightarrow$ Quyết định của em là sửa lại thế nào?*
+
+### 6. Tiết 06 (`tiet-06.js` - Tăng từ 22 lên ~28–30 slide): Dữ liệu cá nhân, quyền riêng tư và an toàn
+- **Nhóm slide Nhận diện thông tin bí mật:** Tách thành chuỗi 3 bước cực kỳ trực quan:
+  - *Slide mẫu 1 (Bước 1 - Câu chat gốc nguy hiểm):* Hiển thị tin nhắn một bạn học sinh chuẩn bị gửi cho AI có chứa: Họ tên thật, Lớp/Trường, Địa chỉ nhà, Số điện thoại mẹ.
+  - *Slide mẫu 2 (Bước 2 - Highlight & Giải thích rủi ro):* Dùng `.hl-error` tô đỏ 4 thông tin trên và giải thích ngắn gọn vì sao không được gửi cho AI.
+  - *Slide mẫu 3 (Bước 3 - Dịch sang "Thẻ hỏi an toàn"):* Biến câu ở Bước 1 thành câu hỏi an toàn đã che thông tin (tô xanh `.hl-key` những từ đã được thay thế an toàn) để HS nhìn vào làm theo.
+
+### 7. Tiết 07 (`tiet-07.js` - Tăng từ 21 lên ~27–29 slide): Mặt tốt, hạn chế và lựa chọn sử dụng AI
+- **Nhóm slide Phân tích tình huống:** Tách mỗi tình huống thành 2 slide thoáng chữ thay vì nhồi 4 tình huống vào 1 bảng dày đặc.
+- **Nhóm slide Thực hành mẫu:** Chọn Tình huống 1 (*"Nhờ AI làm hộ toàn bộ bài tập làm văn để nộp cô giáo"*), dẫn dắt qua 3 bước: (Bước 1) Tình huống $\rightarrow$ (Bước 2) Dịch hậu quả: Em không rèn được cách viết và dễ bị điểm kém vì văn mẫu sáo rỗng $\rightarrow$ (Bước 3) Điền mẫu vào bảng: *Không nên làm vậy $\rightarrow$ Cách dùng đúng: Chỉ nhờ AI gợi ý dàn ý 3 phần rồi tự viết*.
+
+### 8. Tiết 08 (`tiet-08.js` - Tăng từ 24 lên ~30–32 slide): Hình thành ý tưởng dự án
+- **Nhóm slide Gợi ý đề tài:** Thêm 2 slide trình bày "Ngân hàng 4 ý tưởng dự án mẫu vừa sức lớp 6" (mỗi slide 2 ý tưởng, chữ to, kèm icon Lucide rõ nét).
+- **Nhóm slide Thực hành mẫu điền Phiếu ý tưởng:** Tách phiếu ý tưởng mẫu thành 2 slide dẫn dắt từng bước:
+  - *Slide mẫu 1:* Điền mẫu phần Tên dự án + Vấn đề muốn giải quyết (kèm highlight công thức viết: *"Giúp [ai] giải quyết việc [gì] bằng cách [dùng AI làm gì]"*).
+  - *Slide mẫu 2:* Điền mẫu phần Vai trò của AI và Vai trò kiểm tra của nhóm em.
+
+### 9. Tiết 09 đến Tiết 12 (`tiet-09.js` đến `tiet-12.js` - Tăng từ 14–15 lên ~19–22 slide/tiết): 4 Giai đoạn Dự án tại nhà
+Vì học sinh tự xem ở nhà không có giáo viên giảng, mỗi tiết phải được tách nhỏ thành các slide hướng dẫn từng bước như sách cẩm nang:
+- **Tiết 09 (`tiet-09.js`):** Thêm 2 slide dẫn dắt từng bước cách chia việc cho nhóm 3–4 bạn trong 4 mốc thời gian + 1 slide bảng kế hoạch đã điền mẫu hoàn chỉnh.
+- **Tiết 10 (`tiet-10.js`):** Thêm 2 slide hướng dẫn cách kiểm tra 2 nguồn thông tin + 1 slide vẽ mẫu sơ đồ 4 khối lớn (Đầu vào $\rightarrow$ AI hỗ trợ $\rightarrow$ Con người kiểm tra $\rightarrow$ Sản phẩm) dùng icon Lucide sạch đẹp.
+- **Tiết 11 (`tiet-11.js`):** Thêm 2 slide làm mẫu cách ghi "Bảng nguồn tư liệu đã dùng" và "Bảng đánh dấu phần việc cá nhân đã đóng góp".
+- **Tiết 12 (`tiet-12.js`):** Thêm 2 slide tách nhỏ kịch bản quay video 2–3 phút thành 4 bước dễ làm (Bước 1: Chào & nêu tên dự án 30s $\rightarrow$ Bước 2: Quay cảnh dùng thử 60s $\rightarrow$ Bước 3: Kể 1 lỗi AI đã được nhóm sửa 30s $\rightarrow$ Bước 4: Lời kết 20s) + 1 slide mẫu bảng tự kiểm tra trước khi nộp bài.
+
+## PHẦN 13: Đồng bộ hệ thống đăng ký & tài liệu kiểm định
+- Cập nhật lại số lượng slide mới của từng tiết trong `assets/js/lesson-registry.js`, `index.html`, `docs/slide-inventory.json`, `docs/DOI_CHIEU_TUNG_TIET.json` và `docs/CHU_THICH_GIAO_VIEN.json`.
+
+---
+
+# HỆ QUY CHIẾU CHUẨN 6 TRỤ CỘT (BẮT BUỘC RECHECK SAU MỖI PHẦN)
+Sau khi hoàn thành BẤT KỲ phần nào (từ Phần 0 đến Phần 13), bạn bắt buộc phải tự chấm điểm và xuất **Bảng Đối Chiếu Hệ Quy Chiếu** gồm 6 tiêu chí định lượng sau:
+
+1. **[Mật độ chữ & Số lượng slide]:** Số slide cũ vs. Số slide mới (đã tăng thêm bao nhiêu slide?). Có slide nào vượt quá 45 từ văn bản hoặc quá 6 dòng không? (Phải đạt: **0 slide quá tải chữ**).
+2. **[Chuỗi 3 Bước Dẫn Dắt (Step-by-step)]:** Chỉ rõ các slide nào đã được thiết kế theo đúng luồng: *Bước 1 (Câu/Tình huống gốc) $\rightarrow$ Bước 2 (Dịch nghĩa dễ hiểu cho HS lớp 6) $\rightarrow$ Bước 3 (Highlight điểm mấu chốt & Điền mẫu)*.
+3. **[Hệ thống Highlight & Cỡ chữ]:** Đã gắn đủ các class `.hl-key`, `.hl-action`, `.hl-error`, `.hl-explain` trên các slide chưa? Cỡ chữ chính và `sub-text` đã đảm bảo $\ge 18\text{px}$ chưa?
+4. **[Icon SVG chuẩn & Ảnh thật]:** Xác nhận đã xóa **100%** các hình vẽ `<svg>` tự chế ngô nghê. Liệt kê các icon Lucide và các file ảnh thật trong `assets/images/` đã sử dụng.
+5. **[Văn phong Lớp 6 & Chống ồn]:** Xác nhận 100% xưng hô **"em / các em"** và **"Thầy/Cô"**; 0 thuật ngữ hàn lâm bị cấm; hoạt động thực hành đã có slide mẫu điền sẵn 80% và chuyển sang làm cá nhân/cặp đôi (Tiết 01–07).
+6. **[An toàn Kỹ thuật & Lưu bài]:** Các `id` của ô nhập liệu (`input`, `textarea`) lưu vào `localStorage` và phần `Speaker Notes` của giáo viên đã được đồng bộ khớp 100% với số thứ tự slide mới chưa?
+
+---
+
+# QUY TRÌNH KHÓA KIỂM DUYỆT (STRICT STEP-BY-STEP GATEKEEPER)
+Bạn **TUYỆT ĐỐI KHÔNG ĐƯỢC** làm gộp nhiều phần trong 1 lần phản hồi. Hãy thực thi theo đúng vòng lặp 4 bước sau cho từng phần (Bắt đầu từ **PHẦN 0**, sau đó đến **PHẦN 1 (`tiet-01.js`)**, tuần tự tới **PHẦN 13**):
+
+- **BƯỚC 1 (Phân tích từng slide hiện tại):** Liệt kê danh sách toàn bộ các slide hiện có trong file đang xử lý, chỉ rõ:
+  - Slide nào đang nhiều chữ cần tách đôi/tách ba?
+  - Slide nào cần áp dụng công thức "Bước 1 (Câu gốc) $\rightarrow$ Bước 2 (Dịch nghĩa) $\rightarrow$ Bước 3 (Highlight & Điền mẫu)"?
+  - Slide nào đang chứa hình SVG tự vẽ xấu cần thay bằng icon Lucide hoặc ảnh thật trong `assets/images/`?
+- **BƯỚC 2 (Thực thi chỉnh sửa code):** Viết mã nguồn hoàn chỉnh cho phần đó.
+- **BƯỚC 3 (Recheck theo Hệ quy chiếu 6 trụ cột):** Xuất bảng đối chiếu chi tiết 6 trụ cột ở trên, chứng minh bằng số liệu và trích dẫn Trước/Sau cụ thể.
+- **BƯỚC 4 (Dừng chờ lệnh duyệt):** Dừng lại và hỏi:
+  > *"Tôi đã hoàn thành và Recheck đạt chuẩn Hệ quy chiếu cho [Tên Phần/Tiết]. Bạn hãy kiểm tra, nếu đồng ý hãy gõ **'Duyệt, chuyển sang phần tiếp theo'** để tôi làm tiếp."*
+
+**Bây giờ, hãy bắt đầu thực hiện BƯỚC 1, BƯỚC 2, BƯỚC 3 và BƯỚC 4 cho PHẦN 0 (`assets/css/tokens.css`, `assets/css/deck.css`, `assets/js/deck.js`).**

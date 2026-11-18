@@ -2,10 +2,10 @@ window.AI6_LESSON={
   "id": 3,
   "title": "Bài 3. Dạy AI nhận biết đồ vật bằng Teachable Machine",
   "mode": "Trực tiếp tại phòng Tin học",
-  "count": 24,
+  "count": 29,
   "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-  "materials": "Máy tính có Internet và webcam; hai đồ vật bút và cốc, nền giấy trơn; thư mục ảnh Bút/Cốc dự phòng; Teachable Machine mở trước tại https://teachablemachine.withgoogle.com/; P3.1–P3.3. GV kiểm tra trình duyệt, quyền webcam và cách lưu dự án trước buổi học.",
-  "alternatives": "Mang bút/cốc hoặc dùng vật mẫu của GV; xem lại hai sơ đồ. Nhóm bốn phân vai thao tác, đặt vật, ghi dữ liệu, kiểm tra và đổi vai.",
+  "materials": "Thầy/Cô chuẩn bị học liệu có sẵn trong gói. Chỉ dùng dữ liệu mẫu. Thử công cụ trước giờ học.",
+  "alternatives": "Thiếu thiết bị, em quan sát Thầy/Cô. Em vẫn ghi rõ cách thực hiện.",
   "video": {
     "index": 5,
     "title": "AI: How Computer Vision Works",
@@ -16,204 +16,245 @@ window.AI6_LESSON={
     "question": "Quan sát điểm ảnh và cách biểu diễn hình. Muốn phân biệt bút với cốc, cần những ví dụ nào?",
     "local": "code-5.mp4"
   },
-  "outcome": "Mô hình hai lớp và nhật kí dữ liệu cùng hai lượt thử",
+  "outcome": "Bộ ảnh Bút/Cốc và bảng ghi hai lần thử mới.",
   "slides": [
     {
       "type": "cover",
       "id": "03-01",
-      "number": 1,
       "title": "Bài 3. Dạy AI nhận biết đồ vật bằng Teachable Machine",
       "note": {
         "activity": "Khởi động",
         "purpose": "Dự đoán nguyên nhân một mẫu mới khó nhận dạng.",
-        "teacher": "Chiếu ảnh GV chuẩn bị và nhắc ba bước máy học. Không khẳng định trước ảnh tối chắc chắn nhận sai.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Quan sát và ghi hai điểm khác nhau giữa ảnh.",
         "report": "Hai cặp nêu dự đoán, các cặp khác bổ sung.",
         "conclusion": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-        "assessment": "Ghi nhận HS đã nêu yếu tố dữ liệu; hỗ trợ bằng bốn từ ánh sáng, góc chụp, nền, độ nét.",
+        "assessment": "Ghi nhận các em đã nêu yếu tố dữ liệu. Hỗ trợ bằng bốn từ ánh sáng, góc chụp, nền, độ nét.",
         "answers": [
-          "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình."
+          "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp. Phải thử thực tế mới biết dự đoán của mô hình."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Hôm nay mình bắt đầu: Bài 3. Dạy AI nhận biết đồ vật bằng Teachable Machine. Sản phẩm cần có là Mô hình hai lớp và nhật kí dữ liệu cùng hai lượt thử.",
-          "explanation": "Trong tiết này, học sinh cần:\nChuẩn bị ảnh Bút/Cốc và đưa vào đúng nhóm.\nLuân phiên tạo dự án, thêm ảnh, huấn luyện và chạy thử.\nGhi kết quả hai ảnh mới; nêu điều kiện chụp có thể ảnh hưởng kết quả.",
-          "delivery": "Đọc đầu bài, nêu sản phẩm cuối và mời một ví dụ quen thuộc. Chưa chiếu đáp án hay giao thao tác công cụ ở slide này.",
-          "answer": "• Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-          "closing": "Giới thiệu mục tiêu và sản phẩm; chưa yêu cầu HS thực hiện công cụ ở slide bìa.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Sau bài học, em làm được gì?.",
-          "students": "Đọc tên bài, liên hệ một trải nghiệm hoặc một câu hỏi mình muốn tìm hiểu."
+          "opening": "Thầy/Cô nói: Em bắt đầu bằng một điều muốn tìm hiểu. Trong 10 giây, em đọc đầu bài trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc đầu bài trên slide.",
+          "answer": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp. Phải thử thực tế mới biết dự đoán của mô hình.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Hôm nay em chuyển từ sơ đồ sang thao tác thật. Cùng xem cần chuẩn bị, chạy thử và ghi lại những gì."
         }
       },
       "theme": "blue",
-      "originalNumber": 1
+      "v6": true,
+      "screen": [],
+      "phase": "Khởi động",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 10 giây, em đọc đầu bài trên slide."
+      ],
+      "connector": "Em bắt đầu bằng một điều muốn tìm hiểu.",
+      "number": 1
     },
     {
       "type": "goals",
-      "goals": [
-        "Chuẩn bị ảnh Bút/Cốc và đưa vào đúng nhóm.",
-        "Luân phiên tạo dự án, thêm ảnh, huấn luyện và chạy thử.",
-        "Ghi hai lần thử mới; nêu ít nhất hai yếu tố ảnh có thể ảnh hưởng kết quả."
-      ],
-      "outcome": "Mô hình hai lớp và nhật kí dữ liệu cùng hai lượt thử",
       "id": "03-02",
-      "number": 2,
-      "title": "Sau bài học, em làm được gì?",
+      "title": "Hôm nay em làm được gì?",
       "note": {
         "activity": "Khởi động",
         "purpose": "Dự đoán nguyên nhân một mẫu mới khó nhận dạng.",
-        "teacher": "Chiếu ảnh GV chuẩn bị và nhắc ba bước máy học. Không khẳng định trước ảnh tối chắc chắn nhận sai.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Quan sát và ghi hai điểm khác nhau giữa ảnh.",
         "report": "Hai cặp nêu dự đoán, các cặp khác bổ sung.",
         "conclusion": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-        "assessment": "Ghi nhận HS đã nêu yếu tố dữ liệu; hỗ trợ bằng bốn từ ánh sáng, góc chụp, nền, độ nét.",
+        "assessment": "Ghi nhận các em đã nêu yếu tố dữ liệu. Hỗ trợ bằng bốn từ ánh sáng, góc chụp, nền, độ nét.",
         "answers": [
-          "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình."
+          "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp. Phải thử thực tế mới biết dự đoán của mô hình."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Cuối tiết/giai đoạn này, em cần làm được ba việc sau.",
-          "explanation": "Chuẩn bị ảnh Bút/Cốc và đưa vào đúng nhóm.\nLuân phiên tạo dự án, thêm ảnh, huấn luyện và chạy thử.\nGhi hai lần thử mới; nêu ít nhất hai yếu tố ảnh có thể ảnh hưởng kết quả.",
-          "delivery": "Nói ngắn gọn từng mục tiêu. Hỏi một HS: “Cuối hoạt động, em dùng sản phẩm nào để cho thấy mình đã làm được?”. Tránh diễn giải toàn bộ nội dung trước khi trải nghiệm.",
-          "answer": "• Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-          "closing": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: KHỞI ĐỘNG.",
-          "students": "Đọc mục tiêu, xác định sản phẩm cần có và hỏi phần chưa rõ."
+          "opening": "Thầy/Cô nói: Đầu bài cho biết chủ đề. Em xem việc cần làm. Trong 20 giây, em chọn một mục tiêu trên slide.",
+          "explanation": "Chuẩn bị ảnh Bút/Cốc và đưa vào đúng nhóm.\nLuân phiên tạo dự án, thêm ảnh, dạy AI và chạy thử.\nGhi hai lần thử mới. Nêu ít nhất hai yếu tố ảnh có thể ảnh hưởng kết quả.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 20 giây, em chọn một mục tiêu trên slide.",
+          "answer": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp. Phải thử thực tế mới biết dự đoán của mô hình.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Em bắt đầu từ câu hỏi: “Cùng chiếc cốc, khác bức ảnh”"
         }
       },
       "theme": "cream",
-      "originalNumber": 2
+      "v6": true,
+      "screen": [
+        "Chuẩn bị ảnh Bút/Cốc đúng nhãn.",
+        "Tạo dự án, thêm ảnh và dạy AI.",
+        "Thử ảnh mới, ghi kết quả và điều kiện ảnh."
+      ],
+      "phase": "Khởi động",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 20 giây, em chọn một mục tiêu trên slide."
+      ],
+      "connector": "Đầu bài cho biết chủ đề. Em xem việc cần làm.",
+      "number": 2
     },
     {
       "type": "divider",
       "id": "03-03",
-      "number": 3,
-      "title": "KHỞI ĐỘNG",
+      "title": "Khởi động",
       "note": {
         "activity": "Khởi động",
         "purpose": "Dự đoán nguyên nhân một mẫu mới khó nhận dạng.",
-        "teacher": "Chiếu ảnh GV chuẩn bị và nhắc ba bước máy học. Không khẳng định trước ảnh tối chắc chắn nhận sai.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Quan sát và ghi hai điểm khác nhau giữa ảnh.",
         "report": "Hai cặp nêu dự đoán, các cặp khác bổ sung.",
         "conclusion": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-        "assessment": "Ghi nhận HS đã nêu yếu tố dữ liệu; hỗ trợ bằng bốn từ ánh sáng, góc chụp, nền, độ nét.",
+        "assessment": "Ghi nhận các em đã nêu yếu tố dữ liệu. Hỗ trợ bằng bốn từ ánh sáng, góc chụp, nền, độ nét.",
         "answers": [],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang khởi động.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Từ việc quen thuộc, em thử nêu câu hỏi. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Làm sao máy phân biệt bút và cốc?.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Nhìn hai ảnh cốc. Tìm điều kiện chụp khác nhau."
         }
       },
       "theme": "blue",
-      "originalNumber": 3
+      "v6": true,
+      "screen": [],
+      "phase": "Khởi động",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Từ việc quen thuộc, em thử nêu câu hỏi.",
+      "number": 3
     },
     {
       "type": "scenario",
-      "text": "Hai ảnh cùng chụp một chiếc cốc nhưng có ánh sáng khác nhau. Ảnh nào giúp em nhìn đồ vật rõ hơn? Muốn máy nhận nhiều kiểu cốc, cần chuẩn bị những ảnh nào?",
-      "task": "Quan sát và ghi hai điểm khác nhau giữa ảnh.",
-      "answer": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-      "visual": "cups",
       "time": 2,
       "id": "03-04",
-      "number": 4,
-      "title": "Làm sao máy phân biệt bút và cốc?",
+      "title": "Cùng chiếc cốc, khác bức ảnh",
       "note": {
         "activity": "Khởi động",
         "purpose": "Dự đoán nguyên nhân một mẫu mới khó nhận dạng.",
-        "teacher": "Chiếu ảnh GV chuẩn bị và nhắc ba bước máy học. Không khẳng định trước ảnh tối chắc chắn nhận sai.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Quan sát và ghi hai điểm khác nhau giữa ảnh.",
         "report": "Hai cặp nêu dự đoán, các cặp khác bổ sung.",
         "conclusion": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-        "assessment": "Ghi nhận HS đã nêu yếu tố dữ liệu; hỗ trợ bằng bốn từ ánh sáng, góc chụp, nền, độ nét.",
+        "assessment": "Ghi nhận các em đã nêu yếu tố dữ liệu. Hỗ trợ bằng bốn từ ánh sáng, góc chụp, nền, độ nét.",
         "answers": [
-          "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình."
+          "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp. Phải thử thực tế mới biết dự đoán của mô hình."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Hai ảnh cùng chụp một chiếc cốc nhưng có ánh sáng khác nhau. Ảnh nào giúp em nhìn đồ vật rõ hơn? Muốn máy nhận nhiều kiểu cốc, cần chuẩn bị những ảnh nào?",
+          "opening": "Thầy/Cô nói: Từ mục tiêu hôm nay, em xem một tình huống. Trong 30 giây, em tự chọn câu trả lời tại chỗ.",
           "explanation": "Hai ảnh cùng chụp một chiếc cốc nhưng có ánh sáng khác nhau. Ảnh nào giúp em nhìn đồ vật rõ hơn? Muốn máy nhận nhiều kiểu cốc, cần chuẩn bị những ảnh nào?",
-          "delivery": "Chiếu ảnh GV chuẩn bị và nhắc ba bước máy học. Không khẳng định trước ảnh tối chắc chắn nhận sai.\nHai cặp nêu dự đoán, các cặp khác bổ sung.",
-          "answer": "• Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-          "closing": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp; phải thử thực tế mới biết dự đoán của mô hình.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: KHÁM PHÁ 1: CHUẨN BỊ NHÃN VÀ DỮ LIỆU.",
-          "students": "Quan sát và ghi hai điểm khác nhau giữa ảnh."
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em tự chọn câu trả lời tại chỗ.",
+          "answer": "Ảnh cần đủ rõ và đa dạng điều kiện phù hợp. Phải thử thực tế mới biết dự đoán của mô hình.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Máy nhận ảnh bằng dữ liệu số. Em tìm hiểu điều đó trước khi chuẩn bị bộ ảnh."
         }
       },
       "theme": "cream",
-      "originalNumber": 4
+      "v6": true,
+      "screen": [
+        "Ảnh nào nhìn rõ hơn?",
+        "Muốn nhận nhiều kiểu cốc, cần ảnh nào?"
+      ],
+      "phase": "Khởi động",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 30 giây, em tự chọn câu trả lời tại chỗ."
+      ],
+      "connector": "Từ mục tiêu hôm nay, em xem một tình huống.",
+      "number": 4
     },
     {
       "type": "divider",
       "id": "03-05",
-      "number": 5,
-      "title": "KHÁM PHÁ 1: CHUẨN BỊ NHÃN VÀ DỮ LIỆU",
+      "title": "Khám phá: chuẩn bị dữ liệu ảnh",
       "note": {
         "activity": "Khám phá 2.1 Chuẩn bị nhãn và dữ liệu",
         "purpose": "Lựa chọn dữ liệu đúng hai lớp và nêu tiêu chí ảnh.",
-        "teacher": "Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tổ chức ảnh vào đúng lớp, đề xuất cùng điều kiện nền cho hai lớp và thêm biến đổi có kiểm soát.",
         "report": "Nhóm giải thích một ảnh chọn và một ảnh loại.",
         "conclusion": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a; yêu cầu sửa ngay ảnh đặt sai nhãn.",
+        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a. Yêu cầu sửa ngay ảnh đặt sai nhãn.",
         "answers": [],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang khám phá 1: chuẩn bị nhãn và dữ liệu.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Câu hỏi vừa nêu dẫn em tới cách AI làm việc. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Máy nhận ảnh dưới dạng nào?.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Chuẩn bị hai đồ vật và xác định tên đúng cho hai nhóm ảnh."
         }
       },
       "theme": "blue",
-      "originalNumber": 5
+      "v6": true,
+      "screen": [],
+      "phase": "Khám phá",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Câu hỏi vừa nêu dẫn em tới cách AI làm việc.",
+      "number": 5
     },
     {
       "type": "question",
-      "question": "Máy nhận ảnh dưới dạng nào?",
-      "instruction": "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Quan sát video: máy nhận ảnh bằng các giá trị số ra sao? Để phân biệt Bút/Cốc, ta cần ảnh của những vật nào?",
       "poster": "frame_5_95.jpg",
       "id": "03-06",
-      "number": 6,
-      "title": "Máy nhận ảnh dưới dạng nào?",
+      "title": "Máy nhìn ảnh bằng gì?",
       "note": {
         "activity": "Khám phá 2.1 Chuẩn bị nhãn và dữ liệu",
         "purpose": "Lựa chọn dữ liệu đúng hai lớp và nêu tiêu chí ảnh.",
-        "teacher": "Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tổ chức ảnh vào đúng lớp, đề xuất cùng điều kiện nền cho hai lớp và thêm biến đổi có kiểm soát.",
         "report": "Nhóm giải thích một ảnh chọn và một ảnh loại.",
         "conclusion": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a; yêu cầu sửa ngay ảnh đặt sai nhãn.",
+        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a. Yêu cầu sửa ngay ảnh đặt sai nhãn.",
         "answers": [
-          "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh; máy xử lí các giá trị số biểu diễn ảnh.",
+          "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Máy xử lí các giá trị số biểu diễn ảnh.",
           "Trong ví dụ này, cần ảnh của cả Bút và Cốc, đặt đúng nhãn và chụp ở các điều kiện phù hợp."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Quan sát video: máy nhận ảnh bằng các giá trị số ra sao? Để phân biệt Bút/Cốc, ta cần ảnh của những vật nào?",
-          "explanation": "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Quan sát video: máy nhận ảnh bằng các giá trị số ra sao? Để phân biệt Bút/Cốc, ta cần ảnh của những vật nào?",
-          "delivery": "Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?\nNhóm giải thích một ảnh chọn và một ảnh loại.",
-          "answer": "• Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh; máy xử lí các giá trị số biểu diễn ảnh.\n• Trong ví dụ này, cần ảnh của cả Bút và Cốc, đặt đúng nhãn và chụp ở các điều kiện phù hợp.",
-          "closing": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Video: Máy tính xử lí hình ảnh.",
-          "students": "Suy nghĩ về câu hỏi định hướng, ghi một dự đoán và tìm chi tiết đối chiếu khi xem video."
+          "opening": "Thầy/Cô nói: Trước khi xem, em đọc câu hỏi cần tìm. Trong 15 giây, em đọc câu hỏi trên slide.",
+          "explanation": "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Quan sát video: máy nhận ảnh bằng các giá trị số ra sao? Để phân biệt Bút/Cốc, em cần ảnh của những vật nào?",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 15 giây, em đọc câu hỏi trên slide.",
+          "answer": "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Máy xử lí các giá trị số biểu diễn ảnh.\nTrong ví dụ này, cần ảnh của cả Bút và Cốc, đặt đúng nhãn và chụp ở các điều kiện phù hợp.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Hãy xem video để nối hình ảnh quen thuộc với cách máy xử lí ảnh."
         }
       },
       "theme": "cream",
-      "originalNumber": 6
+      "v6": true,
+      "screen": [
+        "Ảnh số gồm những điểm ảnh nhỏ.",
+        "Máy xử lí các giá trị số của ảnh.",
+        "Cần những ảnh nào cho Bút/Cốc?"
+      ],
+      "phase": "Khám phá",
+      "scene": "video",
+      "taskLines": [
+        "Trong 15 giây, em đọc câu hỏi trên slide."
+      ],
+      "connector": "Trước khi xem, em đọc câu hỏi cần tìm.",
+      "number": 6
     },
     {
       "type": "video",
@@ -224,117 +265,169 @@ window.AI6_LESSON={
         "end": 110,
         "poster": "frame_5_95.jpg",
         "url": "https://contentful-videos.code.org/90t6bu6vlf76/5LHEqBfj39mMaxu0jlpFBQ/e8c81cbd51865522b439643e03a24d53/videoplayback.mp4",
-        "question": "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Quan sát video: máy nhận ảnh bằng các giá trị số ra sao? Để phân biệt Bút/Cốc, ta cần ảnh của những vật nào?",
+        "question": "Tìm cách ảnh được biểu diễn. Nhắc lại dữ liệu cần cho Bút/Cốc.",
         "local": "code-5.mp4"
       },
       "id": "03-07",
-      "number": 7,
-      "title": "Video: Máy tính xử lí hình ảnh",
+      "title": "Từ điểm ảnh đến nhận dạng",
       "note": {
         "activity": "Khám phá 2.1 Chuẩn bị nhãn và dữ liệu",
         "purpose": "Lựa chọn dữ liệu đúng hai lớp và nêu tiêu chí ảnh.",
-        "teacher": "Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tổ chức ảnh vào đúng lớp, đề xuất cùng điều kiện nền cho hai lớp và thêm biến đổi có kiểm soát.",
         "report": "Nhóm giải thích một ảnh chọn và một ảnh loại.",
         "conclusion": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a; yêu cầu sửa ngay ảnh đặt sai nhãn.",
+        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a. Yêu cầu sửa ngay ảnh đặt sai nhãn.",
         "answers": [
-          "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh; máy xử lí các giá trị số biểu diễn ảnh.",
+          "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Máy xử lí các giá trị số biểu diễn ảnh.",
           "Trong ví dụ này, cần ảnh của cả Bút và Cốc, đặt đúng nhãn và chụp ở các điều kiện phù hợp."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Trước khi xem: Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Quan sát video: máy nhận ảnh bằng các giá trị số ra sao? Để phân biệt Bút/Cốc, ta cần ảnh của những vật nào?",
-          "explanation": "Xem đoạn 85–110 giây. Lời dẫn và câu hỏi Việt là học liệu GV biên soạn; không phải phụ đề chính thức.",
-          "delivery": "Trước xem: giao một câu hỏi. Trong xem: cho HS chú ý một ví dụ, dừng khi cần giải nghĩa. Sau xem: mời hai ý kiến và yêu cầu chỉ chi tiết làm căn cứ. Nếu trình duyệt chặn âm thanh ở màn chiếu, bấm phát trực tiếp tại cửa sổ đó một lần.",
-          "answer": "• Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh; máy xử lí các giá trị số biểu diễn ảnh.\n• Trong ví dụ này, cần ảnh của cả Bút và Cốc, đặt đúng nhãn và chụp ở các điều kiện phù hợp.",
-          "closing": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-          "transition": "Ảnh được biểu diễn bằng các giá trị điểm ảnh. Nhiệm vụ của mình là chuẩn bị ảnh Bút/Cốc đúng nhãn và phù hợp.",
-          "students": "Quan sát chi tiết liên quan câu hỏi; nêu một nhận xét có căn cứ sau đoạn xem."
+          "opening": "Thầy/Cô nói: Giữ câu hỏi vừa đọc. Em tìm ví dụ trong phim. Trong 25 giây, em ghi một ví dụ vào vở.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 25 giây, em ghi một ví dụ vào vở.",
+          "answer": "Ảnh số gồm nhiều ô nhỏ gọi là điểm ảnh. Máy xử lí các giá trị số biểu diễn ảnh.\nTrong ví dụ này, cần ảnh của cả Bút và Cốc, đặt đúng nhãn và chụp ở các điều kiện phù hợp.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Biết máy nhận dữ liệu ảnh rồi, em chuẩn bị các nhóm ảnh đúng nhãn."
         }
       },
       "theme": "cream",
       "fallback": "Ảnh số được biểu diễn bằng các giá trị số của điểm ảnh. Nhiệm vụ Bút/Cốc cần ảnh ví dụ đúng nhãn và phù hợp.",
-      "originalNumber": 7
+      "v6": true,
+      "screen": [
+        "Tìm cách ảnh được biểu diễn.",
+        "Nhắc lại dữ liệu cần cho Bút/Cốc."
+      ],
+      "phase": "Khám phá",
+      "scene": "video",
+      "taskLines": [
+        "Trong 25 giây, em ghi một ví dụ vào vở."
+      ],
+      "connector": "Giữ câu hỏi vừa đọc. Em tìm ví dụ trong phim.",
+      "number": 7
     },
     {
       "type": "concept",
-      "cards": [
-        [
-          "Hai nhóm ảnh",
-          "Trong công cụ, một “lớp” (Class) là một nhóm ảnh có cùng nhãn. Ta tạo hai nhóm: Bút và Cốc."
-        ],
-        [
-          "Ảnh phục vụ nhiệm vụ",
-          "Vật nhìn thấy được, nhãn đúng; thay đổi góc, ánh sáng và nền phù hợp."
-        ],
-        [
-          "Đừng để nền thay cho đồ vật",
-          "Cho cả hai loại vật xuất hiện ở các nền/điều kiện tương tự; tránh máy chỉ học khác biệt nền."
-        ]
-      ],
-      "visual": "flow",
       "id": "03-08",
-      "number": 8,
-      "title": "Chuẩn bị hai nhóm ảnh Bút/Cốc",
+      "title": "Chuẩn bị hai nhóm ảnh",
       "note": {
         "activity": "Khám phá 2.1 Chuẩn bị nhãn và dữ liệu",
         "purpose": "Lựa chọn dữ liệu đúng hai lớp và nêu tiêu chí ảnh.",
-        "teacher": "Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tổ chức ảnh vào đúng lớp, đề xuất cùng điều kiện nền cho hai lớp và thêm biến đổi có kiểm soát.",
         "report": "Nhóm giải thích một ảnh chọn và một ảnh loại.",
         "conclusion": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a; yêu cầu sửa ngay ảnh đặt sai nhãn.",
+        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a. Yêu cầu sửa ngay ảnh đặt sai nhãn.",
         "answers": [
           "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: Chuẩn bị hai nhóm ảnh Bút/Cốc",
-          "explanation": "Hai nhóm ảnh: Trong công cụ, một “lớp” (Class) là một nhóm ảnh có cùng nhãn. Ta tạo hai nhóm: Bút và Cốc.\nẢnh phục vụ nhiệm vụ: Vật nhìn thấy được, nhãn đúng; thay đổi góc, ánh sáng và nền phù hợp.\nĐừng để nền thay cho đồ vật: Cho cả hai loại vật xuất hiện ở các nền/điều kiện tương tự; tránh máy chỉ học khác biệt nền.",
-          "delivery": "Giải thích lần lượt các khối trên slide. Sau mỗi ý, hỏi “Em có thể lấy một ví dụ hoặc nêu căn cứ không?”. Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?",
-          "answer": "• Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-          "closing": "Thử ảnh mới để biết mô hình nhận ra sao, không chỉ nhìn ảnh đã dùng để học.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: P3.1 — Chuẩn bị bộ ảnh.",
-          "students": "Tổ chức ảnh vào đúng lớp, đề xuất cùng điều kiện nền cho hai lớp và thêm biến đổi có kiểm soát."
+          "opening": "Thầy/Cô nói: Từ ví dụ vừa có, em đặt tên cho điều đã thấy. Trong 30 giây, em chỉ một ý trên hình.",
+          "explanation": "Hai nhóm ảnh: Trong công cụ, một “lớp” (Class) là một nhóm ảnh có cùng nhãn. Em tạo hai nhóm: Bút và Cốc.\nẢnh phục vụ nhiệm vụ: Vật nhìn thấy được, nhãn đúng. Thay đổi góc, ánh sáng và nền phù hợp.\nĐừng để nền thay cho đồ vật: Cho cả hai loại vật xuất hiện ở các nền/điều kiện tương tự. Tránh máy chỉ học khác biệt nền.\nTrong giao diện, Class nghĩa là nhóm ảnh có chung nhãn, không phải lớp học. Nền không nên trở thành dấu hiệu duy nhất phân biệt hai vật.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em chỉ một ý trên hình.",
+          "answer": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu lên kế hoạch ảnh bằng một mẫu."
         }
       },
       "theme": "cream",
-      "diagram": [
-        [
-          "Ảnh Bút và Cốc",
-          "Đặt đúng nhóm."
-        ],
-        [
-          "Train Model",
-          "Công cụ học từ ảnh."
-        ],
-        [
-          "Preview",
-          "Thử ảnh mới, ghi kết quả."
-        ]
+      "v6": true,
+      "screen": [
+        "Một nhóm Bút, một nhóm Cốc.",
+        "Ảnh rõ vật, đúng nhãn.",
+        "Hai nhóm có điều kiện chụp tương tự."
       ],
-      "takeaway": "Thử ảnh mới để biết mô hình nhận ra sao, không chỉ nhìn ảnh đã dùng để học.",
-      "originalNumber": 8
+      "phase": "Khám phá",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 30 giây, em chỉ một ý trên hình."
+      ],
+      "connector": "Từ ví dụ vừa có, em đặt tên cho điều đã thấy.",
+      "number": 8
+    },
+    {
+      "id": "03-09-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Lên kế hoạch ảnh bằng một mẫu",
+      "theme": "cream",
+      "phase": "Khám phá",
+      "scene": "Pencil-ruler",
+      "worked": {
+        "title": "Lên kế hoạch ảnh bằng một mẫu",
+        "context": "Mẫu chụp ảnh bút chì và thước kẻ.",
+        "labels": [
+          "Hai nhóm ảnh",
+          "Số ảnh dự kiến",
+          "Góc chụp",
+          "Nền ảnh",
+          "Thông tin không chụp"
+        ],
+        "values": [
+          "Bút chì / Thước kẻ",
+          "Khoảng 20–30 ảnh mỗi nhóm",
+          "Chính diện và hơi nghiêng",
+          "Hai vật có nền tương tự",
+          "Mặt người và thông tin riêng"
+        ],
+        "why": [
+          "Tên nhóm nói rõ vật cần phân biệt.",
+          "Đổi góc giúp ảnh bớt giống hệt.",
+          "Số ảnh không bảo đảm AI luôn đúng."
+        ],
+        "question": "Em nên tránh chụp thêm thông tin nào?",
+        "scene": "Pencil-ruler"
+      },
+      "targetId": "03-09",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "Mặt người và thông tin riêng",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "Mặt người và thông tin riêng"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "Mẫu chụp ảnh bút chì và thước kẻ.\nTên nhóm nói rõ vật cần phân biệt.\nĐổi góc giúp ảnh bớt giống hệt.\nSố ảnh không bảo đảm AI luôn đúng.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "Mặt người và thông tin riêng",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 9
     },
     {
       "type": "worksheet",
       "worksheet": {
         "title": "P3.1 Kế hoạch dữ liệu ảnh",
-        "intro": "Dùng bút và cốc. Ghi số ảnh dự kiến rồi cập nhật số ảnh thực tế sau khi chụp.",
-        "headers": null,
-        "rows": null,
-        "questions": [],
+        "intro": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
         "answers": [
-          "Bốn yếu tố: ánh sáng, góc chụp, hình nền, độ nét. Loại/chụp lại ảnh không thấy đủ vật hoặc gán nhãn sai; không phải mọi ảnh khó đều phải bỏ nếu nó đại diện điều kiện thực tế và còn nhận biết được.",
-          "Cho cả hai lớp xuất hiện ở các nền/điều kiện phù hợp tương tự; giữ vật thể rõ. Số lượng ghi theo thực tế, 20–30 chỉ là gợi ý khởi điểm quản lí thời gian."
+          "Bốn yếu tố: ánh sáng, góc chụp, hình nền, độ nét. Loại/chụp lại ảnh không thấy đủ vật hoặc gán nhãn sai. Không phải mọi ảnh khó đều phải bỏ nếu nó đại diện điều kiện thực tế và còn nhận biết được.",
+          "Cho cả hai lớp xuất hiện ở các nền/điều kiện phù hợp tương tự. Giữ vật thể rõ. Số lượng ghi theo thực tế, 20–30 chỉ là gợi ý khởi điểm quản lí thời gian."
         ],
         "pages": [
           {
             "title": "Lập kế hoạch chụp ảnh",
-            "instruction": "Dùng bút và cốc. Ghi số ảnh dự kiến rồi cập nhật số ảnh thực tế sau khi chụp.",
+            "instruction": "Dự kiến số ảnh Bút/Cốc. Cập nhật số thật sau khi chụp.",
             "headers": [
               "Nhóm ảnh",
               "Số ảnh dự kiến",
@@ -345,12 +438,10 @@ window.AI6_LESSON={
                 "Bút",
                 {
                   "label": "Số ảnh bút dự kiến",
-                  "placeholder": "",
                   "key": "03-09-v3-0"
                 },
                 {
                   "label": "Số ảnh bút thực tế",
-                  "placeholder": "",
                   "key": "03-09-v3-1"
                 }
               ],
@@ -358,12 +449,10 @@ window.AI6_LESSON={
                 "Cốc",
                 {
                   "label": "Số ảnh cốc dự kiến",
-                  "placeholder": "",
                   "key": "03-09-v3-2"
                 },
                 {
                   "label": "Số ảnh cốc thực tế",
-                  "placeholder": "",
                   "key": "03-09-v3-3"
                 }
               ]
@@ -372,21 +461,18 @@ window.AI6_LESSON={
           },
           {
             "title": "Chọn điều kiện chụp",
-            "instruction": "Chỉ chụp đồ vật. Dùng các nền tương tự cho cả Bút và Cốc.",
+            "instruction": "Chọn góc, ánh sáng và nền tương tự cho cả hai loại vật.",
             "fields": [
               {
-                "label": "1. Nhóm sẽ thay đổi góc chụp và ánh sáng thế nào?",
-                "placeholder": "",
+                "label": "Em sẽ thay đổi góc chụp và ánh sáng thế nào?",
                 "key": "03-09-v3-4"
               },
               {
-                "label": "2. Ảnh nào cần chụp lại hoặc chuyển sang đúng nhóm? Vì sao?",
-                "placeholder": "",
+                "label": "Ảnh nào cần chụp lại hoặc chuyển sang đúng nhóm? Vì sao?",
                 "key": "03-09-v3-5"
               },
               {
-                "label": "3. Vì sao không nên chỉ chụp bút trên nền xanh và cốc trên nền đỏ?",
-                "placeholder": "",
+                "label": "Vì sao không nên chỉ chụp bút trên nền xanh và cốc trên nền đỏ?",
                 "key": "03-09-v3-6"
               }
             ]
@@ -395,363 +481,517 @@ window.AI6_LESSON={
       },
       "time": 5,
       "id": "03-09",
-      "number": 9,
-      "title": "P3.1 — Chuẩn bị bộ ảnh",
+      "title": "P3.1 — Lên kế hoạch chụp ảnh",
       "note": {
         "activity": "Khám phá 2.1 Chuẩn bị nhãn và dữ liệu",
         "purpose": "Hoàn thành chuẩn bị bộ ảnh theo các bước trên phiếu.",
-        "teacher": "Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tổ chức ảnh vào đúng lớp, đề xuất cùng điều kiện nền cho hai lớp và thêm biến đổi có kiểm soát.",
         "report": "Nhóm giải thích một ảnh chọn và một ảnh loại.",
         "conclusion": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a; yêu cầu sửa ngay ảnh đặt sai nhãn.",
+        "assessment": "Thầy/Cô xem từng mục đã điền. Em nêu căn cứ khi được hỏi. Chấp nhận cách diễn đạt đúng khác lời mẫu.",
         "answers": [
-          "Bốn yếu tố: ánh sáng, góc chụp, hình nền, độ nét. Loại/chụp lại ảnh không thấy đủ vật hoặc gán nhãn sai; không phải mọi ảnh khó đều phải bỏ nếu nó đại diện điều kiện thực tế và còn nhận biết được.",
-          "Cho cả hai lớp xuất hiện ở các nền/điều kiện phù hợp tương tự; giữ vật thể rõ. Số lượng ghi theo thực tế, 20–30 chỉ là gợi ý khởi điểm quản lí thời gian."
+          "Bốn yếu tố: ánh sáng, góc chụp, hình nền, độ nét. Loại/chụp lại ảnh không thấy đủ vật hoặc gán nhãn sai. Không phải mọi ảnh khó đều phải bỏ nếu nó đại diện điều kiện thực tế và còn nhận biết được.",
+          "Cho cả hai lớp xuất hiện ở các nền/điều kiện phù hợp tương tự. Giữ vật thể rõ. Số lượng ghi theo thực tế, 20–30 chỉ là gợi ý khởi điểm quản lí thời gian."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: P3.1 — Chuẩn bị bộ ảnh",
-          "explanation": "Lập kế hoạch chụp ảnh: Dùng bút và cốc. Ghi số ảnh dự kiến rồi cập nhật số ảnh thực tế sau khi chụp.\nChọn điều kiện chụp: Chỉ chụp đồ vật. Dùng các nền tương tự cho cả Bút và Cốc.",
-          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
-          "answer": "• Bốn yếu tố: ánh sáng, góc chụp, hình nền, độ nét. Loại/chụp lại ảnh không thấy đủ vật hoặc gán nhãn sai; không phải mọi ảnh khó đều phải bỏ nếu nó đại diện điều kiện thực tế và còn nhận biết được.\n• Cho cả hai lớp xuất hiện ở các nền/điều kiện phù hợp tương tự; giữ vật thể rõ. Số lượng ghi theo thực tế, 20–30 chỉ là gợi ý khởi điểm quản lí thời gian.",
-          "closing": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Dữ liệu sẵn sàng chưa?.",
-          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "answer": "Bốn yếu tố: ánh sáng, góc chụp, hình nền, độ nét. Loại/chụp lại ảnh không thấy đủ vật hoặc gán nhãn sai. Không phải mọi ảnh khó đều phải bỏ nếu nó đại diện điều kiện thực tế và còn nhận biết được.\nCho cả hai lớp xuất hiện ở các nền/điều kiện phù hợp tương tự. Giữ vật thể rõ. Số lượng ghi theo thực tế, 20–30 chỉ là gợi ý khởi điểm quản lí thời gian.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Em kiểm lại kế hoạch và nhãn trước khi đưa ảnh vào công cụ."
         }
       },
       "theme": "cream",
-      "originalNumber": 9
+      "v6": true,
+      "screen": [
+        "Dự kiến số ảnh mỗi nhóm.",
+        "Chọn góc, ánh sáng và nền.",
+        "Chỉ chụp đồ vật."
+      ],
+      "phase": "Khám phá",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 3 phút, em tự điền trên phiếu.",
+        "Trong 2 phút, em so kết quả với em ngồi cạnh."
+      ],
+      "sampleId": "03-09-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 10
     },
     {
       "type": "conclusion",
-      "text": "Đặt ảnh vào đúng nhóm, giữ vật rõ và chụp ở nhiều điều kiện phù hợp. Nhiều ảnh gần giống hệt nhau chưa chắc giúp mô hình nhận tốt ảnh khác.",
-      "task": "Nêu một ảnh nên giữ và một ảnh cần sửa hoặc chụp lại.",
-      "answer": "Quan sát việc tổ chức dữ liệu 1.3.TC1a; yêu cầu sửa ngay ảnh đặt sai nhãn.",
-      "cards": [
-        "Ảnh đúng nhãn và phù hợp nhiệm vụ.",
-        "Huấn luyện xong cần thử đầu vào mới."
-      ],
       "id": "03-10",
-      "number": 10,
-      "title": "Dữ liệu sẵn sàng chưa?",
+      "title": "Bộ ảnh đã sẵn sàng chưa?",
       "note": {
         "activity": "Khám phá 2.1 Chuẩn bị nhãn và dữ liệu",
         "purpose": "Lựa chọn dữ liệu đúng hai lớp và nêu tiêu chí ảnh.",
-        "teacher": "Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tổ chức ảnh vào đúng lớp, đề xuất cùng điều kiện nền cho hai lớp và thêm biến đổi có kiểm soát.",
         "report": "Nhóm giải thích một ảnh chọn và một ảnh loại.",
         "conclusion": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a; yêu cầu sửa ngay ảnh đặt sai nhãn.",
+        "assessment": "Quan sát việc tổ chức dữ liệu 1.3.TC1a. Yêu cầu sửa ngay ảnh đặt sai nhãn.",
         "answers": [
           "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Đặt ảnh vào đúng nhóm, giữ vật rõ và chụp ở nhiều điều kiện phù hợp. Nhiều ảnh gần giống hệt nhau chưa chắc giúp mô hình nhận tốt ảnh khác.",
+          "opening": "Thầy/Cô nói: Em so kết quả để rút ra điều có căn cứ. Trong 30 giây, em nêu một căn cứ tại chỗ.",
           "explanation": "Đặt ảnh vào đúng nhóm, giữ vật rõ và chụp ở nhiều điều kiện phù hợp. Nhiều ảnh gần giống hệt nhau chưa chắc giúp mô hình nhận tốt ảnh khác.",
-          "delivery": "Cho HS quan sát thao tác mẫu tối đa 1 phút trong phần tổ chức; giao phân loại ảnh. Hỏi Cả hai lớp đều chụp trên nền khác nhau thì máy có thể học nhầm nền không?\nNhóm giải thích một ảnh chọn và một ảnh loại.",
-          "answer": "• Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
-          "closing": "Đặt ảnh vào đúng nhóm, giữ vật rõ và chụp ở nhiều điều kiện phù hợp. Nhiều ảnh gần giống hệt nhau chưa chắc giúp mô hình nhận tốt ảnh khác.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: KHÁM PHÁ 2: HUẤN LUYỆN VÀ CHẠY THỬ MÔ HÌNH.",
-          "students": "Nêu một ảnh nên giữ và một ảnh cần sửa hoặc chụp lại."
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em nêu một căn cứ tại chỗ.",
+          "answer": "Gán nhãn đúng, ảnh đủ rõ và đa dạng quan trọng hơn chỉ tăng số lượng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Khi bộ ảnh đạt yêu cầu, em bắt đầu tạo mô hình bằng công cụ."
         }
       },
       "theme": "cream",
-      "originalNumber": 10
+      "v6": true,
+      "screen": [
+        "Đúng vật và đúng nhãn?",
+        "Vật có nhìn rõ không?",
+        "Có ảnh ở nhiều điều kiện phù hợp?"
+      ],
+      "phase": "Khám phá",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 30 giây, em nêu một căn cứ tại chỗ."
+      ],
+      "connector": "Em so kết quả để rút ra điều có căn cứ.",
+      "number": 11
     },
     {
       "type": "divider",
       "id": "03-11",
-      "number": 11,
-      "title": "KHÁM PHÁ 2: HUẤN LUYỆN VÀ CHẠY THỬ MÔ HÌNH",
+      "title": "Thực hành: tạo và thử mô hình",
       "note": {
         "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
         "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
-        "teacher": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
         "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
         "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "assessment": "Thầy/Cô quan sát thao tác thật và thu P3.2. Nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
         "answers": [],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang khám phá 2: huấn luyện và chạy thử mô hình.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Em đã xem ví dụ. Giờ em thử theo từng bước. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Sản phẩm cần hoàn thành.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu ba bước dạy ai qua hình ảnh."
         }
       },
       "theme": "blue",
-      "originalNumber": 11
+      "v6": true,
+      "screen": [],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Em đã xem ví dụ. Giờ em thử theo từng bước.",
+      "number": 12
+    },
+    {
+      "id": "03-12-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Ba bước dạy AI qua hình ảnh",
+      "theme": "cream",
+      "phase": "Luyện tập / Thực hành",
+      "scene": "Pencil-ruler",
+      "worked": {
+        "title": "Ba bước dạy AI qua hình ảnh",
+        "context": "Mẫu: Bút chì/Thước kẻ. Bài em: Bút/Cốc.",
+        "labels": [
+          "1. Tạo hai nhóm",
+          "2. Thêm ảnh mẫu",
+          "3. Dạy AI",
+          "Ảnh mới để thử",
+          "Căn cứ kiểm"
+        ],
+        "values": [
+          "Đặt tên Bút chì và Thước kẻ",
+          "Đưa ảnh vào đúng tên nhóm",
+          "Chọn Train Model và chờ",
+          "Giữ riêng ảnh chưa dùng dạy AI",
+          "So tên AI với đồ vật thật"
+        ],
+        "why": [
+          "Ghi tên trước giúp tránh bỏ nhầm ảnh.",
+          "Train Model bắt đầu quá trình máy học.",
+          "Ảnh mới giúp em kiểm cách AI đoán."
+        ],
+        "question": "Em dùng điều gì để kiểm tên AI?",
+        "scene": "Pencil-ruler"
+      },
+      "targetId": "03-12",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "So tên AI với đồ vật thật",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "So tên AI với đồ vật thật"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "Mẫu: Bút chì/Thước kẻ. Bài em: Bút/Cốc.\nGhi tên trước giúp tránh bỏ nhầm ảnh.\nTrain Model bắt đầu quá trình máy học.\nẢnh mới giúp em kiểm cách AI đoán.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "So tên AI với đồ vật thật",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 13
     },
     {
       "type": "task",
-      "text": "Tạo dự án Bút/Cốc. Có thể bắt đầu với khoảng 20–30 ảnh mỗi nhóm, rồi thử bằng hai ảnh mới.",
-      "product": "Dự án hai nhóm ảnh, số ảnh thực tế và bảng ghi hai lần thử. Số ảnh gợi ý không bảo đảm kết quả sẽ đúng.",
-      "roles": [
-        "Thao tác",
-        "Đọc nhiệm vụ",
-        "Ghi kết quả",
-        "Đối chiếu"
-      ],
-      "visual": "flow",
       "id": "03-12",
-      "number": 12,
-      "title": "Sản phẩm cần hoàn thành",
+      "title": "Tạo mô hình Bút/Cốc",
       "note": {
         "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
         "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
-        "teacher": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
         "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
         "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "assessment": "Thầy/Cô quan sát thao tác thật và thu P3.2. Nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
         "answers": [
-          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng."
+          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Tạo dự án Bút/Cốc. Có thể bắt đầu với khoảng 20–30 ảnh mỗi nhóm, rồi thử bằng hai ảnh mới.",
-          "explanation": "Tạo dự án Bút/Cốc. Có thể bắt đầu với khoảng 20–30 ảnh mỗi nhóm, rồi thử bằng hai ảnh mới.\n\nDự án hai nhóm ảnh, số ảnh thực tế và bảng ghi hai lần thử. Số ảnh gợi ý không bảo đảm kết quả sẽ đúng.",
-          "delivery": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.\nPhân vai: Thao tác, Đọc nhiệm vụ, Ghi kết quả, Đối chiếu. Ghi đúng kết quả thực hiện và điều kiện của nhóm.",
-          "answer": "• Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "closing": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Mở dự án nhận dạng ảnh.",
-          "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 11 phút, em tạo và thử AI Bút/Cốc trên máy.",
+          "explanation": "Tạo dự án Bút/Cốc. Có thể bắt đầu với khoảng 20–30 ảnh mỗi nhóm, rồi thử bằng hai ảnh mới.\n20–30 ảnh mỗi nhóm chỉ là điểm bắt đầu thực hành, không phải số lượng bảo đảm chất lượng. Điều kiện và nhãn ảnh vẫn cần kiểm.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 11 phút, em tạo và thử AI Bút/Cốc trên máy.",
+          "answer": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Bước đầu là mở đúng loại dự án nhận dạng ảnh."
         }
       },
       "theme": "cream",
-      "diagram": [
-        [
-          "Ảnh Bút và Cốc",
-          "Đặt đúng nhóm."
-        ],
-        [
-          "Train Model",
-          "Công cụ học từ ảnh."
-        ],
-        [
-          "Preview",
-          "Thử ảnh mới, ghi kết quả."
-        ]
+      "v6": true,
+      "screen": [
+        "Thêm ảnh vào hai nhóm.",
+        "Dạy AI và thử hai ảnh mới.",
+        "Ghi kết quả, lưu dự án."
       ],
-      "originalNumber": 12
+      "phase": "Luyện tập / Thực hành",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 11 phút, em tạo và thử AI Bút/Cốc trên máy."
+      ],
+      "sampleId": "03-12-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 14
     },
     {
       "type": "step",
-      "heading": "Mở dự án nhận dạng ảnh",
-      "text": "Teachable Machine → Get Started → Image Project.",
-      "steps": [
-        "Chọn mô hình ảnh tiêu chuẩn nếu có lựa chọn.",
-        "Chỉ cấp camera khi được GV hướng dẫn; có thể dùng bộ ảnh tải lên."
-      ],
-      "visual": "tm",
       "step": 1,
       "time": 0,
       "id": "03-13",
-      "number": 13,
-      "title": "Mở dự án nhận dạng ảnh",
+      "title": "Bước 1 — Mở dự án ảnh",
       "note": {
         "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
         "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
-        "teacher": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
         "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
         "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "assessment": "Thầy/Cô quan sát thao tác thật và thu P3.2. Nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
         "answers": [
-          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng."
+          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Teachable Machine → Get Started → Image Project.",
-          "explanation": "Chọn mô hình ảnh tiêu chuẩn nếu có lựa chọn.\nChỉ cấp camera khi được GV hướng dẫn; có thể dùng bộ ảnh tải lên.",
-          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nChọn mô hình ảnh tiêu chuẩn nếu có lựa chọn.\nChỉ cấp camera khi được GV hướng dẫn; có thể dùng bộ ảnh tải lên.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
-          "answer": "• Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "closing": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Đặt tên nhóm ảnh và thêm ảnh.",
-          "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác."
+          "opening": "Thầy/Cô nói: Có ảnh mẫu rồi, em mở đúng dự án ảnh. Trong 1 phút, em làm bước này trên máy.",
+          "explanation": "Teachable Machine → Get Started → Image Project.\nChọn mô hình ảnh tiêu chuẩn nếu có lựa chọn.\nChỉ cấp camera khi được Thầy/Cô hướng dẫn. Có thể dùng bộ ảnh tải lên.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 1 phút, em làm bước này trên máy.",
+          "answer": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Đã có dự án ảnh, em đặt tên hai nhóm trước khi thêm dữ liệu."
         }
       },
       "theme": "cream",
       "highlight": 1,
-      "originalNumber": 13
+      "v6": true,
+      "screen": [
+        "Mở Teachable Machine.",
+        "Chọn Image Project.",
+        "Chọn mô hình ảnh tiêu chuẩn nếu có."
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "tm",
+      "taskLines": [
+        "Trong 1 phút, em làm bước này trên máy."
+      ],
+      "connector": "Có ảnh mẫu rồi, em mở đúng dự án ảnh.",
+      "number": 15
     },
     {
       "type": "step",
-      "heading": "Đặt nhãn và thêm ảnh",
-      "text": "Hai nhóm ảnh (Class): Bút và Cốc.",
-      "steps": [
-        "Đổi Class 1 và Class 2 thành Bút và Cốc. Đưa ảnh vào đúng nhóm.",
-        "Dùng nhiều góc chụp; dùng các nền tương tự cho cả hai loại vật."
-      ],
-      "visual": "tm",
       "step": 2,
       "time": 0,
       "id": "03-14",
-      "number": 14,
-      "title": "Đặt tên nhóm ảnh và thêm ảnh",
+      "title": "Bước 2 — Thêm ảnh đúng nhóm",
       "note": {
         "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
         "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
-        "teacher": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
         "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
         "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "assessment": "Thầy/Cô quan sát thao tác thật và thu P3.2. Nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
         "answers": [
-          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng."
+          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Hai nhóm ảnh (Class): Bút và Cốc.",
-          "explanation": "Đổi Class 1 và Class 2 thành Bút và Cốc. Đưa ảnh vào đúng nhóm.\nDùng nhiều góc chụp; dùng các nền tương tự cho cả hai loại vật.",
-          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nĐổi Class 1 và Class 2 thành Bút và Cốc. Đưa ảnh vào đúng nhóm.\nDùng nhiều góc chụp; dùng các nền tương tự cho cả hai loại vật.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
-          "answer": "• Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "closing": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Kiểm dữ liệu rồi huấn luyện.",
-          "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác."
+          "opening": "Thầy/Cô nói: Dự án đã mở. Em đặt tên rồi thêm ảnh. Trong 1 phút, em làm bước này trên máy.",
+          "explanation": "Hai nhóm ảnh (Class): Bút và Cốc.\nĐổi Class 1 và Class 2 thành Bút và Cốc. Đưa ảnh vào đúng nhóm.\nDùng nhiều góc chụp. Dùng các nền tương tự cho cả hai loại vật.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 1 phút, em làm bước này trên máy.",
+          "answer": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Dừng lại kiểm ảnh và nhãn một lần nữa trước khi bấm dạy AI."
         }
       },
       "theme": "cream",
       "highlight": 2,
-      "originalNumber": 14
+      "v6": true,
+      "screen": [
+        "Đổi Class 1 thành Bút.",
+        "Đổi Class 2 thành Cốc.",
+        "Thêm ảnh vào đúng nhóm."
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "tm",
+      "taskLines": [
+        "Trong 1 phút, em làm bước này trên máy."
+      ],
+      "connector": "Dự án đã mở. Em đặt tên rồi thêm ảnh.",
+      "number": 16
     },
     {
       "type": "step",
-      "heading": "Kiểm dữ liệu rồi huấn luyện",
-      "text": "Chọn Train Model sau khi kiểm tra.",
-      "steps": [
-        "Loại/chụp lại ảnh không thấy đủ vật hoặc sai nhãn.",
-        "Giữ trang hoạt động và chờ huấn luyện hoàn tất."
-      ],
-      "visual": "tm",
       "step": 3,
       "time": 0,
       "id": "03-15",
-      "number": 15,
-      "title": "Kiểm dữ liệu rồi huấn luyện",
+      "title": "Bước 3 — Kiểm rồi dạy AI",
       "note": {
         "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
         "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
-        "teacher": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
         "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
         "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "assessment": "Thầy/Cô quan sát thao tác thật và thu P3.2. Nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
         "answers": [
-          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng."
+          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Chọn Train Model sau khi kiểm tra.",
-          "explanation": "Loại/chụp lại ảnh không thấy đủ vật hoặc sai nhãn.\nGiữ trang hoạt động và chờ huấn luyện hoàn tất.",
-          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nLoại/chụp lại ảnh không thấy đủ vật hoặc sai nhãn.\nGiữ trang hoạt động và chờ huấn luyện hoàn tất.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
-          "answer": "• Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "closing": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Thử ảnh mới và lưu dự án.",
-          "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác."
+          "opening": "Thầy/Cô nói: Ảnh đã đủ. Em kiểm trước khi dạy AI. Trong 1 phút, em làm bước này trên máy.",
+          "explanation": "Chọn Train Model sau khi kiểm tra.\nLoại/chụp lại ảnh không thấy đủ vật hoặc sai nhãn.\nGiữ trang hoạt động và chờ dạy AI hoàn tất.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 1 phút, em làm bước này trên máy.",
+          "answer": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Dạy AI xong chưa chứng minh nhận đúng. Em phải thử ảnh chưa dùng để học."
         }
       },
       "theme": "cream",
       "highlight": 3,
-      "originalNumber": 15
+      "v6": true,
+      "screen": [
+        "Sửa ảnh sai nhãn.",
+        "Bỏ hoặc chụp lại ảnh không rõ vật.",
+        "Bấm Train Model và chờ."
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "tm",
+      "taskLines": [
+        "Trong 1 phút, em làm bước này trên máy."
+      ],
+      "connector": "Ảnh đã đủ. Em kiểm trước khi dạy AI.",
+      "number": 17
     },
     {
       "type": "step",
-      "heading": "Thử đầu vào mới",
-      "text": "Trong Preview, thử một ảnh mới của mỗi nhóm.",
-      "steps": [
-        "Ghi dự đoán cho một ảnh Bút và một ảnh Cốc chưa dùng để học.",
-        "Mở menu góc trái → Download project as file; lưu bằng mã nhóm.",
-        "Tiết sau: Open project from file, chọn tệp đã lưu và huấn luyện lại khi cần. Giữ riêng bộ ảnh Bút/Cốc."
-      ],
-      "visual": "tm",
       "step": 4,
       "time": 0,
       "id": "03-16",
-      "number": 16,
-      "title": "Thử ảnh mới và lưu dự án",
+      "title": "Bước 4 — Thử mới và lưu",
       "note": {
         "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
         "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
-        "teacher": "Menu lưu/mở tệp đã kiểm trên giao diện Teachable Machine ngày 17/11/2026. Download project as file lưu dự án để tiếp tục; Export Model là xuất mô hình cho mục đích sử dụng khác. Không cần đăng nhập Drive. GV thử mở tệp trước tiết 4; nếu có lỗi, dùng lại bộ ảnh có nhãn để tạo và huấn luyện lại.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
         "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
         "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "assessment": "Thầy/Cô quan sát thao tác thật và thu P3.2. Nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
         "answers": [
-          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng."
+          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Trong Preview, thử một ảnh mới của mỗi nhóm.",
-          "explanation": "Ghi dự đoán cho một ảnh Bút và một ảnh Cốc chưa dùng để học.\nMở menu góc trái → Download project as file; lưu bằng mã nhóm.\nTiết sau: Open project from file, chọn tệp đã lưu và huấn luyện lại khi cần. Giữ riêng bộ ảnh Bút/Cốc.",
-          "delivery": "Làm mẫu đúng bước đang chiếu, sau đó để HS thực hiện.\nThử một ảnh bút và một ảnh cốc chưa đưa vào huấn luyện; ghi tên mô hình đưa ra.\nLưu dự án theo hướng dẫn GV hoặc giữ bộ ảnh đã gắn nhãn để tạo lại.\nHỏi HS vừa làm gì và dựa vào đâu để kiểm tra.",
-          "answer": "• Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "closing": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: P3.2 — Nhật kí chạy thử.",
-          "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác."
+          "opening": "Thầy/Cô nói: AI học xong. Em thử ảnh mới rồi lưu. Trong 1 phút, em làm bước này trên máy.",
+          "explanation": "Trong Preview, thử một ảnh mới của mỗi nhóm.\nGhi dự đoán cho một ảnh Bút và một ảnh Cốc chưa dùng để học.\nMở menu góc trái → Download project as file. Lưu bằng mã nhóm.\nTiết sau: Open project from file, chọn tệp đã lưu và dạy AI lại khi cần. Giữ riêng bộ ảnh Bút/Cốc.\nMenu lưu dự án đã được đối chiếu ở V4: Download project as file. Mở lại bằng Open project from file. Thầy/Cô thử trước trên phiên bản đang dùng. Phân biệt với Export Model. Không có sẵn kết quả dạy AI cho các em chép.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 1 phút, em làm bước này trên máy.",
+          "answer": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu ghi mẫu hai lượt thử."
         }
       },
       "theme": "cream",
       "highlight": 4,
-      "originalNumber": 16
+      "v6": true,
+      "screen": [
+        "Thử một ảnh Bút, một ảnh Cốc mới.",
+        "So dự đoán với vật thật.",
+        "Lưu dự án và giữ bộ ảnh."
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "tm",
+      "taskLines": [
+        "Trong 1 phút, em làm bước này trên máy."
+      ],
+      "connector": "AI học xong. Em thử ảnh mới rồi lưu.",
+      "number": 18
+    },
+    {
+      "id": "03-17-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Ghi mẫu hai lượt thử",
+      "theme": "cream",
+      "phase": "Luyện tập / Thực hành",
+      "scene": "Test",
+      "worked": {
+        "title": "Ghi mẫu hai lượt thử",
+        "context": "Kết quả minh họa. Không phải AI vừa chạy.",
+        "labels": [
+          "Lượt 1: đưa vào",
+          "Lượt 1: đối chiếu",
+          "Lượt 2: đưa vào",
+          "Lượt 2: đối chiếu",
+          "Kết luận vừa đủ"
+        ],
+        "values": [
+          "Ảnh bút chì đặt thẳng",
+          "AI gọi Bút chì. Vật thật là bút chì",
+          "Ảnh chiếc thìa ngoài hai nhóm",
+          "AI gọi Thước kẻ. Vật thật là thìa",
+          "AI đúng lượt 1, nhầm lượt 2"
+        ],
+        "why": [
+          "Ghi cả tên AI và tên vật thật.",
+          "Vật lạ có thể vẫn nhận một tên.",
+          "Hai lượt chưa chứng minh đúng mọi vật."
+        ],
+        "question": "Từ hai lượt, em kết luận thế nào?",
+        "scene": "Test"
+      },
+      "targetId": "03-17",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "AI đúng lượt 1, nhầm lượt 2",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "AI đúng lượt 1, nhầm lượt 2"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "Kết quả minh họa. Không phải AI vừa chạy.\nGhi cả tên AI và tên vật thật.\nVật lạ có thể vẫn nhận một tên.\nHai lượt chưa chứng minh đúng mọi vật.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "AI đúng lượt 1, nhầm lượt 2",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 19
     },
     {
       "type": "worksheet",
       "worksheet": {
-        "title": "P3.2 Quy trình và nhật kí mô hình",
-        "intro": "Thực hiện các bước ở slide 13–16, sau đó ghi lại.",
-        "headers": null,
-        "rows": null,
-        "questions": [],
+        "title": "P3.2 Quy trình và bảng ghi mô hình",
+        "intro": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
         "answers": [
-          "Sản phẩm đạt khi có hai lớp, ảnh được gán nhãn, hoàn thành huấn luyện và ghi hai lượt thử mới. Có thể dự đoán sai; không dựng kết quả.",
-          "GV ghi bước từng HS đã tham gia điều khiển. Nếu chỉ có máy GV, HS có thể chỉ định thao tác/đầu vào và luân phiên đại diện thực hiện; cần bổ sung lượt trực tiếp cho em chưa có minh chứng."
+          "Sản phẩm đạt khi có hai lớp, ảnh được gán nhãn, hoàn thành dạy AI và ghi hai lượt thử mới. Có thể dự đoán sai. Không dựng kết quả.",
+          "Thầy/Cô ghi bước từng các em đã tham gia điều khiển. Nếu chỉ có máy Thầy/Cô, các em có thể chỉ định thao tác/đầu vào và luân phiên đại diện thực hiện. Cần bổ sung lượt trực tiếp cho em chưa có minh chứng."
         ],
         "pages": [
           {
             "title": "Kiểm tra trước khi chạy thử",
-            "instruction": "Làm theo bốn bước hướng dẫn mở dự án, thêm ảnh, huấn luyện và thử mới. Ghi đúng điều nhóm đã thực hiện.",
+            "instruction": "Chỉ ghi các bước đã làm. Nêu đúng hình thức tự làm hoặc quan sát.",
             "fields": [
               {
-                "label": "1. Hai nhóm ảnh đã đặt tên là gì?",
-                "placeholder": "",
+                "label": "Hai nhóm ảnh đã đặt tên là gì?",
                 "key": "03-17-v3-0"
               },
               {
-                "label": "2. Mỗi nhóm có bao nhiêu ảnh?",
-                "placeholder": "",
+                "label": "Mỗi nhóm có bao nhiêu ảnh?",
                 "key": "03-17-v3-1"
               },
               {
-                "label": "3. Huấn luyện đã hoàn tất chưa?",
-                "placeholder": "",
+                "label": "Dạy AI đã hoàn tất chưa?",
                 "options": [
                   "Đã hoàn tất",
                   "Chưa hoàn tất"
                 ],
-                "key": "03-17-v3-2"
+                "key": "03-17-v3-2",
+                "optionLabels": [
+                  "Đã hoàn tất",
+                  "Chưa hoàn tất"
+                ]
               }
             ],
             "reference": "Image Project → đặt tên Bút/Cốc → thêm ảnh → Train Model → Preview."
           },
           {
             "title": "Ghi hai lần thử với ảnh mới",
-            "instruction": "Dùng một ảnh bút và một ảnh cốc chưa đưa vào huấn luyện. So tên công cụ đưa ra với đồ vật thật.",
+            "instruction": "Thử hai ảnh chưa dùng để học. Ghi dự đoán và tên vật thật.",
             "headers": [
               "Vật thật / điều kiện thử",
               "Mô hình gọi tên gì?",
@@ -762,12 +1002,10 @@ window.AI6_LESSON={
                 "Bút: ảnh mới",
                 {
                   "label": "Dự đoán cho bút",
-                  "placeholder": "",
                   "key": "03-17-v3-3"
                 },
                 {
                   "label": "Nhận xét dự đoán bút",
-                  "placeholder": "",
                   "key": "03-17-v3-4"
                 }
               ],
@@ -775,34 +1013,29 @@ window.AI6_LESSON={
                 "Cốc: ảnh mới",
                 {
                   "label": "Dự đoán cho cốc",
-                  "placeholder": "",
                   "key": "03-17-v3-5"
                 },
                 {
                   "label": "Nhận xét dự đoán cốc",
-                  "placeholder": "",
                   "key": "03-17-v3-6"
                 }
               ]
             ]
           },
           {
-            "title": "Lưu công việc của nhóm",
-            "instruction": "Ghi để tiết sau có thể mở lại hoặc tạo lại dự án.",
+            "title": "Lưu công việc của em",
+            "instruction": "Ghi nơi lưu tệp và ảnh học để tiết sau mở hoặc tạo lại.",
             "fields": [
               {
-                "label": "1. Nhóm đã lưu dự án hoặc bộ ảnh ở đâu?",
-                "placeholder": "",
+                "label": "Em đã lưu dự án hoặc bộ ảnh ở đâu?",
                 "key": "03-17-v3-7"
               },
               {
-                "label": "2. Mỗi bạn đã trực tiếp làm bước nào?",
-                "placeholder": "",
+                "label": "Mỗi em đã trực tiếp làm bước nào?",
                 "key": "03-17-v3-8"
               },
               {
-                "label": "3. Nếu chưa chạy được, nhóm đang vướng ở bước nào?",
-                "placeholder": "",
+                "label": "Nếu chưa chạy được, em vướng bước nào?",
                 "key": "03-17-v3-9"
               }
             ],
@@ -812,166 +1045,211 @@ window.AI6_LESSON={
       },
       "time": 16,
       "id": "03-17",
-      "number": 17,
-      "title": "P3.2 — Nhật kí chạy thử",
+      "title": "P3.2 — bảng ghi thử mô hình",
       "note": {
         "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
         "purpose": "Hoàn thành nhật kí chạy thử theo các bước trên phiếu.",
-        "teacher": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
         "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
         "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "assessment": "Thầy/Cô xem từng mục đã điền. Em nêu căn cứ khi được hỏi. Chấp nhận cách diễn đạt đúng khác lời mẫu.",
         "answers": [
-          "Sản phẩm đạt khi có hai lớp, ảnh được gán nhãn, hoàn thành huấn luyện và ghi hai lượt thử mới. Có thể dự đoán sai; không dựng kết quả.",
-          "GV ghi bước từng HS đã tham gia điều khiển. Nếu chỉ có máy GV, HS có thể chỉ định thao tác/đầu vào và luân phiên đại diện thực hiện; cần bổ sung lượt trực tiếp cho em chưa có minh chứng."
+          "Sản phẩm đạt khi có hai lớp, ảnh được gán nhãn, hoàn thành dạy AI và ghi hai lượt thử mới. Có thể dự đoán sai. Không dựng kết quả.",
+          "Thầy/Cô ghi bước từng các em đã tham gia điều khiển. Nếu chỉ có máy Thầy/Cô, các em có thể chỉ định thao tác/đầu vào và luân phiên đại diện thực hiện. Cần bổ sung lượt trực tiếp cho em chưa có minh chứng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: P3.2 — Nhật kí chạy thử",
-          "explanation": "Kiểm tra trước khi chạy thử: Làm theo bốn bước hướng dẫn mở dự án, thêm ảnh, huấn luyện và thử mới. Ghi đúng điều nhóm đã thực hiện.\nGhi hai lần thử với ảnh mới: Dùng một ảnh bút và một ảnh cốc chưa đưa vào huấn luyện. So tên công cụ đưa ra với đồ vật thật.\nLưu công việc của nhóm: Ghi để tiết sau có thể mở lại hoặc tạo lại dự án.",
-          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
-          "answer": "• Sản phẩm đạt khi có hai lớp, ảnh được gán nhãn, hoàn thành huấn luyện và ghi hai lượt thử mới. Có thể dự đoán sai; không dựng kết quả.\n• GV ghi bước từng HS đã tham gia điều khiển. Nếu chỉ có máy GV, HS có thể chỉ định thao tác/đầu vào và luân phiên đại diện thực hiện; cần bổ sung lượt trực tiếp cho em chưa có minh chứng.",
-          "closing": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Mô hình đã làm được gì?.",
-          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "answer": "Sản phẩm đạt khi có hai lớp, ảnh được gán nhãn, hoàn thành dạy AI và ghi hai lượt thử mới. Có thể dự đoán sai. Không dựng kết quả.\nThầy/Cô ghi bước từng các em đã tham gia điều khiển. Nếu chỉ có máy Thầy/Cô, các em có thể chỉ định thao tác/đầu vào và luân phiên đại diện thực hiện. Cần bổ sung lượt trực tiếp cho em chưa có minh chứng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Dùng một hàng đã ghi để giải thích mô hình làm được gì và chưa chứng minh được gì."
         }
       },
       "theme": "cream",
-      "originalNumber": 17
+      "v6": true,
+      "screen": [
+        "Đã làm bước nào?",
+        "Hai ảnh mới cho kết quả gì?",
+        "Dự án được lưu ở đâu?"
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 3 phút, em tự điền trên phiếu.",
+        "Trong 2 phút, em so kết quả với em ngồi cạnh."
+      ],
+      "sampleId": "03-17-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 20
     },
     {
       "type": "report",
-      "text": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.",
-      "task": "Tạo dự án ảnh; đặt nhãn; chụp hoặc thêm ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
-      "answer": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-      "product": "Dự án hai nhóm ảnh, số ảnh thực tế và bảng ghi hai lần thử. Số ảnh gợi ý không bảo đảm kết quả sẽ đúng.",
       "id": "03-18",
-      "number": 18,
-      "title": "Mô hình đã làm được gì?",
+      "title": "Báo cáo từ lần thử thật",
       "note": {
         "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
         "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
-        "teacher": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
         "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
         "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "assessment": "Thầy/Cô quan sát thao tác thật và thu P3.2. Nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
         "answers": [
-          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng."
+          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.",
-          "explanation": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.\n\nDự án hai nhóm ảnh, số ảnh thực tế và bảng ghi hai lần thử. Số ảnh gợi ý không bảo đảm kết quả sẽ đúng.",
-          "delivery": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.\nMột nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
-          "answer": "• Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "closing": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Kiến thức cần nhớ.",
-          "students": "Tạo dự án ảnh; đặt nhãn; chụp hoặc thêm ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác."
+          "opening": "Thầy/Cô nói: Em đã có bảng ghi. Em dùng bảng để giải thích kết quả. Trong 30 giây, em kể một kết quả tại chỗ.",
+          "explanation": "Dùng bảng ghi của nhóm để trả lời ba câu hỏi. Nhóm khác nêu một điểm cần hỏi thêm.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em kể một kết quả tại chỗ.",
+          "answer": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Bảng ghi đã có hai ảnh mới. Em dùng sự khác nhau giữa ảnh học và ảnh thử để đọc các tình huống tiếp theo."
         }
       },
       "theme": "cream",
-      "reportQuestions": [
-        "Nhóm chuẩn bị ảnh và huấn luyện thế nào?",
-        "Hai ảnh mới cho kết quả gì?",
-        "Còn điều gì nhóm muốn thử thêm?"
+      "v6": true,
+      "screen": [
+        "Đã thử ảnh nào?",
+        "Mô hình dự đoán gì?",
+        "Em đối chiếu bằng gì?"
       ],
-      "originalNumber": 18
-    },
-    {
-      "type": "recap",
-      "items": [
-        "Đưa ảnh vào đúng nhóm và chụp rõ đồ vật.",
-        "Sau huấn luyện, thử bằng ảnh chưa dùng để học.",
-        "Phần trăm ở một dự đoán không phải độ chính xác trên mọi ảnh."
+      "phase": "Luyện tập / Thực hành",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 30 giây, em kể một kết quả tại chỗ."
       ],
-      "id": "03-19",
-      "number": 19,
-      "title": "Kiến thức cần nhớ",
-      "note": {
-        "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
-        "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
-        "teacher": "Mở sẵn công cụ; giao từng nhóm làm theo sáu bước P3.2 và nhắc không chụp khuôn mặt. Kiểm tra tiến độ sau thu ảnh; nhóm xong sớm đổi góc đầu vào, nhóm chậm dùng ảnh dự phòng. Hỗ trợ khi quyền webcam bị chặn.",
-        "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
-        "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
-        "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-        "assessment": "GV quan sát thao tác thật và thu P3.2; nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
-        "answers": [
-          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng."
-        ],
-        "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
-        "script": {
-          "opening": "Mỗi em chọn một ý và giải thích bằng việc vừa làm.",
-          "explanation": "Đưa ảnh vào đúng nhóm và chụp rõ đồ vật.\nSau huấn luyện, thử bằng ảnh chưa dùng để học.\nPhần trăm ở một dự đoán không phải độ chính xác trên mọi ảnh.",
-          "delivery": "Mời ba HS, mỗi em diễn đạt lại một ý. Yêu cầu nối với ví dụ hoặc minh chứng trong tiết học; chỉnh ngắn gọn nếu HS khái quát quá mức.",
-          "answer": "• Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
-          "closing": "Mời một HS giải thích một ý bằng ví dụ của chính nhóm.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: LUYỆN TẬP.",
-          "students": "Nói lại một ý bằng lời riêng và lấy ví dụ vừa thực hiện."
-        }
-      },
-      "theme": "cream",
-      "originalNumber": 19
+      "connector": "Em đã có bảng ghi. Em dùng bảng để giải thích kết quả.",
+      "number": 21
     },
     {
       "type": "divider",
       "id": "03-20",
-      "number": 20,
-      "title": "LUYỆN TẬP",
+      "title": "Luyện tập: đọc kết quả",
       "note": {
         "activity": "Luyện tập cá nhân",
         "purpose": "Nhận biết sai nhãn và đọc đúng kết quả công cụ.",
-        "teacher": "Yêu cầu nêu hành động sửa ở mỗi tình huống. Chỉ lại vị trí nhãn và bảng dự đoán nếu cần.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Trả lời trước khi thảo luận đáp án.",
         "report": "HS giải thích vì sao không đọc 98% thành 98 lần đúng trong mọi trường hợp.",
         "conclusion": "Số hiển thị gắn một lần dự đoán; muốn đánh giá cần thử nhiều mẫu phù hợp và ghi đúng/sai.",
-        "assessment": "Đạt khi xử lí đúng ít nhất 2/3 tình huống; hỏi lại riêng cách dùng ảnh mới.",
+        "assessment": "Đạt khi xử lí đúng ít nhất 2/3 tình huống. Hỏi lại riêng cách dùng ảnh mới.",
         "answers": [],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang luyện tập.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Em dùng kết quả vừa có để tự kiểm cách hiểu. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Số hiển thị gắn một lần dự đoán; muốn đánh giá cần thử nhiều mẫu phù hợp và ghi đúng/sai.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: P3.3A — Đọc và kiểm tra kết quả.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu mẫu đọc một điểm dự đoán."
         }
       },
       "theme": "blue",
-      "originalNumber": 20
+      "v6": true,
+      "screen": [],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Em dùng kết quả vừa có để tự kiểm cách hiểu.",
+      "number": 22
+    },
+    {
+      "id": "03-21-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Mẫu đọc một điểm dự đoán",
+      "theme": "cream",
+      "phase": "Luyện tập / Thực hành",
+      "scene": "Test",
+      "worked": {
+        "title": "Mẫu đọc một điểm dự đoán",
+        "context": "Tình huống tạo sẵn: AI ghi 99% cho nhãn Thước.",
+        "labels": [
+          "Ảnh đưa vào",
+          "Tên vật thật",
+          "Tên AI gợi ý",
+          "Điểm hiển thị",
+          "Việc kiểm"
+        ],
+        "values": [
+          "Một chiếc thìa",
+          "Thìa",
+          "Thước",
+          "99% trong ví dụ",
+          "So nhãn với vật thật, kết quả vẫn sai"
+        ],
+        "why": [
+          "Số lớn chưa bảo đảm tên đúng.",
+          "Ảnh có tên thật để đối chiếu.",
+          "Không gọi 99% là đúng mọi ảnh."
+        ],
+        "question": "Em dùng điểm hay vật thật để kiểm?",
+        "scene": "Test"
+      },
+      "targetId": "03-21",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "So nhãn với vật thật, kết quả vẫn sai",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "So nhãn với vật thật, kết quả vẫn sai"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "Tình huống tạo sẵn: AI ghi 99% cho nhãn Thước.\nSố lớn chưa bảo đảm tên đúng.\nẢnh có tên thật để đối chiếu.\nKhông gọi 99% là đúng mọi ảnh.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "So nhãn với vật thật, kết quả vẫn sai",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 23
     },
     {
       "type": "worksheet",
       "worksheet": {
         "title": "P3.3 Đọc kết quả và chuẩn bị kiểm thử",
-        "intro": "Trả lời từng tình huống; không cần tự đặt kết quả thử.",
-        "headers": null,
-        "rows": null,
-        "questions": [],
+        "intro": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
         "answers": [
-          "1: Chuyển ảnh cốc về nhóm Cốc hoặc loại ảnh đặt sai trước khi huấn luyện.",
+          "1: Chuyển ảnh cốc về nhóm Cốc hoặc loại ảnh đặt sai trước khi dạy AI.",
           "2: Không. 98% là điểm mô hình hiển thị cho một dự đoán, không phải số đo đúng trên mọi 100 ảnh khác.",
           "3: Thử ảnh mới để kiểm tra khả năng xử lí ảnh chưa dùng để học."
         ],
         "pages": [
           {
             "title": "Kiểm tra ảnh và đọc kết quả",
-            "instruction": "Trả lời từng tình huống; không cần tự đặt kết quả thử.",
+            "instruction": "Trả lời từng tình huống. Không cần tự đặt kết quả thử.",
             "fields": [
               {
-                "label": "1. Một ảnh cốc nằm trong nhóm Bút. Em sửa gì trước khi huấn luyện?",
-                "placeholder": "",
+                "label": "Một ảnh cốc nằm trong nhóm Bút. Em sửa gì trước khi dạy AI?",
                 "key": "03-21-v3-0"
               },
               {
-                "label": "2. Màn hình hiện 98% ở nhãn Cốc cho một ảnh. Có nghĩa mô hình đúng 98 trên mọi 100 ảnh khác không? Vì sao?",
-                "placeholder": "",
+                "label": "Màn hình hiện 98% ở nhãn Cốc cho một ảnh. Có nghĩa mô hình đúng 98 trên mọi 100 ảnh khác không? Vì sao?",
                 "key": "03-21-v3-1"
               }
             ]
@@ -981,8 +1259,7 @@ window.AI6_LESSON={
             "instruction": "Giải thích bằng một câu.",
             "fields": [
               {
-                "label": "3. Nên thử bằng ảnh đã dùng để học hay bằng ảnh mới? Vì sao?",
-                "placeholder": "",
+                "label": "Nên thử bằng ảnh đã dùng để học hay bằng ảnh mới? Vì sao?",
                 "key": "03-21-v3-2"
               }
             ]
@@ -991,80 +1268,203 @@ window.AI6_LESSON={
       },
       "time": 4,
       "id": "03-21",
-      "number": 21,
-      "title": "P3.3A — Đọc và kiểm tra kết quả",
+      "title": "P3.3A — Đọc kết quả cho đúng",
       "note": {
         "activity": "Luyện tập cá nhân",
         "purpose": "Hoàn thành đọc và kiểm tra kết quả theo các bước trên phiếu.",
-        "teacher": "Yêu cầu nêu hành động sửa ở mỗi tình huống. Chỉ lại vị trí nhãn và bảng dự đoán nếu cần.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Trả lời trước khi thảo luận đáp án.",
         "report": "HS giải thích vì sao không đọc 98% thành 98 lần đúng trong mọi trường hợp.",
         "conclusion": "Số hiển thị gắn một lần dự đoán; muốn đánh giá cần thử nhiều mẫu phù hợp và ghi đúng/sai.",
-        "assessment": "Đạt khi xử lí đúng ít nhất 2/3 tình huống; hỏi lại riêng cách dùng ảnh mới.",
+        "assessment": "Thầy/Cô xem từng mục đã điền. Em nêu căn cứ khi được hỏi. Chấp nhận cách diễn đạt đúng khác lời mẫu.",
         "answers": [
-          "1: Chuyển ảnh cốc về nhóm Cốc hoặc loại ảnh đặt sai trước khi huấn luyện.",
+          "1: Chuyển ảnh cốc về nhóm Cốc hoặc loại ảnh đặt sai trước khi dạy AI.",
           "2: Không. 98% là điểm mô hình hiển thị cho một dự đoán, không phải số đo đúng trên mọi 100 ảnh khác.",
           "3: Thử ảnh mới để kiểm tra khả năng xử lí ảnh chưa dùng để học."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: P3.3A — Đọc và kiểm tra kết quả",
-          "explanation": "Kiểm tra ảnh và đọc kết quả: Trả lời từng tình huống; không cần tự đặt kết quả thử.\nChọn ảnh để thử: Giải thích bằng một câu.",
-          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
-          "answer": "• 1: Chuyển ảnh cốc về nhóm Cốc hoặc loại ảnh đặt sai trước khi huấn luyện.\n• 2: Không. 98% là điểm mô hình hiển thị cho một dự đoán, không phải số đo đúng trên mọi 100 ảnh khác.\n• 3: Thử ảnh mới để kiểm tra khả năng xử lí ảnh chưa dùng để học.",
-          "closing": "Số hiển thị gắn một lần dự đoán; muốn đánh giá cần thử nhiều mẫu phù hợp và ghi đúng/sai.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: VẬN DỤNG.",
-          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "answer": "1: Chuyển ảnh cốc về nhóm Cốc hoặc loại ảnh đặt sai trước khi dạy AI.\n2: Không. 98% là điểm mô hình hiển thị cho một dự đoán, không phải số đo đúng trên mọi 100 ảnh khác.\n3: Thử ảnh mới để kiểm tra khả năng xử lí ảnh chưa dùng để học.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Các tình huống vừa rồi giúp em chốt ba việc: chuẩn bị ảnh, thử mới và đọc điểm dự đoán đúng giới hạn."
         }
       },
       "theme": "cream",
-      "originalNumber": 21
+      "v6": true,
+      "screen": [
+        "Nhãn ảnh học đã đúng chưa?",
+        "Ảnh thử có thật sự mới không?",
+        "Phần trăm có bảo đảm đúng không?"
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 3 phút, em tự điền trên phiếu.",
+        "Trong 2 phút, em so kết quả với em ngồi cạnh."
+      ],
+      "sampleId": "03-21-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 24
+    },
+    {
+      "type": "recap",
+      "id": "03-19",
+      "title": "Kiến thức cần nhớ",
+      "note": {
+        "activity": "Khám phá 2.2 Huấn luyện và chạy thử",
+        "purpose": "Tạo mô hình hai lớp và ghi dự đoán với đầu vào mới.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
+        "students": "Tạo dự án ảnh; đặt nhãn; thu/nạp ảnh; huấn luyện; xem trước; ghi kết quả thực tế; đổi người thao tác.",
+        "report": "Một nhóm mô tả quy trình và một nhóm nêu sự khác biệt giữa dự kiến và kết quả.",
+        "conclusion": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào; một con số cao không chứng minh luôn đúng.",
+        "assessment": "Thầy/Cô quan sát thao tác thật và thu P3.2. Nếu chỉ xem video thì ghi chưa có minh chứng tạo mô hình.",
+        "answers": [
+          "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng."
+        ],
+        "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
+        "script": {
+          "opening": "Thầy/Cô nói: Những việc vừa làm giúp em rút ra ba ý. Trong 30 giây, em giải thích một ý tại chỗ.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 30 giây, em giải thích một ý tại chỗ.",
+          "answer": "Công cụ học từ các ví dụ có nhãn để tạo mô hình. Kết quả phụ thuộc dữ liệu và điều kiện đầu vào. Một con số cao không chứng minh luôn đúng.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Biết phải thử ảnh mới rồi, em đề xuất ba ảnh khác để kiểm những điều mô hình còn chưa gặp."
+        }
+      },
+      "theme": "cream",
+      "v6": true,
+      "screen": [
+        "Ảnh học rõ vật và đúng nhãn.",
+        "Ảnh thử phải mới với mô hình.",
+        "Điểm dự đoán không bảo đảm luôn đúng."
+      ],
+      "phase": "Luyện tập / Thực hành",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 30 giây, em giải thích một ý tại chỗ."
+      ],
+      "connector": "Những việc vừa làm giúp em rút ra ba ý.",
+      "number": 25
     },
     {
       "type": "divider",
       "id": "03-22",
-      "number": 22,
-      "title": "VẬN DỤNG",
+      "title": "Vận dụng: thiết kế lần thử mới",
       "note": {
         "activity": "Vận dụng",
         "purpose": "Đề xuất cách chuẩn bị kiểm thử tiết sau.",
-        "teacher": "Gợi ý thay đổi góc, khoảng cách hoặc ánh sáng vừa phải. Nhắc ghi rõ vật thuộc nhãn thật nào.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Chọn ba cách thử an toàn, viết điều muốn quan sát.",
         "report": "Một nhóm chia sẻ phương án có thể thực hiện trong lớp.",
         "conclusion": "Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu.",
-        "assessment": "Chấp nhận các biến đổi khác nhau; loại yêu cầu thu ảnh người hoặc dùng đồ vật nguy hiểm.",
+        "assessment": "Chấp nhận các biến đổi khác nhau. Loại yêu cầu thu ảnh người hoặc dùng đồ vật nguy hiểm.",
         "answers": [],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình chuyển sang vận dụng.",
-          "explanation": "Đây là slide báo chuyển hoạt động; đọc tiêu đề và chuyển ngay sang nhiệm vụ, không dành thêm một mốc thời gian.",
-          "delivery": "Ổn định nhóm/thiết bị nếu cần, rồi chuyển slide. Không đọc lại toàn bộ quy trình hay cộng thêm một hoạt động mới.",
+          "opening": "Thầy/Cô nói: Em dùng cách làm vừa học trong một việc mới. Trong 10 giây, em đọc tên hoạt động trên slide.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Trong 10 giây, em đọc tên hoạt động trên slide.",
           "answer": "",
-          "closing": "Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: P3.3B — Đề xuất lần thử mới.",
-          "students": "Chuyển sự chú ý sang hoạt động mới; chưa làm phiếu hay trả lời ở slide chuyển phần."
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nói: Trước khi tự làm, em xem mẫu mẫu đề xuất ảnh để thử mới."
         }
       },
       "theme": "blue",
-      "originalNumber": 22
+      "v6": true,
+      "screen": [],
+      "phase": "Vận dụng",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 10 giây, em đọc tên hoạt động trên slide."
+      ],
+      "connector": "Em dùng cách làm vừa học trong một việc mới.",
+      "number": 26
+    },
+    {
+      "id": "03-23-mau",
+      "type": "worked",
+      "v6": true,
+      "title": "Mẫu đề xuất ảnh để thử mới",
+      "theme": "cream",
+      "phase": "Vận dụng",
+      "scene": "Cups",
+      "worked": {
+        "title": "Mẫu đề xuất ảnh để thử mới",
+        "context": "Bài mẫu đã có ảnh cốc chính diện.",
+        "labels": [
+          "Vật cần thử",
+          "Điều kiện mới",
+          "Ảnh mẫu đã học",
+          "Ảnh sẽ thử",
+          "Tên đúng để đối chiếu"
+        ],
+        "values": [
+          "Cốc",
+          "Góc nghiêng, vật rõ",
+          "Ảnh chính diện",
+          "Chụp một ảnh mới, giữ ngoài bộ học",
+          "Cốc theo đồ vật thật"
+        ],
+        "why": [
+          "Nêu rõ điều kiện cần kiểm.",
+          "Chưa biết kết quả khi chưa thử.",
+          "Giữ ảnh mới trước lần thử."
+        ],
+        "question": "Em lấy tên đúng từ đâu?",
+        "scene": "Cups"
+      },
+      "targetId": "03-23",
+      "screen": [],
+      "taskLines": [
+        "Trong 30 giây, em nghĩ cách điền ô cuối tại chỗ."
+      ],
+      "connector": "Em xem cách điền trước khi tự làm.",
+      "note": {
+        "activity": "Thầy/Cô làm mẫu",
+        "purpose": "Nhìn cách làm trước khi tự thực hiện.",
+        "teacher": "Thầy/Cô giải thích bốn ô đã điền.",
+        "students": "Em nghĩ về ô cuối tại chỗ.",
+        "report": "Thầy/Cô gọi 1–2 em trả lời.",
+        "conclusion": "Cốc theo đồ vật thật",
+        "assessment": "Em điền ô cuối và nói được vì sao.",
+        "answers": [
+          "Cốc theo đồ vật thật"
+        ],
+        "source": "Mẫu học tập tự biên soạn. Không phải kết quả chạy AI thật.",
+        "time": "Khoảng 1–2 phút, gồm 30 giây hỏi nhanh. Tính trong hoạt động kế tiếp.",
+        "script": {
+          "opening": "Thầy/Cô nói: Cả lớp cùng xem mẫu. Các ô đầu đã có bài làm. Em đọc chú thích để hiểu vì sao.",
+          "explanation": "Bài mẫu đã có ảnh cốc chính diện.\nNêu rõ điều kiện cần kiểm.\nChưa biết kết quả khi chưa thử.\nGiữ ảnh mới trước lần thử.",
+          "delivery": "Thầy/Cô chỉ lần lượt các ô đã điền. Giữ ô cuối trống trong 30 giây. Gọi 1–2 em tại chỗ. Bấm Mở ô cuối sau khi các em trả lời. Chỉ chuyển sang tự làm khi các em hiểu cách điền.",
+          "students": "Em tự nghĩ ô cuối. Chưa trao đổi khi Thầy/Cô chưa ra hiệu.",
+          "answer": "Cốc theo đồ vật thật",
+          "closing": "Thầy/Cô nhắc: học cách điền, không chép kết quả mẫu.",
+          "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
+        }
+      },
+      "number": 27
     },
     {
       "type": "worksheet",
       "worksheet": {
         "title": "P3.3 Đọc kết quả và chuẩn bị kiểm thử",
-        "intro": "Mỗi dòng là một ảnh mới. Ghi vật và điều kiện chụp; chưa ghi trước mô hình sẽ đúng hay sai.",
-        "headers": null,
-        "rows": null,
-        "questions": [],
+        "intro": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
         "answers": [
-          "B Ví dụ đổi góc bút, dùng cốc khác, đổi nền vừa phải; có nhãn thật và không dùng ảnh đã huấn luyện."
+          "B Ví dụ đổi góc bút, dùng cốc khác, đổi nền vừa phải. Có nhãn thật và không dùng ảnh đã dạy AI."
         ],
         "pages": [
           {
             "title": "Chuẩn bị ba lần thử mới",
-            "instruction": "Mỗi dòng là một ảnh mới. Ghi vật và điều kiện chụp; chưa ghi trước mô hình sẽ đúng hay sai.",
+            "instruction": "Mỗi dòng là một ảnh mới. Ghi vật và điều kiện chụp. Chưa ghi trước mô hình sẽ đúng hay sai.",
             "headers": [
               "Lần thử",
               "Vật và tên đúng",
@@ -1075,12 +1475,10 @@ window.AI6_LESSON={
                 "1",
                 {
                   "label": "Vật ở lần 1",
-                  "placeholder": "",
                   "key": "03-23-v3-0"
                 },
                 {
                   "label": "Điều kiện lần 1",
-                  "placeholder": "Ví dụ: cốc khác, vẫn đủ sáng",
                   "key": "03-23-v3-1"
                 }
               ],
@@ -1088,12 +1486,10 @@ window.AI6_LESSON={
                 "2",
                 {
                   "label": "Vật ở lần 2",
-                  "placeholder": "",
                   "key": "03-23-v3-2"
                 },
                 {
                   "label": "Điều kiện lần 2",
-                  "placeholder": "",
                   "key": "03-23-v3-3"
                 }
               ],
@@ -1101,12 +1497,10 @@ window.AI6_LESSON={
                 "3",
                 {
                   "label": "Vật ở lần 3",
-                  "placeholder": "",
                   "key": "03-23-v3-4"
                 },
                 {
                   "label": "Điều kiện lần 3",
-                  "placeholder": "",
                   "key": "03-23-v3-5"
                 }
               ]
@@ -1116,67 +1510,88 @@ window.AI6_LESSON={
       },
       "time": 3,
       "id": "03-23",
-      "number": 23,
-      "title": "P3.3B — Đề xuất lần thử mới",
+      "title": "P3.3B — Chọn ba ảnh mới",
       "note": {
         "activity": "Vận dụng",
         "purpose": "Hoàn thành đề xuất lần thử mới theo các bước trên phiếu.",
-        "teacher": "Gợi ý thay đổi góc, khoảng cách hoặc ánh sáng vừa phải. Nhắc ghi rõ vật thuộc nhãn thật nào.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Chọn ba cách thử an toàn, viết điều muốn quan sát.",
         "report": "Một nhóm chia sẻ phương án có thể thực hiện trong lớp.",
         "conclusion": "Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu.",
-        "assessment": "Chấp nhận các biến đổi khác nhau; loại yêu cầu thu ảnh người hoặc dùng đồ vật nguy hiểm.",
+        "assessment": "Thầy/Cô xem từng mục đã điền. Em nêu căn cứ khi được hỏi. Chấp nhận cách diễn đạt đúng khác lời mẫu.",
         "answers": [
-          "B Ví dụ đổi góc bút, dùng cốc khác, đổi nền vừa phải; có nhãn thật và không dùng ảnh đã huấn luyện."
+          "B Ví dụ đổi góc bút, dùng cốc khác, đổi nền vừa phải. Có nhãn thật và không dùng ảnh đã dạy AI."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Mình cùng thực hiện: P3.3B — Đề xuất lần thử mới",
-          "explanation": "Chuẩn bị ba lần thử mới: Mỗi dòng là một ảnh mới. Ghi vật và điều kiện chụp; chưa ghi trước mô hình sẽ đúng hay sai.",
-          "delivery": "Đọc trang đang mở, chỉ rõ dữ kiện và ô cần ghi. Cho HS trả lời trước, yêu cầu nêu căn cứ rồi mở gợi ý riêng. Dùng Trang sau của phiếu để chuyển bước; không chấm câu mở theo một chuỗi chữ cố định.",
-          "answer": "• B Ví dụ đổi góc bút, dùng cốc khác, đổi nền vừa phải; có nhãn thật và không dùng ảnh đã huấn luyện.",
-          "closing": "Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu.",
-          "transition": "Dùng kết quả vừa có để chuyển sang: Lưu minh chứng và chuẩn bị kiểm thử.",
-          "students": "Hoàn thành từng bước, dùng nhãn câu hỏi trên ô nhập để biết cần ghi gì."
+          "opening": "Thầy/Cô nói: Em đã xem mẫu. Giờ em tự làm theo cách đó. Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "explanation": "",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. Thầy/Cô giữ lượt cá nhân trước. Sau 3 phút mới cho so theo cặp. Thầy/Cô gọi 1–2 em trả lời tại chỗ. Không giao thảo luận nhóm. Thời gian ghi phiếu nằm trong hoạt động chính, không cộng hai lần.",
+          "students": "Trong 3 phút, em tự điền trên phiếu. Trong 2 phút, em so kết quả với em ngồi cạnh.",
+          "answer": "B Ví dụ đổi góc bút, dùng cốc khác, đổi nền vừa phải. Có nhãn thật và không dùng ảnh đã dạy AI.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Lưu dự án và kế hoạch này để tiết sau kiểm thử có hệ thống hơn."
         }
       },
       "theme": "cream",
-      "originalNumber": 23
+      "v6": true,
+      "screen": [
+        "Chọn vật cần thử.",
+        "Thay đổi điều kiện chụp.",
+        "Chưa đoán trước đúng hay sai."
+      ],
+      "phase": "Vận dụng",
+      "scene": "cups",
+      "taskLines": [
+        "Trong 3 phút, em tự điền trên phiếu.",
+        "Trong 2 phút, em so kết quả với em ngồi cạnh."
+      ],
+      "sampleId": "03-23-mau",
+      "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
+      "number": 28
     },
     {
       "type": "home",
-      "text": "Lưu dự án bằng menu → Download project as file và giữ bộ ảnh Bút/Cốc đúng nhãn. Ghi thư mục vào P3.2. Tiết sau mở bằng Open project from file; nếu cần, huấn luyện lại trước khi thử.",
-      "outcome": "Mô hình hai lớp và nhật kí dữ liệu cùng hai lượt thử",
-      "next": "Bài 4. Kiểm thử và cải tiến mô hình AI",
       "id": "03-24",
-      "number": 24,
-      "title": "Lưu minh chứng và chuẩn bị kiểm thử",
+      "title": "Lưu để tiếp tục ở tiết sau",
       "note": {
         "activity": "Vận dụng",
         "purpose": "Đề xuất cách chuẩn bị kiểm thử tiết sau.",
-        "teacher": "Gợi ý thay đổi góc, khoảng cách hoặc ánh sáng vừa phải. Nhắc ghi rõ vật thuộc nhãn thật nào.",
+        "teacher": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm.",
         "students": "Chọn ba cách thử an toàn, viết điều muốn quan sát.",
         "report": "Một nhóm chia sẻ phương án có thể thực hiện trong lớp.",
         "conclusion": "Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu.",
-        "assessment": "Chấp nhận các biến đổi khác nhau; loại yêu cầu thu ảnh người hoặc dùng đồ vật nguy hiểm.",
+        "assessment": "Chấp nhận các biến đổi khác nhau. Loại yêu cầu thu ảnh người hoặc dùng đồ vật nguy hiểm.",
         "answers": [
           "Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu."
         ],
         "source": "Bài 2 Dạy máy học, mục Thực hành Tạo và kiểm tra mô hình học máy, trang in 13; Bài 3 Nhận dạng hình ảnh, mục Chất lượng hình ảnh và Dạy máy tính phân loại hình ảnh, trang in 20.",
-        "time": "Trong hoạt động 45 phút: giao nhiệm vụ/xem video/báo cáo/chốt không cộng vào thời gian HS tự làm.",
+        "time": "Thầy/Cô dùng mốc chung của hoạt động. Các bước nhỏ không tạo thêm thời gian.",
         "script": {
-          "opening": "Lưu dự án bằng menu → Download project as file và giữ bộ ảnh Bút/Cốc đúng nhãn. Ghi thư mục vào P3.2. Tiết sau mở bằng Open project from file; nếu cần, huấn luyện lại trước khi thử.",
-          "explanation": "Lưu dự án bằng menu → Download project as file và giữ bộ ảnh Bút/Cốc đúng nhãn. Ghi thư mục vào P3.2. Tiết sau mở bằng Open project from file; nếu cần, huấn luyện lại trước khi thử.",
-          "delivery": "Gợi ý thay đổi góc, khoảng cách hoặc ánh sáng vừa phải. Nhắc ghi rõ vật thuộc nhãn thật nào.\nMột nhóm chia sẻ phương án có thể thực hiện trong lớp.",
-          "answer": "• Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu.",
-          "closing": "Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu.",
-          "transition": "",
-          "students": "Chọn ba cách thử an toàn, viết điều muốn quan sát."
+          "opening": "Thầy/Cô nói: Em giữ kết quả hôm nay để chuẩn bị bước tiếp. Sau giờ học, em ghi một quan sát vào vở.",
+          "explanation": "Lưu dự án bằng menu → Download project as file và giữ bộ ảnh Bút/Cốc đúng nhãn. Ghi thư mục vào P3.2. Tiết sau mở bằng Open project from file. Nếu cần, dạy AI lại trước khi thử.",
+          "delivery": "Thầy/Cô làm mẫu trước. Gọi 1–2 em trả lời ô cuối. Chưa giao trao đổi khi các em chưa hiểu cách làm. ",
+          "students": "Sau giờ học, em ghi một quan sát vào vở.",
+          "answer": "Kiểm thử cần đầu vào mới và nhãn thực để đối chiếu.",
+          "closing": "Thầy/Cô chốt một ý bằng kết quả các em vừa nêu.",
+          "transition": "Thầy/Cô nối ý: Tiết sau, em giữ riêng sáu ảnh thử để so sánh trước và sau khi cải tiến."
         }
       },
       "theme": "cream",
-      "originalNumber": 24
+      "v6": true,
+      "screen": [
+        "Lưu tệp dự án.",
+        "Giữ thư mục ảnh có nhãn.",
+        "Ghi vị trí lưu vào P3.2."
+      ],
+      "phase": "Vận dụng",
+      "scene": "cups",
+      "taskLines": [
+        "Sau giờ học, em ghi một quan sát vào vở."
+      ],
+      "connector": "Em giữ kết quả hôm nay để chuẩn bị bước tiếp.",
+      "number": 29
     }
   ],
   "rubric": [],
@@ -1196,5 +1611,5 @@ window.AI6_LESSON={
       "Có tham gia điều khiển ít nhất một bước; chỉ quan sát chưa đủ kết luận thao tác."
     ]
   ],
-  "revision": "V4 — sau kiểm định 17/11/2026"
+  "revision": "V6 — biên tập sư phạm và làm mẫu"
 };
