@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "file": "assets/videos/code-0.mp4",
+      "bytes": 5773126,
+      "sha256": "4a201177b0dd314427cd9d130182a527c05eb8d4a4fa90c7547da0e2f2d2c778",
+      "unchanged_from_V4": true
+    },
+    {
+      "file": "assets/videos/code-2.mp4",
+      "bytes": 9280869,
+      "sha256": "9f6f5553ce349bcab3e848fa2e905b7aaae960bcf4c46e8ad0b4d1388c0261e2",
+      "unchanged_from_V4": true
+    },
+    {
+      "file": "assets/videos/code-3.mp4",
+      "bytes": 6954765,
+      "sha256": "d7227bcd0f7b2100f492f60aaaf7a2fa72c86ef061883f4b924ae659a135771f",
+      "unchanged_from_V4": true
+    },
+    {
+      "file": "assets/videos/code-5.mp4",
+      "bytes": 16452548,
+      "sha256": "a6ef6e114d108315fcc3d84ffd0bcaee83dcfaac972ff7c29571c2b7c0c8ee1a",
+      "unchanged_from_V4": true
+    },
+    {
+      "file": "assets/videos/code-6.mp4",
+      "bytes": 15502664,
+      "sha256": "c6a5109c412495600599f7c845654f526ed8a3d35e3c637f4daba70d3394c3be",
+      "unchanged_from_V4": true
+    },
+    {
+      "file": "assets/videos/code-8.mp4",
+      "bytes": 14924835,
+      "sha256": "a4c25f55f552dd8d48015bb6d212bedf659250f096fb0235f8bcea38a3ae1c6d",
+      "unchanged_from_V4": true
+    },
+    {
+      "file": "assets/videos/code-9.mp4",
+      "bytes": 13156092,
+      "sha256": "827a500f42fab54c75686f175cc1cab64c072812dbc85abd5b44713085a8f211",
+      "unchanged_from_V4": true
+    }
+  ],
+  "scope": "Bảy tệp khớp SHA256 bản V4. Không tuyên bố đã xem/nghe lại toàn bộ ở V6."
+}

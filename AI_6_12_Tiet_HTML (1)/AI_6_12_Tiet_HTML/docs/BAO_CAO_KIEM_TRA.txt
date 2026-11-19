@@ -1,0 +1,58 @@
+BÁO CÁO HOÀN THIỆN — V6 — 18/11/2026
+
+ĐÃ SỬA TRỰC TIẾP BỘ TRÌNH CHIẾU
+12 trang bài học và index.html. Tổng 242 → 297 slide, gồm 55 mẫu.
+Đây là bộ HTML/CSS/JS chạy được, không chỉ là bản đề xuất nội dung.
+Đã kết hợp bản biên tập sư phạm V5 và prompt người dùng đính kèm.
+Theo lựa chọn của người dùng, hoàn thiện cả 12 tiết trước khi bàn giao.
+
+NỘI DUNG VÀ TỔ CHỨC
+- Chữ chiếu ngắn; giải thích dài chuyển xuống ghi chú Thầy/Cô.
+- Dùng em/các em; thống nhất thuật ngữ dễ hiểu trên mặt chiếu.
+- Mỗi slide nội dung có câu nối và dòng giao việc có thời gian/nơi làm.
+- Tiết 1–7: tự làm 3 phút, so theo cặp 2 phút. Bảng phân vai tiết 2 là đề xuất cá nhân trước, chưa chia nhóm.
+- Tiết 8–12: có vai đọc, làm, kiểm và ghi. Nhóm ba em có thể gộp hai vai.
+- Mẫu đứng ngay trước từng phiếu hoặc hoạt động thực hành độc lập.
+- Mẫu có nhãn rõ, bối cảnh, phần đã điền, chú thích Vì sao và ô hỏi 30 giây.
+- Có nút Mở/Ẩn ô cuối và Xem lại mẫu. Ô mẫu không ghi vào bài làm HS.
+- Đã tích hợp ảnh SGK, ảnh giao diện thật, video và sơ đồ HTML/SVG. Không dùng số đo AI bịa thành kết quả thật.
+- Giữ đầu bài gốc, các trang chuyển phần và Kiến thức cần nhớ.
+
+PHẠM VI KIỂM TRA THỰC TẾ
+- 359 trạng thái: 297 slide cùng các trang phiếu bổ sung. Không tràn quá ngưỡng 3px ở vùng nội dung/phiếu đã đo; không ảnh lỗi trong lượt cuối.
+- Thử thêm 55 mẫu sau khi hiện ô cuối: không phát hiện tràn.
+- 96 trường hợp đại diện: một mẫu và một phiếu mỗi tiết, tại 1920×1080, 1366×768, 1280×720 và 1024×768. Không tràn ở các vùng đo.
+- Rà dữ liệu chữ chiếu: không còn các cách xưng hô/từ thuộc danh sách cấm. Không còn câu văn biên soạn vượt 15 từ theo quy tắc tách câu. Giữ tên đầu bài nguyên văn; bìa dài chia dòng.
+- Giữ đủ 334 khóa ô phiếu, không trùng. Giữ giá trị lựa chọn cũ; chỉ đổi nhãn hiển thị. Sáu thẻ P1.1 và tám ô cuối dự án tiếp tục dùng khóa cũ.
+- Tất cả JavaScript kiểm cú pháp hợp lệ. Liên kết tệp nội bộ tồn tại.
+- Thử Chiếu: ô cuối của mẫu mở đúng sang màn chiếu; ghi chú không rò sang đó. Tải lại màn chính khôi phục trạng thái đồng bộ.
+- Trang phiếu và bài nháp giữ được sau tải lại. Trường ở màn chiếu readOnly/disabled, ngoài thứ tự Tab.
+- Tải bài làm tạo tệp thật có nhãn và nội dung thử. Tải bản sạch tiết 6 cho đúng câu hỏi đã sửa. Dữ liệu thử đã hoàn nguyên qua giao diện.
+- Tự chấm 2+2+0+2+2 cho 8/10 và 5/5 tiêu chí. Đã hoàn nguyên lựa chọn.
+- Bảy video giữ nguyên SHA256 so với V4. Không khẳng định đã nghe/xem lại toàn bộ video ở V6.
+- Cập nhật 12 ảnh bìa và toàn bộ số slide ở index.
+
+CÁCH HIỂU CÁC CHỈNH SỬA SO VỚI PROMPT
+1. Số mẫu lớn hơn gợi ý tối thiểu vì yêu cầu có mẫu trước MỌI hoạt động độc lập. Không biến mẫu thành thêm bài viết bắt buộc.
+2. Các mẫu làm sẵn phần lớn nội dung, thường bốn trong năm ý. Mẫu bảng phân vai có ba trong bốn dòng tên sẵn để giữ đúng cấu trúc bốn vai. Mục đích là một khoảng trống nhỏ để kiểm cách hiểu, không thêm vai thứ năm chỉ để đủ tỉ lệ.
+3. Không đổi nghĩa giả định thành bí mật. Nội dung không thật ghi Ví dụ tạo sẵn. Mẫu tiết 6 tô dấu thông tin riêng cần xóa nhưng không sử dụng dữ liệu cá nhân thật.
+4. Không đổi khóa đã lưu chỉ vì thêm slide. Giữ mã ổn định, cập nhật số thứ tự hiển thị và kiểm trùng để tránh mất bài nháp.
+5. Bảng bốn tuần ở tiết 9 chỉ là lịch mẫu. Mốc thật và kênh nộp theo Thầy/Cô; không tự đặt lịch cho lớp.
+6. Mẫu Bút chì/Thước kẻ ở tiết 3 dạy cách làm. Bài thực hành Bút/Cốc vẫn giữ theo bộ giáo án, có dòng phân biệt rõ.
+
+GIỚI HẠN
+Chưa dạy thử với lớp đông, chưa thử máy chiếu/loa thực tế của trường. Thời gian là gợi ý tổ chức, cần Thầy/Cô điều chỉnh theo lớp. Công cụ AI bên ngoài cần mạng và cần thử trước. Không tự coi các phép đo bố cục là chứng nhận hiệu quả học tập hay đạt tuyệt đối mọi tiêu chí sư phạm.
+
+TRUY VẾT
+DOI_CHIEU_TUNG_TIET.html/.json: hiện trạng cũ, mẫu mới, hai ví dụ trước–sau và bằng chứng từng tiết.
+CHUYEN_DOI_V4_SANG_V6.csv: vị trí cũ/mới của toàn bộ nội dung.
+DANH_MUC_55_MAU.csv: từng mẫu, bài tập đích, Vì sao và câu hỏi 30 giây.
+CHU_THICH_GIAO_VIEN.txt/.json: chú thích của 297 slide.
+KIEM_TRA_BO_CUC.json: 359 trạng thái, 55 trạng thái đã mở và 96 trường hợp kích thước.
+KIEM_TRA_TINH_NHAT_QUAN.json: kiểm khóa, số slide, tên bài và liên kết.
+NGUON_HOC_LIEU.csv: nguồn và minh họa đã dùng.
+lich_su_V4: các báo cáo cũ, không dùng như kết quả kiểm V6.
+
+MỞ BỘ SLIDE
+Giải nén toàn bộ AI_6_12_Tiet_HTML.zip, mở index.html bằng Chrome/Edge.
+Giữ nguyên assets, lessons và docs. Không cần npm hay máy chủ.

@@ -1,0 +1,616 @@
+[
+  {
+    "lesson": 1,
+    "title": "Bài 1. Làm quen với AI và một số công nghệ AI quen thuộc",
+    "new_count": 37,
+    "models": [
+      {
+        "number": 11,
+        "id": "01-09-mau",
+        "for": "01-09",
+        "context": "Mẫu có sẵn. Tính năng gợi ý video dùng AI.",
+        "question_30s": "Em kiểm ô cuối bằng cách nào?"
+      },
+      {
+        "number": 19,
+        "id": "01-12-mau",
+        "for": "01-12",
+        "context": "Đầu ra dưới đây chỉ là ví dụ để học cách ghi.",
+        "question_30s": "Em ghi hai kết quả ở đâu?"
+      },
+      {
+        "number": 26,
+        "id": "01-17-mau",
+        "for": "01-17",
+        "context": "Ví dụ tạo sẵn: This is a pen.",
+        "question_30s": "Em sẽ điền cách kiểm thế nào?"
+      },
+      {
+        "number": 30,
+        "id": "01-21-mau",
+        "for": "01-21",
+        "context": "Ví dụ: đọc một tệp âm thanh đã lưu.",
+        "question_30s": "Em sẽ <span class=\"hl-action\">hỏi thêm</span> điều gì?"
+      },
+      {
+        "number": 34,
+        "id": "01-23-mau",
+        "for": "01-23",
+        "context": "Ví dụ khác: AI chuyển lời nói thành chữ.",
+        "question_30s": "Em <span class=\"hl-explain\">kiểm dòng chữ</span> bằng gì?"
+      },
+      {
+        "number": 35,
+        "id": "01-23-mau-80",
+        "for": "01-23",
+        "context": "Ví dụ: AI gợi ý nhạc theo sở thích.",
+        "question_30s": "<span class=\"hl-action\">Hỏi nhanh cả lớp 30 giây</span>: em kiểm gợi ý bằng gì?"
+      }
+    ],
+    "old_count": 22
+  },
+  {
+    "lesson": 2,
+    "title": "Bài 2. Con người tạo và điều khiển AI",
+    "new_count": 42,
+    "models": [
+      {
+        "number": 14,
+        "id": "02-10-mau",
+        "for": "02-10",
+        "context": "Ví dụ mẫu: dạy AI phân biệt giấy và nhựa.",
+        "question_30s": "Ai cần đối chiếu tên gợi ý?"
+      },
+      {
+        "number": 17,
+        "id": "02-12-mau",
+        "for": "02-12",
+        "context": "Sơ đồ mẫu. Chưa chạy AI thật.",
+        "question_30s": "Nếu AI nhầm, ai cần kiểm và sửa?"
+      },
+      {
+        "number": 25,
+        "id": "02-16c",
+        "for": "02-16",
+        "context": "Điền sẵn 2 dòng đầu. Dòng 3 em tự nghĩ trong 30 giây.",
+        "question_30s": "Dòng 3: ai học từ ảnh — con người hay máy?"
+      },
+      {
+        "number": 28,
+        "id": "02-17-mau",
+        "for": "02-17",
+        "context": "Mẫu dùng vỏ lon và giấy vụn ở trường.",
+        "question_30s": "Ô người kiểm tra cần ghi ai, làm gì?"
+      },
+      {
+        "number": 30,
+        "id": "02-17b",
+        "for": "02-17",
+        "context": "Tình huống: phân loại vỏ lon và giấy vụn ở trường.",
+        "question_30s": "Ai làm bước 3? Máy hay người?"
+      },
+      {
+        "number": 36,
+        "id": "02-21-mau",
+        "for": "02-21",
+        "context": "Ví dụ: thêm ảnh giấy có tên đúng trước khi dạy AI.",
+        "question_30s": "Vì sao việc này thuộc tạo mô hình?"
+      },
+      {
+        "number": 40,
+        "id": "02-23-mau",
+        "for": "02-23",
+        "context": "AI mẫu chỉ phân biệt giấy và nhựa.",
+        "question_30s": "Em có dùng ngay nhãn Giấy không?"
+      }
+    ],
+    "old_count": 24
+  },
+  {
+    "lesson": 3,
+    "title": "Bài 3. Dạy AI nhận biết đồ vật bằng Teachable Machine",
+    "new_count": 40,
+    "models": [
+      {
+        "number": 14,
+        "id": "03-09-mau",
+        "for": "03-09",
+        "context": "Mẫu chụp ảnh bút chì và thước kẻ.",
+        "question_30s": "Em nên tránh chụp thêm thông tin nào?"
+      },
+      {
+        "number": 16,
+        "id": "03-09b",
+        "for": "03-09",
+        "context": "Mẫu điền sẵn cho hai lần thử.",
+        "question_30s": "Lần 2 sai vì ảnh thử thế nào?"
+      },
+      {
+        "number": 20,
+        "id": "03-12-mau",
+        "for": "03-12",
+        "context": "Mẫu: Bút chì/Thước kẻ. Bài em: Bút/Cốc.",
+        "question_30s": "Em dùng điều gì để kiểm tên AI?"
+      },
+      {
+        "number": 29,
+        "id": "03-17-mau",
+        "for": "03-17",
+        "context": "Bảng điền gần đủ. Em chỉ nghĩ ô cuối.",
+        "question_30s": "Ô cuối ghi kết luận gì cho hai lượt?"
+      },
+      {
+        "number": 30,
+        "id": "03-17b",
+        "for": "03-17",
+        "context": "Kết quả minh họa. Không phải AI vừa chạy.",
+        "question_30s": "Em ghi gì ở cột kết luận lượt 2?"
+      },
+      {
+        "number": 34,
+        "id": "03-21-mau",
+        "for": "03-21",
+        "context": "AI ghi <span class=\"hl-key\">99%</span> cho nhãn Thước.",
+        "question_30s": "Em dùng điểm hay vật thật để kiểm?"
+      },
+      {
+        "number": 38,
+        "id": "03-23-mau",
+        "for": "03-23",
+        "context": "Bài mẫu đã có ảnh cốc chính diện.",
+        "question_30s": "Em lấy tên đúng từ đâu?"
+      }
+    ],
+    "old_count": 24
+  },
+  {
+    "lesson": 4,
+    "title": "Bài 4. Kiểm thử và cải tiến mô hình AI",
+    "new_count": 35,
+    "models": [
+      {
+        "number": 10,
+        "id": "04-09-mau",
+        "for": "04-09",
+        "context": "Mẫu một tệp ảnh. Em sẽ thử T1–T6.",
+        "question_30s": "Em không được đưa T1 vào đâu?"
+      },
+      {
+        "number": 15,
+        "id": "04-12-mau",
+        "for": "04-12",
+        "context": "Tình huống minh họa: AI hay nhầm ảnh nghiêng.",
+        "question_30s": "Em cần làm gì để biết thay đổi có ích?"
+      },
+      {
+        "number": 21,
+        "id": "04-16a",
+        "for": "04-17",
+        "context": "Ảnh thử chụp bút và cốc ở góc nghiêng hoặc hơi xa; AI nhận chưa đúng.",
+        "question_30s": "Cả ba lượt đều sai vì lí do gì chung?"
+      },
+      {
+        "number": 22,
+        "id": "04-16b",
+        "for": "04-17",
+        "context": "Chụp thêm ảnh bút và cốc đúng kiểu đang thiếu, dạy AI lại rồi thử đúng sáu ảnh cũ.",
+        "question_30s": "Điền câu kết luận ngắn: Sau khi thêm ___ ảnh ___, số ảnh đúng tăng từ ___ lên ___ trên đúng 6 ảnh thử."
+      },
+      {
+        "number": 23,
+        "id": "04-17-mau",
+        "for": "04-17",
+        "context": "Ví dụ minh họa. Không phải kết quả của lớp.",
+        "question_30s": "Em nên điền kết luận nào cho ảnh T4?"
+      },
+      {
+        "number": 27,
+        "id": "04-21-mau",
+        "for": "04-21",
+        "context": "Ví dụ: nhận đúng hai ảnh nghĩa là luôn đúng.",
+        "question_30s": "Em kiểm thêm bằng ảnh nào?"
+      },
+      {
+        "number": 32,
+        "id": "04-23-mau",
+        "for": "04-23",
+        "context": "Ví dụ: bộ thử chưa có cốc chụp từ trên.",
+        "question_30s": "Sau khi AI đoán, em làm gì?"
+      }
+    ],
+    "old_count": 24
+  },
+  {
+    "lesson": 5,
+    "title": "Bài 5. AI hỗ trợ học tập nhưng con người quyết định",
+    "new_count": 34,
+    "models": [
+      {
+        "number": 12,
+        "id": "05-09-mau",
+        "for": "05-09",
+        "context": "AI nói: 2³ = 6. Em kiểm giúp Thầy/Cô.",
+        "question_30s": "Ô bản sẽ dùng cần viết kết quả nào?"
+      },
+      {
+        "number": 16,
+        "id": "05-12-mau",
+        "for": "05-12",
+        "context": "Bản dịch sai do Thầy/Cô tạo để luyện.",
+        "question_30s": "Bản cuối cần đổi vị trí nào?"
+      },
+      {
+        "number": 20,
+        "id": "05-17-mau",
+        "for": "05-17",
+        "context": "Ví dụ khác câu em sẽ tự kiểm.",
+        "question_30s": "Vì sao em có thể giữ nguyên bản này?"
+      },
+      {
+        "number": 25,
+        "id": "05-21-mau",
+        "for": "05-21",
+        "context": "Hai AI cùng nói 2³ = 6 trong ví dụ tạo sẵn.",
+        "question_30s": "Em sẽ giữ hay sửa câu trả lời?"
+      },
+      {
+        "number": 32,
+        "id": "05-23-mau",
+        "for": "05-23",
+        "context": "Ví dụ: Open your book.",
+        "question_30s": "Em dùng nguồn nào để kiểm nghĩa?"
+      }
+    ],
+    "old_count": 22
+  },
+  {
+    "lesson": 6,
+    "title": "Bài 6. Dữ liệu cá nhân, quyền riêng tư và an toàn khi dùng AI",
+    "new_count": 37,
+    "models": [
+      {
+        "number": 9,
+        "id": "06-09-mau-1",
+        "for": "06-09",
+        "context": "Đọc kỹ và tìm thông tin chưa nên gửi.",
+        "question_30s": "Em thấy mấy loại thông tin bí mật?"
+      },
+      {
+        "number": 10,
+        "id": "06-09-mau-2",
+        "for": "06-09",
+        "context": "Đọc các thông tin bị tô đỏ và lý do.",
+        "question_30s": "Thông tin nào tuyệt đối không gửi?"
+      },
+      {
+        "number": 11,
+        "id": "06-09-mau-3",
+        "for": "06-09",
+        "context": "Đây là câu hỏi đã được che thông tin an toàn.",
+        "question_30s": "Em thấy cụm nào đã được thay an toàn?"
+      },
+      {
+        "number": 16,
+        "id": "06-12-mau-1",
+        "for": "06-12",
+        "context": "Ví dụ tạo sẵn, không dùng tin thật.",
+        "question_30s": "Chỗ nào trong câu gốc là thông tin bí mật?"
+      },
+      {
+        "number": 17,
+        "id": "06-12-mau-2",
+        "for": "06-12",
+        "context": "Tô đỏ để thấy rõ tin bí mật.",
+        "question_30s": "Vì sao không được gửi 4 tin tô đỏ cho AI?"
+      },
+      {
+        "number": 18,
+        "id": "06-12-mau-3",
+        "for": "06-12",
+        "context": "Đã thay tin bí mật bằng cụm an toàn.",
+        "question_30s": "Trước khi gửi, em cần kiểm gì?"
+      },
+      {
+        "number": 23,
+        "id": "06-17-mau",
+        "for": "06-17",
+        "context": "Bản sạch cần giữ câu hỏi, không giữ hồ sơ.",
+        "question_30s": "Khi mở tệp, em cần thấy điều gì?"
+      },
+      {
+        "number": 27,
+        "id": "06-21-mau-1",
+        "for": "06-21",
+        "context": "Ứng dụng hỏi nghĩa từ hiện hộp thoại: <b>Cho phép truy cập danh bạ và vị trí chính xác?</b>",
+        "question_30s": "Em thấy yêu cầu này có gì lạ?"
+      },
+      {
+        "number": 28,
+        "id": "06-21-mau-2",
+        "for": "06-21",
+        "context": "Hai quyền <span class=\"hl-error\">danh bạ</span> và <span class=\"hl-error\">vị trí chính xác</span> bị tô đỏ vì không cần cho hỏi nghĩa từ.",
+        "question_30s": "Em sẽ bấm nút nào trước?"
+      },
+      {
+        "number": 29,
+        "id": "06-21-mau-3",
+        "for": "06-21",
+        "context": "Mẫu trả lời: <span class=\"hl-key\">Từ chối quyền không cần</span>, rồi <span class=\"hl-key\">hỏi Thầy/Cô hoặc người lớn</span> nếu chưa rõ.",
+        "question_30s": "Em nhờ ai cùng xem yêu cầu?"
+      },
+      {
+        "number": 33,
+        "id": "06-23-mau-1",
+        "for": "06-23",
+        "context": "Câu bạn viết: <b>Em tên Minh lớp 6A trường Nguyễn Du, mẹ em số 0912..., công cụ xin vị trí chính xác để làm gì ạ?</b>",
+        "question_30s": "Em thấy chỗ nào thừa không cần?"
+      },
+      {
+        "number": 34,
+        "id": "06-23-mau-2",
+        "for": "06-23",
+        "context": "Bốn chỗ bị tô đỏ: <span class=\"hl-error\">Minh</span>, <span class=\"hl-error\">lớp 6A</span>, <span class=\"hl-error\">trường Nguyễn Du</span>, <span class=\"hl-error\">số điện thoại mẹ</span>.",
+        "question_30s": "Em sẽ xóa chỗ nào trước?"
+      },
+      {
+        "number": 35,
+        "id": "06-23-mau-3",
+        "for": "06-23",
+        "context": "Câu sạch: <b>Em là <span class=\"hl-key\">một bạn học sinh lớp 6</span>, công cụ xin vị trí chính xác để làm gì ạ?</b>",
+        "question_30s": "Em viết câu nhờ hỗ trợ thế nào?"
+      }
+    ],
+    "old_count": 22
+  },
+  {
+    "lesson": 7,
+    "title": "Bài 7. Mặt tốt, hạn chế và lựa chọn sử dụng AI",
+    "new_count": 32,
+    "models": [
+      {
+        "number": 11,
+        "id": "07-09-mau",
+        "for": "07-09",
+        "context": "Hai bộ 30 ảnh, chưa đo kết quả.",
+        "question_30s": "Em làm gì trước khi khẳng định?"
+      },
+      {
+        "number": 15,
+        "id": "07-12-mau",
+        "for": "07-12",
+        "context": "Một em định nộp nguyên bài văn do AI viết.",
+        "question_30s": "Phần nào em vẫn phải tự làm?"
+      },
+      {
+        "number": 22,
+        "id": "07-17-mau",
+        "for": "07-17",
+        "context": "AI gợi ý video học rồi gợi thêm video khác.",
+        "question_30s": "Khi xem đủ phần cần học, em làm gì?"
+      },
+      {
+        "number": 26,
+        "id": "07-21-mau",
+        "for": "07-21",
+        "context": "AI gợi tên lá cây trong một ảnh minh họa.",
+        "question_30s": "Em không nên quyết định gì từ gợi ý này?"
+      },
+      {
+        "number": 30,
+        "id": "07-23-mau",
+        "for": "07-23",
+        "context": "Ví dụ: em muốn dùng video để học đúng mục tiêu.",
+        "question_30s": "Em nhận ra đã làm đúng bằng dấu hiệu nào?"
+      }
+    ],
+    "old_count": 21
+  },
+  {
+    "lesson": 8,
+    "title": "Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án",
+    "new_count": 33,
+    "models": [
+      {
+        "number": 9,
+        "id": "08-09-mau-a",
+        "for": "08-09",
+        "context": "Hai ý tưởng nhỏ dễ làm trong lớp.",
+        "question_30s": "Em thấy ý nào vừa sức với nhóm mình?"
+      },
+      {
+        "number": 10,
+        "id": "08-09-mau-b",
+        "for": "08-09",
+        "context": "Hai ý tưởng nhỏ, có cách kiểm.",
+        "question_30s": "Em chọn ý nào và kiểm bằng gì?"
+      },
+      {
+        "number": 15,
+        "id": "08-12-mau-a",
+        "for": "08-12",
+        "context": "<span class=\"hl-key\">Giúp [ai] giải quyết việc [gì] bằng cách [dùng AI làm gì]</span>",
+        "question_30s": "Nhóm em áp công thức này cho dự án của mình thế nào?"
+      },
+      {
+        "number": 16,
+        "id": "08-12-mau-b",
+        "for": "08-12",
+        "context": "AI chỉ gợi ý, nhóm em vẫn là người quyết định.",
+        "question_30s": "Nếu AI gợi nghĩa sai thì nhóm em xử lý ra sao?"
+      },
+      {
+        "number": 22,
+        "id": "08-17-mau",
+        "for": "08-17",
+        "context": "Dự án mẫu chỉ <span class=\"hl-explain\">mô tả ý tưởng</span>, chưa chạy thật.",
+        "question_30s": "Em đặt ví dụ và nguồn ở ô nào?"
+      },
+      {
+        "number": 27,
+        "id": "08-21-mau",
+        "for": "08-21",
+        "context": "Dự án mẫu: <span class=\"hl-explain\">thẻ ba từ tiếng Anh</span>.",
+        "question_30s": "Em sẽ nói giới hạn thế nào?"
+      },
+      {
+        "number": 31,
+        "id": "08-23-mau",
+        "for": "08-23",
+        "context": "Đây là <span class=\"hl-explain\">một dự án</span> làm dần qua bốn giai đoạn.",
+        "question_30s": "Nhóm cần xem gì trước khi làm?"
+      }
+    ],
+    "old_count": 24
+  },
+  {
+    "lesson": 9,
+    "title": "Dự án tại nhà - Giai đoạn 1: Lựa chọn vấn đề và lập kế hoạch",
+    "new_count": 23,
+    "models": [
+      {
+        "number": 9,
+        "id": "09-08-mau",
+        "for": "09-08",
+        "context": "Từ ý rộng: AI giúp em học tiếng Anh.",
+        "question_30s": "Con người cần kiểm phần nào?"
+      },
+      {
+        "number": 16,
+        "id": "09-10-mau",
+        "for": "09-10",
+        "context": "Lịch minh họa. Mốc thật theo Thầy/Cô thông báo.",
+        "question_30s": "Mỗi em cần ghi thêm gì để không quên việc?"
+      },
+      {
+        "number": 19,
+        "id": "09-13-mau",
+        "for": "09-13",
+        "context": "Mẫu nhóm ba em. Chưa có lịch nộp thật.",
+        "question_30s": "Dòng này còn cần thêm thông tin gì?"
+      }
+    ],
+    "old_count": 14
+  },
+  {
+    "lesson": 10,
+    "title": "Dự án tại nhà - Giai đoạn 2: Tìm kiếm thông tin và thiết kế ý tưởng",
+    "new_count": 24,
+    "models": [
+      {
+        "number": 7,
+        "id": "10-06b",
+        "for": "",
+        "context": "AI trả lời câu hỏi của em về nguồn.",
+        "question_30s": "Em chuyển sang bước nào sau khi đọc?"
+      },
+      {
+        "number": 8,
+        "id": "10-06c",
+        "for": "",
+        "context": "Đổi lời AI thành việc em tự làm được.",
+        "question_30s": "Em tự kiểm bằng câu hỏi nào?"
+      },
+      {
+        "number": 9,
+        "id": "10-06d",
+        "for": "",
+        "context": "Điền mẫu 80% — chỉ còn 1 ô cho em.",
+        "question_30s": "Em đánh dấu màu gì cho nguồn tin cậy?"
+      },
+      {
+        "number": 10,
+        "id": "10-07-mau",
+        "for": "10-07",
+        "context": "Nguồn mẫu: SGK AI 6, Bài 8.",
+        "question_30s": "Sau khi đọc, em ghi ý nào?"
+      },
+      {
+        "number": 12,
+        "id": "10-08-mau",
+        "for": "10-08",
+        "context": "Ví dụ dự án cần biết nghĩa của under.",
+        "question_30s": "Em chọn nguồn 1 vì điều gì?"
+      },
+      {
+        "number": 17,
+        "id": "10-11-mau",
+        "for": "10-11",
+        "context": "Dự án mẫu: hiểu nghĩa từ trong bài tiếng Anh.",
+        "question_30s": "Nếu chưa kiểm được, em đi nhánh nào?"
+      },
+      {
+        "number": 20,
+        "id": "10-13-mau",
+        "for": "10-13",
+        "context": "Một em thử đọc sơ đồ thẻ từ của nhóm.",
+        "question_30s": "Nhóm nên thử đọc lại thế nào?"
+      }
+    ],
+    "old_count": 15
+  },
+  {
+    "lesson": 11,
+    "title": "Dự án tại nhà - Giai đoạn 3: Tạo sản phẩm",
+    "new_count": 26,
+    "models": [
+      {
+        "number": 11,
+        "id": "11-08-mau",
+        "for": "11-08",
+        "context": "Dự án mẫu: áp phích ba từ tiếng Anh.",
+        "question_30s": "Nhóm cần ghi giới hạn và nguồn ra sao?"
+      },
+      {
+        "number": 16,
+        "id": "11-10-mau",
+        "for": "11-10",
+        "context": "Mẫu ba em làm chung một áp phích.",
+        "question_30s": "Mỗi em cần ghi việc của em thế nào?"
+      },
+      {
+        "number": 18,
+        "id": "11-11-mau",
+        "for": "11-11",
+        "context": "Một nhóm ba em làm áp phích ý tưởng.",
+        "question_30s": "Dòng em C nên ghi việc cụ thể nào?"
+      },
+      {
+        "number": 21,
+        "id": "11-13-mau",
+        "for": "11-13",
+        "context": "Áp phích mẫu có nguồn nhưng thiếu cách kiểm nghĩa.",
+        "question_30s": "Nhóm nên hỏi góp ý bằng câu nào?"
+      },
+      {
+        "number": 22,
+        "id": "11-13-mau-b",
+        "for": "11-13",
+        "context": "Nhóm mẫu ghi lại 1 lỗi sai rồi sửa, kèm minh chứng.",
+        "question_30s": "Cách ghi lỗi nào giúp người khác hiểu nhất?"
+      }
+    ],
+    "old_count": 15
+  },
+  {
+    "lesson": 12,
+    "title": "Dự án tại nhà - Giai đoạn 4: Hoàn thiện và nộp sản phẩm",
+    "new_count": 25,
+    "models": [
+      {
+        "number": 14,
+        "id": "12-10-mau",
+        "for": "12-10",
+        "context": "Ví dụ mẫu dài 2 phút. Không có video thật ở đây.",
+        "question_30s": "Khi nào em có thể đánh dấu đã kiểm?"
+      },
+      {
+        "number": 20,
+        "id": "12-13-mau",
+        "for": "12-13",
+        "context": "Điểm mẫu để học cách chấm, không phải điểm lớp.",
+        "question_30s": "Em cần xem minh chứng nào trước khi chọn ô cuối?"
+      }
+    ],
+    "old_count": 15
+  }
+]

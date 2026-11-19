@@ -1,0 +1,1 @@
+V6: đã thử popup, riêng tư ghi chú, đồng bộ ô mẫu, đổi trang phiếu, khóa nhập, nhớ trang và tải lại. Xem BAO_CAO_KIEM_TRA.txt để biết phạm vi và giới hạn.

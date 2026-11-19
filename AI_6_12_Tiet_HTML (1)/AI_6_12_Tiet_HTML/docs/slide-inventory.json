@@ -1,0 +1,3882 @@
+[
+  {
+    "lesson": 1,
+    "number": 1,
+    "id": "01-01",
+    "title": "Bài 1. Làm quen với AI và một số công nghệ AI quen thuộc",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 2,
+    "id": "01-02",
+    "title": "Hôm nay em làm được gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 3,
+    "id": "01-03",
+    "title": "Khởi động",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 4,
+    "id": "01-04",
+    "title": "Nhanh có phải là AI?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 5,
+    "id": "01-05",
+    "title": "Khám phá: AI làm được gì?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 6,
+    "id": "01-06",
+    "title": "Xem video để tìm hai điều",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 7,
+    "id": "01-07",
+    "title": "AI giúp gì? Con người làm gì?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 8,
+    "id": "01-08a",
+    "title": "Bước 1 · Ví dụ em đã gặp",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 9,
+    "id": "01-08b",
+    "title": "Bước 2 · Nói dễ hiểu",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 10,
+    "id": "01-08c",
+    "title": "Bước 3 · Ba dấu hiệu nhận biết AI",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 11,
+    "id": "01-09-mau",
+    "title": "Nhìn mẫu: chọn tính năng AI",
+    "phase": "Khám phá",
+    "worked_for": "01-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 12,
+    "id": "01-09",
+    "title": "P1.1 — Chọn và giải thích",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "01-09-mau",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 13,
+    "id": "01-10",
+    "title": "Cùng một ứng dụng, khác tính năng",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 14,
+    "id": "01-12a",
+    "title": "Mẫu 1 · Dịch ra cho dễ hiểu",
+    "phase": "Thực hành 1",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 15,
+    "id": "01-12b",
+    "title": "Mẫu 1 · Chỗ AI hay đoán nhầm",
+    "phase": "Thực hành 1",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 16,
+    "id": "01-21a",
+    "title": "Sửa hai nhận định quá chắc chắn",
+    "phase": "Luyện tập",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 17,
+    "id": "01-21b",
+    "title": "Đổi bài kiểm tra nhanh với bạn",
+    "phase": "Luyện tập",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 18,
+    "id": "01-11",
+    "title": "Thực hành: thử hai tính năng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 19,
+    "id": "01-12-mau",
+    "title": "Mẫu hai việc trong một bảng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "01-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 20,
+    "id": "01-12-mau-a",
+    "title": "Bước 1–2 · Chọn tình huống và dịch ra",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 21,
+    "id": "01-12-mau-b",
+    "title": "Bước 3 · Chỗ AI hay nhầm khi nhận mặt",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 22,
+    "id": "01-12",
+    "title": "Hai trải nghiệm, một bảng ghi",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "01-12-mau",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 23,
+    "id": "01-12-quiet",
+    "title": "Nhịp làm bài yên lặng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 24,
+    "id": "01-13",
+    "title": "Dịch trước, đối chiếu sau",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 25,
+    "id": "01-15",
+    "title": "Hai ảnh cùng một chiếc cốc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 26,
+    "id": "01-17-mau",
+    "title": "Ghi mẫu một lần dịch",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "01-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 27,
+    "id": "01-17",
+    "title": "P1.2 — Ghi kết quả, rồi rút ý",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "01-17-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 1,
+    "number": 28,
+    "id": "01-18",
+    "title": "Em đã thấy gì và kiểm bằng gì?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 29,
+    "id": "01-20",
+    "title": "Luyện tập: phân biệt tính năng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 30,
+    "id": "01-21-mau",
+    "title": "Mẫu phân biệt một tính năng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "01-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 31,
+    "id": "01-21",
+    "title": "P1.3A — Em phân biệt được chưa?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "01-21-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 1,
+    "number": 32,
+    "id": "01-19",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 33,
+    "id": "01-22",
+    "title": "Vận dụng: giới thiệu một tính năng",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 34,
+    "id": "01-23-mau",
+    "title": "Mẫu thẻ giới thiệu tính năng",
+    "phase": "Vận dụng",
+    "worked_for": "01-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 35,
+    "id": "01-23-mau-80",
+    "title": "Điền thử 80% — hỏi nhanh cả lớp",
+    "phase": "Vận dụng",
+    "worked_for": "01-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 1,
+    "number": 36,
+    "id": "01-23",
+    "title": "P1.3B — Giới thiệu một tính năng",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": "01-23-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 1,
+    "number": 37,
+    "id": "01-24",
+    "title": "Quan sát thêm một tính năng",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 1,
+    "id": "02-01",
+    "title": "Bài 2. Con người tạo và điều khiển AI",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 2,
+    "id": "02-02",
+    "title": "Hôm nay em làm được gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 3,
+    "id": "02-03",
+    "title": "Khởi động",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 4,
+    "id": "02-04",
+    "title": "Ai giúp máy nhận ra cốc?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 5,
+    "id": "02-05",
+    "title": "Khám phá: máy học từ ví dụ",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 6,
+    "id": "02-06",
+    "title": "Trước dự đoán, cần có gì?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 7,
+    "id": "02-07",
+    "title": "Máy học từ ví dụ",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 8,
+    "id": "02-07a",
+    "title": "Bước 1 — Con người chọn nhiệm vụ",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 9,
+    "id": "02-07b",
+    "title": "Bước 2 — Con người chuẩn bị ảnh có nhãn",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 10,
+    "id": "02-07c",
+    "title": "Bước 3 — Máy học nhanh từ ảnh",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 11,
+    "id": "02-07d",
+    "title": "Bước 4 — Con người kiểm tra kết quả",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 12,
+    "id": "02-08",
+    "title": "Dữ liệu, thuật toán và mô hình",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 13,
+    "id": "02-09",
+    "title": "Tạo mô hình khác dùng mô hình",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 14,
+    "id": "02-10-mau",
+    "title": "Ghép thử một quá trình học",
+    "phase": "Khám phá",
+    "worked_for": "02-10",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 15,
+    "id": "02-10",
+    "title": "P2.1 — Ghép tên với đúng phần",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "02-10-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 2,
+    "number": 16,
+    "id": "02-11",
+    "title": "Thực hành: đóng bốn vai",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 17,
+    "id": "02-12-mau",
+    "title": "Bốn bước phân loại rác ở trường",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "02-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 18,
+    "id": "02-12",
+    "title": "Bốn vai trong trò chơi quy tắc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "02-12-mau",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 19,
+    "id": "02-13",
+    "title": "Bước 1 — Chọn đúng nhiệm vụ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 20,
+    "id": "02-14",
+    "title": "Bước 2 — Chuẩn bị thẻ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 21,
+    "id": "02-15",
+    "title": "Bước 3 — Làm theo quy tắc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 22,
+    "id": "02-16",
+    "title": "Bước 4 — Thử chiếc thìa",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 23,
+    "id": "02-16a",
+    "title": "Mẫu 1 — Vỏ lon hay giấy vụn?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 24,
+    "id": "02-16b",
+    "title": "Mẫu 2 — Ai quyết định, ai hỗ trợ?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 25,
+    "id": "02-16c",
+    "title": "Mẫu 3 — Bảng phân vai (2 dòng đầu)",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "02-16",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 26,
+    "id": "02-16d",
+    "title": "Phiếu cá nhân — 3 phút yên lặng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 27,
+    "id": "02-16e",
+    "title": "Đổi bài nhanh cùng bạn — 2 phút",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 28,
+    "id": "02-17-mau",
+    "title": "Mẫu: ai làm việc gì?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "02-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 29,
+    "id": "02-17a",
+    "title": "Mẫu 2: ai quyết định, ai hỗ trợ?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 30,
+    "id": "02-17b",
+    "title": "Mẫu 3: bảng phân vai 2 dòng đầu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "02-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 31,
+    "id": "02-17c",
+    "title": "Phiếu cá nhân: 3 phút yên lặng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 32,
+    "id": "02-17d",
+    "title": "Đổi bài nhanh cùng bạn: 2 phút",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 33,
+    "id": "02-17",
+    "title": "P2.2 — Ghi vai, thử và so sánh",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "02-17-mau",
+    "worksheet_pages": 4
+  },
+  {
+    "lesson": 2,
+    "number": 34,
+    "id": "02-18",
+    "title": "Ai chịu trách nhiệm kiểm tra?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 35,
+    "id": "02-20",
+    "title": "Luyện tập: tạo hay dùng mô hình?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 36,
+    "id": "02-21-mau",
+    "title": "Mẫu xếp một việc đúng chỗ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "02-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 37,
+    "id": "02-21",
+    "title": "P2.3A — Đang tạo hay đang dùng?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "02-21-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 2,
+    "number": 38,
+    "id": "02-19",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 39,
+    "id": "02-22",
+    "title": "Vận dụng: khi dự đoán chưa phù hợp",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 40,
+    "id": "02-23-mau",
+    "title": "Mẫu xử lí vật ngoài hai nhóm",
+    "phase": "Vận dụng",
+    "worked_for": "02-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 2,
+    "number": 41,
+    "id": "02-23",
+    "title": "P2.3B — Thìa bị gọi là bút",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": "02-23-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 2,
+    "number": 42,
+    "id": "02-24",
+    "title": "Chuẩn bị để dạy AI thật",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 1,
+    "id": "03-01",
+    "title": "Bài 3. Dạy AI nhận biết đồ vật bằng Teachable Machine",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 2,
+    "id": "03-02",
+    "title": "Hôm nay em làm được gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 3,
+    "id": "03-03",
+    "title": "Khởi động",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 4,
+    "id": "03-04",
+    "title": "Cùng chiếc cốc, khác bức ảnh",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 5,
+    "id": "03-04a",
+    "title": "Cốc này, ảnh kia",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 6,
+    "id": "03-04b",
+    "title": "Cùng cốc, hai kiểu nhìn",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 7,
+    "id": "03-04c",
+    "title": "Mở Teachable Machine",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 8,
+    "id": "03-04d",
+    "title": "Chọn dự án Image Project",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 9,
+    "id": "03-04e",
+    "title": "Vào mô hình tiêu chuẩn",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 10,
+    "id": "03-05",
+    "title": "Khám phá: chuẩn bị dữ liệu ảnh",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 11,
+    "id": "03-06",
+    "title": "Máy nhìn ảnh bằng gì?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 12,
+    "id": "03-07",
+    "title": "Từ điểm ảnh đến nhận dạng",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 13,
+    "id": "03-08",
+    "title": "Chuẩn bị hai nhóm ảnh",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 14,
+    "id": "03-09-mau",
+    "title": "Lên kế hoạch ảnh bằng một mẫu",
+    "phase": "Khám phá",
+    "worked_for": "03-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 15,
+    "id": "03-09a",
+    "title": "Bước 1: Đặt tên hai nhóm",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 16,
+    "id": "03-09b",
+    "title": "Bảng ghi chép 2 lần thử",
+    "phase": "Khám phá",
+    "worked_for": "03-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 17,
+    "id": "03-09",
+    "title": "P3.1 — Lên kế hoạch chụp ảnh",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "03-09-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 3,
+    "number": 18,
+    "id": "03-10",
+    "title": "Bộ ảnh đã sẵn sàng chưa?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 19,
+    "id": "03-11",
+    "title": "Thực hành: tạo và thử AI nhận biết đồ vật",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 20,
+    "id": "03-12-mau",
+    "title": "Ba bước dạy AI qua hình ảnh",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "03-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 21,
+    "id": "03-12",
+    "title": "Tạo AI Bút/Cốc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "03-12-mau",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 22,
+    "id": "03-12a",
+    "title": "Bước 1 — Mở trang Teachable Machine",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 23,
+    "id": "03-12b",
+    "title": "Bước 2 — Chọn Image Project",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 24,
+    "id": "03-12c",
+    "title": "Bước 3 — Đặt tên hai nhóm ảnh",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 25,
+    "id": "03-13",
+    "title": "Bước 1 — Mở dự án ảnh",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 26,
+    "id": "03-14",
+    "title": "Bước 2 — Thêm ảnh đúng nhóm",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 27,
+    "id": "03-15",
+    "title": "Bước 3 — Kiểm rồi dạy AI",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 28,
+    "id": "03-16",
+    "title": "Bước 4 — Thử mới và lưu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 29,
+    "id": "03-17-mau",
+    "title": "Điền mẫu 80% — hai lượt thử",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "03-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 30,
+    "id": "03-17b",
+    "title": "Lượt 2 đoán nhầm — vì sao?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "03-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 31,
+    "id": "03-17",
+    "title": "P3.2 — bảng ghi thử mô hình",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "03-17-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 3,
+    "number": 32,
+    "id": "03-18",
+    "title": "Báo cáo từ lần thử thật",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 33,
+    "id": "03-20",
+    "title": "Luyện tập: đọc kết quả",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 34,
+    "id": "03-21-mau",
+    "title": "Mẫu đọc một điểm dự đoán",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "03-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 35,
+    "id": "03-21",
+    "title": "P3.3A — Đọc kết quả cho đúng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "03-21-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 3,
+    "number": 36,
+    "id": "03-19",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 37,
+    "id": "03-22",
+    "title": "Vận dụng: thiết kế lần thử mới",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 38,
+    "id": "03-23-mau",
+    "title": "Mẫu đề xuất ảnh để thử mới",
+    "phase": "Vận dụng",
+    "worked_for": "03-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 3,
+    "number": 39,
+    "id": "03-23",
+    "title": "P3.3B — Chọn ba ảnh mới",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": "03-23-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 3,
+    "number": 40,
+    "id": "03-24",
+    "title": "Lưu để tiếp tục ở tiết sau",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 1,
+    "id": "04-01",
+    "title": "Bài 4. Kiểm thử và cải tiến mô hình AI",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 2,
+    "id": "04-02",
+    "title": "Hôm nay em làm được gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 3,
+    "id": "04-03",
+    "title": "Khởi động",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 4,
+    "id": "04-04",
+    "title": "Đúng ảnh quen, đã đủ chưa?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 5,
+    "id": "04-04b",
+    "title": "Thử một ảnh lạ, chuyện gì xảy ra?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 6,
+    "id": "04-05",
+    "title": "Khám phá: giữ riêng ảnh thử",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 7,
+    "id": "04-06",
+    "title": "Bộ ảnh có thể đang thiếu gì?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 8,
+    "id": "04-07",
+    "title": "Dữ liệu cần đa dạng vì sao?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 9,
+    "id": "04-08",
+    "title": "Giữ ảnh thử ngoài ảnh học",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 10,
+    "id": "04-09-mau",
+    "title": "Mẫu giữ ảnh để kiểm thử",
+    "phase": "Khám phá",
+    "worked_for": "04-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 11,
+    "id": "04-09",
+    "title": "P4.1 — Thử sáu ảnh đã lưu",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "04-09-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 4,
+    "number": 12,
+    "id": "04-10",
+    "title": "Đối chiếu với tên vật thật",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 13,
+    "id": "04-11a",
+    "title": "Chốt Khám phá: ba điều cần nhớ",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 14,
+    "id": "04-11",
+    "title": "Thực hành: cải tiến rồi so sánh",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 15,
+    "id": "04-12-mau",
+    "title": "Mẫu chọn một điều cần sửa",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "04-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 16,
+    "id": "04-12",
+    "title": "Thay đổi một điểm, rồi thử lại",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "04-12-mau",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 17,
+    "id": "04-13",
+    "title": "Bước 1 — Chọn điều cần cải tiến",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 18,
+    "id": "04-14",
+    "title": "Bước 2 — Thêm ảnh học mới",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 19,
+    "id": "04-15",
+    "title": "Bước 3 — Dạy AI lại",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 20,
+    "id": "04-16",
+    "title": "Bước 4 — Thử lại cùng bộ ảnh",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 21,
+    "id": "04-16a",
+    "title": "Mẫu bảng 6 lượt — Lượt Trước khi sửa",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "04-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 22,
+    "id": "04-16b",
+    "title": "Mẫu bảng 6 lượt — Lượt Sau khi dạy thêm",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "04-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 23,
+    "id": "04-17-mau",
+    "title": "Mẫu so kết quả trước và sau",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "04-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 24,
+    "id": "04-17",
+    "title": "P4.2 — So sánh hai lượt thử",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "04-17-mau",
+    "worksheet_pages": 4
+  },
+  {
+    "lesson": 4,
+    "number": 25,
+    "id": "04-18",
+    "title": "Kết quả cho phép nói đến đâu?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 26,
+    "id": "04-20",
+    "title": "Luyện tập: kết luận vừa đủ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 27,
+    "id": "04-21-mau",
+    "title": "Mẫu sửa một câu nói quá chắc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "04-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 28,
+    "id": "04-21",
+    "title": "P4.3A — Sửa kết luận quá mức",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "04-21-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 4,
+    "number": 29,
+    "id": "04-19",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 30,
+    "id": "04-22",
+    "title": "Vận dụng: kiểm tra điều còn thiếu",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 31,
+    "id": "04-22a",
+    "title": "Bảng sáu lượt — điền hàng còn trống",
+    "phase": "Vận dụng",
+    "worked_for": "04-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 32,
+    "id": "04-23-mau",
+    "title": "Mẫu lập phép thử tiếp theo",
+    "phase": "Vận dụng",
+    "worked_for": "04-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 33,
+    "id": "04-23",
+    "title": "P4.3B — Thiết kế lần thử tiếp",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": "04-23-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 4,
+    "number": 34,
+    "id": "04-24a",
+    "title": "Tự kiểm 3 phút — Đổi bài bạn cùng bàn 2 phút",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 4,
+    "number": 35,
+    "id": "04-24",
+    "title": "Lưu kết quả, nêu điều chưa kiểm",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 1,
+    "id": "05-01",
+    "title": "Bài 5. AI hỗ trợ học tập nhưng con người quyết định",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 2,
+    "id": "05-02",
+    "title": "Hôm nay em làm được gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 3,
+    "id": "05-03",
+    "title": "Khởi động",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 4,
+    "id": "05-04",
+    "title": "Mèo ở trên hay ở dưới bàn?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 5,
+    "id": "05-05",
+    "title": "Khám phá: chọn nguồn để kiểm",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 6,
+    "id": "05-06",
+    "title": "Đọc trôi chảy, đã chắc đúng?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 7,
+    "id": "05-07",
+    "title": "Vì sao cần kiểm câu trả lời?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 8,
+    "id": "05-08",
+    "title": "Chọn chi tiết để kiểm",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 9,
+    "id": "05-09-b1",
+    "title": "Bước 1 · Câu trả lời gốc của AI",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 10,
+    "id": "05-09-b2",
+    "title": "Bước 2 · Dịch & đối chiếu SGK",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 11,
+    "id": "05-09-b3",
+    "title": "Bước 3 · Điền Bảng kiểm tra",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 12,
+    "id": "05-09-mau",
+    "title": "Mẫu kiểm một câu AI nói sai",
+    "phase": "Khám phá",
+    "worked_for": "05-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 13,
+    "id": "05-09",
+    "title": "P5.1 — Nguồn nào kiểm được?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "05-09-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 5,
+    "number": 14,
+    "id": "05-10",
+    "title": "Kiểm bằng nguồn phù hợp",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 15,
+    "id": "05-11",
+    "title": "Thực hành: ghi, kiểm, quyết định",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 16,
+    "id": "05-12-mau",
+    "title": "Mẫu đọc trước khi dùng bản dịch",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "05-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 17,
+    "id": "05-12",
+    "title": "Ghi gốc, kiểm rồi quyết định",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "05-12-mau",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 18,
+    "id": "05-13",
+    "title": "Bước 1 — Giữ bản dịch gốc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 19,
+    "id": "05-15",
+    "title": "Bước 2 — Kiểm và chọn cách xử lí",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 20,
+    "id": "05-17-mau",
+    "title": "Mẫu ghi quyết định trong bảng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "05-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 21,
+    "id": "05-17",
+    "title": "P5.2 — bảng ghi kiểm tra bản dịch",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "05-17-mau",
+    "worksheet_pages": 4
+  },
+  {
+    "lesson": 5,
+    "number": 22,
+    "id": "05-18",
+    "title": "Em quyết định dựa vào đâu?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 23,
+    "id": "05-20",
+    "title": "Luyện tập: kiểm tra xem AI nói đúng hay sai",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 24,
+    "id": "05-21-b3",
+    "title": "Bước 3 · Điền mẫu bảng kiểm tra",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 25,
+    "id": "05-21-mau",
+    "title": "Mẫu chọn nguồn để kiểm",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "05-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 26,
+    "id": "05-21",
+    "title": "P5.3A — Chọn cách kiểm tốt hơn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "05-21-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 5,
+    "number": 27,
+    "id": "05-19",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 28,
+    "id": "05-22",
+    "title": "Vận dụng: kiểm một câu mới",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 29,
+    "id": "05-21-b1-new",
+    "title": "Bước 1 · Câu gốc (luyện tập)",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 30,
+    "id": "05-21-b2-new",
+    "title": "Bước 2 · Dịch nghĩa & đối chiếu",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 31,
+    "id": "05-21-b3-new",
+    "title": "Bước 3 · Highlight & điền mẫu 80%",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 32,
+    "id": "05-23-mau",
+    "title": "Mẫu lập cách kiểm câu mới",
+    "phase": "Vận dụng",
+    "worked_for": "05-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 5,
+    "number": 33,
+    "id": "05-23",
+    "title": "P5.3B — Kiểm một câu mới",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": "05-23-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 5,
+    "number": 34,
+    "id": "05-24",
+    "title": "Chuẩn bị câu hỏi cho lần sau",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 1,
+    "id": "06-01",
+    "title": "Bài 6. Dữ liệu cá nhân, quyền riêng tư và an toàn khi dùng AI",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 2,
+    "id": "06-02",
+    "title": "Hôm nay em làm được gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 3,
+    "id": "06-03",
+    "title": "Khởi động",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 4,
+    "id": "06-04",
+    "title": "Hỏi nghĩa từ có cần địa chỉ?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 5,
+    "id": "06-05",
+    "title": "Khám phá: dữ liệu nào cần thiết?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 6,
+    "id": "06-06",
+    "title": "Thông tin nào gắn với em?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 7,
+    "id": "06-07",
+    "title": "Dữ liệu và quyền riêng tư",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 8,
+    "id": "06-08",
+    "title": "Chỉ gửi phần cần cho nhiệm vụ",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 9,
+    "id": "06-09-mau-1",
+    "title": "Bước 1 — Câu chat nguy hiểm",
+    "phase": "Khám phá",
+    "worked_for": "06-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 10,
+    "id": "06-09-mau-2",
+    "title": "Bước 2 — Tô đỏ và giải thích",
+    "phase": "Khám phá",
+    "worked_for": "06-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 11,
+    "id": "06-09-mau-3",
+    "title": "Bước 3 — Thẻ hỏi an toàn",
+    "phase": "Khám phá",
+    "worked_for": "06-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 12,
+    "id": "06-09",
+    "title": "P6.1 — Giữ hay bỏ thông tin?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "06-09-mau-1",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 6,
+    "number": 13,
+    "id": "06-10",
+    "title": "Dừng lại để hỏi rõ",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 14,
+    "id": "06-10b",
+    "title": "Khi nào cần hỏi người lớn?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 15,
+    "id": "06-11",
+    "title": "Thực hành: tạo bản chia sẻ an toàn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 16,
+    "id": "06-12-mau-1",
+    "title": "Mẫu sửa chat — Bước 1: Khung còn lộ tin",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "06-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 17,
+    "id": "06-12-mau-2",
+    "title": "Mẫu sửa chat — Bước 2: Đánh dấu chỗ lộ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "06-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 18,
+    "id": "06-12-mau-3",
+    "title": "Mẫu sửa chat — Bước 3: Bản sạch an toàn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "06-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 19,
+    "id": "06-12",
+    "title": "Tạo một bản hỏi nghĩa an toàn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "06-12-mau-1",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 20,
+    "id": "06-13a",
+    "title": "Bước 1 — Xóa tên, lớp, địa chỉ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 21,
+    "id": "06-13b",
+    "title": "Bước 1 — Giữ câu hỏi, không che màu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 22,
+    "id": "06-15",
+    "title": "Bước 2 — Tải rồi mở lại",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 23,
+    "id": "06-17-mau",
+    "title": "Mẫu kiểm chính tệp đã tải",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "06-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 24,
+    "id": "06-17",
+    "title": "P6.2 — Sửa và kiểm bản sạch",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "06-17-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 6,
+    "number": 25,
+    "id": "06-18",
+    "title": "Bỏ gì mà vẫn hỏi được?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 26,
+    "id": "06-20",
+    "title": "Luyện tập: xử lí yêu cầu quyền",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 27,
+    "id": "06-21-mau-1",
+    "title": "Bước 1 · Yêu cầu quyền gốc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "06-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 28,
+    "id": "06-21-mau-2",
+    "title": "Bước 2 · Chỗ đáng cảnh giác",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "06-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 29,
+    "id": "06-21-mau-3",
+    "title": "Bước 3 · Cách xử lí an toàn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "06-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 30,
+    "id": "06-21",
+    "title": "P6.3A — Gặp yêu cầu quyền lạ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "06-21-mau-1",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 6,
+    "number": 31,
+    "id": "06-19",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 32,
+    "id": "06-22",
+    "title": "Vận dụng: viết thẻ an toàn",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 33,
+    "id": "06-23-mau-1",
+    "title": "Bước 1 · Câu hỏi gốc còn lộ",
+    "phase": "Vận dụng",
+    "worked_for": "06-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 34,
+    "id": "06-23-mau-2",
+    "title": "Bước 2 · Chỗ rò rỉ thông tin",
+    "phase": "Vận dụng",
+    "worked_for": "06-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 35,
+    "id": "06-23-mau-3",
+    "title": "Bước 3 · Bản sạch an toàn",
+    "phase": "Vận dụng",
+    "worked_for": "06-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 6,
+    "number": 36,
+    "id": "06-23",
+    "title": "P6.3B — Ba câu hỏi trước khi chia sẻ",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": "06-23-mau-1",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 6,
+    "number": 37,
+    "id": "06-24",
+    "title": "Nhìn lại một yêu cầu quyền",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 1,
+    "id": "07-01",
+    "title": "Bài 7. Mặt tốt, hạn chế và lựa chọn sử dụng AI",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 2,
+    "id": "07-02",
+    "title": "Hôm nay em làm được gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 3,
+    "id": "07-03",
+    "title": "Khởi động",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 4,
+    "id": "07-04",
+    "title": "Gợi ý video giúp học hay giữ chân em?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 5,
+    "id": "07-05",
+    "title": "Khám phá: dữ liệu có bao quát?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 6,
+    "id": "07-06",
+    "title": "Một bộ dữ liệu có bao quát hết không?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 7,
+    "id": "07-06b",
+    "title": "Dữ liệu nào có thể bị bỏ sót?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 8,
+    "id": "07-07",
+    "title": "Khi dữ liệu chưa bao quát",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 9,
+    "id": "07-08",
+    "title": "Cùng 30 ảnh, khác cách chọn",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 10,
+    "id": "07-08b",
+    "title": "Bộ nào giúp so sánh công bằng hơn?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 11,
+    "id": "07-09-mau",
+    "title": "Mẫu so hai bộ ảnh",
+    "phase": "Khám phá",
+    "worked_for": "07-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 12,
+    "id": "07-09",
+    "title": "Phiếu A — So sánh dữ liệu",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "07-09-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 7,
+    "number": 13,
+    "id": "07-10",
+    "title": "Dữ liệu chỉ là một phần",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 14,
+    "id": "07-11",
+    "title": "Thực hành: chọn cách dùng AI",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 15,
+    "id": "07-12-mau",
+    "title": "Mẫu: có nên nhờ AI viết hộ?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "07-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 16,
+    "id": "07-12-mau-b1",
+    "title": "Bước 1: Tình huống gốc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 17,
+    "id": "07-12-mau-b2",
+    "title": "Bước 2: Dịch hậu quả",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 18,
+    "id": "07-12-mau-b3",
+    "title": "Bước 3: Điền mẫu vào bảng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 19,
+    "id": "07-12",
+    "title": "Chọn cách dùng, nêu điều kiện",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "07-12-mau",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 20,
+    "id": "07-12b",
+    "title": "Tình huống 2: nhờ AI dịch cả bài để nộp",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 21,
+    "id": "07-13",
+    "title": "Làm mẫu: dùng AI dịch câu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 22,
+    "id": "07-17-mau",
+    "title": "Mẫu một lựa chọn có điều kiện",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "07-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 23,
+    "id": "07-17",
+    "title": "Phiếu B — Quyết định có lí do",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "07-17-mau",
+    "worksheet_pages": 4
+  },
+  {
+    "lesson": 7,
+    "number": 24,
+    "id": "07-18",
+    "title": "Khác lựa chọn, có khác căn cứ?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 25,
+    "id": "07-20",
+    "title": "Luyện tập: nêu lựa chọn có lí do",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 26,
+    "id": "07-21-mau",
+    "title": "Mẫu tách tìm hiểu và quyết định",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "07-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 27,
+    "id": "07-21",
+    "title": "P7.3A — Tự cân nhắc trước khi dùng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "07-21-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 7,
+    "number": 28,
+    "id": "07-19",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 29,
+    "id": "07-22",
+    "title": "Vận dụng: quy tắc của em",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 30,
+    "id": "07-23-mau",
+    "title": "Mẫu biến khẩu hiệu thành hành động",
+    "phase": "Vận dụng",
+    "worked_for": "07-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 7,
+    "number": 31,
+    "id": "07-23",
+    "title": "P7.3B — Ba quy tắc làm được",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": "07-23-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 7,
+    "number": 32,
+    "id": "07-24",
+    "title": "Mang tới một nhu cầu gần gũi",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 1,
+    "id": "08-01",
+    "title": "Bài 8. Con người kết hợp với AI - hình thành ý tưởng dự án",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 2,
+    "id": "08-02",
+    "title": "Hôm nay em làm được gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 3,
+    "id": "08-03",
+    "title": "Khởi động",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 4,
+    "id": "08-04",
+    "title": "Ý tưởng nào dễ bắt đầu hơn?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 5,
+    "id": "08-05",
+    "title": "Khám phá: so sánh ý tưởng",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 6,
+    "id": "08-06",
+    "title": "Máy làm phần nào? Người làm phần nào?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 7,
+    "id": "08-07",
+    "title": "Một ví dụ về người kết hợp với AI",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 8,
+    "id": "08-08",
+    "title": "Ba điều làm ý tưởng rõ hơn",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 9,
+    "id": "08-09-mau-a",
+    "title": "Ngân hàng ý tưởng mẫu (1/2)",
+    "phase": "Khám phá",
+    "worked_for": "08-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 10,
+    "id": "08-09-mau-b",
+    "title": "Ngân hàng ý tưởng mẫu (2/2)",
+    "phase": "Khám phá",
+    "worked_for": "08-09",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 11,
+    "id": "08-09",
+    "title": "P8.1 — So hai ý tưởng trước khi chọn",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "08-09-mau-a",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 8,
+    "number": 12,
+    "id": "08-10",
+    "title": "Chọn việc nhỏ, kiểm được",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 13,
+    "id": "08-11",
+    "title": "Thực hành: phác thảo dự án",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 14,
+    "id": "08-11b",
+    "title": "Phiếu tóm tắt nhiệm vụ của nhóm em",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 15,
+    "id": "08-12-mau-a",
+    "title": "Mẫu 1 — Tên dự án và vấn đề",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "08-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 16,
+    "id": "08-12-mau-b",
+    "title": "Mẫu 2 — Vai trò AI và vai trò kiểm tra",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "08-12",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 17,
+    "id": "08-12",
+    "title": "Làm rõ ý tưởng đã chọn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "08-12-mau-a",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 18,
+    "id": "08-13",
+    "title": "Bước 1 — Viết mục tiêu cụ thể",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 19,
+    "id": "08-14",
+    "title": "Bước 2 — Chọn dữ liệu cần dùng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 20,
+    "id": "08-15",
+    "title": "Bước 3 — Xác định cách kiểm",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 21,
+    "id": "08-16",
+    "title": "Bước 4 — Chọn sản phẩm vừa sức",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 22,
+    "id": "08-17-mau",
+    "title": "Mẫu đọc một Phiếu ý tưởng đủ ý",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "08-17",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 23,
+    "id": "08-17",
+    "title": "P8.2 — Từ ý tưởng đến phác thảo",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "08-17-mau",
+    "worksheet_pages": 4
+  },
+  {
+    "lesson": 8,
+    "number": 24,
+    "id": "08-18",
+    "title": "Em cùng nhóm có hiểu ý tưởng của nhóm?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 25,
+    "id": "08-18b",
+    "title": "Ba câu hỏi tự kiểm trước khi nộp phiếu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 26,
+    "id": "08-20",
+    "title": "Luyện tập: tự giải thích dự án",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 27,
+    "id": "08-21-mau",
+    "title": "Mẫu một em giải thích dự án",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "08-21",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 28,
+    "id": "08-21",
+    "title": "P8.3A — Tự giải thích dự án",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "08-21-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 8,
+    "number": 29,
+    "id": "08-19",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 30,
+    "id": "08-22",
+    "title": "Vận dụng: chuẩn bị dự án tại nhà",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 31,
+    "id": "08-23-mau",
+    "title": "Mẫu đọc bốn giai đoạn dự án",
+    "phase": "Vận dụng",
+    "worked_for": "08-23",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 8,
+    "number": 32,
+    "id": "08-23",
+    "title": "P8.3B — Biết đích trước khi làm",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": "08-23-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 8,
+    "number": 33,
+    "id": "08-24",
+    "title": "Bắt đầu bằng kế hoạch nhỏ",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 1,
+    "id": "09-01",
+    "title": "Dự án tại nhà - Giai đoạn 1: Lựa chọn vấn đề và lập kế hoạch",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 2,
+    "id": "09-02",
+    "title": "Giai đoạn này cần hoàn thành gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 3,
+    "id": "09-03",
+    "title": "Khởi động: mở lại ý tưởng",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 4,
+    "id": "09-04a",
+    "title": "Đọc lại 3 thứ đã có",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 5,
+    "id": "09-04b",
+    "title": "Khoanh 1 điểm còn vướng",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 6,
+    "id": "09-05",
+    "title": "Từ ý rộng đến mục tiêu nhỏ",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 7,
+    "id": "09-05b",
+    "title": "So sánh: quá rộng và đủ nhỏ",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 8,
+    "id": "09-10-mau2",
+    "title": "Bảng kế hoạch đã điền đầy đủ",
+    "phase": "Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 9,
+    "id": "09-08-mau",
+    "title": "Mẫu thu nhỏ một mục tiêu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "09-08",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 10,
+    "id": "09-08",
+    "title": "P9.1 — Chốt vấn đề và mục tiêu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "09-08-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 9,
+    "number": 11,
+    "id": "09-09",
+    "title": "Thực hành: lập kế hoạch",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 12,
+    "id": "09-11",
+    "title": "Nhóm đang có điều kiện gì?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 13,
+    "id": "09-11b",
+    "title": "Bước 1 · Câu gốc cần chia việc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 14,
+    "id": "09-11c",
+    "title": "Bước 2 · Dịch câu gốc sang việc cụ thể",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 15,
+    "id": "09-11d",
+    "title": "Bước 3 · Điền mẫu 80% có sẵn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 16,
+    "id": "09-10-mau",
+    "title": "Mẫu phân công ba em, bốn tuần",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "09-10",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 17,
+    "id": "09-10",
+    "title": "P9.2 — Mỗi việc có người và mốc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "09-10-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 9,
+    "number": 18,
+    "id": "09-12",
+    "title": "Tự kiểm tra kế hoạch",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 19,
+    "id": "09-13-mau",
+    "title": "Mẫu kiểm một dòng kế hoạch",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "09-13",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 20,
+    "id": "09-13",
+    "title": "P9.3 — Kiểm kế hoạch trước gửi",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "09-13-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 9,
+    "number": 21,
+    "id": "09-14",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 22,
+    "id": "09-15",
+    "title": "Vận dụng: gửi và giữ kế hoạch",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 9,
+    "number": 23,
+    "id": "09-16",
+    "title": "Gửi kế hoạch, giữ bản để làm tiếp",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 1,
+    "id": "10-01",
+    "title": "Dự án tại nhà - Giai đoạn 2: Tìm kiếm thông tin và thiết kế ý tưởng",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 2,
+    "id": "10-02",
+    "title": "Giai đoạn này cần hoàn thành gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 3,
+    "id": "10-03",
+    "title": "Khởi động: hỏi điều còn thiếu",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 4,
+    "id": "10-04",
+    "title": "Nhóm còn thiếu thông tin nào?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 5,
+    "id": "10-05",
+    "title": "Tìm theo câu hỏi, không tìm lan man",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 6,
+    "id": "10-06a",
+    "title": "Kiểm tra nguồn: 3 bước",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 7,
+    "id": "10-06b",
+    "title": "Bước 1 — Đọc gợi ý AI về nguồn",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 8,
+    "id": "10-06c",
+    "title": "Bước 2 — Dịch cách kiểm tra",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 9,
+    "id": "10-06d",
+    "title": "Bước 3 — Đánh dấu dấu hiệu",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 10,
+    "id": "10-07-mau",
+    "title": "Mẫu ghi một nguồn đã mở",
+    "phase": "Khám phá",
+    "worked_for": "10-07",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 11,
+    "id": "10-07",
+    "title": "P10.1 — Ghi hai nguồn đã đọc",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "10-07-mau",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 10,
+    "number": 12,
+    "id": "10-08-mau",
+    "title": "Mẫu so nguồn theo câu hỏi",
+    "phase": "Khám phá",
+    "worked_for": "10-08",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 13,
+    "id": "10-08",
+    "title": "P10.2 — So hai nguồn theo mục đích",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": "10-08-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 10,
+    "number": 14,
+    "id": "10-09",
+    "title": "Thực hành: vẽ cách hoạt động",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 15,
+    "id": "10-10",
+    "title": "Bốn phần của một lần sử dụng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 16,
+    "id": "10-10b",
+    "title": "Sơ đồ mẫu: 4 khối lớn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 17,
+    "id": "10-11-mau",
+    "title": "Mẫu sơ đồ từ hỏi đến dùng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "10-11",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 18,
+    "id": "10-11",
+    "title": "P10.3A — Vẽ cách hoạt động",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "10-11-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 10,
+    "number": 19,
+    "id": "10-12",
+    "title": "Tự kiểm tra thiết kế",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 20,
+    "id": "10-13-mau",
+    "title": "Mẫu nhận một góp ý cụ thể",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "10-13",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 21,
+    "id": "10-13",
+    "title": "P10.3B — Nhờ em cùng nhóm thử giải thích",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "10-13-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 10,
+    "number": 22,
+    "id": "10-14",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 23,
+    "id": "10-15",
+    "title": "Vận dụng: gửi bản thiết kế",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 10,
+    "number": 24,
+    "id": "10-16",
+    "title": "Gửi nguồn và bản thiết kế",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 1,
+    "id": "11-01",
+    "title": "Dự án tại nhà - Giai đoạn 3: Tạo sản phẩm",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 2,
+    "id": "11-02",
+    "title": "Giai đoạn này cần hoàn thành gì?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 3,
+    "id": "11-02b",
+    "title": "Vì sao cần ghi nguồn và đóng góp?",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 4,
+    "id": "11-03",
+    "title": "Khởi động: xem lại thiết kế",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 5,
+    "id": "11-04",
+    "title": "Từ thiết kế sang bản 1",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 6,
+    "id": "11-05",
+    "title": "Một sản phẩm cần nói rõ gì?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 7,
+    "id": "11-05b",
+    "title": "Ví dụ, cách kiểm và giới hạn",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 8,
+    "id": "11-07",
+    "title": "Ý tưởng hay mô hình đã chạy?",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 9,
+    "id": "11-07b",
+    "title": "Minh chứng thật mới tính",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 10,
+    "id": "11-17",
+    "title": "Chốt tiết: ba việc đã làm",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 11,
+    "id": "11-08-mau",
+    "title": "Mẫu dùng lại bản thiết kế",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "11-08",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 12,
+    "id": "11-08-mau1",
+    "title": "Mẫu 1 — Bảng nguồn tư liệu đã dùng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 13,
+    "id": "11-08-mau2",
+    "title": "Mẫu 2 — Bảng đóng góp phần việc cá nhân",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 14,
+    "id": "11-08",
+    "title": "P11.1 — Dùng lại thiết kế để soạn",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "11-08-mau",
+    "worksheet_pages": 4
+  },
+  {
+    "lesson": 11,
+    "number": 15,
+    "id": "11-09",
+    "title": "Thực hành: làm sản phẩm bản 1",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 16,
+    "id": "11-10-mau",
+    "title": "Mẫu chia phần làm bản 1",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "11-10",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 17,
+    "id": "11-10",
+    "title": "Tạo bản 1, mỗi em làm một phần",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "11-10-mau",
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 18,
+    "id": "11-11-mau",
+    "title": "Mẫu ghi nguồn và việc đã làm",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "11-11",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 19,
+    "id": "11-11",
+    "title": "P11.2 — Ghi nguồn và đóng góp",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "11-11-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 11,
+    "number": 20,
+    "id": "11-12",
+    "title": "Tự kiểm tra bản 1",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 21,
+    "id": "11-13-mau",
+    "title": "Mẫu kiểm trước khi hỏi góp ý",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "11-13",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 22,
+    "id": "11-13-mau-b",
+    "title": "Mẫu ghi lỗi đã sửa",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "11-13",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 23,
+    "id": "11-13",
+    "title": "P11.3 — Kiểm bản 1 bằng vị trí thật",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "11-13-mau",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 11,
+    "number": 24,
+    "id": "11-14",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 25,
+    "id": "11-15",
+    "title": "Vận dụng: gửi và xin góp ý",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 11,
+    "number": 26,
+    "id": "11-16",
+    "title": "Gửi bản 1 và hỏi một câu rõ",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 1,
+    "id": "12-01",
+    "title": "Dự án tại nhà - Giai đoạn 4: Hoàn thiện và nộp sản phẩm",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 2,
+    "id": "12-02a",
+    "title": "Việc 1: Sửa theo góp ý",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 3,
+    "id": "12-02b",
+    "title": "Việc 2 & 3: Tự đánh giá và nộp",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 4,
+    "id": "12-03",
+    "title": "Khởi động: chọn góp ý",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 5,
+    "id": "12-04",
+    "title": "Chọn góp ý giúp sản phẩm tốt hơn",
+    "phase": "Khởi động",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 6,
+    "id": "12-07",
+    "title": "Sửa để người dùng biết phải làm gì",
+    "phase": "Khám phá",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 7,
+    "id": "12-05-mau-1",
+    "title": "Bước 1 · Câu gốc của góp ý",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "12-05",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 8,
+    "id": "12-05-mau-2",
+    "title": "Bước 2 · Dịch góp ý thành việc làm",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "12-05",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 9,
+    "id": "12-05-mau-3",
+    "title": "Bước 3 · Điền mẫu 80%",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "12-05",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 10,
+    "id": "12-05",
+    "title": "P12.1 — Ghi thay đổi có lí do",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "12-05-mau-3",
+    "worksheet_pages": 2
+  },
+  {
+    "lesson": 12,
+    "number": 11,
+    "id": "12-09",
+    "title": "Thực hành: hoàn thiện và giới thiệu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 12,
+    "id": "12-08-mau-1",
+    "title": "Bước 1–2 · Lời giới thiệu gốc",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "12-08",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 13,
+    "id": "12-08",
+    "title": "P12.2A — Viết lời giới thiệu",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "12-08-mau-1",
+    "worksheet_pages": 3
+  },
+  {
+    "lesson": 12,
+    "number": 14,
+    "id": "12-10-mau",
+    "title": "Mẫu kiểm bản quay đã mở",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "12-10",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 15,
+    "id": "12-10",
+    "title": "P12.2B — Quay rồi mở lại để kiểm",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "12-10-mau",
+    "worksheet_pages": 1
+  },
+  {
+    "lesson": 12,
+    "number": 16,
+    "id": "12-10a",
+    "title": "Kịch bản quay 2 phút: Bước 1 và 2",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 17,
+    "id": "12-10b",
+    "title": "Kịch bản quay 2 phút: Bước 3 và 4",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 18,
+    "id": "12-11",
+    "title": "Hồ sơ cuối có những gì?",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 19,
+    "id": "12-12",
+    "title": "Tự đánh giá bằng minh chứng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 20,
+    "id": "12-13-mau",
+    "title": "Mẫu tự chấm bằng bằng chứng",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": "12-13",
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 21,
+    "id": "12-13",
+    "title": "P12.3 — Có minh chứng rồi chấm điểm",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": "12-13-mau",
+    "worksheet_pages": 7
+  },
+  {
+    "lesson": 12,
+    "number": 22,
+    "id": "12-13a",
+    "title": "Mẫu bảng tự kiểm trước khi nộp",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 23,
+    "id": "12-14",
+    "title": "Kiến thức cần nhớ",
+    "phase": "Luyện tập / Thực hành",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 24,
+    "id": "12-15",
+    "title": "Vận dụng: nộp và nhìn lại",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  },
+  {
+    "lesson": 12,
+    "number": 25,
+    "id": "12-16",
+    "title": "Nộp bản cuối và nhìn lại",
+    "phase": "Vận dụng",
+    "worked_for": null,
+    "sample_id": null,
+    "worksheet_pages": 0
+  }
+]

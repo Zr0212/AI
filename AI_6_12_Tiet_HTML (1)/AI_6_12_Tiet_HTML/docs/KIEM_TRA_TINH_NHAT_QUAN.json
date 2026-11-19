@@ -1,0 +1,23 @@
+{
+  "version": "V6",
+  "lessons": 12,
+  "slides": 297,
+  "worked_examples": 55,
+  "worksheet_slides": 46,
+  "expanded_page_states": 359,
+  "revealed_example_states": 55,
+  "responsive_cases": 96,
+  "explicit_saved_keys": 334,
+  "other_unchanged_fields": "6 thẻ P1.1 và 8 ô cuối dự án",
+  "all_old_keys_preserved": true,
+  "option_values_preserved": true,
+  "model_before_every_independent_task_or_worksheet": true,
+  "old_titles_preserved": true,
+  "js_syntax": "pass",
+  "internal_links": "pass",
+  "duplicate_saved_keys": 0,
+  "authored_sentence_lint": 0,
+  "authored_banned_vocabulary": 0,
+  "physical_projector_tested": false,
+  "classroom_trial": false
+}

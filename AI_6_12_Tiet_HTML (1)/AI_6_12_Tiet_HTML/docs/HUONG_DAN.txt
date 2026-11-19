@@ -1,0 +1,33 @@
+HƯỚNG DẪN BỘ SLIDE AI 6 — V6
+12 tiết · 297 slide · 55 mẫu trước thực hành
+
+1. Giải nén toàn bộ gói, mở index.html bằng Chrome/Edge.
+2. Chọn Mở bài học. Mỗi tiết là một trang trong lessons.
+3. ←/→, PageUp/PageDown chuyển slide; M mục lục; N ghi chú; F toàn màn hình.
+4. Bấm Chiếu: màn mới chỉ chiếu slide; màn chính là màn Thầy/Cô có chú thích.
+5. Đưa cửa sổ chiếu sang màn hình thứ hai. Ghi chú riêng không truyền sang đó.
+6. Dừng ở mẫu trước khi giao việc. Mẫu ghi rõ phần tạo sẵn. Chỉ bấm Mở ô cuối sau khi các em trả lời.
+7. Mở/Ẩn ô cuối được đồng bộ sang màn chiếu. Xem lại mẫu đưa về đúng mã mẫu của phiếu.
+8. Tiết 1–7: 3 phút tự làm, sau đó 2 phút so theo cặp. Không bắt các em trao đổi nhóm ngay đầu hoạt động.
+9. Tiết 8–12: chia vai trước khi làm. Nhóm ba em có thể gộp vai ghi và theo dõi.
+10. Gợi ý 45 phút tiết 1–8: khởi động 3, khám phá 8, thực hành 18, luyện tập 7, vận dụng 7, chốt 2.
+    Mẫu và hỏi nhanh nằm trong các mốc đó. Thao tác nhỏ không cộng thêm thành một tiết mới.
+    Phần thực hành có thể gồm 11 phút thao tác và 5 phút ghi/so phiếu trong mốc chung.
+11. Dự án tại nhà gồm bốn giai đoạn của một dự án. Có thể chia phiên làm. Lịch bốn tuần ở mẫu không phải lịch bắt buộc.
+12. Phiếu nằm ngay trên slide. Dùng số bước hoặc Trang trước/Trang sau của phiếu. Mũi tên dưới cùng chuyển slide.
+13. Bấm Ghi vào phiếu để tới đúng trang cần ghi. Không chép cùng kết quả vào nhiều nơi.
+14. Gợi ý cho Thầy/Cô chỉ mở trên màn chính. Chiếu bảng đối chiếu/Tiêu chí dự án là mở có chủ ý cho lớp xem.
+15. Tải bài làm tạo tệp .txt, chưa tự gửi cho Thầy/Cô. Nộp qua kênh lớp.
+16. Bài nháp lưu ở trình duyệt/thiết bị. Giữ khóa cũ không bảo đảm dữ liệu tự sang thư mục hoặc thiết bị khác.
+    Trước khi chuyển máy, hãy tải bài. Không xóa nháp khi chưa lưu phần cần giữ.
+17. V6 giữ đủ khóa V4. P2.1 gộp trang ghép thuật ngữ; trang đang mở có thể thay đổi, câu trả lời vẫn giữ khóa.
+18. Mẫu không có ô lưu bài riêng. Ô cuối chỉ dùng hỏi nhanh; không tự tính vào điểm HS.
+19. P6.2: xóa thông tin trong nội dung, tải Cau_hoi_tu_vung.txt rồi mở tệp để kiểm. Không chỉ phủ màu lên chữ.
+20. Tiêu chí cuối dự án có năm lựa chọn 0–2. Tổng tự tính, phân biệt chưa chọn và 0.
+21. Font, ảnh, video và ba PDF nguồn có trong assets. Công cụ dịch, tìm kiếm ảnh và Teachable Machine cần mạng.
+22. Thử loa, popup, phát video và công cụ ngoài trước giờ học. Trình duyệt có thể yêu cầu bấm phát trên màn chiếu một lần.
+23. Đổi công cụ ảnh ở assets/js/config.js nếu cần. Chỉ dùng ảnh mẫu không có người hoặc dữ liệu định danh.
+24. Teachable Machine: Download project as file để lưu; Open project from file để mở. Giữ bộ ảnh đúng tên, có thể cần dạy lại. Export Model là việc khác.
+25. Chỉnh nội dung ở assets/js/lessons/tiet-XX.js. Các bản chú thích TXT/JSON là bản đọc, không tự đồng bộ ngược.
+26. Bộ điều khiển, phím tắt, lưu cục bộ và hai màn giữ kiến trúc cũ. Mã data-save không phụ thuộc số thứ tự slide.
+27. Đọc DOI_CHIEU_TUNG_TIET.html và BAO_CAO_KIEM_TRA.txt để xem thay đổi và kiểm tra thực tế.
