@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" rx="16" fill="#475569"/>
+
+  <!-- Phone Container in center -->
+  <rect x="180" y="25" width="440" height="450" rx="28" fill="#FFFFFF" stroke="#0F172A" stroke-width="8"/>
+  <rect x="350" y="38" width="100" height="8" rx="4" fill="#0F172A"/>
+
+  <rect x="188" y="60" width="424" height="60" fill="#16A34A"/>
+  <text x="400" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#FFFFFF">
+    Bước 3: Xử Lý An Toàn
+  </text>
+
+  <!-- Modal with Safe Selection -->
+  <g transform="translate(220, 140)">
+    <rect width="360" height="300" rx="18" fill="#FFFFFF" stroke="#22C55E" stroke-width="3"/>
+    
+    <text x="180" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#15803D">
+      ✔ CHỌN HÀNH ĐỘNG AN TOÀN
+    </text>
+
+    <!-- Permission items -->
+    <rect x="30" y="70" width="300" height="40" rx="8" fill="#F1F5F9" opacity="0.6"/>
+    <text x="45" y="95" font-family="Arial, sans-serif" font-size="14" fill="#64748B" text-decoration="line-through">
+      📇 Danh bạ điện thoại
+    </text>
+
+    <rect x="30" y="120" width="300" height="40" rx="8" fill="#F1F5F9" opacity="0.6"/>
+    <text x="45" y="145" font-family="Arial, sans-serif" font-size="14" fill="#64748B" text-decoration="line-through">
+      📍 Vị trí chính xác thiết bị
+    </text>
+
+    <!-- Buttons: DENY HIGHLIGHTED -->
+    <g transform="translate(30, 190)">
+      <!-- Pulsing ring on Deny -->
+      <rect x="-4" y="-4" width="148" height="68" rx="14" fill="none" stroke="#22C55E" stroke-width="4"/>
+      
+      <!-- Deny Button -->
+      <rect width="140" height="60" rx="10" fill="#22C55E"/>
+      <text x="70" y="27" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="15" fill="#FFFFFF">BẤM VÀO ĐÂY</text>
+      <text x="70" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#DCFCE7">TỪ CHỐI</text>
+
+      <!-- Mouse Cursor pointing to Deny -->
+      <polygon points="120,45 120,65 126,59 135,70 140,66 130,55 138,55" fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+
+      <!-- Allow Button (Disabled / grayed) -->
+      <rect x="160" y="7" width="140" height="46" rx="10" fill="#E2E8F0"/>
+      <text x="230" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#94A3B8">Cho phép</text>
+    </g>
+
+    <text x="180" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#15803D">
+      Ứng dụng tra từ vẫn chạy được bình thường!
+    </text>
+  </g>
+
+  <!-- Left Callout: Hỏi người lớn -->
+  <g transform="translate(15, 170)">
+    <rect width="150" height="170" rx="10" fill="#F0FDF4" stroke="#22C55E" stroke-width="2"/>
+    <text x="75" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#15803D">NGUYÊN TẮC</text>
+    <text x="75" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">🙋</text>
+    <text x="12" y="100" font-family="Arial, sans-serif" font-size="13" fill="#14532D">Khi chưa rõ hoặc phân vân:</text>
+    <text x="75" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#166534">HỎI THẦY CÔ</text>
+    <text x="75" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#166534">HOẶC BỐ MẸ!</text>
+  </g>
+
+  <!-- Right Callout: Thành quả -->
+  <g transform="translate(635, 170)">
+    <rect width="150" height="170" rx="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+    <text x="75" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#1D4ED8">THÀNH QUẢ</text>
+    <text x="75" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">🛡️</text>
+    <text x="12" y="100" font-family="Arial, sans-serif" font-size="12" fill="#1E3A8A">Dữ liệu cá nhân được giữ bí mật 100%.</text>
+    <text x="12" y="145" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#1D4ED8">Em làm chủ thiết bị của mình!</text>
+  </g>
+</svg>

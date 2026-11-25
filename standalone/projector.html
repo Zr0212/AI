@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Màn hình Máy chiếu 16:9 | LAN Slides Standalone</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/slide-base.css">
+  <link rel="stylesheet" href="css/projector.css">
+</head>
+<body class="projector-page">
+  <!-- Container chua sprite SVG dung offline -->
+  <div id="svg-sprite-holder" style="display: none;" aria-hidden="true"></div>
+
+  <!-- Dong ho dem nguoc dong bo goc tren phai man hinh -->
+  <div class="projector-timer" id="projector-timer" style="display: none;">
+    <span class="projector-timer__icon">⏱</span>
+    <span class="projector-timer__val" id="projector-timer-val">03:00</span>
+  </div>
+
+  <!-- San dien viewport chua slide 1920x1080 ti le 16:9 -->
+  <main class="slide-viewport" id="slide-viewport" aria-label="Màn hình trình chiếu slide">
+    <div class="projector-loading" id="projector-loading">
+      <span class="projector-loading__spinner"></span>
+      <p>Đang tải bài giảng và đồng bộ với Giáo viên...</p>
+    </div>
+  </main>
+
+  <!-- HUD dieu huong kin dao (tu dong an sau 3 giay) -->
+  <nav class="projector-hud" id="projector-hud" aria-label="Bảng điều khiển chuyển slide">
+    <button class="hud-btn" id="hud-prev" aria-label="Slide trước">&larr;</button>
+    <span class="hud-counter" id="hud-counter">1 / 10</span>
+    <button class="hud-btn" id="hud-next" aria-label="Slide tiếp">&rarr;</button>
+    <button class="hud-btn" id="hud-fullscreen" aria-label="Bật toàn màn hình">&#x26F6;</button>
+  </nav>
+
+  <!-- Script logic doc lap (khong dung ES module de chay tot duoi file://) -->
+  <script src="js/icons-data.js"></script>
+  <script src="js/decks-data.js"></script>
+  <script src="js/channel.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/interactions.js"></script>
+  <script src="js/projector.js"></script>
+</body>
+</html>

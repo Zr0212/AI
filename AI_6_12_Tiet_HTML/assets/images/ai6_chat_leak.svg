@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" rx="16" fill="#F8FAFC"/>
+  
+  <!-- Header Bar -->
+  <rect width="800" height="65" rx="16" fill="#303F83"/>
+  <rect y="45" width="800" height="20" fill="#303F83"/>
+  <circle cx="45" cy="32" r="18" fill="#3B82F6"/>
+  <text x="45" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#FFFFFF">AI</text>
+  <text x="75" y="30" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#FFFFFF">Trợ lý Học tập AI</text>
+  <circle cx="75" cy="45" r="4" fill="#22C55E"/>
+  <text x="86" y="49" font-family="Arial, sans-serif" font-size="12" fill="#93C5FD">Đang hoạt động</text>
+
+  <rect x="580" y="18" width="190" height="28" rx="6" fill="#EF4444"/>
+  <text x="675" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#FFFFFF">⚠️ CHƯA CHE THÔNG TIN</text>
+
+  <!-- Chat area -->
+  <g transform="translate(60, 95)">
+    <!-- User Avatar & Name -->
+    <circle cx="650" cy="20" r="18" fill="#64748B"/>
+    <text x="650" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF">Minh</text>
+    <text x="620" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Bạn Minh (Học sinh)</text>
+
+    <!-- Chat Bubble (Message with leak) -->
+    <path d="M 50 45 L 640 45 A 14 14 0 0 1 654 59 L 654 195 A 14 14 0 0 1 640 209 L 60 209 A 14 14 0 0 1 46 195 L 46 59 A 14 14 0 0 1 60 45 Z" 
+          fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/>
+    
+    <text x="70" y="80" font-family="Arial, sans-serif" font-size="15" fill="#1E293B">Chào AI, mình là <tspan font-weight="bold" fill="#DC2626">Nguyễn Văn Minh</tspan>,</text>
+    <text x="70" y="110" font-family="Arial, sans-serif" font-size="15" fill="#1E293B">học <tspan font-weight="bold" fill="#DC2626">lớp 6A trường THCS Lê Lợi</tspan>,</text>
+    <text x="70" y="140" font-family="Arial, sans-serif" font-size="15" fill="#1E293B">số nhà <tspan font-weight="bold" fill="#DC2626">12 phố Hàng Bông</tspan>, mẹ mình số <tspan font-weight="bold" fill="#DC2626">0912 xxx xxx</tspan>.</text>
+    <text x="70" y="175" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2563EB">Cho mình hỏi từ "under" nghĩa là gì?</text>
+  </g>
+
+  <!-- Warning Box below -->
+  <g transform="translate(60, 335)">
+    <rect width="680" height="135" rx="12" fill="#FEF2F2" stroke="#F87171" stroke-width="2"/>
+    <text x="25" y="32" font-family="Arial, sans-serif" font-weight="bold" font-size="15" fill="#991B1B">
+      🛑 PHÁT HIỆN 4 LOẠI THÔNG TIN BÍ MẬT KHÔNG NÊN GỬI:
+    </text>
+    <text x="40" y="62" font-family="Arial, sans-serif" font-size="14" fill="#B91C1C">1. Họ tên thật: Nguyễn Văn Minh (Lộ danh tính)</text>
+    <text x="40" y="86" font-family="Arial, sans-serif" font-size="14" fill="#B91C1C">2. Lớp &amp; Trường: Lớp 6A THCS Lê Lợi (Lộ địa điểm học tập)</text>
+    <text x="40" y="110" font-family="Arial, sans-serif" font-size="14" fill="#B91C1C">3. Địa chỉ nhà: 12 Hàng Bông &amp; Số điện thoại mẹ: 0912 xxx xxx (Dữ liệu nhạy cảm)</text>
+  </g>
+</svg>

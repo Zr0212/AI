@@ -96,7 +96,11 @@ window.AI6_LESSON={
         "Trong 20 giây, em chọn một mục tiêu trên slide."
       ],
       "connector": "Đầu bài cho biết chủ đề. Em xem việc cần làm.",
-      "number": 2
+      "number": 2,
+      "photo": {
+        "file": "privacy_shield.svg",
+        "caption": "Mục tiêu bảo vệ dữ liệu cá nhân & quyền riêng tư khi dùng AI."
+      }
     },
     {
       "type": "divider",
@@ -175,7 +179,11 @@ window.AI6_LESSON={
         "Trong 30 giây, em tự chọn câu trả lời tại chỗ."
       ],
       "connector": "Từ mục tiêu hôm nay, em xem một tình huống.",
-      "number": 4
+      "number": 4,
+      "photo": {
+        "file": "ai6_permission_prompt.svg",
+        "caption": "Ứng dụng tra nghĩa từ yêu cầu quyền Danh bạ và Vị trí."
+      }
     },
     {
       "type": "divider",
@@ -307,7 +315,11 @@ window.AI6_LESSON={
         "Trong 30 giây, em ghi một ví dụ vào vở."
       ],
       "connector": "Giữ câu hỏi vừa đọc. Em tìm ví dụ trong phim.",
-      "number": 7
+      "number": 7,
+      "photo": {
+        "file": "frame_8_55.jpg",
+        "caption": "Xem phim về dữ liệu và quyền riêng tư."
+      }
     },
     {
       "type": "concept",
@@ -349,7 +361,11 @@ window.AI6_LESSON={
         "Trong 30 giây, em chỉ một ý trên hình."
       ],
       "connector": "Từ ví dụ vừa có, em đặt tên cho điều đã thấy.",
-      "number": 8
+      "number": 8,
+      "photo": {
+        "file": "privacy_concept.jpg",
+        "caption": "Dữ liệu cá nhân cần được bảo vệ và kiểm soát quyền riêng tư."
+      }
     },
     {
       "id": "06-09-mau",
@@ -557,7 +573,11 @@ window.AI6_LESSON={
       ],
       "sampleId": "06-09-mau",
       "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
-      "number": 10
+      "number": 10,
+      "photo": {
+        "file": "ai6_checklist_safe.svg",
+        "caption": "Phiếu kiểm tra: giữ câu hỏi học tập, bỏ thông tin riêng tư."
+      }
     },
     {
       "type": "conclusion",
@@ -599,7 +619,11 @@ window.AI6_LESSON={
         "Trong 30 giây, em nêu một căn cứ tại chỗ."
       ],
       "connector": "Em so kết quả để rút ra điều có căn cứ.",
-      "number": 11
+      "number": 11,
+      "photo": {
+        "file": "privacy_shield.svg",
+        "caption": "Dừng lại suy nghĩ trước khi cấp quyền cho ứng dụng."
+      }
     },
     {
       "type": "divider",
@@ -742,7 +766,11 @@ window.AI6_LESSON={
       ],
       "sampleId": "06-12-mau",
       "connector": "Em đã xem mẫu. Giờ em tự làm theo cách đó.",
-      "number": 14
+      "number": 14,
+      "photo": {
+        "file": "ai6_chat_redact.svg",
+        "caption": "Xóa thông tin thừa khỏi ô văn bản."
+      }
     },
     {
       "type": "step",
@@ -836,7 +864,11 @@ window.AI6_LESSON={
         "Trong 1 phút, em làm bước này trong ô văn bản."
       ],
       "connector": "Bản trên màn hình đã sửa. Em kiểm tệp sẽ chia sẻ.",
-      "number": 16
+      "number": 16,
+      "photo": {
+        "file": "ai6_notepad_check.svg",
+        "caption": "Tải tệp Cau_hoi_tu_vung.txt và mở trong Notepad để kiểm tra."
+      }
     },
     {
       "id": "06-17-mau",
@@ -900,7 +932,11 @@ window.AI6_LESSON={
           "transition": "Thầy/Cô nói: Em đã hiểu cách điền. Giờ em tự làm bài của em."
         }
       },
-      "number": 17
+      "number": 17,
+      "photo": {
+        "file": "ai6_checklist_safe.svg",
+        "caption": "Mẫu kiểm tra tệp đã tải: tên tệp và nội dung đều sạch."
+      }
     },
     {
       "type": "worksheet",

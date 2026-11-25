@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bàn điều khiển Giáo viên | LAN Slides Standalone</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/slide-base.css">
+  <link rel="stylesheet" href="css/teacher.css">
+  <style>
+    .teacher-topbar__brand .offline-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      color: #FFFFFF;
+      background: #D97706;
+      padding: 2px 7px;
+      border-radius: 12px;
+      margin-left: 8px;
+      letter-spacing: 0.5px;
+      vertical-align: middle;
+    }
+    .status-dot--connected {
+      background-color: #10B981 !important;
+      box-shadow: 0 0 6px rgba(16, 185, 129, 0.6);
+    }
+    .deck-picker-select {
+      height: 38px;
+      padding: 0 12px;
+      font-family: var(--font-body, inherit);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-navy);
+      background-color: #FFFFFF;
+      border: 2px solid rgba(43, 58, 140, 0.25);
+      border-radius: var(--radius-sm, 6px);
+      outline: none;
+      max-width: 310px;
+      cursor: pointer;
+    }
+    .deck-picker-select:focus {
+      border-color: var(--color-navy);
+      box-shadow: 0 0 0 2px rgba(43, 58, 140, 0.15);
+    }
+    .activity-info-card {
+      background: #FFFFFF;
+      border: 1px solid rgba(43, 58, 140, 0.15);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    .activity-info-card__header {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--color-navy);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .activity-info-card__badge {
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: rgba(43, 58, 140, 0.08);
+    }
+    .activity-info-card__ans {
+      font-size: 13px;
+      color: #065F46;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .activity-info-card__exp {
+      font-size: 12px;
+      color: #4B5563;
+      line-height: 1.45;
+    }
+    .shortcut-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+      color: #374151;
+    }
+    .shortcut-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+    }
+    .shortcut-key {
+      font-family: monospace;
+      font-weight: 700;
+      background: #F3F4F6;
+      border: 1px solid #D1D5DB;
+      border-radius: 4px;
+      padding: 1px 6px;
+      color: #111827;
+    }
+    .interactive-option {
+      cursor: pointer !important;
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+    }
+    .interactive-option:hover {
+      box-shadow: 0 0 0 2px var(--color-navy);
+    }
+  </style>
+</head>
+<body class="teacher-dashboard">
+  <!-- Container chua sprite SVG de dung offline -->
+  <div id="svg-sprite-holder" style="display: none;" aria-hidden="true"></div>
+
+  <!-- Thanh Top Bar -->
+  <header class="teacher-topbar">
+    <div class="teacher-topbar__brand">
+      <svg class="teacher-topbar__star" aria-hidden="true">
+        <use href="#icon-star-burst"/>
+      </svg>
+      <span class="teacher-topbar__title">BÀN ĐIỀU KHIỂN GIÁO VIÊN</span>
+      <span class="offline-badge">OFFLINE</span>
+    </div>
+
+    <!-- Bo chon bai giang truc tiep -->
+    <div class="teacher-deck-selector">
+      <select class="deck-picker-select" id="select-deck" aria-label="Chọn bài giảng">
+        <!-- Danh sach bai giang se duoc nap bang JS tu STANDALONE_DECKS -->
+      </select>
+    </div>
+
+    <!-- Dong ho dem nguoc doc lap -->
+    <div class="teacher-timer" id="teacher-timer-box">
+      <span class="timer-display" id="teacher-timer-display">03:00</span>
+      <div class="timer-controls">
+        <button class="timer-btn" id="btn-timer-toggle" aria-label="Bắt đầu hoặc Tạm dừng">
+          ▶ Bắt đầu
+        </button>
+        <button class="timer-btn" id="btn-timer-reset" aria-label="Đặt lại">
+          ↺
+        </button>
+        <select class="timer-select" id="timer-duration-select" aria-label="Chọn thời gian">
+          <option value="60">1 phút</option>
+          <option value="120">2 phút</option>
+          <option value="180" selected>3 phút</option>
+          <option value="300">5 phút</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Trang thai ket noi man chieu -->
+    <div class="teacher-topbar__room-info">
+      <div class="room-badge room-badge--students">
+        <span class="status-dot" id="projector-status-dot"></span>
+        <span id="projector-status-text">Màn chiếu: Đang chờ</span>
+      </div>
+    </div>
+
+    <!-- Nut hanh dong mo man chieu va ve trang chu -->
+    <div class="teacher-topbar__actions">
+      <button class="btn btn--projector" id="btn-open-projector"
+              aria-label="Mở màn hình máy chiếu">
+        <svg class="btn-icon"><use href="#icon-projector"/></svg>
+        Mở màn hình chiếu
+      </button>
+      <a href="index.html" class="btn btn--secondary" aria-label="Về trang giới thiệu">
+        Trang chủ
+      </a>
+    </div>
+  </header>
+
+  <!-- Bo cuc 3 cot -->
+  <main class="teacher-layout">
+    <!-- Cot 1: Thumbnails -->
+    <aside class="teacher-col teacher-col--thumbs" aria-label="Danh sách các slide">
+      <div class="col-header">
+        <h2>DANH SÁCH SLIDE</h2>
+        <span class="col-header__count" id="thumb-count">0 slide</span>
+      </div>
+      <div class="thumb-list" id="thumb-list"></div>
+    </aside>
+
+    <!-- Cot 2: Preview Slide & Thanh tac vu dieu khien -->
+    <section class="teacher-col teacher-col--preview" aria-label="Khu vực trình chiếu slide">
+      <!-- Thanh tac vu dieu khien nang cao cua giao vien -->
+      <div class="teacher-action-bar">
+        <div class="action-group">
+          <button class="btn-action btn-action--reveal" id="btn-reveal-answer"
+                  aria-label="Công bố đáp án">
+            <svg class="btn-icon"><use href="#icon-reveal"/></svg>
+            <span id="reveal-btn-text">Công bố đáp án</span>
+          </button>
+        </div>
+        <div class="current-activity-status" id="current-activity-status">
+          Slide lý thuyết (không có bài tập)
+        </div>
+      </div>
+
+      <div class="preview-stage" id="preview-stage">
+        <div class="slide-viewport" id="teacher-viewport"></div>
+      </div>
+
+      <nav class="preview-nav" aria-label="Điều hướng slide">
+        <button class="nav-btn" id="btn-prev-slide" aria-label="Slide trước">
+          &larr; Slide trước
+        </button>
+        <span class="nav-counter" id="slide-counter">Slide 1 / 10</span>
+        <button class="nav-btn" id="btn-next-slide" aria-label="Slide tiếp">
+          Slide tiếp &rarr;
+        </button>
+      </nav>
+    </section>
+
+    <!-- Cot 3: Ghi chu & Chi tiet bai tap -->
+    <aside class="teacher-col teacher-col--notes" aria-label="Ghi chú giáo viên và bài tập">
+      <!-- Panel Ghi chu giang day -->
+      <div class="notes-panel">
+        <div class="col-header">
+          <h2>GHI CHÚ GIẢNG DẠY</h2>
+          <span class="notes-badge">CHỈ GIÁO VIÊN</span>
+        </div>
+        <div class="notes-content" id="speaker-notes-content">
+          Đang nạp ghi chú giảng dạy...
+        </div>
+      </div>
+
+      <!-- Panel Chi tiet cau hoi & dap an -->
+      <div class="progress-panel">
+        <div class="col-header">
+          <h2>CHI TIẾT BÀI TẬP & ĐÁP ÁN</h2>
+        </div>
+        <div class="progress-content" id="activity-detail-box">
+          <div class="progress-summary" id="activity-detail-summary">
+            Slide hiện tại không có bài tập tương tác.
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel Huong dan & Phim tat -->
+      <div class="students-panel">
+        <div class="col-header">
+          <h2>PHÍM TẮT & HƯỚNG DẪN</h2>
+        </div>
+        <div style="padding: 12px;">
+          <ul class="shortcut-list">
+            <li>
+              <span>Chuyển slide kế tiếp</span>
+              <span class="shortcut-key">→ / Space</span>
+            </li>
+            <li>
+              <span>Quay lại slide trước</span>
+              <span class="shortcut-key">←</span>
+            </li>
+            <li>
+              <span>Công bố / Ẩn đáp án</span>
+              <span class="shortcut-key">R</span>
+            </li>
+            <li>
+              <span>Bật / Dừng đồng hồ</span>
+              <span class="shortcut-key">T</span>
+            </li>
+            <li>
+              <span>Bật toàn màn hình</span>
+              <span class="shortcut-key">F / F11</span>
+            </li>
+          </ul>
+          <p style="margin-top: 10px; font-size: 11px; color: #6B7280; line-height: 1.4;">
+            💡 <em>Mẹo:</em> Nhấn trực tiếp vào bất kỳ phương án A, B, C, D nào
+            trên khung chiếu để công bố đáp án ngay cho màn chiếu!
+          </p>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Script logic doc lap (khong dung ES module de chay tot duoi file://) -->
+  <script src="js/icons-data.js"></script>
+  <script src="js/decks-data.js"></script>
+  <script src="js/channel.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/interactions.js"></script>
+  <script src="js/teacher.js"></script>
+</body>
+</html>

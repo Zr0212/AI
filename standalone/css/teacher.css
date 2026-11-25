@@ -1,0 +1,844 @@
+/**
+ * public/teacher/teacher.css
+ * Muc dich: Dinh kieu ban dieu khien giao vien voi bo cuc 3 cot, thanh dong ho server,
+ * thanh tac vu khoa/cong bo dap an va bieu do tien do realtime.
+ * Thu tu: reset, layout chung, topbar, 3 cot (thumbs, preview, notes/progress), responsive.
+ */
+
+/* ===== 1. Layout tong the ===== */
+body.teacher-dashboard {
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--color-outer-bg);
+  font-family: var(--font-body);
+  color: var(--color-navy);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== 2. Thanh Top Bar & Dong ho Server ===== */
+.teacher-topbar {
+  height: 68px;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--space-md);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+.teacher-topbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.teacher-topbar__star {
+  width: 26px;
+  height: 26px;
+}
+
+.teacher-topbar__title {
+  font-family: var(--font-title);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Dong ho dem nguoc */
+.teacher-timer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(251, 246, 228, 0.12);
+  padding: 4px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(251, 246, 228, 0.2);
+}
+
+.timer-display {
+  font-family: var(--font-title);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-cream);
+  min-width: 65px;
+}
+
+.timer-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.timer-btn {
+  background-color: rgba(251, 246, 228, 0.2);
+  border: none;
+  color: var(--color-cream);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.timer-btn:hover {
+  background-color: rgba(251, 246, 228, 0.35);
+}
+
+.timer-select {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(251, 246, 228, 0.2);
+  color: var(--color-cream);
+  border-radius: var(--radius-sm);
+  padding: 3px 6px;
+  font-size: 13px;
+  outline: none;
+}
+
+.teacher-topbar__room-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.room-badge {
+  background-color: rgba(251, 246, 228, 0.15);
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.room-badge__label {
+  opacity: 0.8;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
+
+.room-badge__code {
+  font-family: var(--font-title);
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: var(--color-cream);
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-circle);
+  background-color: var(--color-success);
+}
+
+.teacher-topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn--projector {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 14px;
+}
+
+.btn--projector:hover {
+  background-color: #EDE7D3;
+}
+
+.btn--danger {
+  background-color: var(--color-error);
+  color: var(--color-cream);
+  font-weight: 600;
+  border: none;
+}
+
+.btn--danger:hover {
+  background-color: #B93838;
+}
+
+/* ===== 3. Bo cuc 3 cot ===== */
+.teacher-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 260px 1fr 360px;
+  gap: var(--space-sm);
+  padding: var(--space-sm);
+  overflow: hidden;
+}
+
+.teacher-col {
+  background-color: var(--color-cream);
+  border: var(--border-width-hairline) solid var(--color-navy-border);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.col-header {
+  padding: 12px 16px;
+  border-bottom: var(--border-width-hairline) solid var(--color-navy-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(43, 58, 140, 0.04);
+}
+
+.col-header h2 {
+  font-family: var(--font-title);
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.col-header__count {
+  font-size: 13px;
+  opacity: 0.75;
+  font-weight: 600;
+}
+
+/* Cot 1: Danh sach Thumbnails */
+.teacher-col--thumbs {
+  min-width: 220px;
+}
+
+.thumb-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thumb-item {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: var(--border-width-thin) solid var(--color-navy-border);
+  background-color: #FFFFFF;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.thumb-item:hover {
+  background-color: var(--color-navy-tint);
+  border-color: var(--color-navy);
+}
+
+.thumb-item--active {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  border-color: var(--color-navy);
+  box-shadow: 0 4px 12px rgba(43, 58, 140, 0.25);
+}
+
+.thumb-item__num {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.7;
+}
+
+.thumb-item__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.thumb-item__title {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.thumb-item__badge {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.8;
+}
+
+/* Cot 2: Preview Khung Slide & Action Bar */
+.teacher-col--preview {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.teacher-action-bar {
+  background-color: var(--color-cream);
+  border: var(--border-width-hairline) solid var(--color-navy-border);
+  border-radius: var(--radius-md);
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow-card);
+}
+
+.action-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-action {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 6px 14px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: opacity var(--transition-fast);
+}
+
+.btn-action:hover {
+  opacity: 0.9;
+}
+
+.btn-action--active {
+  background-color: var(--color-error);
+}
+
+.btn-action--reveal {
+  background-color: #374BAE;
+}
+
+.btn-action--revealed {
+  background-color: var(--color-success);
+}
+
+.current-activity-status {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.preview-stage {
+  flex: 1;
+  background-color: #000000;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow-card);
+}
+
+#teacher-viewport {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.preview-nav {
+  height: 52px;
+  background-color: var(--color-cream);
+  border: var(--border-width-hairline) solid var(--color-navy-border);
+  border-radius: var(--radius-md);
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.nav-btn {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 8px 18px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-counter {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Cot 3: Ghi chu & Tien do realtime */
+.teacher-col--notes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.notes-panel, .progress-panel, .students-panel {
+  background-color: var(--color-cream);
+  border: var(--border-width-hairline) solid var(--color-navy-border);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-card);
+}
+
+.notes-panel {
+  flex: 1.2;
+  overflow: hidden;
+}
+
+.notes-badge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background-color: rgba(214, 69, 69, 0.15);
+  color: var(--color-error);
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+}
+
+.notes-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px 16px;
+  font-size: 15px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  color: var(--color-navy);
+}
+
+/* Panel Tien do realtime */
+.progress-panel {
+  flex: 1;
+  overflow: hidden;
+}
+
+.progress-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.progress-summary {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.progress-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.mini-bar-row {
+  display: grid;
+  grid-template-columns: 24px 1fr 40px;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.mini-bar-track {
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.mini-bar-fill {
+  height: 100%;
+  background-color: var(--color-navy);
+  border-radius: var(--radius-pill);
+  transition: width 0.3s ease;
+}
+
+.mini-bar-fill--correct {
+  background-color: var(--color-success);
+}
+
+/* Panel Hoc sinh */
+.students-panel {
+  flex: 1;
+  overflow: hidden;
+}
+
+.students-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.students-empty {
+  font-size: 13px;
+  opacity: 0.7;
+  font-style: italic;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.student-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  background-color: #FFFFFF;
+  border: var(--border-width-hairline) solid var(--color-navy-border);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* ===== 4. Responsive ===== */
+@media (max-width: 1024px) {
+  .teacher-layout {
+    grid-template-columns: 200px 1fr 300px;
+  }
+}
+
+/* ===== 5. Modal Chọn Bài Giảng Khi Tạo Phòng ===== */
+.deck-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(26, 43, 73, 0.72);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: var(--space-md);
+}
+
+.deck-modal {
+  background-color: var(--color-cream);
+  border: 2px solid var(--color-navy);
+  border-radius: var(--radius-md);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 760px;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: modalFadeIn 0.2s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.deck-modal__header {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-bottom: 2px solid rgba(251, 246, 228, 0.2);
+}
+
+.deck-modal__title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.deck-modal__icon {
+  width: 22px;
+  height: 22px;
+}
+
+.deck-modal__title {
+  font-family: var(--font-title);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0;
+  color: var(--color-cream);
+}
+
+.btn--sm {
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reload-icon {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+.reload-icon.spinning {
+  animation: spinIcon 0.8s linear infinite;
+}
+
+@keyframes spinIcon {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.deck-modal__body {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.deck-modal__desc {
+  font-size: 14px;
+  color: var(--color-navy);
+  opacity: 0.9;
+  font-weight: 500;
+  margin: 0;
+}
+
+.deck-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.deck-loading,
+.deck-empty {
+  padding: 32px 16px;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--color-navy);
+  opacity: 0.8;
+}
+
+.deck-card {
+  border: 2px solid rgba(43, 58, 140, 0.22);
+  border-radius: var(--radius-md);
+  background-color: #FFFFFF;
+  padding: 16px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  user-select: none;
+}
+
+.deck-card:hover {
+  border-color: var(--color-navy);
+  background-color: rgba(251, 246, 228, 0.6);
+  transform: translateY(-1px);
+}
+
+.deck-card--selected {
+  border-color: var(--color-navy);
+  background-color: rgba(43, 58, 140, 0.06);
+  box-shadow: 0 0 0 1px var(--color-navy);
+}
+
+.deck-card__radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(43, 58, 140, 0.4);
+  margin-top: 3px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.deck-card--selected .deck-card__radio {
+  border-color: var(--color-navy);
+  background-color: var(--color-navy);
+}
+
+.deck-card--selected .deck-card__radio::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-cream);
+}
+
+.deck-card__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.deck-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.deck-card__badge {
+  font-family: var(--font-title);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  border-radius: var(--radius-pill);
+}
+
+.deck-card__filename {
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--color-navy);
+  opacity: 0.65;
+}
+
+.deck-card__title {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-navy);
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+  margin: 0 0 8px 0;
+}
+
+.deck-card__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--color-navy);
+  opacity: 0.85;
+}
+
+.deck-card__stats .stat-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: rgba(43, 58, 140, 0.06);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.deck-modal__footer {
+  background-color: rgba(43, 58, 140, 0.04);
+  border-top: 1px solid rgba(43, 58, 140, 0.15);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* ===== 12. Tuong tac cong bo dap an tren slide Giao vien ===== */
+.teacher-reveal-inline-bar {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 2px dashed rgba(43, 58, 140, 0.25);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide-frame--navy .teacher-reveal-inline-bar {
+  border-top-color: rgba(251, 246, 228, 0.25);
+}
+
+.btn-teacher-reveal-inline {
+  width: 100%;
+  padding: 14px 28px;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: var(--radius-pill);
+  border: 2.5px solid var(--color-navy);
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: all var(--transition-fast);
+  box-shadow: 0 4px 16px rgba(43, 58, 140, 0.2);
+}
+
+.slide-frame--navy .btn-teacher-reveal-inline {
+  border-color: var(--color-cream);
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.btn-teacher-reveal-inline:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(43, 58, 140, 0.3);
+}
+
+.btn-teacher-reveal-inline.btn--active {
+  background-color: var(--color-success) !important;
+  border-color: var(--color-success) !important;
+  color: #FFFFFF !important;
+}
+
+.teacher-option-interactive {
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  cursor: pointer !important;
+}
+
+.teacher-option-interactive:hover {
+  transform: scale(1.015);
+  box-shadow: 0 4px 14px rgba(43, 58, 140, 0.2);
+}

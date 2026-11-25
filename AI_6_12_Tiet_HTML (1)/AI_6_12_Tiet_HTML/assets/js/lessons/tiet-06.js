@@ -111,8 +111,8 @@ window.AI6_LESSON={
       "number": 2,
       "icon": "target",
       "photo": {
-        "file": "cup_clear.png",
-        "caption": "Mục tiêu rõ ràng giúp em giữ an toàn."
+        "file": "privacy_shield.svg",
+        "caption": "Mục tiêu bảo vệ dữ liệu cá nhân & quyền riêng tư khi dùng AI."
       }
     },
     {
@@ -205,8 +205,8 @@ window.AI6_LESSON={
       "number": 4,
       "icon": "search",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Ứng dụng đòi quá nhiều thông tin."
+        "file": "ai6_permission_prompt.svg",
+        "caption": "Ứng dụng tra nghĩa từ yêu cầu quyền Danh bạ và Vị trí."
       }
     },
     {
@@ -360,7 +360,7 @@ window.AI6_LESSON={
       "number": 7,
       "icon": "play-circle",
       "photo": {
-        "file": "frame_2_55.jpg",
+        "file": "frame_8_55.jpg",
         "caption": "Xem phim về dữ liệu và quyền riêng tư."
       }
     },
@@ -416,8 +416,8 @@ window.AI6_LESSON={
       "number": 8,
       "icon": "info",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Chọn đúng phần cần gửi."
+        "file": "privacy_concept.jpg",
+        "caption": "Dữ liệu cá nhân cần được bảo vệ và kiểm soát quyền riêng tư."
       }
     },
     {
@@ -430,8 +430,8 @@ window.AI6_LESSON={
       "scene": "privacy",
       "icon": "message-square-warning",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Tin nhắn chưa che thông tin."
+        "file": "ai6_chat_leak.svg",
+        "caption": "Tin nhắn mẫu bạn Minh chứa 4 thông tin cá nhân bí mật."
       },
       "worked": {
         "title": "Tin nhắn bạn Minh chuẩn bị gửi AI",
@@ -501,8 +501,8 @@ window.AI6_LESSON={
       "scene": "privacy",
       "icon": "alert-triangle",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "4 thông tin bí mật bị tô đỏ."
+        "file": "ai6_chat_redact.svg",
+        "caption": "Tô đỏ 4 thông tin bí mật cần xóa bỏ."
       },
       "worked": {
         "title": "4 thông tin bí mật cần che",
@@ -581,8 +581,8 @@ window.AI6_LESSON={
       "scene": "privacy",
       "icon": "shield-check",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Câu hỏi đã che thông tin."
+        "file": "ai6_chat_safe.svg",
+        "caption": "Bản sạch an toàn: chỉ còn câu hỏi học tập, AI trả lời chính xác."
       },
       "worked": {
         "title": "Thẻ hỏi an toàn — bản mẫu",
@@ -798,8 +798,8 @@ window.AI6_LESSON={
       "number": 12,
       "icon": "clipboard-list",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Phiếu luyện tập cá nhân."
+        "file": "ai6_checklist_safe.svg",
+        "caption": "Phiếu kiểm tra: giữ câu hỏi học tập, bỏ thông tin riêng tư."
       }
     },
     {
@@ -854,8 +854,8 @@ window.AI6_LESSON={
       "number": 13,
       "icon": "help-circle",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Hỏi trước khi cấp quyền."
+        "file": "privacy_shield.svg",
+        "caption": "Dừng lại suy nghĩ trước khi cấp quyền cho ứng dụng."
       }
     },
     {
@@ -866,8 +866,8 @@ window.AI6_LESSON={
       "phase": "Khám phá",
       "icon": "user-check",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Hỏi người lớn khi chưa chắc."
+        "file": "student_ask_teacher.jpg",
+        "caption": "Hỏi Thầy/Cô hoặc cha mẹ khi ứng dụng xin quyền lạ."
       },
       "screen": [
         {
@@ -959,8 +959,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "message-square",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Khung chat mẫu còn lộ thông tin bí mật"
+        "file": "ai6_chat_leak.svg",
+        "caption": "Khung chat mẫu còn lộ thông tin bí mật."
       },
       "worked": {
         "title": "Khung chat trước khi sửa",
@@ -1022,8 +1022,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "alert-triangle",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Tô đỏ 4 thông tin bí mật cần xóa"
+        "file": "ai6_chat_redact.svg",
+        "caption": "Tô đỏ 4 thông tin bí mật cần xóa."
       },
       "worked": {
         "title": "Đánh dấu phần cần xóa",
@@ -1085,8 +1085,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "shield-check",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Bản chat sạch, không còn thông tin bí mật"
+        "file": "ai6_chat_safe.svg",
+        "caption": "Bản chat sạch, không còn thông tin bí mật."
       },
       "worked": {
         "title": "Bản sạch để em làm theo",
@@ -1182,8 +1182,8 @@ window.AI6_LESSON={
       "number": 19,
       "icon": "file-text",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Ô văn bản cần xóa tin thừa"
+        "file": "ai6_chat_redact.svg",
+        "caption": "Xóa thông tin thừa khỏi ô văn bản."
       }
     },
     {
@@ -1218,8 +1218,8 @@ window.AI6_LESSON={
       "theme": "cream",
       "icon": "trash-2",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Xóa thông tin bí mật khỏi ô văn bản"
+        "file": "ai6_chat_redact.svg",
+        "caption": "Xóa thông tin bí mật khỏi ô văn bản, không chỉ che màu."
       },
       "recordTarget": "06-17",
       "recordPage": 0,
@@ -1268,8 +1268,8 @@ window.AI6_LESSON={
       "theme": "cream",
       "icon": "check-circle-2",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Ô văn bản sạch chỉ còn câu hỏi"
+        "file": "ai6_chat_safe.svg",
+        "caption": "Bản sạch chỉ còn câu hỏi nghĩa từ."
       },
       "recordTarget": "06-17",
       "recordPage": 0,
@@ -1334,8 +1334,8 @@ window.AI6_LESSON={
       "number": 22,
       "icon": "download",
       "photo": {
-        "file": "tm_editor.jpg",
-        "caption": "Tải tệp và mở lại để kiểm"
+        "file": "ai6_notepad_check.svg",
+        "caption": "Tải tệp Cau_hoi_tu_vung.txt và mở trong Notepad để kiểm tra."
       }
     },
     {
@@ -1403,8 +1403,8 @@ window.AI6_LESSON={
       "number": 23,
       "icon": "folder-open",
       "photo": {
-        "file": "tm_book_ui.png",
-        "caption": "Mẫu kiểm tệp đã tải"
+        "file": "ai6_checklist_safe.svg",
+        "caption": "Mẫu kiểm tra tệp đã tải: tên tệp và nội dung đều sạch."
       }
     },
     {
@@ -1582,8 +1582,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "message-square",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Màn hình ứng dụng xin quyền truy cập"
+        "file": "ai6_permission_prompt.svg",
+        "caption": "Màn hình ứng dụng xin quyền Danh bạ và Vị trí."
       },
       "worked": {
         "title": "Bước 1 · Yêu cầu quyền gốc",
@@ -1649,8 +1649,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "alert-triangle",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Tô đỏ quyền không cần cho nhiệm vụ"
+        "file": "ai6_permission_warn.svg",
+        "caption": "Tô đỏ quyền thừa không cần cho việc tra nghĩa từ."
       },
       "worked": {
         "title": "Bước 2 · Chỗ đáng cảnh giác",
@@ -1718,8 +1718,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "shield-check",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Chọn từ chối quyền và hỏi người lớn"
+        "file": "ai6_permission_deny.svg",
+        "caption": "Chọn Từ chối quyền không cần thiết và hỏi người lớn khi chưa rõ."
       },
       "worked": {
         "title": "Bước 3 · Cách xử lí an toàn",
@@ -1947,8 +1947,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "message-square",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Câu hỏi bạn viết còn lộ thông tin"
+        "file": "ai6_chat_leak.svg",
+        "caption": "Câu hỏi bạn viết còn lộ thông tin cá nhân."
       },
       "worked": {
         "title": "Bước 1 · Câu hỏi gốc còn lộ",
@@ -2013,8 +2013,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "alert-triangle",
       "photo": {
-        "file": "frame_9_55.jpg",
-        "caption": "Tô đỏ bốn chỗ rò rỉ trong câu"
+        "file": "ai6_chat_redact.svg",
+        "caption": "Tô đỏ bốn chỗ rò rỉ thông tin trong câu."
       },
       "worked": {
         "title": "Bước 2 · Chỗ rò rỉ thông tin",
@@ -2080,8 +2080,8 @@ window.AI6_LESSON={
       "scene": "Privacy",
       "icon": "shield-check",
       "photo": {
-        "file": "frame_9_20.jpg",
-        "caption": "Câu hỏi an toàn đã thay thế từ"
+        "file": "ai6_chat_safe.svg",
+        "caption": "Câu hỏi an toàn đã thay thế bằng cụm chung, không lộ thông tin."
       },
       "worked": {
         "title": "Bước 3 · Bản sạch an toàn",

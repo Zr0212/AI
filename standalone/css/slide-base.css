@@ -1,0 +1,2121 @@
+/**
+ * public/shared/slide-base.css
+ * Dinh kieu khung slide 1920x1080 ti le 16:9 theo phong cach editorial "Today's lesson".
+ * Mau chu dao: Navy #2B3A8C va Kem #FBF6E4; Nen ngoai #C3C8E0; Dung #2E9E6B; Sai #D64545.
+ * Bo goc the: 24px - 32px; Duong vien the: 2px solid; Huy hieu tron: 50%.
+ * Toi uu co chu ro rang (24px - 32px), chong tran man hinh tren moi loai thiet bi.
+ */
+
+/* ==========================================================================
+   1. RESET & VIEWPORT
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--color-outer-bg);
+  font-family: var(--font-body);
+}
+
+.slide-viewport {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--color-outer-bg);
+}
+
+/* ==========================================================================
+   2. KHUNG CANVAS CO DINH 1920x1080 (SCALE QUA TRANSFORM)
+   ========================================================================== */
+.slide-frame {
+  width: 1920px;
+  height: 1080px;
+  min-width: 1920px;
+  min-height: 1080px;
+  max-width: 1920px;
+  max-height: 1080px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 72px;
+  box-shadow: 0 16px 64px rgba(43, 58, 140, 0.2);
+  user-select: none;
+  overflow: hidden;
+}
+
+/* Chu de xen ke: Kem va Navy */
+.slide-frame--cream {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.slide-frame--navy {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+}
+
+/* ==========================================================================
+   3. HEADER CHUAN EDITORIAL (TOP LINE + CIRCLE PAGE BADGE)
+   ========================================================================== */
+.slide-header {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.slide-header__category {
+  font-family: var(--font-body);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding-bottom: 6px;
+  text-transform: none;
+}
+
+.slide-frame--cream .slide-header__category {
+  color: var(--color-navy);
+}
+
+.slide-frame--navy .slide-header__category {
+  color: var(--color-cream);
+}
+
+.slide-header__line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+}
+
+.slide-frame--cream .slide-header__line {
+  background-color: var(--color-navy);
+}
+
+.slide-frame--navy .slide-header__line {
+  background-color: var(--color-cream);
+}
+
+.slide-header__page {
+  position: absolute;
+  right: 0;
+  bottom: -32px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 28px;
+  font-weight: 700;
+  z-index: 3;
+}
+
+.slide-frame--cream .slide-header__page {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+}
+
+.slide-frame--navy .slide-header__page {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+/* ==========================================================================
+   4. NGOI SAO 10 CANH PHONG CACH EDITORIAL (SIGNATURE STARBURST)
+   ========================================================================== */
+.slide-star-burst {
+  position: absolute;
+  right: 80px;
+  top: 120px;
+  width: 130px;
+  height: 130px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.slide-frame--cream .slide-star-burst {
+  color: var(--color-navy);
+}
+
+.slide-frame--navy .slide-star-burst {
+  color: var(--color-cream);
+}
+
+.slide-star-burst--cover {
+  width: 180px;
+  height: 180px;
+  top: 160px;
+  right: 120px;
+}
+
+.slide-star-burst--quote-corner {
+  right: -30px;
+  bottom: -30px;
+  top: auto;
+  width: 240px;
+  height: 240px;
+}
+
+/* ==========================================================================
+   5. TIEU DE VA PHAN THAN CHUNG CUA SLIDE
+   ========================================================================== */
+.slide-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.slide-title {
+  font-family: var(--font-title);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: -0.01em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slide-subtitle {
+  font-family: var(--font-body);
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.3;
+  opacity: 0.92;
+  margin-bottom: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Duong net dut ghi chu trong the */
+.card-dashed-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.card-dashed-line {
+  height: 0;
+  border-bottom: 2px dashed rgba(43, 58, 140, 0.25);
+}
+
+.slide-frame--navy .card-dashed-line {
+  border-bottom: 2px dashed rgba(251, 246, 228, 0.25);
+}
+
+/* Nut mui ten tron noi giua cac the */
+.card-connector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.card-connector__icon {
+  width: 36px;
+  height: 36px;
+}
+
+/* Khung chua anh minh hoa phong cach editorial */
+.editorial-image-box {
+  border: 2px solid var(--color-navy);
+  border-radius: 24px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: rgba(43, 58, 140, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.slide-frame--navy .editorial-image-box {
+  border: 2px solid var(--color-cream);
+  background-color: rgba(251, 246, 228, 0.05);
+}
+
+.editorial-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.editorial-image-box__icon {
+  width: 72px;
+  height: 72px;
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+
+.editorial-image-box__caption {
+  font-size: 28px;
+  font-style: italic;
+  opacity: 0.9;
+  max-width: 88%;
+  line-height: 1.45;
+}
+
+/* Khung video YouTube phong cach editorial */
+.editorial-image-box--video {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.editorial-video-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.editorial-video-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.editorial-video-link:hover img {
+  transform: scale(1.03);
+}
+
+.video-play-badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #E62117;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(230, 33, 23, 0.45);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  z-index: 2;
+}
+
+.editorial-video-link:hover .video-play-badge {
+  transform: translate(-50%, -50%) scale(1.14);
+  box-shadow: 0 12px 40px rgba(230, 33, 23, 0.65);
+}
+
+.video-play-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 6px;
+}
+
+.video-time-badge {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  background-color: rgba(18, 18, 24, 0.88);
+  color: #FFFFFF;
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 6px 16px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+/* Nut hanh dong mo video tren YouTube */
+.layout-image-text__video-action {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-open-youtube {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 30px;
+  background-color: #E62117;
+  color: #FFFFFF !important;
+  border: 2px solid #E62117;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-body);
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 6px 20px rgba(230, 33, 23, 0.35);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  user-select: none;
+}
+
+.btn-open-youtube:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(230, 33, 23, 0.55);
+}
+
+.btn-open-youtube:active {
+  transform: translateY(0);
+}
+
+.btn-open-youtube:focus-visible {
+  outline: 3px solid var(--color-navy);
+  outline-offset: 3px;
+}
+
+.slide-frame--navy .btn-open-youtube:focus-visible {
+  outline-color: var(--color-cream);
+}
+
+.btn-open-youtube__play {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.btn-open-youtube__icon {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+}
+
+/* ==========================================================================
+   6. BỐ CỤC DUAL-PANE CHO SLIDE CÓ BÀI TẬP TƯƠNG TÁC (CHỐNG TRÀN)
+   ========================================================================== */
+.slide-split-activity {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  align-items: stretch;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide-split-activity__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide-split-activity__slot {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+}
+
+.slide-split-activity__slot .slide-activity-slot {
+  margin-top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-split-activity__slot .interactive-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 28px;
+}
+
+.slide-split-activity__slot .interactive-prompt {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.slide-split-activity__slot .interactive-option {
+  padding: 10px 18px;
+  font-size: 24px;
+}
+
+.slide-split-activity__slot .interactive-option__id {
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+}
+
+.slide-split-activity__slot .interactive-option__text {
+  font-size: 24px;
+}
+
+/* ==========================================================================
+   6b. BỐ CỤC FULL-WIDTH CHO SLIDE BÀI TẬP RIÊNG BIỆT (ACTIVITY LAYOUT)
+   ========================================================================== */
+.slide-full-activity {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-full-activity .slide-activity-slot {
+  width: 100%;
+  max-width: 1560px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide-full-activity .interactive-card {
+  width: 100%;
+  height: auto;
+  max-height: 840px;
+  padding: 40px 56px;
+  border-radius: 36px;
+  gap: 24px;
+}
+
+/* Tinh chinh layouts khi nam ben trong cot trai cua split-activity */
+.slide-split-activity__content .layout-compare {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+  margin-top: 0;
+}
+
+.slide-split-activity__content .compare-card {
+  flex: 1;
+  padding: 20px 24px;
+  border-radius: 24px;
+}
+
+.slide-split-activity__content .compare-card__title {
+  font-size: 28px;
+}
+
+.slide-split-activity__content .compare-list li {
+  font-size: 24px;
+  gap: 10px;
+}
+
+.slide-split-activity__content .card-connector {
+  display: none;
+}
+
+.slide-split-activity__content .layout-two-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+  margin-top: 0;
+}
+
+.slide-split-activity__content .example-column {
+  flex: 1;
+}
+
+.slide-split-activity__content .example-image-frame {
+  display: none;
+}
+
+.slide-split-activity__content .example-bottom-card {
+  height: 100%;
+  padding: 20px 24px;
+  border-radius: 24px;
+}
+
+.slide-split-activity__content .example-bottom-card__content h3 {
+  font-size: 26px;
+}
+
+.slide-split-activity__content .example-bottom-card__content p {
+  font-size: 22px;
+}
+
+.slide-split-activity__content .layout-three-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+  margin-top: 0;
+}
+
+.slide-split-activity__content .card-star-badge-item {
+  flex: 1;
+  padding: 18px 24px;
+  border-radius: 20px;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.slide-split-activity__content .card-star-badge-item__title {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.slide-split-activity__content .card-star-badge-item__desc {
+  font-size: 24px;
+}
+
+.slide-split-activity__content .card-star-badge-item__badge {
+  display: none;
+}
+
+.slide-split-activity__content .card-dashed-lines {
+  display: none;
+}
+
+.slide-split-activity__content .layout-concept-split {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.slide-split-activity__content .editorial-image-box {
+  display: none;
+}
+
+.slide-split-activity__content .stacked-cards-col {
+  height: 100%;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.slide-split-activity__content .stacked-badge-card {
+  flex: 1;
+  padding: 20px 24px;
+  border-radius: 24px;
+  justify-content: center;
+}
+
+.slide-split-activity__content .stacked-badge-card__title {
+  font-size: 28px;
+}
+
+.slide-split-activity__content .stacked-badge-card__desc {
+  font-size: 24px;
+}
+
+.slide-split-activity__content .layout-four-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 0;
+  height: 100%;
+}
+
+.slide-split-activity__content .grid-icon-card {
+  padding: 16px 20px;
+  border-radius: 20px;
+  gap: 16px;
+}
+
+.slide-split-activity__content .grid-icon-card__icon-badge {
+  width: 48px;
+  height: 48px;
+}
+
+.slide-split-activity__content .grid-icon-card__content h3 {
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.slide-split-activity__content .grid-icon-card__content p {
+  font-size: 22px;
+}
+
+/* ==========================================================================
+   7. LAYOUT COVER (01.PNG)
+   ========================================================================== */
+.layout-cover {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.layout-cover__top-line {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.layout-cover__top-line::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: var(--color-cream);
+}
+
+.layout-cover__meta-left,
+.layout-cover__meta-right {
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-cream);
+  padding-bottom: 8px;
+}
+
+.layout-cover__center {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.layout-cover__title {
+  font-family: var(--font-title);
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 0.92;
+  letter-spacing: -0.01em;
+  color: var(--color-cream);
+  margin-bottom: 24px;
+}
+
+.layout-cover__subtitle-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.layout-cover__subtitle {
+  font-family: var(--font-body);
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--color-cream);
+  opacity: 0.95;
+}
+
+.layout-cover__bottom-line {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layout-cover__bottom-line::before {
+  content: '';
+  position: absolute;
+  left: 80px;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  background-color: var(--color-cream);
+}
+
+.layout-cover__bottom-star {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 64px;
+  height: 64px;
+  color: var(--color-cream);
+}
+
+.layout-cover__footer-text {
+  position: absolute;
+  left: 100px;
+  top: 60%;
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-cream);
+  opacity: 0.85;
+}
+
+/* ==========================================================================
+   8. LAYOUT CONTENTS (02.PNG)
+   ========================================================================== */
+.layout-contents {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 0;
+  margin-top: 10px;
+  min-height: 0;
+}
+
+.contents-row-item {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 2px solid var(--color-navy);
+}
+
+.slide-frame--navy .contents-row-item {
+  border-bottom: 2px solid var(--color-cream);
+}
+
+.contents-row-item__num {
+  font-family: var(--font-title);
+  font-size: 60px;
+  font-weight: 700;
+  min-width: 76px;
+}
+
+.contents-row-item__content h3 {
+  font-family: var(--font-body);
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.contents-row-item__content p {
+  font-size: 32px;
+  line-height: 1.4;
+  opacity: 0.88;
+}
+
+/* ==========================================================================
+   9. LAYOUT OBJECTIVES (03.PNG)
+   ========================================================================== */
+.layout-objectives {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  margin-top: 8px;
+  min-height: 0;
+}
+
+.objective-card {
+  flex: 1;
+  border: 2px solid var(--color-navy);
+  border-radius: 32px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: transparent;
+  min-height: 0;
+}
+
+.slide-frame--navy .objective-card {
+  border: 2px solid var(--color-cream);
+}
+
+.objective-card__num {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.slide-frame--navy .objective-card__num {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.objective-card__title {
+  font-family: var(--font-body);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.objective-card__desc {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.45;
+  opacity: 0.95;
+}
+
+/* ==========================================================================
+   10. LAYOUT THREE CARDS (05.PNG)
+   ========================================================================== */
+.layout-three-cards {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 28px;
+  margin-top: 24px;
+  min-height: 0;
+}
+
+.card-star-badge-item {
+  flex: 1;
+  border: 2px solid var(--color-cream);
+  border-radius: 32px;
+  padding: 52px 28px 28px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  min-height: 0;
+}
+
+.slide-frame--cream .card-star-badge-item {
+  border: 2px solid var(--color-navy);
+}
+
+.card-star-badge-item__badge {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-frame--cream .card-star-badge-item__badge {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+}
+
+.card-star-badge-item__badge svg {
+  width: 30px;
+  height: 30px;
+}
+
+.card-star-badge-item__title {
+  font-family: var(--font-body);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+.card-star-badge-item__desc {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.45;
+  opacity: 0.95;
+}
+
+/* ==========================================================================
+   11. LAYOUT QUOTE / HOOK (06.PNG)
+   ========================================================================== */
+.layout-quote {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  margin-top: 36px;
+  min-height: 0;
+}
+
+.layout-quote__mark {
+  font-family: var(--font-title);
+  font-size: 180px;
+  font-weight: 700;
+  line-height: 0.7;
+  color: var(--color-navy);
+  user-select: none;
+}
+
+.slide-frame--navy .layout-quote__mark {
+  color: var(--color-cream);
+}
+
+.layout-quote__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-quote__text {
+  font-family: var(--font-title);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.0;
+  letter-spacing: -0.01em;
+  margin-bottom: 28px;
+}
+
+.layout-quote__author {
+  font-family: var(--font-body);
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  opacity: 0.9;
+}
+
+/* ==========================================================================
+   12. LAYOUT IMAGE-TEXT (04.PNG)
+   ========================================================================== */
+.layout-image-text {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: stretch;
+  min-height: 0;
+}
+
+.layout-image-text__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.layout-image-text__text p {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.layout-image-text__points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.layout-image-text__points li {
+  font-size: 34px;
+  line-height: 1.45;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.layout-image-text__points li::before {
+  content: '●';
+  color: var(--color-navy);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.slide-frame--navy .layout-image-text__points li::before {
+  color: var(--color-cream);
+}
+
+/* ==========================================================================
+   13. LAYOUT CASE-STUDY / CONCEPT SPLIT (07.PNG & 13.PNG)
+   ========================================================================== */
+.layout-concept-split {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: stretch;
+  min-height: 0;
+}
+
+.stacked-cards-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.stacked-badge-card {
+  border: 2px solid var(--color-navy);
+  border-radius: 28px;
+  padding: 24px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.slide-frame--navy .stacked-badge-card {
+  border: 2px solid var(--color-cream);
+}
+
+.stacked-badge-card__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.stacked-badge-card__num {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.slide-frame--navy .stacked-badge-card__num {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.stacked-badge-card__title {
+  font-family: var(--font-body);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.stacked-badge-card__desc {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.45;
+  opacity: 0.95;
+}
+
+/* ==========================================================================
+   14. LAYOUT FOUR GRID (09.PNG)
+   ========================================================================== */
+.layout-four-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 10px;
+  min-height: 0;
+}
+
+.grid-icon-card {
+  border: 2px solid var(--color-cream);
+  border-radius: 28px;
+  padding: 24px 28px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.slide-frame--cream .grid-icon-card {
+  border: 2px solid var(--color-navy);
+}
+
+.grid-icon-card__icon-badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.slide-frame--cream .grid-icon-card__icon-badge {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+}
+
+.grid-icon-card__icon-badge svg {
+  width: 32px;
+  height: 32px;
+}
+
+.grid-icon-card__content h3 {
+  font-family: var(--font-body);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.grid-icon-card__content p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 0.92;
+}
+
+/* ==========================================================================
+   15. LAYOUT STEPS (10.PNG)
+   ========================================================================== */
+.layout-steps-split {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 40px;
+  align-items: stretch;
+  min-height: 0;
+}
+
+.steps-list-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.step-horizontal-bar {
+  border: 2px solid var(--color-navy);
+  border-radius: 24px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.slide-frame--navy .step-horizontal-bar {
+  border: 2px solid var(--color-cream);
+}
+
+.step-horizontal-bar__badge {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.slide-frame--navy .step-horizontal-bar__badge {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.step-horizontal-bar__badge svg {
+  width: 28px;
+  height: 28px;
+}
+
+.step-horizontal-bar__content h3 {
+  font-family: var(--font-body);
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.step-horizontal-bar__content p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+/* ==========================================================================
+   16. LAYOUT TWO EXAMPLES (11.PNG)
+   ========================================================================== */
+.layout-two-examples {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  margin-top: 8px;
+  min-height: 0;
+}
+
+.example-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.example-image-frame {
+  border: 2px solid var(--color-navy);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 260px;
+  background-color: rgba(43, 58, 140, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+}
+
+.slide-frame--navy .example-image-frame {
+  border: 2px solid var(--color-cream);
+  background-color: rgba(251, 246, 228, 0.05);
+}
+
+.example-image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.example-bottom-card {
+  border: 2px solid var(--color-navy);
+  border-radius: 24px;
+  padding: 22px 26px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.slide-frame--navy .example-bottom-card {
+  border: 2px solid var(--color-cream);
+}
+
+.example-bottom-card__badge {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.slide-frame--navy .example-bottom-card__badge {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.example-bottom-card__content h3 {
+  font-family: var(--font-body);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.example-bottom-card__content p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+/* ==========================================================================
+   17. LAYOUT COMPARE & CONTRAST (12.PNG)
+   ========================================================================== */
+.layout-compare {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  margin-top: 8px;
+  min-height: 0;
+}
+
+.compare-card {
+  flex: 1;
+  border: 2px solid var(--color-navy);
+  border-radius: 32px;
+  padding: 30px 28px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.slide-frame--navy .compare-card {
+  border: 2px solid var(--color-cream);
+}
+
+.compare-card__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.compare-card__badge {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.slide-frame--navy .compare-card__badge {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.compare-card__title {
+  font-family: var(--font-body);
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.compare-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.compare-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+/* ==========================================================================
+   18. LAYOUT DISCUSSION (14.PNG - INVERTED NAVY CENTER CARD)
+   ========================================================================== */
+.layout-discussion {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+  margin-top: 24px;
+  min-height: 0;
+}
+
+.discussion-card {
+  flex: 1;
+  border: 2px solid var(--color-navy);
+  border-radius: 32px;
+  padding: 52px 28px 28px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  min-height: 0;
+}
+
+/* THE INVERTED NAVY O GIUA */
+.discussion-card--inverted {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  border: 2px solid var(--color-navy);
+}
+
+.discussion-card__badge {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discussion-card--inverted .discussion-card__badge {
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  border: 2px solid var(--color-cream);
+}
+
+.discussion-card__badge svg {
+  width: 28px;
+  height: 28px;
+}
+
+.discussion-card__title {
+  font-family: var(--font-body);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 18px;
+}
+
+.discussion-card__lines {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: auto;
+}
+
+.discussion-card--inverted .card-dashed-line {
+  border-bottom: 2px dashed rgba(251, 246, 228, 0.25);
+}
+
+/* ==========================================================================
+   19. LAYOUT READING (15.PNG)
+   ========================================================================== */
+.layout-reading {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  margin-top: 8px;
+  min-height: 0;
+}
+
+.reading-card {
+  flex: 1;
+  border: 2px solid var(--color-navy);
+  border-radius: 32px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 0;
+}
+
+.slide-frame--navy .reading-card {
+  border: 2px solid var(--color-cream);
+}
+
+.reading-card__badge {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.slide-frame--navy .reading-card__badge {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.reading-card__title {
+  font-family: var(--font-body);
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.reading-card__desc {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.45;
+  opacity: 0.92;
+}
+
+/* ==========================================================================
+   20. LAYOUT RECAP (16.PNG)
+   ========================================================================== */
+.layout-recap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 6px;
+  min-height: 0;
+}
+
+.recap-card {
+  flex: 1;
+  border: 2px solid var(--color-navy);
+  border-radius: 24px;
+  padding: 22px 32px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.slide-frame--navy .recap-card {
+  border: 2px solid var(--color-cream);
+}
+
+.recap-card__badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.slide-frame--navy .recap-card__badge {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.recap-card__badge svg {
+  width: 32px;
+  height: 32px;
+}
+
+.recap-card__text {
+  font-family: var(--font-body);
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* ==========================================================================
+   21. LAYOUT THANK-YOU (17.PNG)
+   ========================================================================== */
+.layout-thank-you {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.layout-thank-you__center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.layout-thank-you__title {
+  font-family: var(--font-title);
+  font-size: 160px;
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  color: var(--color-cream);
+  margin-bottom: 16px;
+}
+
+.layout-thank-you__subtitle {
+  font-family: var(--font-body);
+  font-size: 30px;
+  color: var(--color-cream);
+  opacity: 0.92;
+}
+
+.layout-thank-you__bottom-line {
+  position: relative;
+  width: 100%;
+  padding-top: 28px;
+  border-top: 2px solid var(--color-cream);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.layout-thank-you__contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-cream);
+}
+
+.layout-thank-you__contact-item svg {
+  width: 26px;
+  height: 26px;
+}
+
+/* ==========================================================================
+   22. ACTIVITY INTERACTION STYLES (TRUC TIEP TREN SLIDE - CHONG TRAN)
+   ========================================================================== */
+.slide-activity-slot {
+  margin-top: 16px;
+  width: 100%;
+  min-height: 0;
+}
+
+.interactive-card {
+  border: 2px solid var(--color-navy);
+  border-radius: 28px;
+  padding: 26px 30px;
+  background: rgba(255, 255, 255, 0.4);
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slide-frame--navy .interactive-card {
+  border: 2px solid var(--color-cream);
+  background: rgba(43, 58, 140, 0.35);
+}
+
+.interactive-prompt {
+  font-family: var(--font-body);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 24px;
+}
+
+.interactive-choice__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.interactive-option {
+  border: 2px solid var(--color-navy);
+  border-radius: 22px;
+  padding: 18px 32px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  cursor: pointer;
+  font-size: 38px;
+  font-weight: 500;
+  transition: background-color var(--transition-fast);
+}
+
+.slide-frame--navy .interactive-option {
+  border: 2px solid var(--color-cream);
+}
+
+.interactive-option:hover {
+  background-color: var(--color-navy-tint);
+}
+
+.slide-frame--navy .interactive-option:hover {
+  background-color: var(--color-cream-tint);
+}
+
+.interactive-option--selected {
+  background-color: var(--color-navy-tint);
+  border-width: 2.5px;
+}
+
+.slide-frame--navy .interactive-option--selected {
+  background-color: var(--color-cream-tint);
+}
+
+.interactive-option__indicator {
+  display: none;
+}
+
+.interactive-option__id {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 34px;
+  flex-shrink: 0;
+}
+
+.slide-frame--navy .interactive-option__id {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.interactive-option__text {
+  font-size: 38px;
+  line-height: 1.35;
+}
+
+.interactive-option--correct {
+  border-color: var(--color-success) !important;
+  border-width: 3.5px !important;
+  background-color: rgba(46, 158, 107, 0.16) !important;
+  box-shadow: 0 0 24px rgba(46, 158, 107, 0.3);
+}
+
+.interactive-option__correct-badge {
+  margin-left: auto;
+  background-color: var(--color-success);
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 6px 18px;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.interactive-option--wrong {
+  border-color: var(--color-error) !important;
+  background-color: rgba(214, 69, 69, 0.14) !important;
+}
+
+.interactive-input-wrapper {
+  margin: 18px 0;
+}
+
+.interactive-input {
+  width: 100%;
+  padding: 20px 30px;
+  font-family: var(--font-body);
+  font-size: 38px;
+  border: 2px solid var(--color-navy);
+  border-radius: 20px;
+  background: transparent;
+  color: inherit;
+  outline: none;
+}
+
+.slide-frame--navy .interactive-input {
+  border-color: var(--color-cream);
+}
+
+.interactive-input:focus {
+  border-width: 3px;
+}
+
+.interactive-textarea {
+  width: 100%;
+  height: 170px;
+  padding: 20px 30px;
+  font-family: var(--font-body);
+  font-size: 36px;
+  border: 2px solid var(--color-navy);
+  border-radius: 20px;
+  background: transparent;
+  color: inherit;
+  outline: none;
+  resize: none;
+}
+
+.slide-frame--navy .interactive-textarea {
+  border-color: var(--color-cream);
+}
+
+/* Dien cho trong */
+.blank-text-box {
+  font-size: 40px;
+  line-height: 2.3;
+}
+
+.blank-input {
+  width: 220px;
+  padding: 8px 20px;
+  font-family: var(--font-body);
+  font-size: 38px;
+  border: none;
+  border-bottom: 2px solid var(--color-navy);
+  background: transparent;
+  color: inherit;
+  outline: none;
+  text-align: center;
+}
+
+.slide-frame--navy .blank-input {
+  border-bottom-color: var(--color-cream);
+}
+
+/* Noi cot (Matching) */
+.matching-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin: 16px 0;
+}
+
+.matching-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.match-item {
+  padding: 18px 28px;
+  border: 2px solid var(--color-navy);
+  border-radius: 20px;
+  background: transparent;
+  color: inherit;
+  font-family: var(--font-body);
+  font-size: 36px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.slide-frame--navy .match-item {
+  border-color: var(--color-cream);
+}
+
+.match-item--selected {
+  background-color: var(--color-navy-tint);
+  border-width: 2.5px;
+}
+
+.slide-frame--navy .match-item--selected {
+  background-color: var(--color-cream-tint);
+}
+
+.match-item--matched {
+  background-color: rgba(46, 158, 107, 0.16);
+  border-color: var(--color-success);
+}
+
+.match-item__dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  flex-shrink: 0;
+}
+
+.matching-hint, .ordering-hint {
+  font-size: 22px;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+/* Sap xep thu tu (Ordering) */
+.ordering-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.order-item {
+  border: 2px solid var(--color-navy);
+  border-radius: 20px;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: transparent;
+  color: inherit;
+  font-size: 36px;
+}
+
+.slide-frame--navy .order-item {
+  border-color: var(--color-cream);
+}
+
+.order-item__num {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  flex-shrink: 0;
+}
+
+.slide-frame--navy .order-item__num {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.order-item__handle {
+  cursor: grab;
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+.order-item__buttons {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.order-btn {
+  width: 44px;
+  height: 44px;
+  border: 1.5px solid currentColor;
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Bieu quyet (Poll) */
+.poll-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.poll-option {
+  border: 2px solid var(--color-navy);
+  border-radius: 22px;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  color: inherit;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.slide-frame--navy .poll-option {
+  border-color: var(--color-cream);
+}
+
+.poll-option--selected {
+  background-color: var(--color-navy-tint);
+  border-width: 2.5px;
+}
+
+.slide-frame--navy .poll-option--selected {
+  background-color: var(--color-cream-tint);
+}
+
+/* Nut nop bai & Trang thai luu (interactive-footer) */
+.interactive-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px dashed rgba(43, 58, 140, 0.2);
+}
+
+.slide-frame--navy .interactive-footer {
+  border-top-color: rgba(251, 246, 228, 0.2);
+}
+
+.interactive-status {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.88;
+}
+
+.btn-submit-activity {
+  padding: 18px 52px;
+  font-family: var(--font-title);
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border: 2px solid var(--color-navy);
+  border-radius: var(--radius-pill);
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  cursor: pointer;
+  transition: opacity var(--transition-fast);
+}
+
+.slide-frame--navy .btn-submit-activity {
+  border-color: var(--color-cream);
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.btn-submit-activity:hover:not(:disabled) {
+  opacity: 0.88;
+}
+
+.btn-submit-activity:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Khoa bai & Cong bo dap an */
+.interactive-card--locked {
+  pointer-events: none;
+  opacity: 0.76;
+}
+
+.activity-reveal-box {
+  margin-top: 18px;
+  padding: 20px 28px;
+  border-radius: 22px;
+  background-color: rgba(46, 158, 107, 0.12);
+  border: 2px solid var(--color-success);
+}
+
+.reveal-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.reveal-badge {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-success);
+}
+
+.reveal-answer {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.reveal-explanation {
+  font-size: 32px;
+  line-height: 1.45;
+}

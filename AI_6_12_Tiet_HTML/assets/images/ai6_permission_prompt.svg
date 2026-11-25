@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <!-- Background with slight blur/dim -->
+  <rect width="800" height="500" rx="16" fill="#475569"/>
+
+  <!-- Phone Mockup Container in center -->
+  <rect x="180" y="25" width="440" height="450" rx="28" fill="#FFFFFF" stroke="#0F172A" stroke-width="8"/>
+  <rect x="350" y="38" width="100" height="8" rx="4" fill="#0F172A"/>
+
+  <!-- App Header inside phone -->
+  <rect x="188" y="60" width="424" height="60" fill="#303F83"/>
+  <text x="400" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#FFFFFF">
+    Ứng Dụng Tra Từ AI
+  </text>
+
+  <!-- Permission Modal Dialog Box -->
+  <g transform="translate(220, 140)">
+    <rect width="360" height="300" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3" filter="drop-shadow(0px 8px 16px rgba(0,0,0,0.25))"/>
+    
+    <!-- Warning Icon -->
+    <circle cx="180" cy="45" r="24" fill="#FEF3C7"/>
+    <text x="180" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#D97706">⚠️</text>
+
+    <text x="180" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#0F172A">
+      Cho phép Từ Điển AI:
+    </text>
+
+    <!-- Permission items -->
+    <rect x="30" y="115" width="300" height="42" rx="8" fill="#F1F5F9"/>
+    <text x="45" y="141" font-family="Arial, sans-serif" font-size="14" fill="#1E293B">
+      📇 Truy cập <tspan font-weight="bold">Danh bạ điện thoại</tspan>
+    </text>
+
+    <rect x="30" y="165" width="300" height="42" rx="8" fill="#F1F5F9"/>
+    <text x="45" y="191" font-family="Arial, sans-serif" font-size="14" fill="#1E293B">
+      📍 Truy cập <tspan font-weight="bold">Vị trí chính xác thiết bị</tspan>
+    </text>
+
+    <!-- Action Buttons -->
+    <g transform="translate(30, 230)">
+      <!-- Deny Button -->
+      <rect width="140" height="45" rx="10" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+      <text x="70" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#475569">TỪ CHỐI</text>
+
+      <!-- Allow Button -->
+      <rect x="160" width="140" height="45" rx="10" fill="#3B82F6"/>
+      <text x="230" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#FFFFFF">CHO PHÉP</text>
+    </g>
+  </g>
+
+  <!-- Left / Right Question Callouts -->
+  <g transform="translate(20, 200)">
+    <rect width="140" height="110" rx="10" fill="#FEF2F2" stroke="#EF4444" stroke-width="2"/>
+    <text x="70" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#B91C1C">MỤC ĐÍCH:</text>
+    <text x="70" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1E293B">Chỉ cần tra</text>
+    <text x="70" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="15" fill="#2563EB">nghĩa từ "under"</text>
+  </g>
+
+  <g transform="translate(640, 200)">
+    <rect width="140" height="110" rx="10" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <text x="70" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#B45309">CÂU HỎI:</text>
+    <text x="70" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1E293B">Có cần cấp</text>
+    <text x="70" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#DC2626">Danh bạ &amp; Vị trí?</text>
+  </g>
+</svg>

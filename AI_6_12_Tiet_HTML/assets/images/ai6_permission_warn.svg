@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" rx="16" fill="#475569"/>
+
+  <!-- Phone Container in center -->
+  <rect x="180" y="25" width="440" height="450" rx="28" fill="#FFFFFF" stroke="#0F172A" stroke-width="8"/>
+  <rect x="350" y="38" width="100" height="8" rx="4" fill="#0F172A"/>
+
+  <rect x="188" y="60" width="424" height="60" fill="#303F83"/>
+  <text x="400" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#FFFFFF">
+    Bước 2: Chỗ Đáng Cảnh Giác
+  </text>
+
+  <!-- Modal with Red Highlighting -->
+  <g transform="translate(220, 140)">
+    <rect width="360" height="300" rx="18" fill="#FFFFFF" stroke="#DC2626" stroke-width="3"/>
+    
+    <text x="180" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#DC2626">
+      🛑 PHÁT HIỆN QUYỀN THỪA!
+    </text>
+
+    <!-- Permission item 1: Contacts (TÔ ĐỎ) -->
+    <rect x="25" y="65" width="310" height="65" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+    <text x="40" y="92" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#991B1B">
+      ✖ Danh bạ (Contacts)
+    </text>
+    <text x="40" y="115" font-family="Arial, sans-serif" font-size="12" fill="#DC2626">
+      → Tra từ điển KHÔNG CẦN biết liên hệ người thân!
+    </text>
+
+    <!-- Permission item 2: Location (TÔ ĐỎ) -->
+    <rect x="25" y="145" width="310" height="65" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+    <text x="40" y="172" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#991B1B">
+      ✖ Vị trí chính xác (GPS)
+    </text>
+    <text x="40" y="195" font-family="Arial, sans-serif" font-size="12" fill="#DC2626">
+      → Tra từ điển KHÔNG CẦN biết nơi ở của em!
+    </text>
+
+    <!-- Action buttons -->
+    <g transform="translate(30, 230)">
+      <rect width="140" height="45" rx="10" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+      <text x="70" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#475569">TỪ CHỐI</text>
+
+      <rect x="160" width="140" height="45" rx="10" fill="#94A3B8"/>
+      <text x="230" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#FFFFFF">CHO PHÉP</text>
+      <!-- Red Cross on Allow -->
+      <line x1="160" y1="0" x2="300" y2="45" stroke="#DC2626" stroke-width="4"/>
+      <line x1="160" y1="45" x2="300" y2="0" stroke="#DC2626" stroke-width="4"/>
+    </g>
+  </g>
+
+  <!-- Left Callout -->
+  <g transform="translate(15, 170)">
+    <rect width="150" height="160" rx="10" fill="#FEF2F2" stroke="#EF4444" stroke-width="2"/>
+    <text x="75" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#B91C1C">CẢNH BÁO</text>
+    <text x="12" y="60" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Lộ thông tin bạn bè</text>
+    <text x="12" y="85" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Lộ vị trí nhà riêng</text>
+    <text x="12" y="110" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Nguy cơ bị theo dõi</text>
+    <text x="75" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#DC2626">KHÔNG ĐƯỢC CẤP!</text>
+  </g>
+
+  <!-- Right Callout -->
+  <g transform="translate(635, 170)">
+    <rect width="150" height="160" rx="10" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <text x="75" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#B45309">QUY TẮC</text>
+    <text x="12" y="65" font-family="Arial, sans-serif" font-size="13" fill="#78350F">Quyền không phục vụ nhiệm vụ đang làm là</text>
+    <text x="75" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#DC2626">QUYỀN THỪA</text>
+    <text x="75" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#B45309">DỪNG LẠI NGAY!</text>
+  </g>
+</svg>

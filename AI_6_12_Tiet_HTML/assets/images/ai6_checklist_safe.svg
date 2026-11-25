@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" rx="16" fill="#F8FAFC"/>
+  
+  <!-- Header -->
+  <rect width="800" height="65" rx="16" fill="#303F83"/>
+  <rect y="45" width="800" height="20" fill="#303F83"/>
+  <text x="400" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#FFFFFF">
+    PHIẾU KIỂM TRA BẢN CHIA SẺ AN TOÀN
+  </text>
+
+  <!-- 4 Check items -->
+  <g transform="translate(70, 95)">
+    <!-- Item 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="660" height="65" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <rect x="15" y="15" width="35" height="35" rx="8" fill="#DCFCE7" stroke="#22C55E" stroke-width="2"/>
+      <text x="32" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#16A34A">✔</text>
+      <text x="65" y="32" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#0F172A">
+        1. Đã xóa toàn bộ thông tin cá nhân bí mật?
+      </text>
+      <text x="65" y="52" font-family="Arial, sans-serif" font-size="13" fill="#64748B">
+        Không còn: Họ tên thật, lớp/trường, địa chỉ nhà, số điện thoại liên hệ.
+      </text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(0, 75)">
+      <rect width="660" height="65" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <rect x="15" y="15" width="35" height="35" rx="8" fill="#DCFCE7" stroke="#22C55E" stroke-width="2"/>
+      <text x="32" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#16A34A">✔</text>
+      <text x="65" y="32" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#0F172A">
+        2. Câu hỏi học tập có còn nguyên vẹn, rõ ràng?
+      </text>
+      <text x="65" y="52" font-family="Arial, sans-serif" font-size="13" fill="#64748B">
+        Câu hỏi tra từ "under" đủ ngữ cảnh để AI hiểu và hỗ trợ giải nghĩa.
+      </text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(0, 150)">
+      <rect width="660" height="65" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <rect x="15" y="15" width="35" height="35" rx="8" fill="#DCFCE7" stroke="#22C55E" stroke-width="2"/>
+      <text x="32" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#16A34A">✔</text>
+      <text x="65" y="32" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#0F172A">
+        3. Đã mở lại tệp tải về để kiểm tra kỹ lưỡng?
+      </text>
+      <text x="65" y="52" font-family="Arial, sans-serif" font-size="13" fill="#64748B">
+        Không chỉ nhìn trên màn hình nhập, phải mở file Cau_hoi_tu_vung.txt để kiểm chứng.
+      </text>
+    </g>
+
+    <!-- Item 4 -->
+    <g transform="translate(0, 225)">
+      <rect width="660" height="65" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <rect x="15" y="15" width="35" height="35" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+      <text x="32" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#D97706">❓</text>
+      <text x="65" y="32" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#0F172A">
+        4. Gặp quyền truy cập lạ hoặc chưa chắc chắn?
+      </text>
+      <text x="65" y="52" font-family="Arial, sans-serif" font-size="13" fill="#D97706" font-weight="bold">
+        Dừng lại ngay và hỏi ý kiến Thầy/Cô hoặc cha mẹ trước khi bấm!
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Message -->
+  <rect x="70" y="415" width="660" height="60" rx="10" fill="#303F83"/>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#FFFFFF">
+    🛡️ THỰC HIỆN ĐỦ 4 BƯỚC → EM HOÀN TOÀN TỰ TIN VÀ AN TOÀN KHI DÙNG AI!
+  </text>
+</svg>
