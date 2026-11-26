@@ -1746,11 +1746,17 @@ html, body {
 
 .interactive-option--selected {
   background-color: var(--color-navy-tint);
-  border-width: 2.5px;
+  border-width: 3px;
+  box-shadow: 0 4px 16px rgba(43, 58, 140, 0.12);
 }
 
 .slide-frame--navy .interactive-option--selected {
   background-color: var(--color-cream-tint);
+  box-shadow: 0 4px 16px rgba(251, 246, 228, 0.12);
+}
+
+.interactive-option--selected .interactive-option__id {
+  box-shadow: 0 0 0 4px var(--color-outer-bg, #C3C8E0);
 }
 
 .interactive-option__indicator {
@@ -1920,6 +1926,39 @@ html, body {
   border-color: var(--color-success);
 }
 
+.match-item__pair-badge {
+  margin-left: auto;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  padding: 4px 14px;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.02em;
+}
+
+.slide-frame--navy .match-item__pair-badge {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+.match-item__count-badge {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.match-item--dragging {
+  opacity: 0.45;
+  border-style: dashed;
+}
+
+.match-item--dragover {
+  border: 3px dashed var(--color-success) !important;
+  background-color: rgba(46, 158, 107, 0.22) !important;
+}
+
 .match-item__dot {
   width: 18px;
   height: 18px;
@@ -1952,6 +1991,28 @@ html, body {
   background: transparent;
   color: inherit;
   font-size: 36px;
+  user-select: none;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.order-item[draggable="true"] {
+  cursor: grab;
+}
+
+.order-item--dragging {
+  opacity: 0.45;
+  border-style: dashed !important;
+  cursor: grabbing !important;
+}
+
+.order-item--dragover {
+  border: 3px dashed var(--color-navy) !important;
+  background-color: var(--color-navy-tint) !important;
+}
+
+.slide-frame--navy .order-item--dragover {
+  border-color: var(--color-cream) !important;
+  background-color: var(--color-cream-tint) !important;
 }
 
 .slide-frame--navy .order-item {
@@ -1998,6 +2059,14 @@ html, body {
   color: inherit;
   font-size: 18px;
   cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: var(--color-navy-tint);
+}
+
+.slide-frame--navy .order-btn:hover {
+  background-color: var(--color-cream-tint);
 }
 
 /* Bieu quyet (Poll) */

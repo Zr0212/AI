@@ -15,6 +15,9 @@ let currentFrameEl = null;
 // Luu tru trang thai cong bo dap an theo activityId
 const revealedActivities = new Map();
 
+// Luu tru cau tra loi dang tuong tac theo activityId
+const activityAnswers = new Map();
+
 // Trang thai dong ho dem nguoc
 let timerState = {
   remaining: 180,
@@ -30,6 +33,23 @@ function loadSvgSprite() {
   if (holder && window.STANDALONE_ICONS) {
     holder.innerHTML = window.STANDALONE_ICONS;
   }
+}
+
+function restoreSavedState() {
+  try {
+    const savedDeck = localStorage.getItem('standalone_active_deck_index');
+    if (savedDeck !== null && decks[parseInt(savedDeck, 10)]) {
+      currentDeckIndex = parseInt(savedDeck, 10);
+      currentDeck = decks[currentDeckIndex];
+    }
+    const savedSlide = localStorage.getItem('standalone_active_slide_index');
+    if (savedSlide !== null) {
+      const sIdx = parseInt(savedSlide, 10) || 0;
+      if (currentDeck && currentDeck.slides && sIdx < currentDeck.slides.length) {
+        currentSlideIndex = sIdx;
+      }
+    }
+  } catch (e) {}
 }
 
 function initDeckSelector() {
@@ -59,6 +79,13 @@ function switchDeck(deckIndex) {
   currentDeck = decks[deckIndex];
   currentSlideIndex = 0;
   revealedActivities.clear();
+  activityAnswers.clear();
+
+  // Luu trang thai de may chieu luon nhan dung bai giang
+  try {
+    localStorage.setItem('standalone_active_deck_index', String(currentDeckIndex));
+    localStorage.setItem('standalone_active_slide_index', '0');
+  } catch (e) {}
 
   // Dong bo lua chon tren the select
   const selectEl = document.getElementById('select-deck');
@@ -153,21 +180,28 @@ function displayCurrentSlide() {
     const revData = revealedActivities.get(act.id) || {};
 
     if (slot) {
+      const currentAns = activityAnswers.has(act.id)
+        ? activityAnswers.get(act.id)
+        : act.initialAnswer;
+
       window.SlideInteractions.renderInteractiveActivity(act, slot, {
         readOnly: true,
+        interactive: true,
+        initialAnswer: currentAns,
         isRevealed,
         correctAnswer: revData.answer !== undefined ? revData.answer : act.answer,
-        explanation: revData.explanation || act.explanation
-      });
-
-      // Gan su kien click truc tiep tren cac phuong an de cong bo dap an
-      const optionEls = slot.querySelectorAll('.interactive-option');
-      optionEls.forEach((optEl) => {
-        optEl.style.cursor = 'pointer';
-        optEl.title = 'Bấm vào để công bố hoặc ẩn đáp án trên màn chiếu';
-        optEl.addEventListener('click', () => {
-          toggleActivityReveal(act);
-        });
+        explanation: revData.explanation || act.explanation,
+        onAnswerChange: (newAns) => {
+          activityAnswers.set(act.id, newAns);
+          if (channel) {
+            try {
+              channel.post('activity:answer', {
+                activityId: act.id,
+                answer: newAns
+              });
+            } catch (err) {}
+          }
+        }
       });
     }
 
@@ -268,6 +302,11 @@ function gotoSlide(index) {
   if (index < 0 || index >= currentDeck.slides.length) return;
 
   currentSlideIndex = index;
+
+  // Luu chi so slide hien tai de may chieu luon theo sat
+  try {
+    localStorage.setItem('standalone_active_slide_index', String(currentSlideIndex));
+  } catch (e) {}
 
   if (channel) {
     try {
@@ -453,9 +492,22 @@ function setupChannel() {
         fileName: currentDeck ? currentDeck.fileName : '',
         slideIndex: currentSlideIndex,
         timerState,
-        revealedList: Array.from(revealedActivities.entries())
+        revealedList: Array.from(revealedActivities.entries()),
+        activityAnswers: Array.from(activityAnswers.entries())
       });
     } catch (err) {}
+  });
+
+  // Khi co tuong tac tren man chieu
+  channel.on('activity:answer', (data) => {
+    if (!data || !data.activityId) return;
+    activityAnswers.set(data.activityId, data.answer);
+    if (currentDeck && currentDeck.slides[currentSlideIndex]) {
+      const act = currentDeck.slides[currentSlideIndex].activity;
+      if (act && act.id === data.activityId) {
+        displayCurrentSlide();
+      }
+    }
   });
 
   // Khi nguoi dung thao tac tren HUD cua may chieu
@@ -512,7 +564,11 @@ function setupNavigation() {
 
   if (openProjectorBtn) {
     openProjectorBtn.addEventListener('click', () => {
-      window.open('projector.html', 'projector_window', 'width=1280,height=720');
+      window.open(
+        `projector.html?deck=${currentDeckIndex}&slide=${currentSlideIndex}`,
+        'projector_window',
+        'width=1280,height=720'
+      );
     });
   }
 
@@ -553,12 +609,13 @@ function setupNavigation() {
 
 document.addEventListener('DOMContentLoaded', () => {
   loadSvgSprite();
+  restoreSavedState();
   initDeckSelector();
   setupChannel();
   setupTimerControls();
   setupNavigation();
 
-  // Hien thi slide dau tien
+  // Hien thi slide hien tai
   renderThumbnails();
   displayCurrentSlide();
 });

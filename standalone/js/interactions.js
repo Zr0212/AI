@@ -1,25 +1,26 @@
 /**
+ * standalone/js/interactions.js
+ * Xu ly tuong tac bai tap standalone dong goi IIFE chong xung dot bien toan cuc.
+ */
+(function(global) {
+/**
  * public/shared/interactions.js
- * Muc dich: Render va xu ly tuong tac truc tiep tren mat phang slide 16:9:
- * ho tro khoa bai (isLocked), cong bo dap an (isRevealed), bieu do thong ke an danh
- * va giai thich chi tiet.
- * Cac ham chinh:
- * - renderInteractiveActivity: Render giao dien bai tap, ho tro lock va reveal.
+ * Render va xu ly tuong tac bai tap tren slide: chon dap an, keo tha, noi cot,
+ * khoa bai (isLocked), cong bo dap an (isRevealed) va dong bo trang thai realtime.
  */
 
-// Su dung ham escapeHtml tu window.SlideRenderer hoac noi bo
-const escapeHtml = (typeof window !== 'undefined' &&
-  window.SlideRenderer && window.SlideRenderer.escapeHtml)
-  ? window.SlideRenderer.escapeHtml
-  : function(str) {
-      if (str === null || str === undefined) return '';
-      return String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
-    };
+// Su dung ham escapeHtml an toan trong pham vi IIFE
+  const escapeHtml = (global.SlideRenderer && global.SlideRenderer.escapeHtml)
+    ? global.SlideRenderer.escapeHtml
+    : function(str) {
+        if (str === null || str === undefined) return '';
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      };
 
 // ===== 1. Ham ho tro debounce luu nhap =====
 
@@ -149,20 +150,33 @@ function renderMatching(activity, initialAnswer, isLocked) {
   const userPairs = initialAnswer || {};
 
   const leftHtml = leftItems.map(item => {
-    const isMatched = Boolean(userPairs[item.id]);
+    const targetRightId = userPairs[item.id];
+    const isMatched = Boolean(targetRightId);
+    const targetRight = rightItems.find(r => r.id === targetRightId);
+    const pairBadgeHtml = targetRight
+      ? `<span class="match-item__pair-badge">→ ${escapeHtml(targetRight.text)}</span>`
+      : '';
+
     return `
       <button type="button"
               class="match-item match-item--left ${isMatched ? 'match-item--matched' : ''}"
               data-left-id="${item.id}"
+              draggable="${!isLocked}"
               ${isLocked ? 'disabled' : ''}>
         <span class="match-item__dot"></span>
         <span class="match-item__text">${item.text}</span>
+        ${pairBadgeHtml}
       </button>
     `;
   }).join('');
 
   const rightHtml = rightItems.map(item => {
-    const isMatched = Object.values(userPairs).includes(item.id);
+    const matchedCount = Object.values(userPairs).filter(v => v === item.id).length;
+    const isMatched = matchedCount > 0;
+    const countBadgeHtml = matchedCount > 1
+      ? `<span class="match-item__count-badge">(${matchedCount})</span>`
+      : '';
+
     return `
       <button type="button"
               class="match-item match-item--right ${isMatched ? 'match-item--matched' : ''}"
@@ -170,6 +184,7 @@ function renderMatching(activity, initialAnswer, isLocked) {
               ${isLocked ? 'disabled' : ''}>
         <span class="match-item__dot"></span>
         <span class="match-item__text">${item.text}</span>
+        ${countBadgeHtml}
       </button>
     `;
   }).join('');
@@ -182,7 +197,7 @@ function renderMatching(activity, initialAnswer, isLocked) {
         <div class="matching-col matching-col--right">${rightHtml}</div>
       </div>
       <p class="matching-hint">
-        <em>* Chạm vào 1 mục ở cột trái, sau đó chạm vào 1 mục ở cột phải để nối.</em>
+        <em>* Kéo thả hoặc chạm mục ở cột trái, rồi chạm mục ở cột phải để nối.</em>
       </p>
     </div>
   `;
@@ -197,7 +212,7 @@ function renderOrdering(activity, initialAnswer, isLocked) {
 
   const itemsHtml = orderedItems.map((item, idx) => {
     return `
-      <div class="order-item" data-id="${item.id}">
+      <div class="order-item" data-id="${item.id}" draggable="${!isLocked}">
         <span class="order-item__handle" aria-hidden="true">☰</span>
         <span class="order-item__num">${idx + 1}</span>
         <span class="order-item__text">${item.text}</span>
@@ -297,16 +312,16 @@ function renderStatsChart(stats, activity, correctAnswer) {
   `;
 }
 
-// ===== 4. Ham render chinh =====
+// ===== 4. Ham tao HTML bai tap =====
 
 /**
- * Render toan bo bai tap tuong tac vao phan tu container tren mat phang slide.
+ * Tao chuoi HTML hoan chinh cho mot bai tap tren mat phang slide.
  * @param {object} activity - Thong tin bai tap
- * @param {HTMLElement} container - Khung hien thi
  * @param {object} options - Tuy chon trang thai
+ * @returns {string} Chuoi HTML
  */
-function renderInteractiveActivity(activity, container, options = {}) {
-  if (!activity || !container) return;
+function getActivityHtml(activity, options = {}) {
+  if (!activity) return '';
 
   const {
     initialAnswer,
@@ -316,8 +331,6 @@ function renderInteractiveActivity(activity, container, options = {}) {
     correctAnswer,
     explanation,
     stats,
-    onSaveDraft,
-    onSubmit,
     readOnly = false
   } = options;
 
@@ -354,7 +367,6 @@ function renderInteractiveActivity(activity, container, options = {}) {
       activityHtml = `<p>Loại bài tập "${type}" chưa hỗ trợ.</p>`;
   }
 
-  // Khung giai thich va bieu do thong ke khi da cong bo dap an
   let revealBoxHtml = '';
   if (isRevealed) {
     const statsHtml = stats ? renderStatsChart(stats, activity, correctAnswer) : '';
@@ -374,7 +386,6 @@ function renderInteractiveActivity(activity, container, options = {}) {
     `;
   }
 
-  // Thanh trang thai va nut nop bai
   let statusText = '○ Chưa làm';
   if (isLocked) {
     statusText = '🔒 Đã khóa bài nộp';
@@ -400,7 +411,7 @@ function renderInteractiveActivity(activity, container, options = {}) {
     </footer>
   ` : '';
 
-  container.innerHTML = `
+  return `
     <section class="interactive-card ${isLocked ? 'interactive-card--locked' : ''}"
              data-activity-id="${activity.id}"
              data-type="${type}">
@@ -409,14 +420,50 @@ function renderInteractiveActivity(activity, container, options = {}) {
       ${controlsHtml}
     </section>
   `;
+}
 
-  if (readOnly || isLocked || isSubmitted) return;
+// ===== 5. Ham render chinh & Gan su kien tuong tac =====
 
-  // Luu nhap debounce
+/**
+ * Render toan bo bai tap tuong tac vao phan tu container tren mat phang slide.
+ * @param {object} activity - Thong tin bai tap
+ * @param {HTMLElement} container - Khung hien thi
+ * @param {object} options - Tuy chon trang thai
+ */
+function renderInteractiveActivity(activity, container, options = {}) {
+  if (!activity || !container) return;
+
+  container.innerHTML = getActivityHtml(activity, options);
+
+  const {
+    initialAnswer,
+    isSubmitted = false,
+    isLocked = false,
+    isRevealed = false,
+    correctAnswer,
+    onSaveDraft,
+    onSubmit,
+    onAnswerChange,
+    readOnly = false,
+    interactive = true
+  } = options;
+
+  if (interactive === false || isLocked || isSubmitted) return;
+
   let currentAnswer = initialAnswer !== undefined ? initialAnswer : null;
   const debouncedSave = debounce(ans => {
     if (onSaveDraft) onSaveDraft(activity.id, ans);
   }, 400);
+
+  const notifyChange = (ans) => {
+    currentAnswer = ans;
+    debouncedSave(currentAnswer);
+    if (typeof onAnswerChange === 'function') {
+      onAnswerChange(currentAnswer);
+    }
+  };
+
+  const type = activity.type || 'choice';
 
   // 1. Gan su kien CHOICE
   if (type === 'choice') {
@@ -426,29 +473,33 @@ function renderInteractiveActivity(activity, container, options = {}) {
       : initialAnswer;
 
     container.querySelectorAll('.interactive-option').forEach(optEl => {
+      optEl.style.cursor = 'pointer';
       optEl.addEventListener('click', () => {
         const optId = optEl.getAttribute('data-option-id');
         if (isMultiple) {
           if (selectedList.includes(optId)) {
             selectedList = selectedList.filter(id => id !== optId);
             optEl.classList.remove('interactive-option--selected');
-            optEl.querySelector('.interactive-option__indicator').textContent = '☐';
+            const ind = optEl.querySelector('.interactive-option__indicator');
+            if (ind) ind.textContent = '☐';
           } else {
             selectedList.push(optId);
             optEl.classList.add('interactive-option--selected');
-            optEl.querySelector('.interactive-option__indicator').textContent = '☑';
+            const ind = optEl.querySelector('.interactive-option__indicator');
+            if (ind) ind.textContent = '☑';
           }
-          currentAnswer = selectedList;
+          notifyChange(selectedList);
         } else {
           container.querySelectorAll('.interactive-option').forEach(el => {
             el.classList.remove('interactive-option--selected');
-            el.querySelector('.interactive-option__indicator').textContent = '○';
+            const ind = el.querySelector('.interactive-option__indicator');
+            if (ind) ind.textContent = '○';
           });
           optEl.classList.add('interactive-option--selected');
-          optEl.querySelector('.interactive-option__indicator').textContent = '●';
-          currentAnswer = optId;
+          const ind = optEl.querySelector('.interactive-option__indicator');
+          if (ind) ind.textContent = '●';
+          notifyChange(optId);
         }
-        debouncedSave(currentAnswer);
       });
     });
   }
@@ -458,8 +509,7 @@ function renderInteractiveActivity(activity, container, options = {}) {
     const input = container.querySelector('.interactive-input');
     if (input) {
       input.addEventListener('input', () => {
-        currentAnswer = input.value;
-        debouncedSave(currentAnswer);
+        notifyChange(input.value);
       });
     }
   }
@@ -470,13 +520,12 @@ function renderInteractiveActivity(activity, container, options = {}) {
     const updateBlanks = () => {
       const blanks = [];
       inputs.forEach(inp => blanks.push(inp.value));
-      currentAnswer = blanks;
-      debouncedSave(currentAnswer);
+      notifyChange(blanks);
     };
     inputs.forEach(inp => inp.addEventListener('input', updateBlanks));
   }
 
-  // 4. Gan su kien MATCHING
+  // 4. Gan su kien MATCHING (Ho tro Click & Keo tha Drag-Drop)
   if (type === 'matching') {
     let matchedPairs = { ...(initialAnswer || {}) };
     let selectedLeft = null;
@@ -484,44 +533,137 @@ function renderInteractiveActivity(activity, container, options = {}) {
     const leftButtons = container.querySelectorAll('.match-item--left');
     const rightButtons = container.querySelectorAll('.match-item--right');
 
+    const updateMatchingUI = () => {
+      leftButtons.forEach(btn => {
+        const lId = btn.getAttribute('data-left-id');
+        const isMatched = Boolean(matchedPairs[lId]);
+        btn.classList.toggle('match-item--matched', isMatched);
+        btn.classList.toggle('match-item--selected', lId === selectedLeft);
+
+        let badge = btn.querySelector('.match-item__pair-badge');
+        if (isMatched) {
+          const rId = matchedPairs[lId];
+          const rBtn = container.querySelector(`[data-right-id="${rId}"]`);
+          const rText = rBtn
+            ? rBtn.querySelector('.match-item__text').textContent
+            : rId;
+          if (!badge) {
+            badge = document.createElement('span');
+            badge.className = 'match-item__pair-badge';
+            btn.appendChild(badge);
+          }
+          badge.textContent = `→ ${rText}`;
+        } else if (badge) {
+          badge.remove();
+        }
+      });
+
+      rightButtons.forEach(btn => {
+        const rId = btn.getAttribute('data-right-id');
+        const matchedCount = Object.values(matchedPairs).filter(v => v === rId).length;
+        btn.classList.toggle('match-item--matched', matchedCount > 0);
+
+        let badge = btn.querySelector('.match-item__count-badge');
+        if (matchedCount > 1) {
+          if (!badge) {
+            badge = document.createElement('span');
+            badge.className = 'match-item__count-badge';
+            btn.appendChild(badge);
+          }
+          badge.textContent = `(${matchedCount})`;
+        } else if (badge) {
+          badge.remove();
+        }
+      });
+    };
+
     leftButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        leftButtons.forEach(b => b.classList.remove('match-item--active'));
-        btn.classList.add('match-item--active');
-        selectedLeft = btn.getAttribute('data-left-id');
+      btn.setAttribute('draggable', 'true');
+      btn.style.cursor = 'grab';
+
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const lId = btn.getAttribute('data-left-id');
+        if (matchedPairs[lId]) {
+          delete matchedPairs[lId];
+          selectedLeft = null;
+          updateMatchingUI();
+          notifyChange(matchedPairs);
+          return;
+        }
+        if (selectedLeft === lId) {
+          selectedLeft = null;
+        } else {
+          selectedLeft = lId;
+        }
+        updateMatchingUI();
+      });
+
+      btn.addEventListener('dragstart', (e) => {
+        const lId = btn.getAttribute('data-left-id');
+        selectedLeft = lId;
+        btn.classList.add('match-item--dragging');
+        e.dataTransfer.effectAllowed = 'link';
+        e.dataTransfer.setData('text/plain', lId);
+      });
+
+      btn.addEventListener('dragend', () => {
+        btn.classList.remove('match-item--dragging');
+        rightButtons.forEach(b => b.classList.remove('match-item--dragover'));
       });
     });
 
     rightButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
         if (!selectedLeft) return;
-        const rightId = btn.getAttribute('data-right-id');
-        matchedPairs[selectedLeft] = rightId;
-        currentAnswer = matchedPairs;
-        debouncedSave(currentAnswer);
-
-        const activeLeft = container.querySelector(`[data-left-id="${selectedLeft}"]`);
-        if (activeLeft) {
-          activeLeft.classList.add('match-item--matched');
-          activeLeft.classList.remove('match-item--active');
-        }
-        btn.classList.add('match-item--matched');
+        const rId = btn.getAttribute('data-right-id');
+        matchedPairs[selectedLeft] = rId;
         selectedLeft = null;
+        updateMatchingUI();
+        notifyChange(matchedPairs);
+      });
+
+      btn.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'link';
+        btn.classList.add('match-item--dragover');
+      });
+
+      btn.addEventListener('dragleave', () => {
+        btn.classList.remove('match-item--dragover');
+      });
+
+      btn.addEventListener('drop', (e) => {
+        e.preventDefault();
+        btn.classList.remove('match-item--dragover');
+        const lId = e.dataTransfer.getData('text/plain') || selectedLeft;
+        if (lId) {
+          const rId = btn.getAttribute('data-right-id');
+          matchedPairs[lId] = rId;
+          selectedLeft = null;
+          updateMatchingUI();
+          notifyChange(matchedPairs);
+        }
       });
     });
+
+    updateMatchingUI();
   }
 
-  // 5. Gan su kien ORDERING
+  // 5. Gan su kien ORDERING (Ho tro Nut Bam & Keo tha Drag-Drop)
   if (type === 'ordering') {
-    const orderList = container.querySelector('#ordering-list');
+    const orderList = container.querySelector('#ordering-list') ||
+                      container.querySelector('.ordering-list');
     const updateOrder = () => {
+      if (!orderList) return;
       const ids = [];
       orderList.querySelectorAll('.order-item').forEach((el, idx) => {
         ids.push(el.getAttribute('data-id'));
-        el.querySelector('.order-item__num').textContent = idx + 1;
+        const numEl = el.querySelector('.order-item__num');
+        if (numEl) numEl.textContent = idx + 1;
       });
-      currentAnswer = ids;
-      debouncedSave(currentAnswer);
+      notifyChange(ids);
     };
 
     container.querySelectorAll('.btn-up').forEach(btn => {
@@ -529,7 +671,7 @@ function renderInteractiveActivity(activity, container, options = {}) {
         e.stopPropagation();
         const item = btn.closest('.order-item');
         const prev = item.previousElementSibling;
-        if (prev) {
+        if (prev && orderList) {
           orderList.insertBefore(item, prev);
           updateOrder();
         }
@@ -541,12 +683,52 @@ function renderInteractiveActivity(activity, container, options = {}) {
         e.stopPropagation();
         const item = btn.closest('.order-item');
         const next = item.nextElementSibling;
-        if (next) {
+        if (next && orderList) {
           orderList.insertBefore(next, item);
           updateOrder();
         }
       });
     });
+
+    let draggedItem = null;
+    if (orderList) {
+      orderList.querySelectorAll('.order-item').forEach(item => {
+        item.setAttribute('draggable', 'true');
+
+        item.addEventListener('dragstart', (e) => {
+          draggedItem = item;
+          item.classList.add('order-item--dragging');
+          e.dataTransfer.effectAllowed = 'move';
+          e.dataTransfer.setData('text/plain', item.getAttribute('data-id'));
+        });
+
+        item.addEventListener('dragover', (e) => {
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+          if (!draggedItem || draggedItem === item) return;
+
+          const bounding = item.getBoundingClientRect();
+          const offset = e.clientY - bounding.top;
+          if (offset > bounding.height / 2) {
+            if (item.nextElementSibling !== draggedItem) {
+              orderList.insertBefore(draggedItem, item.nextElementSibling);
+            }
+          } else {
+            if (item !== draggedItem) {
+              orderList.insertBefore(draggedItem, item);
+            }
+          }
+        });
+
+        item.addEventListener('dragend', () => {
+          if (draggedItem) {
+            draggedItem.classList.remove('order-item--dragging');
+            draggedItem = null;
+          }
+          updateOrder();
+        });
+      });
+    }
   }
 
   // 6. Gan su kien POLL
@@ -557,8 +739,8 @@ function renderInteractiveActivity(activity, container, options = {}) {
           b.classList.remove('poll-option--selected');
         });
         btn.classList.add('poll-option--selected');
-        currentAnswer = btn.getAttribute('data-poll-id');
-        debouncedSave(currentAnswer);
+        const optId = btn.getAttribute('data-poll-id');
+        notifyChange(optId);
       });
     });
   }
@@ -568,13 +750,12 @@ function renderInteractiveActivity(activity, container, options = {}) {
     const ta = container.querySelector('.interactive-textarea');
     if (ta) {
       ta.addEventListener('input', () => {
-        currentAnswer = ta.value;
-        debouncedSave(currentAnswer);
+        notifyChange(ta.value);
       });
     }
   }
 
-  // Nut Nop bai
+  // 8. Nut Nop bai
   const submitBtn = container.querySelector('.btn-submit-activity');
   if (submitBtn) {
     submitBtn.addEventListener('click', () => {
@@ -585,16 +766,13 @@ function renderInteractiveActivity(activity, container, options = {}) {
   }
 }
 
-// Xuat module ho tro ca trinh duyet truc tiep (file://) va CommonJS
-if (typeof window !== 'undefined') {
-  window.SlideInteractions = {
+  // Xuat module
+  global.SlideInteractions = {
+    getActivityHtml,
     renderInteractiveActivity,
     escapeHtml
   };
-}
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = {
-    renderInteractiveActivity,
-    escapeHtml
-  };
-}
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = global.SlideInteractions;
+  }
+})(typeof window !== 'undefined' ? window : globalThis);

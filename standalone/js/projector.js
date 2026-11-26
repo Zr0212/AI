@@ -15,6 +15,9 @@ let channel = null;
 // Luu tru trang thai cong bo dap an theo activityId
 const revealedActivities = new Map();
 
+// Luu tru cau tra loi dang tuong tac theo activityId
+const activityAnswers = new Map();
+
 // Trang thai dong ho dem nguoc tu Giao vien
 let timerState = {
   remaining: 180,
@@ -32,6 +35,36 @@ function loadSvgSprite() {
   if (holder && window.STANDALONE_ICONS) {
     holder.innerHTML = window.STANDALONE_ICONS;
   }
+}
+
+function restoreProjectorState() {
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    const qDeck = urlParams.get('deck');
+    const qSlide = urlParams.get('slide');
+    const savedDeck = localStorage.getItem('standalone_active_deck_index');
+    const savedSlide = localStorage.getItem('standalone_active_slide_index');
+
+    if (qDeck !== null && decks[parseInt(qDeck, 10)]) {
+      currentDeckIndex = parseInt(qDeck, 10);
+      currentDeck = decks[currentDeckIndex];
+    } else if (savedDeck !== null && decks[parseInt(savedDeck, 10)]) {
+      currentDeckIndex = parseInt(savedDeck, 10);
+      currentDeck = decks[currentDeckIndex];
+    }
+
+    if (qSlide !== null) {
+      const sIdx = parseInt(qSlide, 10) || 0;
+      if (currentDeck && currentDeck.slides && sIdx < currentDeck.slides.length) {
+        currentSlideIndex = sIdx;
+      }
+    } else if (savedSlide !== null) {
+      const sIdx = parseInt(savedSlide, 10) || 0;
+      if (currentDeck && currentDeck.slides && sIdx < currentDeck.slides.length) {
+        currentSlideIndex = sIdx;
+      }
+    }
+  } catch (e) {}
 }
 
 function formatTime(totalSeconds) {
@@ -86,12 +119,28 @@ function displaySlide(index) {
     if (slot) {
       const isRevealed = revealedActivities.has(act.id);
       const revData = revealedActivities.get(act.id) || {};
+      const currentAns = activityAnswers.has(act.id)
+        ? activityAnswers.get(act.id)
+        : act.initialAnswer;
 
       window.SlideInteractions.renderInteractiveActivity(act, slot, {
         readOnly: true,
+        interactive: true,
+        initialAnswer: currentAns,
         isRevealed,
         correctAnswer: revData.answer !== undefined ? revData.answer : act.answer,
-        explanation: revData.explanation || act.explanation
+        explanation: revData.explanation || act.explanation,
+        onAnswerChange: (newAns) => {
+          activityAnswers.set(act.id, newAns);
+          if (channel) {
+            try {
+              channel.post('activity:answer', {
+                activityId: act.id,
+                answer: newAns
+              });
+            } catch (err) {}
+          }
+        }
       });
     }
   }
@@ -99,7 +148,10 @@ function displaySlide(index) {
   // Cap nhat bo dem tren HUD
   const counterEl = document.getElementById('hud-counter');
   if (counterEl) {
-    counterEl.textContent = `${currentSlideIndex + 1} / ${currentDeck.slides.length}`;
+    const prefix = currentDeck.title.includes(':')
+      ? currentDeck.title.split(':')[0]
+      : 'Slide';
+    counterEl.textContent = `${prefix} • ${currentSlideIndex + 1} / ${currentDeck.slides.length}`;
   }
 }
 
@@ -129,6 +181,13 @@ function setupChannel() {
       });
     }
 
+    if (Array.isArray(data.activityAnswers)) {
+      activityAnswers.clear();
+      data.activityAnswers.forEach(([actId, ans]) => {
+        activityAnswers.set(actId, ans);
+      });
+    }
+
     if (data.timerState) {
       timerState = data.timerState;
       updateTimerDisplay();
@@ -152,6 +211,7 @@ function setupChannel() {
       }
     }
     revealedActivities.clear();
+    activityAnswers.clear();
     displaySlide(0);
   });
 
@@ -195,6 +255,37 @@ function setupChannel() {
     timerState.duration = data.duration;
     timerState.isRunning = data.isRunning;
     updateTimerDisplay();
+  });
+
+  // 6. Nhan cau tra loi tu giao vien hoac thiet bi khac
+  channel.on('activity:answer', (data) => {
+    if (!data || !data.activityId) return;
+    activityAnswers.set(data.activityId, data.answer);
+    if (currentDeck && currentDeck.slides[currentSlideIndex]) {
+      const act = currentDeck.slides[currentSlideIndex].activity;
+      if (act && act.id === data.activityId) {
+        displaySlide(currentSlideIndex);
+      }
+    }
+  });
+
+  // Lang nghe localStorage event du phong
+  window.addEventListener('storage', (e) => {
+    if (e.key === 'standalone_active_deck_index' && e.newValue !== null) {
+      const newDIdx = parseInt(e.newValue, 10);
+      if (decks[newDIdx] && newDIdx !== currentDeckIndex) {
+        currentDeckIndex = newDIdx;
+        currentDeck = decks[currentDeckIndex];
+        revealedActivities.clear();
+        activityAnswers.clear();
+        displaySlide(0);
+      }
+    } else if (e.key === 'standalone_active_slide_index' && e.newValue !== null) {
+      const newSIdx = parseInt(e.newValue, 10);
+      if (newSIdx !== currentSlideIndex) {
+        displaySlide(newSIdx);
+      }
+    }
   });
 
   // Phat tin hieu ready de Giao vien biet va gui toan bo trang thai hien tai
@@ -306,9 +397,10 @@ function setupHudAndControls() {
 
 document.addEventListener('DOMContentLoaded', () => {
   loadSvgSprite();
+  restoreProjectorState();
   setupChannel();
   setupHudAndControls();
 
-  // Hien thi slide mac dinh dau tien
-  displaySlide(0);
+  // Hien thi slide hien tai
+  displaySlide(currentSlideIndex);
 });

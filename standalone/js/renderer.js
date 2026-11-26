@@ -1,4 +1,9 @@
 /**
+ * standalone/js/renderer.js
+ * Render slide standalone dong goi IIFE chong xung dot bien toan cuc.
+ */
+(function(global) {
+/**
  * public/shared/renderer.js
  * Render du lieu slide JSON thanh DOM HTML tren khung 1920x1080 ti le 16:9.
  * Thiet ke theo dung bo slide mau editorial "Today's lesson" (01.png - 17.png):
@@ -108,7 +113,7 @@ function createCoverLayout(slide) {
       </svg>
 
       <div class="layout-cover__center">
-        <h1 class="layout-cover__title">${escapeHtml(slide.title)}</h1>
+        <h1 class="layout-cover__title">${escapeHtml(slide.deckTitle || slide.title)}</h1>
         <div class="layout-cover__subtitle-row">
           <p class="layout-cover__subtitle">&mdash; ${escapeHtml(slide.subtitle || '')}</p>
         </div>
@@ -724,25 +729,30 @@ function renderSlide(slideJson, container) {
       ? `<p class="slide-subtitle">${escapeHtml(slideJson.subtitle)}</p>`
       : '';
     let contentContainerHtml = '';
+    const hasActivity = !!slideJson.activity;
+    const actId = hasActivity ? escapeHtml(slideJson.activity.id) : '';
+    const actContent = (hasActivity && global.SlideInteractions &&
+      global.SlideInteractions.getActivityHtml)
+      ? global.SlideInteractions.getActivityHtml(slideJson.activity, { readOnly: true })
+      : '';
+
     if (layout === 'activity') {
-      const actId = escapeHtml(slideJson.activity ? slideJson.activity.id : '');
-      const activityHtml = `
-        <div class="slide-activity-slot" data-activity-id="${actId}"></div>
-      `;
       contentContainerHtml = `
         <div class="slide-full-activity">
-          ${activityHtml}
+          <div class="slide-activity-slot" data-activity-id="${actId}">
+            ${actContent}
+          </div>
         </div>
       `;
-    } else if (slideJson.activity) {
-      const actId = escapeHtml(slideJson.activity.id);
-      const activityHtml = `
-        <div class="slide-activity-slot" data-activity-id="${actId}"></div>
-      `;
+    } else if (hasActivity) {
       contentContainerHtml = `
         <div class="slide-split-activity">
           <div class="slide-split-activity__content">${bodyContent}</div>
-          <div class="slide-split-activity__slot">${activityHtml}</div>
+          <div class="slide-split-activity__slot">
+            <div class="slide-activity-slot" data-activity-id="${actId}">
+              ${actContent}
+            </div>
+          </div>
         </div>
       `;
     } else {
@@ -766,18 +776,13 @@ function renderSlide(slideJson, container) {
   return frame;
 }
 
-// Xuat module ho tro ca trinh duyet truc tiep (file://) va CommonJS
-if (typeof window !== 'undefined') {
-  window.SlideRenderer = {
+  // Xuat module
+  global.SlideRenderer = {
     escapeHtml,
     fitSlideToViewport,
     renderSlide
   };
-}
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = {
-    escapeHtml,
-    fitSlideToViewport,
-    renderSlide
-  };
-}
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = global.SlideRenderer;
+  }
+})(typeof window !== 'undefined' ? window : globalThis);
